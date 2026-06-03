@@ -1,0 +1,98 @@
+[
+  {
+    "code": "COMP 1405",
+    "title": "Introduction to Computer Science I",
+    "credits": 0.5,
+    "description": "Introduction to programming and problem solving. Fundamental concepts of object-oriented programming including objects, classes, variables, control flow, arrays, and recursion.",
+    "prereq": null,
+    "precludes": []
+  },
+  {
+    "code": "COMP 1406",
+    "title": "Introduction to Computer Science II",
+    "credits": 0.5,
+    "description": "Continuation of COMP 1405. Inheritance, polymorphism, interfaces, exceptions, generics, and an introduction to commonly used data structures.",
+    "prereq": { "kind": "course", "code": "COMP 1405" },
+    "precludes": []
+  },
+  {
+    "code": "COMP 1805",
+    "title": "Discrete Structures I",
+    "credits": 0.5,
+    "description": "Propositional and predicate logic, sets, relations, functions, proof techniques including mathematical induction, and an introduction to combinatorics and graph theory.",
+    "prereq": null,
+    "precludes": []
+  },
+  {
+    "code": "COMP 2401",
+    "title": "Introduction to Systems Programming",
+    "credits": 0.5,
+    "description": "Introduction to systems-level programming in C. Memory management, pointers, data representation, the compilation toolchain, and basic operating system interfaces.",
+    "prereq": { "kind": "course", "code": "COMP 1406" },
+    "precludes": []
+  },
+  {
+    "code": "COMP 2402",
+    "title": "Abstract Data Types and Algorithms",
+    "credits": 0.5,
+    "description": "Abstract data types: stacks, queues, deques, priority queues, lists, trees, and graphs. Sorting, searching, and algorithm analysis using asymptotic notation.",
+    "prereq": { "kind": "course", "code": "COMP 2401" },
+    "precludes": []
+  },
+  {
+    "code": "COMP 2404",
+    "title": "Introduction to Software Engineering",
+    "credits": 0.5,
+    "description": "Software development life cycle, requirements analysis, UML, object-oriented design patterns, testing strategies, and software maintenance principles.",
+    "prereq": {
+      "kind": "all",
+      "of": [
+        { "kind": "course", "code": "COMP 2402" },
+        { "kind": "course", "code": "COMP 2401" }
+      ]
+    },
+    "precludes": []
+  },
+  {
+    "code": "COMP 2406",
+    "title": "Fundamentals of Web Applications",
+    "credits": 0.5,
+    "description": "Client/server architecture, HTTP, HTML, CSS, JavaScript, server-side scripting, relational databases, and an introduction to web application frameworks.",
+    "prereq": {
+      "kind": "all",
+      "of": [
+        { "kind": "course", "code": "COMP 2402" },
+        { "kind": "course", "code": "COMP 2401" }
+      ]
+    },
+    "precludes": []
+  },
+  {
+    "code": "COMP 3004",
+    "title": "Object-Oriented Software Engineering",
+    "credits": 0.5,
+    "description": "Advanced object-oriented analysis and design. Design patterns, software architecture, UML, iterative development processes, and team project work.",
+    "prereq": {
+      "kind": "all",
+      "of": [
+        { "kind": "course", "code": "COMP 2401", "minGrade": "C-" },
+        {
+          "kind": "any",
+          "of": [
+            { "kind": "course", "code": "COMP 2404", "minGrade": "C-" },
+            { "kind": "course", "code": "SYSC 3010", "minGrade": "C-" },
+            { "kind": "course", "code": "SYSC 3110", "minGrade": "C-" }
+          ]
+        },
+        {
+          "kind": "any",
+          "of": [
+            { "kind": "course", "code": "COMP 2406" },
+            { "kind": "course", "code": "SYSC 4504" }
+          ]
+        }
+      ]
+    },
+    "precludes": []
+  }
+]

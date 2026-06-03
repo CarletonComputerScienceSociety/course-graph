@@ -1,0 +1,14 @@
+minimumReleaseAge: 10080        # 7-day delay before any new version is resolvable
+blockExoticSubdeps: true         # transitive deps must come from the registry, not git/tarball
+trustPolicy: no-downgrade        # block versions with weaker publish provenance than earlier ones
+allowBuilds: {}                  # map of package-pattern → bool; empty = no install scripts allowed
+
+# trustPolicyExclude: specific packages exempted from the trust-downgrade check.
+# These are benign cases — both packages are legitimate, well-known libs:
+#   semver@6.3.1: widely-used npm ecosystem package (maintained by npm/Node.js) that
+#     dropped provenance attestation in this version. Not the no-trust-evidence attack pattern.
+#   tinyexec@1.2.2: tinylibs package that changed from Trusted Publisher to Provenance
+#     Attestation — a CI pipeline change, not a supply chain red flag.
+trustPolicyExclude:
+  - 'semver@6.3.1'
+  - 'tinyexec@1.2.2'
