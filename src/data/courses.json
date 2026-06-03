@@ -5,6 +5,7 @@
     "credits": 0.5,
     "description": "Introduction to programming and problem solving. Fundamental concepts of object-oriented programming including objects, classes, variables, control flow, arrays, and recursion.",
     "prereq": null,
+    "prereqRaw": null,
     "precludes": []
   },
   {
@@ -13,6 +14,7 @@
     "credits": 0.5,
     "description": "Continuation of COMP 1405. Inheritance, polymorphism, interfaces, exceptions, generics, and an introduction to commonly used data structures.",
     "prereq": { "kind": "course", "code": "COMP 1405" },
+    "prereqRaw": null,
     "precludes": []
   },
   {
@@ -21,6 +23,7 @@
     "credits": 0.5,
     "description": "Propositional and predicate logic, sets, relations, functions, proof techniques including mathematical induction, and an introduction to combinatorics and graph theory.",
     "prereq": null,
+    "prereqRaw": null,
     "precludes": []
   },
   {
@@ -29,6 +32,7 @@
     "credits": 0.5,
     "description": "Introduction to systems-level programming in C. Memory management, pointers, data representation, the compilation toolchain, and basic operating system interfaces.",
     "prereq": { "kind": "course", "code": "COMP 1406" },
+    "prereqRaw": null,
     "precludes": []
   },
   {
@@ -37,6 +41,7 @@
     "credits": 0.5,
     "description": "Abstract data types: stacks, queues, deques, priority queues, lists, trees, and graphs. Sorting, searching, and algorithm analysis using asymptotic notation.",
     "prereq": { "kind": "course", "code": "COMP 2401" },
+    "prereqRaw": null,
     "precludes": []
   },
   {
@@ -51,6 +56,7 @@
         { "kind": "course", "code": "COMP 2401" }
       ]
     },
+    "prereqRaw": null,
     "precludes": []
   },
   {
@@ -93,6 +99,7 @@
         }
       ]
     },
+    "prereqRaw": null,
     "precludes": []
   }
 ]

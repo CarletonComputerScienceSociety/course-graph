@@ -11,5 +11,6 @@ export interface Course {
   credits: number; // e.g. 0.5
   description: string;
   prereq: Prereq | null;
+  prereqRaw?: string;  // raw string from calendar, populated by scraper
   precludes: string[]; // course codes
 }
