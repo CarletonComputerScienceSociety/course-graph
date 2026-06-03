@@ -60,12 +60,3 @@ customize freely.
    dropdown (once that UI is built — see the TODO in `src/pages/Planner.tsx`).
 4. Submit a PR with the `template` label and request review from another contributor
    who can verify the calendar accuracy.
-
-## Planned templates (not yet created)
-
-- `bcs-general` — BCS General stream
-- `bcs-honours` — BCS Honours
-- `bcs-ai-stream` — BCS AI Stream
-- `bcs-se-stream` — BCS Software Engineering stream
-- `bmath-data-science` — BMath Data Science
-- `cybersecurity-minor` — Cybersecurity minor overlay

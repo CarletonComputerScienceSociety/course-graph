@@ -28,8 +28,9 @@ COMP 2401 (min C-) AND
 
 ## Schema notes
 
-- `credits`: Carleton uses 0.5 credit units for one-term courses, 1.0 for full-year.
+- `credits`: Carleton uses 0.5 credit units for one-term courses, 1.0 for full-year or accelerated.
 - `precludes`: courses that cannot be taken if this course has already been taken (or vice versa). Currently empty for all entries — TODO verify preclusion rules from calendar.
 - `prereq: null` means no prerequisites.
 - `kind: "raw"` is a fallback for prereqs that couldn't be structured (none currently used).
+- `prereqRaw` — raw prerequisite string from the calendar, or `null` if no prerequisite is listed
 - SYSC courses appear in COMP 3004's prereq tree but are not entries in this file; the graph helpers handle unknown codes gracefully.
