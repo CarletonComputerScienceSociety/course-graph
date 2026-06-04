@@ -1,0 +1,1028 @@
+{
+  "Computer Science": {
+    "url": "https://calendar.carleton.ca/undergrad/undergradprograms/computerscience/",
+    "courses": [
+      {
+        "code": "COMP 1001",
+        "title": "Introduction to Computational Thinking for Arts and Social Science Students",
+        "credits": 0.5,
+        "description": "COMP 1001 [0.5 credit] Introduction to Computational Thinking for Arts and Social Science Students An introduction to computational thinking and its applications to the arts and social sciences. Students will gain computational thinking skills by exploring data representation, basic programming concepts, a selection of algorithms, and advanced usage of software packages for the arts and social sciences.",
+        "prereq": null,
+        "prereqRaw": null,
+        "precludes": []
+      },
+      {
+        "code": "COMP 1005",
+        "title": "Introduction to Computer Science I",
+        "credits": 0.5,
+        "description": "COMP 1005 [0.5 credit] Introduction to Computer Science I Introduction to computer science and programming. Topics include: algorithm design; control structures; variables and types; linear collections; functions; debugging and testing. Special attention is given to procedural programming in a modern language, computational thinking skills, and problem decomposition.",
+        "prereq": null,
+        "prereqRaw": null,
+        "precludes": [
+          "COMP 1405",
+          "BIT 1400",
+          "CGSC 1005",
+          "ECOR 1031",
+          "ITEC 1400",
+          "ITEC 1401"
+        ]
+      },
+      {
+        "code": "COMP 1006",
+        "title": "Introduction to Computer Science II",
+        "credits": 0.5,
+        "description": "COMP 1006 [0.5 credit] Introduction to Computer Science II A second course in programming emphasizing problem solving and computational thinking in an object-oriented language. Topics include abstraction, mutable data structures, methods, inheritance, polymorphism, recursion, program efficiency, testing and debugging.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%201005\" title=\"COMP&nbsp;1005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1005');\">COMP&nbsp;1005</a> or <a href=\"/search/?P=COMP%201405\" title=\"COMP&nbsp;1405\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1405');\">COMP&nbsp;1405</a>.",
+        "precludes": [
+          "COMP 1406",
+          "BIT 2400",
+          "BUSI 2402",
+          "ITEC 2400",
+          "ITEC 2401",
+          "SYSC 2004"
+        ]
+      },
+      {
+        "code": "COMP 1008",
+        "title": "Math for Game Programmers",
+        "credits": 0.5,
+        "description": "COMP 1008 [0.5 credit] Math for Game Programmers Math for building 3D games. Points, vectors, normals. Dot and cross products. Transformations and inverses in left- and right-handed systems. Uses for controlling objects, cameras, and texture manipulation. Bounding boxes, planes, frustums for collision detection and visibility, fast billboarding techniques, point and sphere sweeping. Quaternions.",
+        "prereq": null,
+        "prereqRaw": " one Grade 12 university preparation mathematics course.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 1405",
+        "title": "Introduction to Computer Science I",
+        "credits": 0.5,
+        "description": "COMP 1405 [0.5 credit] Introduction to Computer Science I Introduction to computer science and programming, for computer science students. Topics include: algorithm design; control structures; variables and types; linear collections; functions; debugging and testing. Special attention is given to procedural programming in a modern language, computational thinking skills, and problem decomposition.",
+        "prereq": null,
+        "prereqRaw": " restricted to students registered in the B.C.S. program, B.Cyber. program, B.D.S. program, combined Honours in Computer Science and Mathematics, Honours Computer Mathematics, and Honours Computer Statistics.",
+        "precludes": [
+          "COMP 1005",
+          "BIT 1400",
+          "CGSC 1005",
+          "ECOR 1031",
+          "ITEC 1400",
+          "ITEC 1401"
+        ]
+      },
+      {
+        "code": "COMP 1406",
+        "title": "Introduction to Computer Science II",
+        "credits": 0.5,
+        "description": "COMP 1406 [0.5 credit] Introduction to Computer Science II A second course in programming for BCS students, emphasizing problem solving and computational thinking in an object-oriented language. Topics include abstraction, mutable data structures, methods, inheritance, polymorphism, recursion, program efficiency, testing and debugging.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%201005\" title=\"COMP&nbsp;1005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1005');\">COMP&nbsp;1005</a> or <a href=\"/search/?P=COMP%201405\" title=\"COMP&nbsp;1405\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1405');\">COMP&nbsp;1405</a>. Restricted to students registered in the B.C.S. program, B.Cyber. program, B.D.S. program, combined Honours in Computer Science and Mathematics, Honours Computer Mathematics, and Honours Computer Statistics.",
+        "precludes": [
+          "COMP 1006",
+          "BIT 2400",
+          "BUSI 2402",
+          "ITEC 2400",
+          "ITEC 2401",
+          "SYSC 2004"
+        ]
+      },
+      {
+        "code": "COMP 1501",
+        "title": "Introduction to Computer Game Design",
+        "credits": 0.5,
+        "description": "COMP 1501 [0.5 credit] Introduction to Computer Game Design Introduction to game design and prototyping. Topics include: formal theories of fun; the mechanics-dynamics-aesthetics framework; game economies; game balance; statistical tools for analyzing game mechanics; game settings; and storytelling. Special attention is given to the attributes of games and what makes a game fun.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%201005\" title=\"COMP&nbsp;1005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1005');\">COMP&nbsp;1005</a> or <a href=\"/search/?P=COMP%201405\" title=\"COMP&nbsp;1405\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1405');\">COMP&nbsp;1405</a>.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 1601",
+        "title": "Introduction to Mobile Application Development",
+        "credits": 0.5,
+        "description": "COMP 1601 [0.5 credit] Introduction to Mobile Application Development Introduction to developing mobile applications using the Mac OS X platform. Topics include: the Objective-C programming language; development tools; framework API's; and the Quartz graphic system. Extensive practical experience with development for Apple mobile devices such as the iPhone.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%201005\" title=\"COMP&nbsp;1005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1005');\">COMP&nbsp;1005</a> or <a href=\"/search/?P=COMP%201405\" title=\"COMP&nbsp;1405\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1405');\">COMP&nbsp;1405</a>.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 1805",
+        "title": "Discrete Structures I",
+        "credits": 0.5,
+        "description": "COMP 1805 [0.5 credit] Discrete Structures I Introduction to discrete mathematics and discrete structures. Topics include: propositional logic, predicate calculus, set theory, complexity of algorithms, mathematical reasoning and proof techniques, recurrences, induction, finite automata and graph theory. Material is illustrated through examples from computing.",
+        "prereq": null,
+        "prereqRaw": " one Grade 12 university preparation mathematics course.",
+        "precludes": [
+          "MATH 1800"
+        ]
+      },
+      {
+        "code": "COMP 1910",
+        "title": "Internship",
+        "credits": 0.5,
+        "description": "COMP 1910 [0.5 credit] Internship The internship exposes students to industrial software development via placement in a local enterprise. This course may only be taken by students participating in one of the School's industrial partnerships and can only be used as a free elective in the B.C.S. program.",
+        "prereq": null,
+        "prereqRaw": " Permission of the School and registration in internship option.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 1911",
+        "title": "Internship",
+        "credits": 0.5,
+        "description": "COMP 1911 [0.5 credit] Internship The internship exposes students to industrial software development via placement in a local enterprise. The course may only be taken by students participating in one of the School's industrial partnerships and can only be used as a free elective in the B.C.S. program.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%201910\" title=\"COMP&nbsp;1910\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1910');\">COMP&nbsp;1910</a> and registration in internship option.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 2008",
+        "title": "User Interaction Design and Prototyping",
+        "credits": 0.5,
+        "description": "COMP 2008 [0.5 credit] User Interaction Design and Prototyping Introduction to the principles of interaction design, including the human-centred design process, creative ideation, requirements gathering, prototyping, ethical considerations in design, rapid usability evaluation, and iterative design in a variety of user interaction paradigms.",
+        "prereq": null,
+        "prereqRaw": " (<a href=\"/search/?P=COMP%201006\" title=\"COMP&nbsp;1006\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1006');\">COMP&nbsp;1006</a> or <a href=\"/search/?P=COMP%201406\" title=\"COMP&nbsp;1406\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1406');\">COMP&nbsp;1406</a>) with a minimum grade of <span class=\"keeptogether\">C-</span>.",
+        "precludes": [
+          "IMD 3004"
+        ]
+      },
+      {
+        "code": "COMP 2108",
+        "title": "Applied Cryptography and Authentication",
+        "credits": 0.5,
+        "description": "COMP 2108 [0.5 credit] Applied Cryptography and Authentication Practical aspects of cryptography. Topics include: stream and block ciphers; modes of operation; hash functions; message and user authentication; authenticated key establishment protocols; random number generation; entropy; proof of knowledge; secret sharing; key distribution; pitfalls deploying public-key encryption and digital signatures.",
+        "prereq": null,
+        "prereqRaw": " (<a href=\"/search/?P=COMP%201006\" title=\"COMP&nbsp;1006\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1006');\">COMP&nbsp;1006</a> or <a href=\"/search/?P=COMP%201406\" title=\"COMP&nbsp;1406\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1406');\">COMP&nbsp;1406</a>) with a minimum grade of <span class=\"keeptogether\">C-</span>, and <a href=\"/search/?P=COMP%202804\" title=\"COMP&nbsp;2804\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2804');\">COMP&nbsp;2804</a>.",
+        "precludes": [
+          "CSEC 2108"
+        ]
+      },
+      {
+        "code": "COMP 2109",
+        "title": "Introduction to Security and Privacy",
+        "credits": 0.5,
+        "description": "COMP 2109 [0.5 credit] Introduction to Security and Privacy A tour of Internet security and privacy. Societal impacts and case studies. Topics from: protection goals of stakeholders; history of public key cryptography; programming languages and security; security engineering and testing; cybercrime and malware; Internet privacy and anonymity; government surveillance; regulation; ethics; blockchain applications.",
+        "prereq": null,
+        "prereqRaw": " (<a href=\"/search/?P=COMP%201006\" title=\"COMP&nbsp;1006\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1006');\">COMP&nbsp;1006</a> or <a href=\"/search/?P=COMP%201406\" title=\"COMP&nbsp;1406\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1406');\">COMP&nbsp;1406</a>) with a minimum grade of <span class=\"keeptogether\">C-</span>, and <a href=\"/search/?P=COMP%202401\" title=\"COMP&nbsp;2401\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2401');\">COMP&nbsp;2401</a> with a minimum grade of <span class=\"keeptogether\">C-</span>.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 2401",
+        "title": "Introduction to Systems Programming",
+        "credits": 0.5,
+        "description": "COMP 2401 [0.5 credit] Introduction to Systems Programming Introduction to system-level programming with fundamental OS concepts, procedures, primitive data types, user-defined types. Topics may include process management, memory management, process coordination and synchronization, inter-process communication, file systems, networking, pointers, heap and stack memory management, and system/library calls.",
+        "prereq": null,
+        "prereqRaw": " (<a href=\"/search/?P=COMP%201006\" title=\"COMP&nbsp;1006\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1006');\">COMP&nbsp;1006</a> or <a href=\"/search/?P=COMP%201406\" title=\"COMP&nbsp;1406\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1406');\">COMP&nbsp;1406</a>) with a minimum grade of <span class=\"keeptogether\">C-</span>.",
+        "precludes": [
+          "SYSC 1006",
+          "SYSC 2006"
+        ]
+      },
+      {
+        "code": "COMP 2402",
+        "title": "Abstract Data Types and Algorithms",
+        "credits": 0.5,
+        "description": "COMP 2402 [0.5 credit] Abstract Data Types and Algorithms Introduction to the design and implementation of abstract data types and to complexity analysis of data structures. Topics include: stacks, queues, lists, trees and graphs. Special attention is given to abstraction, interface specification and hierarchical design using an object-oriented programming language.",
+        "prereq": null,
+        "prereqRaw": " (<a href=\"/search/?P=COMP%201006\" title=\"COMP&nbsp;1006\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1006');\">COMP&nbsp;1006</a> or <a href=\"/search/?P=COMP%201406\" title=\"COMP&nbsp;1406\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1406');\">COMP&nbsp;1406</a>) with a minimum grade of <span class=\"keeptogether\">C-</span>.",
+        "precludes": [
+          "SYSC 2100"
+        ]
+      },
+      {
+        "code": "COMP 2404",
+        "title": "Introduction to Software Engineering",
+        "credits": 0.5,
+        "description": "COMP 2404 [0.5 credit] Introduction to Software Engineering Introduction to object-oriented software development, with emphasis on the design and implementation of maintainable, reusable software. Topics include abstraction, modularity, encapsulation, and an introduction to design patterns.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%202401\" title=\"COMP&nbsp;2401\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2401');\">COMP&nbsp;2401</a> with a minimum grade of <span class=\"keeptogether\">C-</span>.",
+        "precludes": [
+          "SYSC 3010",
+          "SYSC 3110"
+        ]
+      },
+      {
+        "code": "COMP 2406",
+        "title": "Fundamentals of Web Applications",
+        "credits": 0.5,
+        "description": "COMP 2406 [0.5 credit] Fundamentals of Web Applications Introduction to Internet application development; emphasis on computer science fundamentals of technologies underlying web applications. Topics include: scripting and functional languages, language-based virtual machines, database query languages, remote procedure calls over the Internet, and performance and security concerns in modern distributed applications.",
+        "prereq": null,
+        "prereqRaw": " (<a href=\"/search/?P=COMP%201006\" title=\"COMP&nbsp;1006\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1006');\">COMP&nbsp;1006</a> or <a href=\"/search/?P=COMP%201406\" title=\"COMP&nbsp;1406\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1406');\">COMP&nbsp;1406</a>) with a minimum grade of <span class=\"keeptogether\">C-</span>.",
+        "precludes": [
+          "SYSC 4504"
+        ]
+      },
+      {
+        "code": "COMP 2501",
+        "title": "Computer Game Design and Development",
+        "credits": 0.5,
+        "description": "COMP 2501 [0.5 credit] Computer Game Design and Development Introduction to the practical development of computer games and engine architecture. Topics include: vector and matrix operations; coordinate systems and transformations; physical simulation; collision detection; AI; path planning; hardware-accelerated real-time rendering. Special attention is given to implementation of real-time rendering in a low-level language.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%202401\" title=\"COMP&nbsp;2401\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2401');\">COMP&nbsp;2401</a> with a minimum grade of <span class=\"keeptogether\">C-</span>, and (<a href=\"/search/?P=MATH%201104\" title=\"MATH&nbsp;1104\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1104');\">MATH&nbsp;1104</a> or <a href=\"/search/?P=MATH%201107\" title=\"MATH&nbsp;1107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1107');\">MATH&nbsp;1107</a>).",
+        "precludes": []
+      },
+      {
+        "code": "COMP 2601",
+        "title": "Mobile Applications",
+        "credits": 0.5,
+        "description": "COMP 2601 [0.5 credit] Mobile Applications Development of applications for mobile environments taking advantage of gesture-based input and using location and presence services. Topics include introduction to low-level network services and mobile platforms, description of architectural patterns, principles of mobile development and interaction styles for network service usage.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%201601\" title=\"COMP&nbsp;1601\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1601');\">COMP&nbsp;1601</a>.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 2801",
+        "title": "Introduction to Robotics",
+        "credits": 0.5,
+        "description": "COMP 2801 [0.5 credit] Introduction to Robotics A course on programming simulated mobile robots with various sensors such as wheel encoders, distance sensors, cameras, compasses, accelerometers, and laser range finders. Topics include: programming robot behaviour; performing position estimation; implementing algorithms related to navigation, mapping, path planning, area coverage, and localization.",
+        "prereq": null,
+        "prereqRaw": " (<a href=\"/search/?P=COMP%201006\" title=\"COMP&nbsp;1006\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1006');\">COMP&nbsp;1006</a> or <a href=\"/search/?P=COMP%201406\" title=\"COMP&nbsp;1406\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1406');\">COMP&nbsp;1406</a>) with a minimum grade of <span class=\"keeptogether\">C-</span>.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 2804",
+        "title": "Discrete Structures II",
+        "credits": 0.5,
+        "description": "COMP 2804 [0.5 credit] Discrete Structures II A second course in discrete mathematics and discrete structures. Topics include: counting, sequences and sums, discrete probability, basic statistics, recurrence relations, randomized algorithms. Material is illustrated through examples from computing.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%201805\" title=\"COMP&nbsp;1805\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1805');\">COMP&nbsp;1805</a> with a minimum grade of <span class=\"keeptogether\">C-</span>, or permission of the School of Computer Science for those in Combined Honours in Computer Science and Mathematics.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 2910",
+        "title": "Internship",
+        "credits": 0.5,
+        "description": "COMP 2910 [0.5 credit] Internship The internship exposes students to industrial software development via placement in a local enterprise. The course may only be taken by students participating in one of the School's industrial partnerships and can only be used as a free elective in the B.C.S. program.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%201911\" title=\"COMP&nbsp;1911\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1911');\">COMP&nbsp;1911</a> and registration in internship option.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 2911",
+        "title": "Internship",
+        "credits": 0.5,
+        "description": "COMP 2911 [0.5 credit] Internship The internship exposes students to industrial software development via placement in a local enterprise. The course may only be taken by students participating in one of the School's industrial partnerships and can only be used as a free elective in the B.C.S. program.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%202910\" title=\"COMP&nbsp;2910\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2910');\">COMP&nbsp;2910</a> and registration in internship option.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 3000",
+        "title": "Operating Systems",
+        "credits": 0.5,
+        "description": "COMP 3000 [0.5 credit] Operating Systems Operating system implementation course stressing fundamental issues in design and how they relate to modern computer architectures. Assignments involve the modification and extension of a multitasking operating system.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%202401\" title=\"COMP&nbsp;2401\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2401');\">COMP&nbsp;2401</a> with a minimum grade of <span class=\"keeptogether\">C-</span> and <a href=\"/search/?P=COMP%202402\" title=\"COMP&nbsp;2402\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2402');\">COMP&nbsp;2402</a>.",
+        "precludes": [
+          "SYSC 4001"
+        ]
+      },
+      {
+        "code": "COMP 3002",
+        "title": "Compiler Construction",
+        "credits": 0.5,
+        "description": "COMP 3002 [0.5 credit] Compiler Construction The structure, organization and design of the phases of a compiler are considered: lexical translators, syntactical translators, scope handlers, type checkers, code generators and optimizers. Components of a compiler will be implemented.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%202402\" title=\"COMP&nbsp;2402\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2402');\">COMP&nbsp;2402</a>.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 3004",
+        "title": "Object-Oriented Software Engineering",
+        "credits": 0.5,
+        "description": "COMP 3004 [0.5 credit] Object-Oriented Software Engineering Development of object-oriented software systems: theory and practice. Topics include: Computer ethics, software development processes, requirement specification, class and scenario modeling, state modeling, UML, design patterns, traceability. Students are to complete a team project.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%202401\" title=\"COMP&nbsp;2401\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2401');\">COMP&nbsp;2401</a> with a minimum grade of <span class=\"keeptogether\">C-</span>, (<a href=\"/search/?P=COMP%202404\" title=\"COMP&nbsp;2404\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2404');\">COMP&nbsp;2404</a> or <a href=\"/search/?P=SYSC%203010\" title=\"SYSC&nbsp;3010\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3010');\">SYSC&nbsp;3010</a> or <a href=\"/search/?P=SYSC%203110\" title=\"SYSC&nbsp;3110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3110');\">SYSC&nbsp;3110</a>) with a minimum grade of <span class=\"keeptogether\">C-</span>, and (<a href=\"/search/?P=COMP%202406\" title=\"COMP&nbsp;2406\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2406');\">COMP&nbsp;2406</a> or <a href=\"/search/?P=SYSC%204504\" title=\"SYSC&nbsp;4504\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 4504');\">SYSC&nbsp;4504</a>).",
+        "precludes": [
+          "SYSC 3020",
+          "SYSC 3120",
+          "SYSC 4120"
+        ]
+      },
+      {
+        "code": "COMP 3005",
+        "title": "Database Management Systems",
+        "credits": 0.5,
+        "description": "COMP 3005 [0.5 credit] Database Management Systems Introduction to the concepts of database management systems and database design. Topics may include: entity-relationship modelling, normalization, reduction to relational schemas, SQL, file and data organization, indexing, hash tables, join algorithms, query processing, query optimization, and concurrency control.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%201805\" title=\"COMP&nbsp;1805\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1805');\">COMP&nbsp;1805</a> with a minimum grade of <span class=\"keeptogether\">C-</span>, and either <a href=\"/search/?P=COMP%202402\" title=\"COMP&nbsp;2402\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2402');\">COMP&nbsp;2402</a> or (<a href=\"/search/?P=SYSC%202004\" title=\"SYSC&nbsp;2004\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 2004');\">SYSC&nbsp;2004</a> and <a href=\"/search/?P=SYSC%202100\" title=\"SYSC&nbsp;2100\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 2100');\">SYSC&nbsp;2100</a>).",
+        "precludes": [
+          "BUSI 3400"
+        ]
+      },
+      {
+        "code": "COMP 3007",
+        "title": "Programming Paradigms",
+        "credits": 0.5,
+        "description": "COMP 3007 [0.5 credit] Programming Paradigms An introduction to alternative programming paradigms such as functional, constraint-based, concurrent, and logic programming.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%201805\" title=\"COMP&nbsp;1805\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1805');\">COMP&nbsp;1805</a> with a minimum grade of <span class=\"keeptogether\">C-</span>, <a href=\"/search/?P=COMP%202401\" title=\"COMP&nbsp;2401\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2401');\">COMP&nbsp;2401</a> with a minimum grade of <span class=\"keeptogether\">C-</span>, <a href=\"/search/?P=COMP%202402\" title=\"COMP&nbsp;2402\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2402');\">COMP&nbsp;2402</a>, (<a href=\"/search/?P=COMP%202404\" title=\"COMP&nbsp;2404\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2404');\">COMP&nbsp;2404</a> or <a href=\"/search/?P=SYSC%203010\" title=\"SYSC&nbsp;3010\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3010');\">SYSC&nbsp;3010</a> or <a href=\"/search/?P=SYSC%203110\" title=\"SYSC&nbsp;3110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3110');\">SYSC&nbsp;3110</a>) and (<a href=\"/search/?P=COMP%202406\" title=\"COMP&nbsp;2406\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2406');\">COMP&nbsp;2406</a> or <a href=\"/search/?P=SYSC%204504\" title=\"SYSC&nbsp;4504\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 4504');\">SYSC&nbsp;4504</a>).",
+        "precludes": [
+          "SYSC 3101"
+        ]
+      },
+      {
+        "code": "COMP 3008",
+        "title": "Software Structures for User Interfaces",
+        "credits": 0.5,
+        "description": "COMP 3008 [0.5 credit] Software Structures for User Interfaces Concepts and principles related to building user interfaces, and applications in implementing interfaces in “front-end” programming contexts. Topics may include: reactive programming, input and output factors, application interfaces and infrastructure, typical patterns used to implement them, and organization and management of these aspects within software.",
+        "prereq": null,
+        "prereqRaw": " (<a href=\"/search/?P=COMP%202404\" title=\"COMP&nbsp;2404\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2404');\">COMP&nbsp;2404</a> or <a href=\"/search/?P=SYSC%203010\" title=\"SYSC&nbsp;3010\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3010');\">SYSC&nbsp;3010</a> or <a href=\"/search/?P=SYSC%203110\" title=\"SYSC&nbsp;3110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3110');\">SYSC&nbsp;3110</a>) and (<a href=\"/search/?P=COMP%202406\" title=\"COMP&nbsp;2406\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2406');\">COMP&nbsp;2406</a> or <a href=\"/search/?P=SYSC%204504\" title=\"SYSC&nbsp;4504\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 4504');\">SYSC&nbsp;4504</a>).",
+        "precludes": [
+          "SYSC 4130"
+        ]
+      },
+      {
+        "code": "COMP 3105",
+        "title": "Introduction to Machine Learning",
+        "credits": 0.5,
+        "description": "COMP 3105 [0.5 credit] Introduction to Machine Learning An introduction to methods for automated learning of relationships on the basis of empirical data. Includes topics in supervised and unsupervised machine learning and deeper knowledge of specific algorithms and their applications. Evaluation and quantification of performance of ML systems. Discussion of data ethics.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%202402\" title=\"COMP&nbsp;2402\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2402');\">COMP&nbsp;2402</a> and (<a href=\"/search/?P=COMP%202404\" title=\"COMP&nbsp;2404\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2404');\">COMP&nbsp;2404</a> or <a href=\"/search/?P=SYSC%203010\" title=\"SYSC&nbsp;3010\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3010');\">SYSC&nbsp;3010</a> or <a href=\"/search/?P=SYSC%203110\" title=\"SYSC&nbsp;3110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3110');\">SYSC&nbsp;3110</a>) and <a href=\"/search/?P=COMP%202804\" title=\"COMP&nbsp;2804\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2804');\">COMP&nbsp;2804</a> and (<a href=\"/search/?P=MATH%201104\" title=\"MATH&nbsp;1104\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1104');\">MATH&nbsp;1104</a> or <a href=\"/search/?P=MATH%201107\" title=\"MATH&nbsp;1107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1107');\">MATH&nbsp;1107</a>).",
+        "precludes": [
+          "SYSC 4415"
+        ]
+      },
+      {
+        "code": "COMP 3106",
+        "title": "Introduction to Artificial Intelligence",
+        "credits": 0.5,
+        "description": "COMP 3106 [0.5 credit] Introduction to Artificial Intelligence Principles and tools used in Artificial Intelligence. Fundamentals of Knowledge Representation and Reinforcement Learning and Nature-Based computing. Methods for non-adversarial problem solving including non-exhaustive and heuristic-based strategies for searching the state space. Methods for adversarial problem solving, modeled as two-person and multi-person games.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%202402\" title=\"COMP&nbsp;2402\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2402');\">COMP&nbsp;2402</a> and (<a href=\"/search/?P=COMP%202404\" title=\"COMP&nbsp;2404\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2404');\">COMP&nbsp;2404</a> or <a href=\"/search/?P=SYSC%203010\" title=\"SYSC&nbsp;3010\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3010');\">SYSC&nbsp;3010</a> or <a href=\"/search/?P=SYSC%203110\" title=\"SYSC&nbsp;3110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3110');\">SYSC&nbsp;3110</a>) and <a href=\"/search/?P=COMP%202804\" title=\"COMP&nbsp;2804\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2804');\">COMP&nbsp;2804</a>.",
+        "precludes": [
+          "SYSC 4416"
+        ]
+      },
+      {
+        "code": "COMP 3203",
+        "title": "Principles of Computer Networks",
+        "credits": 0.5,
+        "description": "COMP 3203 [0.5 credit] Principles of Computer Networks This is an introductory course to the field of Network Computing. Topics include: Protocol Architectures and Internetworking, Types of Networks, Communication Protocols, End-System and Network Traffic Management, Structure of Routing and Congestion Control.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%202401\" title=\"COMP&nbsp;2401\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2401');\">COMP&nbsp;2401</a> with a minimum grade of <span class=\"keeptogether\">C-</span>, and <a href=\"/search/?P=COMP%202402\" title=\"COMP&nbsp;2402\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2402');\">COMP&nbsp;2402</a>.",
+        "precludes": [
+          "SYSC 3512",
+          "SYSC 4602"
+        ]
+      },
+      {
+        "code": "COMP 3301",
+        "title": "Technical Writing for Computer Science",
+        "credits": 0.5,
+        "description": "COMP 3301 [0.5 credit] Technical Writing for Computer Science Technical communication for computer science majors, concentrating on writing scientific papers and technical reports. Principles of clarity and precision in writing and communication. Practical exercises and readings from recent technical publications will be used.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%202402\" title=\"COMP&nbsp;2402\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2402');\">COMP&nbsp;2402</a> and (<a href=\"/search/?P=COMP%202404\" title=\"COMP&nbsp;2404\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2404');\">COMP&nbsp;2404</a> or <a href=\"/search/?P=SYSC%203010\" title=\"SYSC&nbsp;3010\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3010');\">SYSC&nbsp;3010</a> or <a href=\"/search/?P=SYSC%203110\" title=\"SYSC&nbsp;3110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3110');\">SYSC&nbsp;3110</a>).",
+        "precludes": []
+      },
+      {
+        "code": "COMP 3400",
+        "title": "Computational Logic and Automated Reasoning",
+        "credits": 0.5,
+        "description": "COMP 3400 [0.5 credit] Computational Logic and Automated Reasoning Applications of formal logic in computer science. Symbolic logics such as classical predicate calculus are used to represent domain knowledge, to model computational problems and to solve them by means of automated reasoners. Applications include artificial intelligence, software engineering, data management and hardware verification.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%202804\" title=\"COMP&nbsp;2804\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2804');\">COMP&nbsp;2804</a>.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 3501",
+        "title": "Foundations of Game Programming and Computer Graphics",
+        "credits": 0.5,
+        "description": "COMP 3501 [0.5 credit] Foundations of Game Programming and Computer Graphics The theory and practice of 3D graphics for computer games. Topics include: vectors and quaternions; hierarchical transformations; camera and perspective; hardware-accelerated real-time rendering; texture and texture mapping; illumination; and particle systems. Additional topics may include rigid-body motion, character animation, shadows, and screen-space special effects.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%202402\" title=\"COMP&nbsp;2402\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2402');\">COMP&nbsp;2402</a> and (<a href=\"/search/?P=COMP%202404\" title=\"COMP&nbsp;2404\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2404');\">COMP&nbsp;2404</a> or <a href=\"/search/?P=SYSC%203010\" title=\"SYSC&nbsp;3010\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3010');\">SYSC&nbsp;3010</a> or <a href=\"/search/?P=SYSC%203110\" title=\"SYSC&nbsp;3110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3110');\">SYSC&nbsp;3110</a>).",
+        "precludes": []
+      },
+      {
+        "code": "COMP 3803",
+        "title": "Introduction to Theory of Computation",
+        "credits": 0.5,
+        "description": "COMP 3803 [0.5 credit] Introduction to Theory of Computation Theoretical aspects of computer science. Topics include: formal languages and automata theory, computability theory.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%202804\" title=\"COMP&nbsp;2804\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2804');\">COMP&nbsp;2804</a>.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 3804",
+        "title": "Design and Analysis of Algorithms I",
+        "credits": 0.5,
+        "description": "COMP 3804 [0.5 credit] Design and Analysis of Algorithms I An introduction to the design and analysis of algorithms. Topics include: divide-and-conquer, dynamic programming, linear programming, greedy algorithms, graph algorithms, NP-completeness.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%202402\" title=\"COMP&nbsp;2402\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2402');\">COMP&nbsp;2402</a> and one of (<a href=\"/search/?P=COMP%202804\" title=\"COMP&nbsp;2804\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2804');\">COMP&nbsp;2804</a> or <a href=\"/search/?P=COMP%203805\" title=\"COMP&nbsp;3805\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3805');\">COMP&nbsp;3805</a> or <a href=\"/search/?P=MATH%203825\" title=\"MATH&nbsp;3825\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3825');\">MATH&nbsp;3825</a> or <a href=\"/search/?P=MATH%203855\" title=\"MATH&nbsp;3855\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3855');\">MATH&nbsp;3855</a>).",
+        "precludes": []
+      },
+      {
+        "code": "COMP 3805",
+        "title": "Discrete Structures and Applications (Honours)",
+        "credits": 0.5,
+        "description": "COMP 3805 [0.5 credit] Discrete Structures and Applications (Honours) Enumeration: inclusion and exclusion, recurrence relations, generating functions and applications. Graph theory: connectivity, planarity, Hamilton paths and Euler trails. Error-correcting codes. Designs and finite geometries. Symmetry and counting.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202100\" title=\"MATH&nbsp;2100\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2100');\">MATH&nbsp;2100</a> or a grade of B or higher in  <a href=\"/search/?P=MATH%202108\" title=\"MATH&nbsp;2108\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2108');\">MATH&nbsp;2108</a> or <a href=\"/search/?P=MATH%203101\" title=\"MATH&nbsp;3101\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3101');\">MATH&nbsp;3101</a>.",
+        "precludes": [
+          "MATH 3855",
+          "MATH 3825"
+        ]
+      },
+      {
+        "code": "COMP 3807",
+        "title": "Mathematical Software",
+        "credits": 0.5,
+        "description": "COMP 3807 [0.5 credit] Mathematical Software Implementation of numerical methods using numerical software packages. Development of scientific and/or operations research applications using application programming interfaces of numerical or optimization libraries. Functional programming for data analysis and machine learning. Experience working with Python, C++, or Java is essential.",
+        "prereq": null,
+        "prereqRaw": " A grade of <span class=\"keeptogether\">C-</span> or higher in <a href=\"/search/?P=MATH%203806\" title=\"MATH&nbsp;3806\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3806');\">MATH&nbsp;3806</a>.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 3910",
+        "title": "Internship",
+        "credits": 0.5,
+        "description": "COMP 3910 [0.5 credit] Internship The internship exposes students to industrial software development via placement in a local enterprise. The course may only be taken by students participating in one of the School's industrial partnerships and can only be used as a free elective in the B.C.S. program.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%202911\" title=\"COMP&nbsp;2911\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2911');\">COMP&nbsp;2911</a> and registration in internship option.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 3911",
+        "title": "Internship",
+        "credits": 0.5,
+        "description": "COMP 3911 [0.5 credit] Internship The internship exposes students to industrial software development via placement in a local enterprise. The course may only be taken by students participating in one of the School's industrial partnerships and can only be used as a free elective in the B.C.S. program.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%203910\" title=\"COMP&nbsp;3910\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3910');\">COMP&nbsp;3910</a> and registration in internship option.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 3999",
+        "title": "Co-operative Work Term",
+        "credits": 0,
+        "description": "COMP 3999 [0.0 credit] Co-operative Work Term",
+        "prereq": null,
+        "prereqRaw": null,
+        "precludes": []
+      },
+      {
+        "code": "COMP 4000",
+        "title": "Distributed Operating Systems",
+        "credits": 0.5,
+        "description": "COMP 4000 [0.5 credit] Distributed Operating Systems An advanced course on the software infrastructure supporting large-scale cloud computing applications. Topics may include: distributed file systems, distributed databases, overlay networks, container orchestration, coordination services, security and privacy services, and large-scale AI pipelines.",
+        "prereq": null,
+        "prereqRaw": " (<a href=\"/search/?P=COMP%203000\" title=\"COMP&nbsp;3000\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3000');\">COMP&nbsp;3000</a> or <a href=\"/search/?P=SYSC%204001\" title=\"SYSC&nbsp;4001\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 4001');\">SYSC&nbsp;4001</a>) and (<a href=\"/search/?P=COMP%203203\" title=\"COMP&nbsp;3203\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3203');\">COMP&nbsp;3203</a> or <a href=\"/search/?P=SYSC%204602\" title=\"SYSC&nbsp;4602\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 4602');\">SYSC&nbsp;4602</a>).",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4001",
+        "title": "Distributed Computing",
+        "credits": 0.5,
+        "description": "COMP 4001 [0.5 credit] Distributed Computing Overview of distributed computing. Topics include: computational models, communication complexity, design and analysis of distributed algorithms and protocols, fault-tolerant protocols, synchronous computations. Applications may include: communication in data networks, control in distributed system (e.g., election, distributed mutual exclusion), manipulation of distributed data (e.g., ranking).",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%201805\" title=\"COMP&nbsp;1805\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1805');\">COMP&nbsp;1805</a> with a minimum grade of <span class=\"keeptogether\">C-</span>, <a href=\"/search/?P=COMP%202401\" title=\"COMP&nbsp;2401\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2401');\">COMP&nbsp;2401</a> with a minimum grade of <span class=\"keeptogether\">C-</span>, and (<a href=\"/search/?P=COMP%202406\" title=\"COMP&nbsp;2406\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2406');\">COMP&nbsp;2406</a> or <a href=\"/search/?P=SYSC%204504\" title=\"SYSC&nbsp;4504\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 4504');\">SYSC&nbsp;4504</a>).",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4002",
+        "title": "Real-Time 3D Game Engines",
+        "credits": 0.5,
+        "description": "COMP 4002 [0.5 credit] Real-Time 3D Game Engines The design and implementation of game engines for real-time 3D games including topics such as camera control, environmental effects, articulated models, terrain, vegetation, collision detection, particles, emitters, triggers, portals, waypoints, mirrors, and shadows.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%202404\" title=\"COMP&nbsp;2404\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2404');\">COMP&nbsp;2404</a> or <a href=\"/search/?P=SYSC%203010\" title=\"SYSC&nbsp;3010\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3010');\">SYSC&nbsp;3010</a> or <a href=\"/search/?P=SYSC%203110\" title=\"SYSC&nbsp;3110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3110');\">SYSC&nbsp;3110</a>.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4003",
+        "title": "Transaction Processing Systems",
+        "credits": 0.5,
+        "description": "COMP 4003 [0.5 credit] Transaction Processing Systems Concepts and architectures of transaction processing systems and on-line transaction processing, with emphasis on data integration systems. Transaction properties and models, embedded-SQL, active rules, consistency maintenance, serializability, concurrency control, recovery, data integration systems and federated databases, introduction to transactions in web services and workflow systems.",
+        "prereq": null,
+        "prereqRaw": " (<a href=\"/search/?P=COMP%202404\" title=\"COMP&nbsp;2404\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2404');\">COMP&nbsp;2404</a> or <a href=\"/search/?P=SYSC%203010\" title=\"SYSC&nbsp;3010\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3010');\">SYSC&nbsp;3010</a> or <a href=\"/search/?P=SYSC%203110\" title=\"SYSC&nbsp;3110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3110');\">SYSC&nbsp;3110</a>) and <a href=\"/search/?P=COMP%203005\" title=\"COMP&nbsp;3005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3005');\">COMP&nbsp;3005</a>.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4004",
+        "title": "Software Quality Assurance",
+        "credits": 0.5,
+        "description": "COMP 4004 [0.5 credit] Software Quality Assurance Introduction to the theory and practice of Software Quality Assurance. Topics include: equivalence partitioning, test-driven testing, unit testing patterns, refactoring, software metrics, requirements engineering, scenario modeling and acceptance testing, model-based testing, state machine testing, software testing theory and tools.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%203004\" title=\"COMP&nbsp;3004\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3004');\">COMP&nbsp;3004</a>.",
+        "precludes": [
+          "SYSC 4101"
+        ]
+      },
+      {
+        "code": "COMP 4008",
+        "title": "Evaluation and Research Methods for Human-Computer Interaction",
+        "credits": 0.5,
+        "description": "COMP 4008 [0.5 credit] Evaluation and Research Methods for Human-Computer Interaction Fundamental Human-Computer Interaction (HCI) research and evaluation methods. Topics may include: HCI research methodologies, research ethics, expert evaluation, user studies, qualitative and quantitative data collection, statistical data analysis, information visualization, and specifying practical implications of findings.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%202008\" title=\"COMP&nbsp;2008\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2008');\">COMP&nbsp;2008</a>, <a href=\"/search/?P=COMP%203008\" title=\"COMP&nbsp;3008\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3008');\">COMP&nbsp;3008</a>, and <a href=\"/search/?P=STAT%202509\" title=\"STAT&nbsp;2509\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2509');\">STAT&nbsp;2509</a> with a minimum grade of <span class=\"keeptogether\">C-</span> in each.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4009",
+        "title": "Programming for Clusters and Multi-Core Processors",
+        "credits": 0.5,
+        "description": "COMP 4009 [0.5 credit] Programming for Clusters and Multi-Core Processors Introduction to parallel architectures, programming languages and algorithms for processor clusters and multi-core processors. Distributed memory architectures, cluster computing, message passing parallel programming, multi-core processors, shared memory parallel programming, use of thread libraries, parallel performance analysis.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%202402\" title=\"COMP&nbsp;2402\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2402');\">COMP&nbsp;2402</a> and (<a href=\"/search/?P=COMP%202404\" title=\"COMP&nbsp;2404\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2404');\">COMP&nbsp;2404</a> or <a href=\"/search/?P=SYSC%203010\" title=\"SYSC&nbsp;3010\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3010');\">SYSC&nbsp;3010</a> or <a href=\"/search/?P=SYSC%203110\" title=\"SYSC&nbsp;3110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3110');\">SYSC&nbsp;3110</a>) and <a href=\"/search/?P=COMP%202804\" title=\"COMP&nbsp;2804\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2804');\">COMP&nbsp;2804</a>.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4010",
+        "title": "Introduction to Reinforcement Learning",
+        "credits": 0.5,
+        "description": "COMP 4010 [0.5 credit] Introduction to Reinforcement Learning Learn about designing and programming reinforcement learning agents to perform complex tasks in interactive environments. Topics include Markov decision processes, dynamic programming methods, Monte Carlo methods, temporal difference learning, prediction/control with function approximation, policy gradient, and deep reinforcement learning algorithms.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%202402\" title=\"COMP&nbsp;2402\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2402');\">COMP&nbsp;2402</a>, (<a href=\"/search/?P=COMP%202404\" title=\"COMP&nbsp;2404\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2404');\">COMP&nbsp;2404</a> or <a href=\"/search/?P=SYSC%203010\" title=\"SYSC&nbsp;3010\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3010');\">SYSC&nbsp;3010</a> or <a href=\"/search/?P=SYSC%203110\" title=\"SYSC&nbsp;3110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3110');\">SYSC&nbsp;3110</a>), (<a href=\"/search/?P=MATH%201004\" title=\"MATH&nbsp;1004\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1004');\">MATH&nbsp;1004</a> or MATH  1007), (<a href=\"/search/?P=MATH%201104\" title=\"MATH&nbsp;1104\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1104');\">MATH&nbsp;1104</a> or <a href=\"/search/?P=MATH%201107\" title=\"MATH&nbsp;1107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1107');\">MATH&nbsp;1107</a>), and (<a href=\"/search/?P=DATA%201517\" title=\"DATA&nbsp;1517\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'DATA 1517');\">DATA&nbsp;1517</a> or <a href=\"/search/?P=STAT%202507\" title=\"STAT&nbsp;2507\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2507');\">STAT&nbsp;2507</a>).",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4102",
+        "title": "Computer Vision",
+        "credits": 0.5,
+        "description": "COMP 4102 [0.5 credit] Computer Vision The basic ideas and techniques of computer vision. The central theme is reconstructing 3D models from 2D images. Topics include: image formation, image feature extraction, camera models, camera calibration, structure from motion, stereo, recognition, augmented reality, image searching.",
+        "prereq": null,
+        "prereqRaw": " (<a href=\"/search/?P=COMP%202404\" title=\"COMP&nbsp;2404\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2404');\">COMP&nbsp;2404</a> or <a href=\"/search/?P=SYSC%203010\" title=\"SYSC&nbsp;3010\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3010');\">SYSC&nbsp;3010</a> or <a href=\"/search/?P=SYSC%203110\" title=\"SYSC&nbsp;3110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3110');\">SYSC&nbsp;3110</a>) and (<a href=\"/search/?P=MATH%201104\" title=\"MATH&nbsp;1104\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1104');\">MATH&nbsp;1104</a> or <a href=\"/search/?P=MATH%201107\" title=\"MATH&nbsp;1107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1107');\">MATH&nbsp;1107</a>).",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4107",
+        "title": "Neural Networks",
+        "credits": 0.5,
+        "description": "COMP 4107 [0.5 credit] Neural Networks An introduction to neural networks and deep learning. Theory and application of Neural Networks to problems in machine learning. Various network architectures will be discussed. Methods for improving optimization and generalization of neural networks. Neural networks for unsupervised learning.",
+        "prereq": null,
+        "prereqRaw": " (<a href=\"/search/?P=COMP%203105\" title=\"COMP&nbsp;3105\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3105');\">COMP&nbsp;3105</a> or <a href=\"/search/?P=SYSC%204415\" title=\"SYSC&nbsp;4415\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 4415');\">SYSC&nbsp;4415</a>) and (<a href=\"/search/?P=MATH%201104\" title=\"MATH&nbsp;1104\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1104');\">MATH&nbsp;1104</a> or <a href=\"/search/?P=MATH%201107\" title=\"MATH&nbsp;1107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1107');\">MATH&nbsp;1107</a>).",
+        "precludes": [
+          "COMP 5206"
+        ]
+      },
+      {
+        "code": "COMP 4108",
+        "title": "Computer Systems Security",
+        "credits": 0.5,
+        "description": "COMP 4108 [0.5 credit] Computer Systems Security Information security in computer and communications systems. Topics include: design principles; operating system security and access control; web and software security; malicious software, security infrastructure; secure email; network authentication; firewalls; intrusion detection; IP security; network attacks; wireless security.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%202108\" title=\"COMP&nbsp;2108\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2108');\">COMP&nbsp;2108</a> and (<a href=\"/search/?P=COMP%203000\" title=\"COMP&nbsp;3000\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3000');\">COMP&nbsp;3000</a> or <a href=\"/search/?P=SYSC%204001\" title=\"SYSC&nbsp;4001\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 4001');\">SYSC&nbsp;4001</a>).",
+        "precludes": [
+          "CSEC 3108",
+          "SYSC 4810"
+        ]
+      },
+      {
+        "code": "COMP 4111",
+        "title": "Data Management for Business Intelligence",
+        "credits": 0.5,
+        "description": "COMP 4111 [0.5 credit] Data Management for Business Intelligence Application of computational techniques to support business activities, such as decision making, business understanding, data analysis, business process automation, learning from data, producing and using data-centric business models, ontology-based data access and integration, data quality assessment and cleaning and use of contextual data.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%203005\" title=\"COMP&nbsp;3005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3005');\">COMP&nbsp;3005</a>.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4114",
+        "title": "Quantum Computing and Information",
+        "credits": 0.5,
+        "description": "COMP 4114 [0.5 credit] Quantum Computing and Information Introduction to the ideas and principles of quantum computing and information. Review of mathematical foundations. Discussion of quantum theory, architecture, and quantum gates. Basic algorithms in quantum computing. Theoretical computer science and computation. Applications of quantum computing to cryptography. Quantum information and error correction.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%202804\" title=\"COMP&nbsp;2804\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2804');\">COMP&nbsp;2804</a>.",
+        "precludes": [
+          "MATH 4821",
+          "MATH 5821"
+        ]
+      },
+      {
+        "code": "COMP 4115",
+        "title": "Introduction to Natural Language Processing",
+        "credits": 0.5,
+        "description": "COMP 4115 [0.5 credit] Introduction to Natural Language Processing Introduction to the fundamental techniques and models of modern natural language processing. Topics include: word embedding, language models, machine translation, self-attention and transformer, question answering, and pre-trained models.",
+        "prereq": null,
+        "prereqRaw": " (<a href=\"/search/?P=COMP%203105\" title=\"COMP&nbsp;3105\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3105');\">COMP&nbsp;3105</a> or <a href=\"/search/?P=SYSC%204415\" title=\"SYSC&nbsp;4415\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 4415');\">SYSC&nbsp;4415</a>) and (<a href=\"/search/?P=MATH%201104\" title=\"MATH&nbsp;1104\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1104');\">MATH&nbsp;1104</a> or <a href=\"/search/?P=MATH%201107\" title=\"MATH&nbsp;1107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1107');\">MATH&nbsp;1107</a>).",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4116",
+        "title": "Multiagent Systems",
+        "credits": 0.5,
+        "description": "COMP 4116 [0.5 credit] Multiagent Systems Multiagent systems is a branch of artificial intelligence that explores the interactions between multiple rational entities, where each may have access to different information and possibly conflicting priorities. This course takes an approach founded on economic game theory.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%203106\" title=\"COMP&nbsp;3106\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3106');\">COMP&nbsp;3106</a>.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4202",
+        "title": "Computational Aspects of Geographic Information Systems",
+        "credits": 0.5,
+        "description": "COMP 4202 [0.5 credit] Computational Aspects of Geographic Information Systems Through recent advances in navigation systems, mobile devices, and new software such as Mapquest and Google Earth, GIS is becoming increasingly important and exciting from a CS perspective. This course lays the algorithmic foundations to understand, use and further this technology.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%203804\" title=\"COMP&nbsp;3804\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3804');\">COMP&nbsp;3804</a> or <a href=\"/search/?P=MATH%203804\" title=\"MATH&nbsp;3804\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3804');\">MATH&nbsp;3804</a>.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4203",
+        "title": "Wireless Networks and Security",
+        "credits": 0.5,
+        "description": "COMP 4203 [0.5 credit] Wireless Networks and Security An introduction to wireless networks covering both networking issues and security aspects of modern wireless environments. Fundamentals of mobile LANs, ad hoc, sensor networks, secure routing, searching, clustering, multicasting, localization, mobile IP/TCP, confidentiality, key establishment, authentication, broadcasting, RFIDs, and rogue attacks.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%203203\" title=\"COMP&nbsp;3203\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3203');\">COMP&nbsp;3203</a> or <a href=\"/search/?P=SYSC%204602\" title=\"SYSC&nbsp;4602\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 4602');\">SYSC&nbsp;4602</a>.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4206",
+        "title": "Evolving Information Networks",
+        "credits": 0.5,
+        "description": "COMP 4206 [0.5 credit] Evolving Information Networks Convergence of social and technological networks. Interplay between information content, entities creating it and technologies supporting it. Structure and analysis of such networks, models abstracting their properties, techniques link analysis, search, mechanism design, power laws, cascading, clustering and connections with work in social sciences.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%201805\" title=\"COMP&nbsp;1805\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1805');\">COMP&nbsp;1805</a>, (<a href=\"/search/?P=COMP%202401\" title=\"COMP&nbsp;2401\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2401');\">COMP&nbsp;2401</a> with a minimum grade of <span class=\"keeptogether\">C-</span>) and (<a href=\"/search/?P=COMP%202406\" title=\"COMP&nbsp;2406\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2406');\">COMP&nbsp;2406</a> or <a href=\"/search/?P=SYSC%204504\" title=\"SYSC&nbsp;4504\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 4504');\">SYSC&nbsp;4504</a>).",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4501",
+        "title": "Advanced Facilities for Real-Time Games",
+        "credits": 0.5,
+        "description": "COMP 4501 [0.5 credit] Advanced Facilities for Real-Time Games A practical course on the design and implementation of modern game engines and advanced facilities provided by these engines. Such facilities include systems for rendering 3D scenes; simulating physics; playing animations; game AI; and enabling multi-player games. Students will undertake a significant game development project.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%203501\" title=\"COMP&nbsp;3501\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3501');\">COMP&nbsp;3501</a>.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4509",
+        "title": "Computer Graphics",
+        "credits": 0.5,
+        "description": "COMP 4509 [0.5 credit] Computer Graphics An overview of computer graphics, with an emphasis on rendering. Topics include the following: visibility; ray tracing; graphics hardware; object and scene modeling; lighting, shading, and texture; animation.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%202401\" title=\"COMP&nbsp;2401\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2401');\">COMP&nbsp;2401</a> with a minimum grade of <span class=\"keeptogether\">C-</span>, <a href=\"/search/?P=COMP%202402\" title=\"COMP&nbsp;2402\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2402');\">COMP&nbsp;2402</a>, (<a href=\"/search/?P=MATH%201004\" title=\"MATH&nbsp;1004\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1004');\">MATH&nbsp;1004</a> or <a href=\"/search/?P=MATH%201007\" title=\"MATH&nbsp;1007\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1007');\">MATH&nbsp;1007</a>), and (<a href=\"/search/?P=MATH%201104\" title=\"MATH&nbsp;1104\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1104');\">MATH&nbsp;1104</a> or <a href=\"/search/?P=MATH%201107\" title=\"MATH&nbsp;1107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1107');\">MATH&nbsp;1107</a>).",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4601",
+        "title": "Intelligent Web-based Information Systems",
+        "credits": 0.5,
+        "description": "COMP 4601 [0.5 credit] Intelligent Web-based Information Systems Introduction to the principles and practice of creation, delivery and analysis of multimedia content in web-based systems. Topics include analysis of webs of documents, social network analysis, recommender systems and problems of trust, reputation and influence in e-commerce systems.",
+        "prereq": null,
+        "prereqRaw": " (<a href=\"/search/?P=COMP%202404\" title=\"COMP&nbsp;2404\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2404');\">COMP&nbsp;2404</a> or <a href=\"/search/?P=SYSC%203010\" title=\"SYSC&nbsp;3010\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3010');\">SYSC&nbsp;3010</a> or <a href=\"/search/?P=SYSC%203110\" title=\"SYSC&nbsp;3110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3110');\">SYSC&nbsp;3110</a>) and (<a href=\"/search/?P=COMP%202406\" title=\"COMP&nbsp;2406\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2406');\">COMP&nbsp;2406</a> or <a href=\"/search/?P=COMP%202601\" title=\"COMP&nbsp;2601\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2601');\">COMP&nbsp;2601</a> or <a href=\"/search/?P=SYSC%204504\" title=\"SYSC&nbsp;4504\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 4504');\">SYSC&nbsp;4504</a>).",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4602",
+        "title": "Social Networking",
+        "credits": 0.5,
+        "description": "COMP 4602 [0.5 credit] Social Networking Introduction to virtual communities, overlay networks and social networking. Topics include architectural principles for heterogeneous social networking platforms, trust and reputation as social concepts, agent-based computing, and extraction of trends and patterns from information exchanged between community members.",
+        "prereq": null,
+        "prereqRaw": " ((<a href=\"/search/?P=COMP%202404\" title=\"COMP&nbsp;2404\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2404');\">COMP&nbsp;2404</a> or <a href=\"/search/?P=SYSC%203010\" title=\"SYSC&nbsp;3010\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3010');\">SYSC&nbsp;3010</a> or <a href=\"/search/?P=SYSC%203110\" title=\"SYSC&nbsp;3110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 3110');\">SYSC&nbsp;3110</a>) and (<a href=\"/search/?P=COMP%202406\" title=\"COMP&nbsp;2406\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2406');\">COMP&nbsp;2406</a> or <a href=\"/search/?P=SYSC%204504\" title=\"SYSC&nbsp;4504\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 4504');\">SYSC&nbsp;4504</a>)) or <a href=\"/search/?P=COMP%202601\" title=\"COMP&nbsp;2601\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2601');\">COMP&nbsp;2601</a>.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4701",
+        "title": "Computing, Society, and Ethics",
+        "credits": 0.5,
+        "description": "COMP 4701 [0.5 credit] Computing, Society, and Ethics This course examines ethical questions raised by computing technologies - both motivated by recent developments and through the lens of fiction. Students will identify possible ethical issues in future technologies and use formal ethics frameworks to evaluate the merits and pitfalls of different solutions.",
+        "prereq": null,
+        "prereqRaw": " Any two of <a href=\"/search/?P=COMP%202108\" title=\"COMP&nbsp;2108\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2108');\">COMP&nbsp;2108</a>, <a href=\"/search/?P=COMP%203004\" title=\"COMP&nbsp;3004\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3004');\">COMP&nbsp;3004</a>, <a href=\"/search/?P=COMP%203005\" title=\"COMP&nbsp;3005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3005');\">COMP&nbsp;3005</a>, <a href=\"/search/?P=COMP%203008\" title=\"COMP&nbsp;3008\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3008');\">COMP&nbsp;3008</a>, (<a href=\"/search/?P=COMP%203105\" title=\"COMP&nbsp;3105\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3105');\">COMP&nbsp;3105</a> or <a href=\"/search/?P=SYSC%204415\" title=\"SYSC&nbsp;4415\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 4415');\">SYSC&nbsp;4415</a>), <a href=\"/search/?P=COMP%203106\" title=\"COMP&nbsp;3106\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3106');\">COMP&nbsp;3106</a>, <a href=\"/search/?P=COMP%203804\" title=\"COMP&nbsp;3804\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3804');\">COMP&nbsp;3804</a>.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4801",
+        "title": "Algorithms for Data Mining, Web, and Social Networks",
+        "credits": 0.5,
+        "description": "COMP 4801 [0.5 credit] Algorithms for Data Mining, Web, and Social Networks Algorithm design techniques for modern data sets arising in, for example, data mining, web analytics, search engines and social networks. Topics may include locality-sensitive hashing, data streaming, clustering, recommendation systems, link analysis, dimensionality reduction, online algorithms, social network analysis, graph partitioning, and randomized algorithms.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%202804\" title=\"COMP&nbsp;2804\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2804');\">COMP&nbsp;2804</a> with a minimum grade of <span class=\"keeptogether\">B+</span>.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4803",
+        "title": "Computable Functions",
+        "credits": 0.5,
+        "description": "COMP 4803 [0.5 credit] Computable Functions Recursive functions and computability, algorithms, Church's thesis, Turing machines, computational logic, NP-completeness.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202100\" title=\"MATH&nbsp;2100\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2100');\">MATH&nbsp;2100</a> or <a href=\"/search/?P=COMP%203805\" title=\"COMP&nbsp;3805\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3805');\">COMP&nbsp;3805</a> or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4804",
+        "title": "Design and Analysis of Algorithms II",
+        "credits": 0.5,
+        "description": "COMP 4804 [0.5 credit] Design and Analysis of Algorithms II A second course on the design and analysis of algorithms. Topics include: advanced recurrence relations, algebraic complexity, advanced graph algorithms, amortized analysis, algorithms for NP-complete problems, randomized algorithms.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%203804\" title=\"COMP&nbsp;3804\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3804');\">COMP&nbsp;3804</a> or <a href=\"/search/?P=MATH%203804\" title=\"MATH&nbsp;3804\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3804');\">MATH&nbsp;3804</a>.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4805",
+        "title": "Theory of Automata",
+        "credits": 0.5,
+        "description": "COMP 4805 [0.5 credit] Theory of Automata Finite automata and regular expressions, properties of regular sets, context-free grammars, pushdown automata, deterministic context-free languages. Turing machines, the Chomsky hierarchy. Undecidability, intractable problems.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%203805\" title=\"COMP&nbsp;3805\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3805');\">COMP&nbsp;3805</a> or <a href=\"/search/?P=MATH%203106\" title=\"MATH&nbsp;3106\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3106');\">MATH&nbsp;3106</a> or <a href=\"/search/?P=MATH%203158\" title=\"MATH&nbsp;3158\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3158');\">MATH&nbsp;3158</a> (or MATH 3100) or permission of the School.",
+        "precludes": [
+          "MATH 4805",
+          "MATH 5605"
+        ]
+      },
+      {
+        "code": "COMP 4806",
+        "title": "Scientific Computing II (Honours)",
+        "credits": 0.5,
+        "description": "COMP 4806 [0.5 credit] Scientific Computing II (Honours) Computational methods in numerical linear algebra including solvers for large linear systems, numerical optimization and eigenvalue problems. Application to topics such as scientific machine learning or parallel computing. Focus on implementation in an efficient compiled language and standard numerical libraries.",
+        "prereq": null,
+        "prereqRaw": " i) <a href=\"/search/?P=MATH%203806\" title=\"MATH&nbsp;3806\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3806');\">MATH&nbsp;3806</a>; and ii) <a href=\"/search/?P=MATH%202152\" title=\"MATH&nbsp;2152\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2152');\">MATH&nbsp;2152</a> or <a href=\"/search/?P=MATH%202107\" title=\"MATH&nbsp;2107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2107');\">MATH&nbsp;2107</a> with a grade of <span class=\"keeptogether\">C-</span> or higher, or permission of the school.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4900",
+        "title": "Special Topics in Computer Science",
+        "credits": 0.5,
+        "description": "COMP 4900 [0.5 credit] Special Topics in Computer Science Advanced topics in Computer Science offered by members of the School of Computer Science.",
+        "prereq": null,
+        "prereqRaw": " permission of the School of Computer Science.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4901",
+        "title": "Directed Studies",
+        "credits": 0.5,
+        "description": "COMP 4901 [0.5 credit] Directed Studies Independent study under the supervision of a member of the School of Computer Science. Students are required to obtain their supervisor's written approval prior to registration and are limited to two such courses in their program.",
+        "prereq": null,
+        "prereqRaw": " permission of the School of Computer Science.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4905",
+        "title": "Honours Project",
+        "credits": 0.5,
+        "description": "COMP 4905 [0.5 credit] Honours Project Under the supervision of a faculty member, Honours students complete a major Computer Science project in fourth year. Permission to register is granted once an approved project proposal is submitted to the Department. See deadlines and details on the School website.",
+        "prereq": null,
+        "prereqRaw": " fourth-year standing in an Honours program and permission of the School of Computer Science.",
+        "precludes": [
+          "COMP 4906"
+        ]
+      },
+      {
+        "code": "COMP 4906",
+        "title": "Honours Thesis",
+        "credits": 1,
+        "description": "COMP 4906 [1.0 credit] Honours Thesis Independent research under the direct supervision of a faculty advisor. Permission to register is granted once an approved thesis proposal is submitted to the School of Computer Science. Evaluation is based on a written thesis and a poster presentation.",
+        "prereq": null,
+        "prereqRaw": " fourth-year standing in an Honours program with a minimum CGPA of 9.0 in the major and permission of the School of Computer Science.",
+        "precludes": [
+          "COMP 4905"
+        ]
+      },
+      {
+        "code": "COMP 4910",
+        "title": "Internship",
+        "credits": 0.5,
+        "description": "COMP 4910 [0.5 credit] Internship The internship exposes students to industrial software development via placement in a local enterprise. The course may only be taken by students participating in one of the School's industrial partnerships and can only be used as a free elective in the B.C.S. program.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%203911\" title=\"COMP&nbsp;3911\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3911');\">COMP&nbsp;3911</a> and registration in internship option.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4911",
+        "title": "Internship",
+        "credits": 0.5,
+        "description": "COMP 4911 [0.5 credit] Internship The internship exposes students to industrial software development via placement in a local enterprise. The course may only be taken by students participating in one of the School's industrial partnerships and can only be used as a free elective in the B.C.S. program.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%204910\" title=\"COMP&nbsp;4910\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 4910');\">COMP&nbsp;4910</a> and registration in internship option.",
+        "precludes": []
+      },
+      {
+        "code": "CSEC 2108",
+        "title": "Cryptographic Algorithms and Protocols",
+        "credits": 0.5,
+        "description": "CSEC 2108 [0.5 credit] Cryptographic Algorithms and Protocols Block ciphers and modes of operation; public-key encryption; cryptographic hash functions; digital signatures; password-based cryptography; randomness and guesswork; authentication and authenticated key establishment protocols; challenge-response protocols; elliptic curve cryptography; post-quantum algorithms.",
+        "prereq": null,
+        "prereqRaw": " (<a href=\"/search/?P=COMP%201006\" title=\"COMP&nbsp;1006\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1006');\">COMP&nbsp;1006</a> or <a href=\"/search/?P=COMP%201406\" title=\"COMP&nbsp;1406\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1406');\">COMP&nbsp;1406</a>) with a minimum grade of <span class=\"keeptogether\">C-</span>, (<a href=\"/search/?P=COMP%202804\" title=\"COMP&nbsp;2804\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2804');\">COMP&nbsp;2804</a> or <a href=\"/search/?P=STAT%202507\" title=\"STAT&nbsp;2507\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2507');\">STAT&nbsp;2507</a>), and <a href=\"/search/?P=MATH%201104\" title=\"MATH&nbsp;1104\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1104');\">MATH&nbsp;1104</a>.",
+        "precludes": [
+          "COMP 2108"
+        ]
+      },
+      {
+        "code": "CSEC 3108",
+        "title": "Systems Security",
+        "credits": 0.5,
+        "description": "CSEC 3108 [0.5 credit] Systems Security Securing networked computer systems. Threat modelling. Operating system security and design principles. Access control. Software-based exploits, memory safety, non-functional testing in software development. Social engineering. Browser-server and transport-layer security. Middleperson attacks, end-to-end security. Public-key certificates. Case study: Bluetooth or Wi-Fi security.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=CSEC%202108\" title=\"CSEC&nbsp;2108\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'CSEC 2108');\">CSEC&nbsp;2108</a>, (<a href=\"/search/?P=COMP%203000\" title=\"COMP&nbsp;3000\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3000');\">COMP&nbsp;3000</a> or <a href=\"/search/?P=SYSC%204001\" title=\"SYSC&nbsp;4001\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 4001');\">SYSC&nbsp;4001</a>), and (<a href=\"/search/?P=COMP%203203\" title=\"COMP&nbsp;3203\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3203');\">COMP&nbsp;3203</a> or <a href=\"/search/?P=SYSC%204602\" title=\"SYSC&nbsp;4602\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 4602');\">SYSC&nbsp;4602</a>).",
+        "precludes": [
+          "COMP 4108",
+          "SYSC 4810"
+        ]
+      },
+      {
+        "code": "CSEC 3999",
+        "title": "Co-operative Work Term",
+        "credits": 0,
+        "description": "CSEC 3999 [0.0 credit] Co-operative Work Term",
+        "prereq": null,
+        "prereqRaw": null,
+        "precludes": []
+      },
+      {
+        "code": "CSEC 4000",
+        "title": "Operating Systems Security",
+        "credits": 0.5,
+        "description": "CSEC 4000 [0.5 credit] Operating Systems Security The course examines past, present, and emerging approaches for securing operating systems. The focus is to provide a foundation for understanding requirements to secure hosts at the operating system level and survey the landscape of available tools and techniques for implementing operating system security controls.",
+        "prereq": null,
+        "prereqRaw": " (<a href=\"/search/?P=COMP%203000\" title=\"COMP&nbsp;3000\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3000');\">COMP&nbsp;3000</a> or <a href=\"/search/?P=SYSC%204001\" title=\"SYSC&nbsp;4001\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 4001');\">SYSC&nbsp;4001</a>) and <a href=\"/search/?P=CSEC%203108\" title=\"CSEC&nbsp;3108\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'CSEC 3108');\">CSEC&nbsp;3108</a>.",
+        "precludes": []
+      },
+      {
+        "code": "CSEC 4100",
+        "title": "Human Factors in Security",
+        "credits": 0.5,
+        "description": "CSEC 4100 [0.5 credit] Human Factors in Security Designing security mechanisms with human factors in mind. Evaluating software-based systems with focus on how interaction design affects security/privacy. Current approaches to usable security; user studies; methodologies for empirical analysis; design principles for usable security/privacy; case studies including authentication, anonymity systems.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%203008\" title=\"COMP&nbsp;3008\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3008');\">COMP&nbsp;3008</a> and <a href=\"/search/?P=CSEC%203108\" title=\"CSEC&nbsp;3108\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'CSEC 3108');\">CSEC&nbsp;3108</a>.",
+        "precludes": []
+      },
+      {
+        "code": "CSEC 4200",
+        "title": "Network Security",
+        "credits": 0.5,
+        "description": "CSEC 4200 [0.5 credit] Network Security Security throughout network stack layers. Internet core security. VPNs and tunnelling protocols. Firewalls and Intrusion Detection Systems. Internet measurements. IoT security. Botnets. Securing network protocols, including email and web. Network monitoring. Traffic sniffers and vulnerability scanners.",
+        "prereq": null,
+        "prereqRaw": " (<a href=\"/search/?P=COMP%203000\" title=\"COMP&nbsp;3000\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3000');\">COMP&nbsp;3000</a> or <a href=\"/search/?P=SYSC%204001\" title=\"SYSC&nbsp;4001\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 4001');\">SYSC&nbsp;4001</a>), (<a href=\"/search/?P=COMP%203203\" title=\"COMP&nbsp;3203\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3203');\">COMP&nbsp;3203</a> or <a href=\"/search/?P=SYSC%204602\" title=\"SYSC&nbsp;4602\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 4602');\">SYSC&nbsp;4602</a>), and <a href=\"/search/?P=CSEC%203108\" title=\"CSEC&nbsp;3108\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'CSEC 3108');\">CSEC&nbsp;3108</a>.",
+        "precludes": []
+      },
+      {
+        "code": "CSEC 4300",
+        "title": "Software Security",
+        "credits": 0.5,
+        "description": "CSEC 4300 [0.5 credit] Software Security Resilience of everyday software to vulnerabilities. Security engineering and the security development lifecycle. Static analysis and vulnerability analysis. Model checkers. Security testing, non-functional testing, fuzz-testing. Programming languages and security. Cryptographic APIs and use of security toolkits.",
+        "prereq": null,
+        "prereqRaw": " (<a href=\"/search/?P=COMP%203000\" title=\"COMP&nbsp;3000\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3000');\">COMP&nbsp;3000</a> or <a href=\"/search/?P=SYSC%204001\" title=\"SYSC&nbsp;4001\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 4001');\">SYSC&nbsp;4001</a>), <a href=\"/search/?P=COMP%203004\" title=\"COMP&nbsp;3004\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3004');\">COMP&nbsp;3004</a> and <a href=\"/search/?P=CSEC%203108\" title=\"CSEC&nbsp;3108\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'CSEC 3108');\">CSEC&nbsp;3108</a>.",
+        "precludes": []
+      },
+      {
+        "code": "CSEC 4900",
+        "title": "Selected Topics in Security I",
+        "credits": 0.5,
+        "description": "CSEC 4900 [0.5 credit] Selected Topics in Security I An in-depth study of selected topics, with an emphasis on areas of strong current interest in research or practice.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=CSEC%203108\" title=\"CSEC&nbsp;3108\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'CSEC 3108');\">CSEC&nbsp;3108</a>, and permission of the School of Computer Science.",
+        "precludes": []
+      },
+      {
+        "code": "CSEC 4901",
+        "title": "Selected Topics in Security II",
+        "credits": 0.5,
+        "description": "CSEC 4901 [0.5 credit] Selected Topics in Security II An in-depth study of selected topics, with an emphasis on areas of strong current interest in research or practice.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=CSEC%203108\" title=\"CSEC&nbsp;3108\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'CSEC 3108');\">CSEC&nbsp;3108</a>, and permission of the School of Computer Science.",
+        "precludes": []
+      }
+    ]
+  },
+  "Italian (Minor)": {
+    "url": "https://calendar.carleton.ca/undergrad/undergradprograms/italian/",
+    "courses": [
+      {
+        "code": "ITAL 1010",
+        "title": "First-Year Italian I",
+        "credits": 0.5,
+        "description": "ITAL 1010 [0.5 credit] First-Year Italian I For students with no knowledge of Italian. Oral skills, reading and writing. Compulsory attendance.",
+        "prereq": null,
+        "prereqRaw": null,
+        "precludes": [
+          "ITAL 1110"
+        ]
+      },
+      {
+        "code": "ITAL 1020",
+        "title": "First-Year Italian II",
+        "credits": 0.5,
+        "description": "ITAL 1020 [0.5 credit] First-Year Italian II Continuation of first-year Italian. Oral skills, reading and writing. Compulsory attendance.",
+        "prereq": null,
+        "prereqRaw": " grade of C or higher in <a href=\"/search/?P=ITAL%201010\" title=\"ITAL&nbsp;1010\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 1010');\">ITAL&nbsp;1010</a>, or permission of the School.",
+        "precludes": [
+          "ITAL 1110"
+        ]
+      },
+      {
+        "code": "ITAL 1110",
+        "title": "Intensive First-Year Italian",
+        "credits": 1,
+        "description": "ITAL 1110 [1.0 credit] Intensive First-Year Italian For students with no knowledge of Italian. Oral skills, reading and writing. Compulsory attendance.",
+        "prereq": null,
+        "prereqRaw": null,
+        "precludes": [
+          "ITAL 1010",
+          "ITAL 1020"
+        ]
+      },
+      {
+        "code": "ITAL 2010",
+        "title": "Second-Year Italian I",
+        "credits": 0.5,
+        "description": "ITAL 2010 [0.5 credit] Second-Year Italian I Further study of Italian to reach a more advanced level of ability in a range of situations. Equal emphasis on oral and written language. Compulsory attendance.",
+        "prereq": null,
+        "prereqRaw": " grade of C or higher in <a href=\"/search/?P=ITAL%201020\" title=\"ITAL&nbsp;1020\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 1020');\">ITAL&nbsp;1020</a> or <a href=\"/search/?P=ITAL%201110\" title=\"ITAL&nbsp;1110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 1110');\">ITAL&nbsp;1110</a>, or permission of the School.",
+        "precludes": [
+          "ITAL 2110"
+        ]
+      },
+      {
+        "code": "ITAL 2020",
+        "title": "Second-Year Italian II",
+        "credits": 0.5,
+        "description": "ITAL 2020 [0.5 credit] Second-Year Italian II Continuation of second-year Italian. Further study of Italian to reach a more advanced level of ability in a range of situations. Equal emphasis on oral and written language. Compulsory attendance.",
+        "prereq": null,
+        "prereqRaw": " grade of C or higher in <a href=\"/search/?P=ITAL%202010\" title=\"ITAL&nbsp;2010\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 2010');\">ITAL&nbsp;2010</a>, or permission of the School.",
+        "precludes": [
+          "ITAL 2110"
+        ]
+      },
+      {
+        "code": "ITAL 2110",
+        "title": "Intensive Second-Year Italian",
+        "credits": 1,
+        "description": "ITAL 2110 [1.0 credit] Intensive Second-Year Italian Further study of Italian to reach a more advanced level of ability in a range of situations. Equal emphasis on oral and written language. Compulsory attendance.",
+        "prereq": null,
+        "prereqRaw": " grade of C or higher in <a href=\"/search/?P=ITAL%201020\" title=\"ITAL&nbsp;1020\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 1020');\">ITAL&nbsp;1020</a>, <a href=\"/search/?P=ITAL%201110\" title=\"ITAL&nbsp;1110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 1110');\">ITAL&nbsp;1110</a>, or permission of the School.",
+        "precludes": [
+          "ITAL 2010",
+          "ITAL 2020"
+        ]
+      },
+      {
+        "code": "ITAL 3010",
+        "title": "Third-Year Italian I",
+        "credits": 0.5,
+        "description": "ITAL 3010 [0.5 credit] Third-Year Italian I Further study of Italian to reach a more advanced level, including the ability to handle authentic materials and primary texts required for academic studies. Compulsory attendance.",
+        "prereq": null,
+        "prereqRaw": " grade of C or higher in <a href=\"/search/?P=ITAL%202020\" title=\"ITAL&nbsp;2020\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 2020');\">ITAL&nbsp;2020</a>, <a href=\"/search/?P=ITAL%202110\" title=\"ITAL&nbsp;2110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 2110');\">ITAL&nbsp;2110</a>, or permission of the School.",
+        "precludes": [
+          "ITAL 3110"
+        ]
+      },
+      {
+        "code": "ITAL 3020",
+        "title": "Third-Year Italian II",
+        "credits": 0.5,
+        "description": "ITAL 3020 [0.5 credit] Third-Year Italian II Continuation of third-year Italian. Further study of Italian to reach a more advanced level, including the ability to handle authentic materials and primary texts required for academic studies. Compulsory attendance.",
+        "prereq": null,
+        "prereqRaw": " grade of C or higher in <a href=\"/search/?P=ITAL%203010\" title=\"ITAL&nbsp;3010\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 3010');\">ITAL&nbsp;3010</a> or permission of the School.",
+        "precludes": [
+          "ITAL 3110"
+        ]
+      },
+      {
+        "code": "ITAL 3110",
+        "title": "Intensive Third-Year Italian",
+        "credits": 1,
+        "description": "ITAL 3110 [1.0 credit] Intensive Third-Year Italian Further study of Italian to reach a more advanced level, including the ability to handle authentic materials and primary texts required for academic studies. Compulsory attendance.",
+        "prereq": null,
+        "prereqRaw": " grade of C or higher in <a href=\"/search/?P=ITAL%202020\" title=\"ITAL&nbsp;2020\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 2020');\">ITAL&nbsp;2020</a> or <a href=\"/search/?P=ITAL%202110\" title=\"ITAL&nbsp;2110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 2110');\">ITAL&nbsp;2110</a>, or permission of the School.",
+        "precludes": [
+          "ITAL 3010",
+          "ITAL 3020"
+        ]
+      },
+      {
+        "code": "ITAL 4010",
+        "title": "Fourth-Year Italian I",
+        "credits": 0.5,
+        "description": "ITAL 4010 [0.5 credit] Fourth-Year Italian I Advanced spoken and written Italian with intensive practice in aural comprehension and speaking in a range of situations and contexts, in reading and in composition in a range of modes and genres. Metalinguistic study. Compulsory attendance.",
+        "prereq": null,
+        "prereqRaw": " grade of C or higher in <a href=\"/search/?P=ITAL%203020\" title=\"ITAL&nbsp;3020\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 3020');\">ITAL&nbsp;3020</a>, <a href=\"/search/?P=ITAL%203110\" title=\"ITAL&nbsp;3110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 3110');\">ITAL&nbsp;3110</a> or permission from the School.",
+        "precludes": [
+          "ITAL 4110"
+        ]
+      },
+      {
+        "code": "ITAL 4020",
+        "title": "Fourth-Year Italian II",
+        "credits": 0.5,
+        "description": "ITAL 4020 [0.5 credit] Fourth-Year Italian II Continuation of fourth-year Italian. Advanced spoken and written Italian with intensive practice in aural comprehension and speaking in a range of situations and contexts, in reading and in composition in a range of modes and genres. Metalinguistic study. Compulsory attendance.",
+        "prereq": null,
+        "prereqRaw": " grade of C or higher in <a href=\"/search/?P=ITAL%204010\" title=\"ITAL&nbsp;4010\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 4010');\">ITAL&nbsp;4010</a> or permission from the School.",
+        "precludes": [
+          "ITAL 4110"
+        ]
+      },
+      {
+        "code": "ITAL 4110",
+        "title": "Intensive Fourth-Year Italian",
+        "credits": 1,
+        "description": "ITAL 4110 [1.0 credit] Intensive Fourth-Year Italian Advanced spoken and written Italian with intensive practice in aural comprehension and speaking in a range of situations and contexts, in reading and in composition in a range of modes and genres. Metalinguistic study. Compulsory attendance.",
+        "prereq": null,
+        "prereqRaw": " grade of C or higher in <a href=\"/search/?P=ITAL%203110\" title=\"ITAL&nbsp;3110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 3110');\">ITAL&nbsp;3110</a>, or permission of the School.",
+        "precludes": [
+          "ITAL 4010",
+          "ITAL 4020"
+        ]
+      },
+      {
+        "code": "ITAL 4900",
+        "title": "Independent Study",
+        "credits": 1,
+        "description": "ITAL 4900 [1.0 credit] Independent Study Research in a topic in Italian language, literature or linguistics under the supervision of a member of the School.",
+        "prereq": null,
+        "prereqRaw": " third- or fourth-year standing in the Minor in Italian, grade of C or higher in <a href=\"/search/?P=ITAL%203110\" title=\"ITAL&nbsp;3110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 3110');\">ITAL&nbsp;3110</a> or equivalent, or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "ITAL 4901",
+        "title": "Independent Study",
+        "credits": 0.5,
+        "description": "ITAL 4901 [0.5 credit] Independent Study Research in a topic in Italian language, literature or linguistics under the supervision of a member of the School.",
+        "prereq": null,
+        "prereqRaw": " third- or fourth-year standing in the Minor in Italian, grade of C or higher in <a href=\"/search/?P=ITAL%203110\" title=\"ITAL&nbsp;3110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 3110');\">ITAL&nbsp;3110</a> or equivalent, or permission of the School.",
+        "precludes": []
+      }
+    ]
+  }
+}
