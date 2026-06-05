@@ -866,161 +866,1569 @@
       }
     ]
   },
-  "Italian (Minor)": {
-    "url": "https://calendar.carleton.ca/undergrad/undergradprograms/italian/",
+  "Mathematics and Statistics": {
+    "url": "https://calendar.carleton.ca/undergrad/undergradprograms/mathematicsandstatistics/",
     "courses": [
       {
-        "code": "ITAL 1010",
-        "title": "First-Year Italian I",
+        "code": "MATH 0005",
+        "title": "Precalculus: Functions and Graphs",
         "credits": 0.5,
-        "description": "ITAL 1010 [0.5 credit] First-Year Italian I For students with no knowledge of Italian. Oral skills, reading and writing. Compulsory attendance.",
+        "description": "MATH 0005 [0.5 credit] Precalculus: Functions and Graphs Review of algebraic manipulations. Polynomials: the remainder theorem, and the factor theorem; graphing. Real and Complex roots. Absolute values. Inequalities. Functions, including composition of functions, and Inverse functions. Logarithmic and exponential functions.",
         "prereq": null,
-        "prereqRaw": null,
-        "precludes": [
-          "ITAL 1110"
-        ]
-      },
-      {
-        "code": "ITAL 1020",
-        "title": "First-Year Italian II",
-        "credits": 0.5,
-        "description": "ITAL 1020 [0.5 credit] First-Year Italian II Continuation of first-year Italian. Oral skills, reading and writing. Compulsory attendance.",
-        "prereq": null,
-        "prereqRaw": " grade of C or higher in <a href=\"/search/?P=ITAL%201010\" title=\"ITAL&nbsp;1010\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 1010');\">ITAL&nbsp;1010</a>, or permission of the School.",
-        "precludes": [
-          "ITAL 1110"
-        ]
-      },
-      {
-        "code": "ITAL 1110",
-        "title": "Intensive First-Year Italian",
-        "credits": 1,
-        "description": "ITAL 1110 [1.0 credit] Intensive First-Year Italian For students with no knowledge of Italian. Oral skills, reading and writing. Compulsory attendance.",
-        "prereq": null,
-        "prereqRaw": null,
-        "precludes": [
-          "ITAL 1010",
-          "ITAL 1020"
-        ]
-      },
-      {
-        "code": "ITAL 2010",
-        "title": "Second-Year Italian I",
-        "credits": 0.5,
-        "description": "ITAL 2010 [0.5 credit] Second-Year Italian I Further study of Italian to reach a more advanced level of ability in a range of situations. Equal emphasis on oral and written language. Compulsory attendance.",
-        "prereq": null,
-        "prereqRaw": " grade of C or higher in <a href=\"/search/?P=ITAL%201020\" title=\"ITAL&nbsp;1020\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 1020');\">ITAL&nbsp;1020</a> or <a href=\"/search/?P=ITAL%201110\" title=\"ITAL&nbsp;1110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 1110');\">ITAL&nbsp;1110</a>, or permission of the School.",
-        "precludes": [
-          "ITAL 2110"
-        ]
-      },
-      {
-        "code": "ITAL 2020",
-        "title": "Second-Year Italian II",
-        "credits": 0.5,
-        "description": "ITAL 2020 [0.5 credit] Second-Year Italian II Continuation of second-year Italian. Further study of Italian to reach a more advanced level of ability in a range of situations. Equal emphasis on oral and written language. Compulsory attendance.",
-        "prereq": null,
-        "prereqRaw": " grade of C or higher in <a href=\"/search/?P=ITAL%202010\" title=\"ITAL&nbsp;2010\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 2010');\">ITAL&nbsp;2010</a>, or permission of the School.",
-        "precludes": [
-          "ITAL 2110"
-        ]
-      },
-      {
-        "code": "ITAL 2110",
-        "title": "Intensive Second-Year Italian",
-        "credits": 1,
-        "description": "ITAL 2110 [1.0 credit] Intensive Second-Year Italian Further study of Italian to reach a more advanced level of ability in a range of situations. Equal emphasis on oral and written language. Compulsory attendance.",
-        "prereq": null,
-        "prereqRaw": " grade of C or higher in <a href=\"/search/?P=ITAL%201020\" title=\"ITAL&nbsp;1020\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 1020');\">ITAL&nbsp;1020</a>, <a href=\"/search/?P=ITAL%201110\" title=\"ITAL&nbsp;1110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 1110');\">ITAL&nbsp;1110</a>, or permission of the School.",
-        "precludes": [
-          "ITAL 2010",
-          "ITAL 2020"
-        ]
-      },
-      {
-        "code": "ITAL 3010",
-        "title": "Third-Year Italian I",
-        "credits": 0.5,
-        "description": "ITAL 3010 [0.5 credit] Third-Year Italian I Further study of Italian to reach a more advanced level, including the ability to handle authentic materials and primary texts required for academic studies. Compulsory attendance.",
-        "prereq": null,
-        "prereqRaw": " grade of C or higher in <a href=\"/search/?P=ITAL%202020\" title=\"ITAL&nbsp;2020\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 2020');\">ITAL&nbsp;2020</a>, <a href=\"/search/?P=ITAL%202110\" title=\"ITAL&nbsp;2110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 2110');\">ITAL&nbsp;2110</a>, or permission of the School.",
-        "precludes": [
-          "ITAL 3110"
-        ]
-      },
-      {
-        "code": "ITAL 3020",
-        "title": "Third-Year Italian II",
-        "credits": 0.5,
-        "description": "ITAL 3020 [0.5 credit] Third-Year Italian II Continuation of third-year Italian. Further study of Italian to reach a more advanced level, including the ability to handle authentic materials and primary texts required for academic studies. Compulsory attendance.",
-        "prereq": null,
-        "prereqRaw": " grade of C or higher in <a href=\"/search/?P=ITAL%203010\" title=\"ITAL&nbsp;3010\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 3010');\">ITAL&nbsp;3010</a> or permission of the School.",
-        "precludes": [
-          "ITAL 3110"
-        ]
-      },
-      {
-        "code": "ITAL 3110",
-        "title": "Intensive Third-Year Italian",
-        "credits": 1,
-        "description": "ITAL 3110 [1.0 credit] Intensive Third-Year Italian Further study of Italian to reach a more advanced level, including the ability to handle authentic materials and primary texts required for academic studies. Compulsory attendance.",
-        "prereq": null,
-        "prereqRaw": " grade of C or higher in <a href=\"/search/?P=ITAL%202020\" title=\"ITAL&nbsp;2020\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 2020');\">ITAL&nbsp;2020</a> or <a href=\"/search/?P=ITAL%202110\" title=\"ITAL&nbsp;2110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 2110');\">ITAL&nbsp;2110</a>, or permission of the School.",
-        "precludes": [
-          "ITAL 3010",
-          "ITAL 3020"
-        ]
-      },
-      {
-        "code": "ITAL 4010",
-        "title": "Fourth-Year Italian I",
-        "credits": 0.5,
-        "description": "ITAL 4010 [0.5 credit] Fourth-Year Italian I Advanced spoken and written Italian with intensive practice in aural comprehension and speaking in a range of situations and contexts, in reading and in composition in a range of modes and genres. Metalinguistic study. Compulsory attendance.",
-        "prereq": null,
-        "prereqRaw": " grade of C or higher in <a href=\"/search/?P=ITAL%203020\" title=\"ITAL&nbsp;3020\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 3020');\">ITAL&nbsp;3020</a>, <a href=\"/search/?P=ITAL%203110\" title=\"ITAL&nbsp;3110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 3110');\">ITAL&nbsp;3110</a> or permission from the School.",
-        "precludes": [
-          "ITAL 4110"
-        ]
-      },
-      {
-        "code": "ITAL 4020",
-        "title": "Fourth-Year Italian II",
-        "credits": 0.5,
-        "description": "ITAL 4020 [0.5 credit] Fourth-Year Italian II Continuation of fourth-year Italian. Advanced spoken and written Italian with intensive practice in aural comprehension and speaking in a range of situations and contexts, in reading and in composition in a range of modes and genres. Metalinguistic study. Compulsory attendance.",
-        "prereq": null,
-        "prereqRaw": " grade of C or higher in <a href=\"/search/?P=ITAL%204010\" title=\"ITAL&nbsp;4010\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 4010');\">ITAL&nbsp;4010</a> or permission from the School.",
-        "precludes": [
-          "ITAL 4110"
-        ]
-      },
-      {
-        "code": "ITAL 4110",
-        "title": "Intensive Fourth-Year Italian",
-        "credits": 1,
-        "description": "ITAL 4110 [1.0 credit] Intensive Fourth-Year Italian Advanced spoken and written Italian with intensive practice in aural comprehension and speaking in a range of situations and contexts, in reading and in composition in a range of modes and genres. Metalinguistic study. Compulsory attendance.",
-        "prereq": null,
-        "prereqRaw": " grade of C or higher in <a href=\"/search/?P=ITAL%203110\" title=\"ITAL&nbsp;3110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 3110');\">ITAL&nbsp;3110</a>, or permission of the School.",
-        "precludes": [
-          "ITAL 4010",
-          "ITAL 4020"
-        ]
-      },
-      {
-        "code": "ITAL 4900",
-        "title": "Independent Study",
-        "credits": 1,
-        "description": "ITAL 4900 [1.0 credit] Independent Study Research in a topic in Italian language, literature or linguistics under the supervision of a member of the School.",
-        "prereq": null,
-        "prereqRaw": " third- or fourth-year standing in the Minor in Italian, grade of C or higher in <a href=\"/search/?P=ITAL%203110\" title=\"ITAL&nbsp;3110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 3110');\">ITAL&nbsp;3110</a> or equivalent, or permission of the School.",
+        "prereqRaw": " Grade 11 Functions (University/College Preparation), or equivalent.",
         "precludes": []
       },
       {
-        "code": "ITAL 4901",
-        "title": "Independent Study",
+        "code": "MATH 0006",
+        "title": "Precalculus: Trigonometric Functions and Complex Numbers",
         "credits": 0.5,
-        "description": "ITAL 4901 [0.5 credit] Independent Study Research in a topic in Italian language, literature or linguistics under the supervision of a member of the School.",
+        "description": "MATH 0006 [0.5 credit] Precalculus: Trigonometric Functions and Complex Numbers Angles and the unit circle, radian measure. Definitions of trigonometric functions. Fundamental relations, Law of Sines and Cosines. Analytic trigonometry, graphs, inverse functions. Trigonometric identities and equations. Applications in science and engineering. Complex numbers in polar form, de Moivre's Theorem, n-th roots of complex numbers.",
         "prereq": null,
-        "prereqRaw": " third- or fourth-year standing in the Minor in Italian, grade of C or higher in <a href=\"/search/?P=ITAL%203110\" title=\"ITAL&nbsp;3110\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ITAL 3110');\">ITAL&nbsp;3110</a> or equivalent, or permission of the School.",
+        "prereqRaw": " Grade 11 Functions (University/College Preparation), or <a href=\"/search/?P=MATH%200005\" title=\"MATH&nbsp;0005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 0005');\">MATH&nbsp;0005</a>, or equivalent.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 0009",
+        "title": "Calculus and Vectors",
+        "credits": 0.5,
+        "description": "MATH 0009 [0.5 credit] Calculus and Vectors Limits and continuity. Differentiation rules. Trigonometric, logarithmic, and exponential functions, and their derivatives. Curve sketching. Optimization problems. Introduction to vectors. Dot and cross products. Projections. Equations of lines and planes. Intersection points and distances between points, lines, and planes.",
+        "prereq": null,
+        "prereqRaw": " Grade 12 Mathematics (Advanced Functions); or both <a href=\"/search/?P=MATH%200005\" title=\"MATH&nbsp;0005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 0005');\">MATH&nbsp;0005</a> and <a href=\"/search/?P=MATH%200006\" title=\"MATH&nbsp;0006\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 0006');\">MATH&nbsp;0006</a>; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 0107",
+        "title": "Algebra and Geometry",
+        "credits": 0.5,
+        "description": "MATH 0107 [0.5 credit] Algebra and Geometry Vectors in the plane and in 3-space. Linear combinations and linear independence. Equations of lines and planes in space. Solution of systems of linear equations. Proofs by induction. Binomial Theorem. Logic.",
+        "prereq": null,
+        "prereqRaw": " Grade 11 Functions (University/College Preparation) or equivalent.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 1004",
+        "title": "Calculus for Engineering or Physics",
+        "credits": 0.5,
+        "description": "MATH 1004 [0.5 credit] Calculus for Engineering or Physics Limits. Differentiation of the elementary functions. Rules of differentiation. Inverse trigonometric functions. Applications of differentiation: max-min problems, curve sketching, approximations. Definite and indefinite integrals, techniques of integration. Applications to areas and volumes.",
+        "prereq": null,
+        "prereqRaw": " Ontario Grade 12 Mathematics: Advanced Functions, or <a href=\"/search/?P=MATH%200005\" title=\"MATH&nbsp;0005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 0005');\">MATH&nbsp;0005</a> and <a href=\"/search/?P=MATH%200006\" title=\"MATH&nbsp;0006\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 0006');\">MATH&nbsp;0006</a>, or equivalent. Restricted to students in the Faculty of Engineering, or in certain B.Sc. and B.A.S. programs where specified.",
+        "precludes": [
+          "BIT 1000",
+          "BIT 1100",
+          "BIT 1200",
+          "MATH 1007",
+          "MATH 1052"
+        ]
+      },
+      {
+        "code": "MATH 1005",
+        "title": "Differential Equations and Infinite Series for Engineering or Physics",
+        "credits": 0.5,
+        "description": "MATH 1005 [0.5 credit] Differential Equations and Infinite Series for Engineering or Physics First-order differential equations. Second-order linear equations with constant coefficients, undetermined coefficients, variation of parameters. Sequences and series, convergence tests, estimation of sums. Power series, Taylor series, remainders. Fourier series.",
+        "prereq": null,
+        "prereqRaw": " i) <a href=\"/search/?P=MATH%201004\" title=\"MATH&nbsp;1004\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1004');\">MATH&nbsp;1004</a>; and ii) <a href=\"/search/?P=MATH%201104\" title=\"MATH&nbsp;1104\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1104');\">MATH&nbsp;1104</a> (or <a href=\"/search/?P=MATH%201107\" title=\"MATH&nbsp;1107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1107');\">MATH&nbsp;1107</a>), either previously or concurrently; or equivalents; or permission of the School. Restricted to students in the Faculty of Engineering, or in certain B.Sc. programs where specified.",
+        "precludes": [
+          "MATH 2007",
+          "MATH 2052",
+          "MATH 2404"
+        ]
+      },
+      {
+        "code": "MATH 1007",
+        "title": "Elementary Calculus I",
+        "credits": 0.5,
+        "description": "MATH 1007 [0.5 credit] Elementary Calculus I Limits. Differentiation of the elementary functions, including trigonometric functions. Rules of differentiation. Applications of differentiation: max-min problems, curve sketching, approximations. Introduction to integration: definite and indefinite integrals, areas under curves, fundamental theorem of calculus.",
+        "prereq": null,
+        "prereqRaw": " Ontario Grade 12 Mathematics: Advanced Functions; or <a href=\"/search/?P=MATH%200005\" title=\"MATH&nbsp;0005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 0005');\">MATH&nbsp;0005</a> and <a href=\"/search/?P=MATH%200006\" title=\"MATH&nbsp;0006\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 0006');\">MATH&nbsp;0006</a>; or equivalent.",
+        "precludes": [
+          "BIT 1000",
+          "BIT 1100",
+          "BIT 1200",
+          "MATH 1004",
+          "MATH 1401",
+          "ECON 1401",
+          "MATH 1402",
+          "ECON 1402",
+          "MATH 1052"
+        ]
+      },
+      {
+        "code": "MATH 1009",
+        "title": "Mathematics for Business",
+        "credits": 0.5,
+        "description": "MATH 1009 [0.5 credit] Mathematics for Business An introductory course of mathematics for business. Thorough review of basic arithmetic and algebra. Elementary functions, their graphs, properties and applications in business models. Limits. Derivatives of elementary functions. Systems of linear equations/inequalities. Geometric series.",
+        "prereq": null,
+        "prereqRaw": " Restricted to B.Com. and B.I.B students.",
+        "precludes": [
+          "BIT 1000",
+          "BIT 1100",
+          "BIT 1200",
+          "MATH 1401",
+          "ECON 1401",
+          "MATH 1052"
+        ]
+      },
+      {
+        "code": "MATH 1052",
+        "title": "Calculus and Introductory Analysis I",
+        "credits": 0.5,
+        "description": "MATH 1052 [0.5 credit] Calculus and Introductory Analysis I Properties of the real numbers. Limits. Sequences and series. Elementary functions. Continuity. Derivatives. Extreme values. Mean Value Theorem. L’Hospital’s rules. Antiderivatives. An emphasis is placed on proofs and theory.",
+        "prereq": null,
+        "prereqRaw": " i) Grade 12 Mathematics: Advanced Functions, and Grade 12 Mathematics: Calculus and Vectors, with grades of at least 75% in each; or <a href=\"/search/?P=MATH%200005\" title=\"MATH&nbsp;0005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 0005');\">MATH&nbsp;0005</a> and <a href=\"/search/?P=MATH%200006\" title=\"MATH&nbsp;0006\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 0006');\">MATH&nbsp;0006</a> with grades of at least B in each; or equivalents; and ii) <a href=\"/search/?P=MATH%201800\" title=\"MATH&nbsp;1800\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1800');\">MATH&nbsp;1800</a> (may be taken concurrently); or permission of the School of Mathematics and Statistics.",
+        "precludes": [
+          "BIT 1000",
+          "BIT 1100",
+          "BIT 1200",
+          "MATH 1004",
+          "MATH 1007",
+          "MATH 1009",
+          "MATH 1401",
+          "ECON 1401",
+          "MATH 1402",
+          "ECON 1402"
+        ]
+      },
+      {
+        "code": "MATH 1104",
+        "title": "Linear Algebra for Engineering or Science",
+        "credits": 0.5,
+        "description": "MATH 1104 [0.5 credit] Linear Algebra for Engineering or Science Systems of linear equations. Matrix algebra. Determinants. Invertible matrix theorem. Cramer’s rule. Vector space R^n; subspaces, bases. Eigenvalues, diagonalization. Linear transformations, kernel, range. Complex numbers (including De Moivre’s theorem). Inner product spaces and orthogonality. Applications.",
+        "prereq": null,
+        "prereqRaw": " Ontario Grade 12 Mathematics: Advanced Functions, or <a href=\"/search/?P=MATH%200005\" title=\"MATH&nbsp;0005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 0005');\">MATH&nbsp;0005</a>, or equivalent, or permission of the School. Restricted to students in the Faculty of Engineering, the School of Computer Science, or in certain B.Sc. and B.A.S. programs where specified.",
+        "precludes": [
+          "BIT 1001",
+          "BIT 1101",
+          "BIT 1201",
+          "MATH 1107",
+          "MATH 1119",
+          "MATH 1401",
+          "ECON 1401",
+          "MATH 1402",
+          "ECON 1402",
+          "MATH 1152",
+          "MATH 1119",
+          "MATH 1104"
+        ]
+      },
+      {
+        "code": "MATH 1107",
+        "title": "Linear Algebra I",
+        "credits": 0.5,
+        "description": "MATH 1107 [0.5 credit] Linear Algebra I Systems of linear equations; vector space of n-tuples, subspaces, bases; matrix transformations, kernel, range; matrix algebra and determinants. Dot product. Complex numbers (including de Moivre's Theorem, and n-th roots). Eigenvalues, diagonalization and applications. Note: MATH 1119 is not an acceptable substitute for MATH 1107.",
+        "prereq": null,
+        "prereqRaw": " Ontario Grade 12 Mathematics: Advanced Functions, or <a href=\"/search/?P=MATH%200005\" title=\"MATH&nbsp;0005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 0005');\">MATH&nbsp;0005</a>, or equivalent, or permission of the School.",
+        "precludes": [
+          "MATH 1119",
+          "MATH 1107",
+          "BIT 1001",
+          "BIT 1101",
+          "BIT 1201",
+          "MATH 1104",
+          "MATH 1119",
+          "MATH 1401",
+          "ECON 1401",
+          "MATH 1402",
+          "ECON 1402",
+          "MATH 1152"
+        ]
+      },
+      {
+        "code": "MATH 1119",
+        "title": "Linear Algebra: with Applications to Business",
+        "credits": 0.5,
+        "description": "MATH 1119 [0.5 credit] Linear Algebra: with Applications to Business Introduction to systems of linear equations, geometric interpretation in two and three dimensions, introduction to matrices, vector addition and scalar multiplication, linear dependence, matrix operations, rank, inversion, invertible matrix theorem, determinants. Use of illustrative examples related to business.",
+        "prereq": null,
+        "prereqRaw": " Ontario Grade 12 Mathematics of Data Management; or Ontario Grade 12 Mathematics:  Advanced Functions, or <a href=\"/search/?P=MATH%200005\" title=\"MATH&nbsp;0005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 0005');\">MATH&nbsp;0005</a>, or equivalent, or permission of the School.",
+        "precludes": [
+          "BIT 1001",
+          "BIT 1101",
+          "BIT 1201",
+          "MATH 1104",
+          "MATH 1107",
+          "MATH 1401",
+          "ECON 1401",
+          "MATH 1402",
+          "ECON 1402",
+          "MATH 1152"
+        ]
+      },
+      {
+        "code": "MATH 1152",
+        "title": "Introductory Algebra I",
+        "credits": 0.5,
+        "description": "MATH 1152 [0.5 credit] Introductory Algebra I Properties of numbers. Modular arithmetic. Fields, including complex numbers and finite fields. Vector spaces. Matrix algebra. Solutions of linear systems. Linear dependence. Spanning sets. Bases. Subspaces. The rank-nullity theorem. Linear transformations. An emphasis is placed on proofs and theory.",
+        "prereq": null,
+        "prereqRaw": " i) Grade 12 Mathematics: Advanced Functions, and Grade 12 Mathematics: Calculus and Vectors, with grades of at least 75% in each; or <a href=\"/search/?P=MATH%200005\" title=\"MATH&nbsp;0005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 0005');\">MATH&nbsp;0005</a>, <a href=\"/search/?P=MATH%200006\" title=\"MATH&nbsp;0006\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 0006');\">MATH&nbsp;0006</a>, and <a href=\"/search/?P=MATH%200107\" title=\"MATH&nbsp;0107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 0107');\">MATH&nbsp;0107</a> with grades of at least B in each; or equivalents; and ii) <a href=\"/search/?P=MATH%201800\" title=\"MATH&nbsp;1800\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1800');\">MATH&nbsp;1800</a> (may be taken concurrently); or permission of the School of Mathematics and Statistics.",
+        "precludes": [
+          "BIT 1001",
+          "BIT 1101",
+          "BIT 1201",
+          "MATH 1104",
+          "MATH 1107",
+          "MATH 1119",
+          "MATH 1401",
+          "ECON 1401",
+          "MATH 1402",
+          "ECON 1402"
+        ]
+      },
+      {
+        "code": "MATH 1401",
+        "title": "Elementary Mathematics for Economics I",
+        "credits": 0.5,
+        "description": "MATH 1401 [0.5 credit] Elementary Mathematics for Economics I Functional relations: functional forms and error terms. Graphing economic magnitudes: scatter diagrams, time-series graphs, functional relationships. Applied calculus: mechanics of differentiation and integration, elasticity, consumer/producer surplus. Applied algebra: solving systems of linear equations and Keynesian national-income analysis. Problem solving approaches.",
+        "prereq": null,
+        "prereqRaw": " Ontario Grade 12 U Advanced Functions, or <a href=\"/search/?P=MATH%200005\" title=\"MATH&nbsp;0005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 0005');\">MATH&nbsp;0005</a>, or equivalent; and <a href=\"/search/?P=ECON%201000\" title=\"ECON&nbsp;1000\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ECON 1000');\">ECON&nbsp;1000</a> or <a href=\"/search/?P=FYSM%201003\" title=\"FYSM&nbsp;1003\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'FYSM 1003');\">FYSM&nbsp;1003</a>, which may be taken concurrently with <a href=\"/search/?P=MATH%201401\" title=\"MATH&nbsp;1401\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1401');\">MATH&nbsp;1401</a>/<a href=\"/search/?P=ECON%201401\" title=\"ECON&nbsp;1401\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ECON 1401');\">ECON&nbsp;1401</a>.",
+        "precludes": [
+          "BIT 1000",
+          "BIT 1001",
+          "BIT 1100",
+          "BIT 1101",
+          "BIT 1200",
+          "BIT 1201",
+          "ECON 1401",
+          "MATH 1007",
+          "MATH 1009",
+          "MATH 1052",
+          "MATH 1104",
+          "MATH 1107",
+          "MATH 1119",
+          "MATH 1152"
+        ]
+      },
+      {
+        "code": "MATH 1402",
+        "title": "Elementary Mathematics for Economics II",
+        "credits": 0.5,
+        "description": "MATH 1402 [0.5 credit] Elementary Mathematics for Economics II Calculus: including partial differentiation, definite and indefinite integrals, techniques of integration, and unconstrained optimization. Vectors and matrices: scalar multiplication, inner product, linear dependence, matrix operations, rank, invertible matrix theorem, and determinants. Economic applications such as profit maximization, comparative statics, and the Leontief input-output model.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=ECON%201000\" title=\"ECON&nbsp;1000\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ECON 1000');\">ECON&nbsp;1000</a> or <a href=\"/search/?P=FYSM%201003\" title=\"FYSM&nbsp;1003\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'FYSM 1003');\">FYSM&nbsp;1003</a> with a grade of <span class=\"keeptogether\">C-</span> or higher, and <a href=\"/search/?P=ECON%201401\" title=\"ECON&nbsp;1401\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ECON 1401');\">ECON&nbsp;1401</a>/<a href=\"/search/?P=MATH%201401\" title=\"MATH&nbsp;1401\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1401');\">MATH&nbsp;1401</a> with a grade of <span class=\"keeptogether\">C-</span> or higher.",
+        "precludes": [
+          "BIT 1000",
+          "BIT 1001",
+          "BIT 1100",
+          "BIT 1101",
+          "BIT 1200",
+          "BIT 1201",
+          "ECON 1402",
+          "MATH 1007",
+          "MATH 1009",
+          "MATH 1052",
+          "MATH 1104",
+          "MATH 1107",
+          "MATH 1119",
+          "MATH 1152"
+        ]
+      },
+      {
+        "code": "MATH 1800",
+        "title": "Introduction to Mathematical Reasoning",
+        "credits": 0.5,
+        "description": "MATH 1800 [0.5 credit] Introduction to Mathematical Reasoning Elementary logic, propositional and predicate calculus, quantifiers, sets and functions, bijections and elementary counting, the concept of infinity, relations, well ordering and induction. The practice of mathematical proof in elementary number theory and combinatorics.",
+        "prereq": null,
+        "prereqRaw": " Ontario Grade 12 Mathematics:  Advanced Functions, or <a href=\"/search/?P=MATH%200005\" title=\"MATH&nbsp;0005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 0005');\">MATH&nbsp;0005</a>, or equivalent.",
+        "precludes": [
+          "COMP 1805"
+        ]
+      },
+      {
+        "code": "MATH 2001",
+        "title": "Multivariable Calculus and Fundamentals of Analysis I",
+        "credits": 0.5,
+        "description": "MATH 2001 [0.5 credit] Multivariable Calculus and Fundamentals of Analysis I Functions of several variables, limits, continuity, partial derivatives and the derivative, higher order partial derivatives, maxima and minima, Lagrange multipliers. Inverse and implicit function theorems, Riemann integral in several variables, change of coordinates.",
+        "prereq": null,
+        "prereqRaw": " i) <a href=\"/search/?P=MATH%202052\" title=\"MATH&nbsp;2052\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2052');\">MATH&nbsp;2052</a> with a grade of <span class=\"keeptogether\">C+</span> or higher, or (<a href=\"/search/?P=MATH%202007\" title=\"MATH&nbsp;2007\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2007');\">MATH&nbsp;2007</a> or <a href=\"/search/?P=MATH%201005\" title=\"MATH&nbsp;1005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1005');\">MATH&nbsp;1005</a> with a grade of <span class=\"keeptogether\">B+</span> or higher and permission of the School); and ii) <a href=\"/search/?P=MATH%202152\" title=\"MATH&nbsp;2152\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2152');\">MATH&nbsp;2152</a> with a grade of <span class=\"keeptogether\">C+</span> or higher, or <a href=\"/search/?P=MATH%201107\" title=\"MATH&nbsp;1107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1107');\">MATH&nbsp;1107</a> or <a href=\"/search/?P=MATH%201104\" title=\"MATH&nbsp;1104\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1104');\">MATH&nbsp;1104</a> with a grade of <span class=\"keeptogether\">B+</span> or higher; and iii) <a href=\"/search/?P=MATH%201800\" title=\"MATH&nbsp;1800\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1800');\">MATH&nbsp;1800</a> with a grade of <span class=\"keeptogether\">C+</span> or higher; or permission of the School.",
+        "precludes": [
+          "MATH 2004",
+          "MATH 2008",
+          "MATH 3009"
+        ]
+      },
+      {
+        "code": "MATH 2002",
+        "title": "Multivariable Calculus and Fundamentals of Analysis II",
+        "credits": 0.5,
+        "description": "MATH 2002 [0.5 credit] Multivariable Calculus and Fundamentals of Analysis II Vector fields, parametric curves and surfaces, line integrals and Green's theorem, surface integrals, Stokes' theorem and divergence theorem. Real number axioms, limit superior and inferior, completeness. Topology of n-dimensional Euclidean space. Sequences, subsequences, compactness.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202001\" title=\"MATH&nbsp;2001\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2001');\">MATH&nbsp;2001</a> with a grade of <span class=\"keeptogether\">C-</span> or higher; or permission of the School.",
+        "precludes": [
+          "MATH 2004",
+          "MATH 2008",
+          "MATH 3009"
+        ]
+      },
+      {
+        "code": "MATH 2004",
+        "title": "Multivariable Calculus for Engineering or Physics",
+        "credits": 0.5,
+        "description": "MATH 2004 [0.5 credit] Multivariable Calculus for Engineering or Physics Curves and surfaces. Polar, cylindrical and spherical coordinates. Partial derivatives, gradients, extrema and Lagrange multipliers. Exact differentials. Multiple integrals over rectangular and general regions. Integrals over surfaces. Line integrals. Vector differential operators. Green’s Theorem, Stokes’ theorem, Divergence Theorem. Applications.",
+        "prereq": null,
+        "prereqRaw": " i) <a href=\"/search/?P=MATH%201005\" title=\"MATH&nbsp;1005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1005');\">MATH&nbsp;1005</a> or <a href=\"/search/?P=MATH%202007\" title=\"MATH&nbsp;2007\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2007');\">MATH&nbsp;2007</a>; and ii) <a href=\"/search/?P=MATH%201104\" title=\"MATH&nbsp;1104\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1104');\">MATH&nbsp;1104</a> or <a href=\"/search/?P=MATH%201107\" title=\"MATH&nbsp;1107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1107');\">MATH&nbsp;1107</a>; or permission of the School. Restricted to students in the Faculty of Engineering, or in certain B.Sc. programs where specified.",
+        "precludes": [
+          "BIT 2010",
+          "MATH 2001",
+          "MATH 2002",
+          "MATH 2008"
+        ]
+      },
+      {
+        "code": "MATH 2007",
+        "title": "Elementary Calculus II",
+        "credits": 0.5,
+        "description": "MATH 2007 [0.5 credit] Elementary Calculus II Techniques of integration, improper integrals. Polar coordinates, parametric equations. Indeterminate forms, sequences and series, Taylor's formula and series.",
+        "prereq": null,
+        "prereqRaw": " i) <a href=\"/search/?P=MATH%201004\" title=\"MATH&nbsp;1004\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1004');\">MATH&nbsp;1004</a>, or a grade of <span class=\"keeptogether\">C-</span> or higher in <a href=\"/search/?P=MATH%201007\" title=\"MATH&nbsp;1007\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1007');\">MATH&nbsp;1007</a>; or <a href=\"/search/?P=MATH%201052\" title=\"MATH&nbsp;1052\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1052');\">MATH&nbsp;1052</a> and permission of the School.",
+        "precludes": [
+          "MATH 1005",
+          "MATH 2052"
+        ]
+      },
+      {
+        "code": "MATH 2008",
+        "title": "Intermediate Calculus",
+        "credits": 0.5,
+        "description": "MATH 2008 [0.5 credit] Intermediate Calculus Partial differentiation, chain rule, gradient, line and multiple integrals with applications, transformations of multiple integrals.",
+        "prereq": null,
+        "prereqRaw": " one of <a href=\"/search/?P=MATH%201005\" title=\"MATH&nbsp;1005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1005');\">MATH&nbsp;1005</a>, <a href=\"/search/?P=MATH%202052\" title=\"MATH&nbsp;2052\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2052');\">MATH&nbsp;2052</a>, or <a href=\"/search/?P=MATH%202007\" title=\"MATH&nbsp;2007\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2007');\">MATH&nbsp;2007</a>, and one of <a href=\"/search/?P=MATH%201104\" title=\"MATH&nbsp;1104\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1104');\">MATH&nbsp;1104</a>, <a href=\"/search/?P=MATH%201107\" title=\"MATH&nbsp;1107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1107');\">MATH&nbsp;1107</a>, or <a href=\"/search/?P=MATH%201152\" title=\"MATH&nbsp;1152\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1152');\">MATH&nbsp;1152</a>.",
+        "precludes": [
+          "MATH 2001",
+          "MATH 2002",
+          "MATH 2004"
+        ]
+      },
+      {
+        "code": "MATH 2052",
+        "title": "Calculus and Introductory Analysis II",
+        "credits": 0.5,
+        "description": "MATH 2052 [0.5 credit] Calculus and Introductory Analysis II Definite, indefinite integrals. Improper integrals. The fundamental theorem of calculus. An introduction to differential equations. Sequences and series of functions. Power series. Taylor’s formulae. Uniform convergence. An emphasis is placed on proofs and theory.",
+        "prereq": null,
+        "prereqRaw": " (i) MATH1052 with a grade of <span class=\"keeptogether\">C-</span> or higher or (MATH1007 or MATH1004 with a grade of <span class=\"keeptogether\">B+</span> or higher and permission of the School), and (ii) MATH1800 with a grade of <span class=\"keeptogether\">C+</span> or higher; or permission of the School.",
+        "precludes": [
+          "MATH 1005",
+          "MATH 2007"
+        ]
+      },
+      {
+        "code": "MATH 2100",
+        "title": "Algebra",
+        "credits": 1,
+        "description": "MATH 2100 [1.0 credit] Algebra Introduction to group theory: permutation groups, Lagrange's theorem, normal subgroups, homomorphism theorems. Introduction to ring theory: ring of polynomials, integral domains, ideals, homomorphism theorems. Hermitian forms, spectral theorem for normal operators, bilinear and quadratic forms, classical groups.",
+        "prereq": null,
+        "prereqRaw": " i) <a href=\"/search/?P=MATH%202152\" title=\"MATH&nbsp;2152\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2152');\">MATH&nbsp;2152</a> with a grade of <span class=\"keeptogether\">C+</span> or higher, or (<a href=\"/search/?P=MATH%202107\" title=\"MATH&nbsp;2107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2107');\">MATH&nbsp;2107</a> with a grade of <span class=\"keeptogether\">B+</span> or higher and permission of the School); and ii) <a href=\"/search/?P=MATH%201800\" title=\"MATH&nbsp;1800\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1800');\">MATH&nbsp;1800</a> with a grade of <span class=\"keeptogether\">C+</span> or higher; or permission of the School.",
+        "precludes": [
+          "MATH 2108",
+          "MATH 3101"
+        ]
+      },
+      {
+        "code": "MATH 2107",
+        "title": "Linear Algebra II",
+        "credits": 0.5,
+        "description": "MATH 2107 [0.5 credit] Linear Algebra II Finite-dimensional vector spaces (over R and C), subspaces, linear independence and bases. Linear transformations and matrices. Inner product spaces (over R and C); Orthonormal bases. Eigenvalues and diagonalization. Bilinear and quadratic forms; principal axis theorem.",
+        "prereq": null,
+        "prereqRaw": " i) <a href=\"/search/?P=MATH%201104\" title=\"MATH&nbsp;1104\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1104');\">MATH&nbsp;1104</a>, or a grade of <span class=\"keeptogether\">C-</span> or higher in <a href=\"/search/?P=MATH%201107\" title=\"MATH&nbsp;1107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1107');\">MATH&nbsp;1107</a> or MATH 1109; and ii) a grade of <span class=\"keeptogether\">C-</span> or higher in <a href=\"/search/?P=MATH%201007\" title=\"MATH&nbsp;1007\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1007');\">MATH&nbsp;1007</a> or equivalent; or <a href=\"/search/?P=MATH%201152\" title=\"MATH&nbsp;1152\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1152');\">MATH&nbsp;1152</a> and permission of the School. Note: in item i), <a href=\"/search/?P=MATH%201119\" title=\"MATH&nbsp;1119\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1119');\">MATH&nbsp;1119</a> is NOT acceptable as a substitute for MATH 1109.",
+        "precludes": [
+          "MATH 2152"
+        ]
+      },
+      {
+        "code": "MATH 2108",
+        "title": "Abstract Algebra I",
+        "credits": 0.5,
+        "description": "MATH 2108 [0.5 credit] Abstract Algebra I Sets and relations, number theory, group theory, ring theory, cardinal numbers.",
+        "prereq": null,
+        "prereqRaw": " i) <a href=\"/search/?P=MATH%202152\" title=\"MATH&nbsp;2152\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2152');\">MATH&nbsp;2152</a> or <a href=\"/search/?P=MATH%202107\" title=\"MATH&nbsp;2107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2107');\">MATH&nbsp;2107</a>; and ii) <a href=\"/search/?P=MATH%201800\" title=\"MATH&nbsp;1800\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1800');\">MATH&nbsp;1800</a> (<a href=\"/search/?P=MATH%201800\" title=\"MATH&nbsp;1800\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1800');\">MATH&nbsp;1800</a> may be taken concurrently, with permission of the School); or <a href=\"/search/?P=COMP%201805\" title=\"COMP&nbsp;1805\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1805');\">COMP&nbsp;1805</a>; or permission of the School.",
+        "precludes": [
+          "MATH 3101",
+          "MATH 2100"
+        ]
+      },
+      {
+        "code": "MATH 2152",
+        "title": "Introductory Algebra II",
+        "credits": 0.5,
+        "description": "MATH 2152 [0.5 credit] Introductory Algebra II Linear transformations. Determinants. Eigenvalues and eigenspaces. Diagonalization and other canonical forms. Inner products. An emphasis is placed on proofs and theory.",
+        "prereq": null,
+        "prereqRaw": " (i) MATH1152 with a grade of <span class=\"keeptogether\">C-</span> or higher or (MATH1107 or MATH1104 with a grade of <span class=\"keeptogether\">B+</span> or higher and permission of the School), and (ii) MATH1800 with a grade of <span class=\"keeptogether\">C+</span> or higher; or permission of the School.",
+        "precludes": [
+          "MATH 2107"
+        ]
+      },
+      {
+        "code": "MATH 2210",
+        "title": "Introduction to Geometry",
+        "credits": 0.5,
+        "description": "MATH 2210 [0.5 credit] Introduction to Geometry An introduction to classical geometry; Euclidean plane geometry; plane tiling; polytopes in three and four dimensions; curved surfaces; Euler characteristic. This course is intended for a general audience, and is available to B.Math. students for credit only as a free elective.",
+        "prereq": null,
+        "prereqRaw": " Grade 12 Mathematics and second-year standing.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 2404",
+        "title": "Ordinary Differential Equations I",
+        "credits": 0.5,
+        "description": "MATH 2404 [0.5 credit] Ordinary Differential Equations I First-order equations, linear second- and higher-order equations, linear systems, stability of second-order systems.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202052\" title=\"MATH&nbsp;2052\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2052');\">MATH&nbsp;2052</a> and <a href=\"/search/?P=MATH%201152\" title=\"MATH&nbsp;1152\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1152');\">MATH&nbsp;1152</a> (or <a href=\"/search/?P=MATH%201107\" title=\"MATH&nbsp;1107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1107');\">MATH&nbsp;1107</a> and <a href=\"/search/?P=MATH%202007\" title=\"MATH&nbsp;2007\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2007');\">MATH&nbsp;2007</a>).",
+        "precludes": [
+          "MATH 1005",
+          "MATH 2454"
+        ]
+      },
+      {
+        "code": "MATH 2454",
+        "title": "Ordinary Differential Equations (Honours)",
+        "credits": 0.5,
+        "description": "MATH 2454 [0.5 credit] Ordinary Differential Equations (Honours) Existence and uniqueness theorems. First-order equations, linear second- and higher-order equations, linear systems, stability of second-order systems.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202052\" title=\"MATH&nbsp;2052\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2052');\">MATH&nbsp;2052</a> or <a href=\"/search/?P=MATH%202007\" title=\"MATH&nbsp;2007\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2007');\">MATH&nbsp;2007</a> or <a href=\"/search/?P=MATH%201005\" title=\"MATH&nbsp;1005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1005');\">MATH&nbsp;1005</a> with a grade of <span class=\"keeptogether\">C+</span> or higher, and <a href=\"/search/?P=MATH%202152\" title=\"MATH&nbsp;2152\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2152');\">MATH&nbsp;2152</a> or <a href=\"/search/?P=MATH%202107\" title=\"MATH&nbsp;2107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2107');\">MATH&nbsp;2107</a> with a grade of <span class=\"keeptogether\">C+</span> or higher.",
+        "precludes": [
+          "MATH 2404"
+        ]
+      },
+      {
+        "code": "MATH 2800",
+        "title": "Discrete Mathematics and Algorithms",
+        "credits": 0.5,
+        "description": "MATH 2800 [0.5 credit] Discrete Mathematics and Algorithms An introduction to discrete mathematics and algorithms in the context of the computational sciences. Basic number theory and counting methods, algorithms for strings, trees and sequences. Applications to DNA and protein sequencing problems. Analysis and complexity of algorithms.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=COMP%201006\" title=\"COMP&nbsp;1006\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1006');\">COMP&nbsp;1006</a> and at least one of <a href=\"/search/?P=MATH%201007\" title=\"MATH&nbsp;1007\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1007');\">MATH&nbsp;1007</a>, <a href=\"/search/?P=MATH%201107\" title=\"MATH&nbsp;1107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1107');\">MATH&nbsp;1107</a>, or <a href=\"/search/?P=STAT%202507\" title=\"STAT&nbsp;2507\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2507');\">STAT&nbsp;2507</a>.",
+        "precludes": [
+          "COMP 1805",
+          "MATH 2800"
+        ]
+      },
+      {
+        "code": "MATH 2907",
+        "title": "Directed Studies (Honours)",
+        "credits": 0.5,
+        "description": "MATH 2907 [0.5 credit] Directed Studies (Honours) Available only to Honours students whose program requires a 0.5 credit not offered by the School of Mathematics and Statistics.",
+        "prereq": null,
+        "prereqRaw": null,
+        "precludes": []
+      },
+      {
+        "code": "MATH 3001",
+        "title": "Real Analysis I (Honours)",
+        "credits": 0.5,
+        "description": "MATH 3001 [0.5 credit] Real Analysis I (Honours) Metric spaces and their topologies, continuous maps, completeness, compactness, connectedness, introduction to Banach spaces.",
+        "prereq": null,
+        "prereqRaw": " (<a href=\"/search/?P=MATH%202001\" title=\"MATH&nbsp;2001\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2001');\">MATH&nbsp;2001</a> and <a href=\"/search/?P=MATH%202002\" title=\"MATH&nbsp;2002\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2002');\">MATH&nbsp;2002</a>) with a grade of <span class=\"keeptogether\">C-</span> or higher; or (<a href=\"/search/?P=MATH%203009\" title=\"MATH&nbsp;3009\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3009');\">MATH&nbsp;3009</a> and <a href=\"/search/?P=MATH%201800\" title=\"MATH&nbsp;1800\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1800');\">MATH&nbsp;1800</a>) each with a grade of B or higher, and permission of the instructor; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3002",
+        "title": "Real Analysis II (Honours)",
+        "credits": 0.5,
+        "description": "MATH 3002 [0.5 credit] Real Analysis II (Honours) Function spaces, pointwise and uniform convergence, Weierstrass approximation theorem, Lebesgue measure and Lebesgue integral on the real line, Hilbert space, Fourier series.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%203001\" title=\"MATH&nbsp;3001\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3001');\">MATH&nbsp;3001</a> with a grade of <span class=\"keeptogether\">C-</span> or higher, or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3003",
+        "title": "Advanced Differential Calculus (Honours)",
+        "credits": 0.5,
+        "description": "MATH 3003 [0.5 credit] Advanced Differential Calculus (Honours) Review of multivariable differentiation and integration. Vector fields, differential forms and exterior algebra. Introduction to manifolds and tangent bundles. Stokes’ Theorem. Applications such as differential equations and the calculus of variations.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%203001\" title=\"MATH&nbsp;3001\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3001');\">MATH&nbsp;3001</a> with a grade of <span class=\"keeptogether\">C-</span> or higher, or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3007",
+        "title": "Functions of a Complex Variable",
+        "credits": 0.5,
+        "description": "MATH 3007 [0.5 credit] Functions of a Complex Variable Analytic functions, contour integration, residue calculus, conformal mapping. Intended for non-engineering students.",
+        "prereq": null,
+        "prereqRaw": " one of <a href=\"/search/?P=MATH%202004\" title=\"MATH&nbsp;2004\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2004');\">MATH&nbsp;2004</a>, <a href=\"/search/?P=MATH%202008\" title=\"MATH&nbsp;2008\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2008');\">MATH&nbsp;2008</a> or MATH 2009, or permission of the School.",
+        "precludes": [
+          "MATH 3057",
+          "PHYS 3807"
+        ]
+      },
+      {
+        "code": "MATH 3008",
+        "title": "Ordinary Differential Equations (Honours)",
+        "credits": 0.5,
+        "description": "MATH 3008 [0.5 credit] Ordinary Differential Equations (Honours) Analytic ordinary differential equations: series solutions of ordinary differential equations about ordinary and regular singular points. Asymptotic solutions. Sturm-Liouville theory. Bessel and Legendre functions. Fourier series.",
+        "prereq": null,
+        "prereqRaw": " i) (<a href=\"/search/?P=MATH%202001\" title=\"MATH&nbsp;2001\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2001');\">MATH&nbsp;2001</a> and <a href=\"/search/?P=MATH%202002\" title=\"MATH&nbsp;2002\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2002');\">MATH&nbsp;2002</a>) with a grade of <span class=\"keeptogether\">C-</span> or higher, or (<a href=\"/search/?P=MATH%203009\" title=\"MATH&nbsp;3009\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3009');\">MATH&nbsp;3009</a> with a grade of B or higher, and permission of the instructor); and ii) <a href=\"/search/?P=MATH%202454\" title=\"MATH&nbsp;2454\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2454');\">MATH&nbsp;2454</a> with a grade of <span class=\"keeptogether\">C-</span> or higher, or (<a href=\"/search/?P=MATH%202404\" title=\"MATH&nbsp;2404\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2404');\">MATH&nbsp;2404</a> with a grade of B or higher, and permission of the instructor).",
+        "precludes": [
+          "MATH 3404",
+          "PHYS 3808"
+        ]
+      },
+      {
+        "code": "MATH 3009",
+        "title": "Introductory Analysis",
+        "credits": 0.5,
+        "description": "MATH 3009 [0.5 credit] Introductory Analysis The real number system, sequences and series, functions of a single real variable, derivatives, the definite integral, uniform convergence.",
+        "prereq": null,
+        "prereqRaw": " one of <a href=\"/search/?P=MATH%202004\" title=\"MATH&nbsp;2004\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2004');\">MATH&nbsp;2004</a>, <a href=\"/search/?P=MATH%202008\" title=\"MATH&nbsp;2008\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2008');\">MATH&nbsp;2008</a>, MATH 2009, or permission of the School.",
+        "precludes": [
+          "MATH 2001",
+          "MATH 2002"
+        ]
+      },
+      {
+        "code": "MATH 3057",
+        "title": "Functions of a Complex Variable (Honours)",
+        "credits": 0.5,
+        "description": "MATH 3057 [0.5 credit] Functions of a Complex Variable (Honours) Analytic functions, contour integration, residue calculus, conformal mappings.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202001\" title=\"MATH&nbsp;2001\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2001');\">MATH&nbsp;2001</a> and <a href=\"/search/?P=MATH%202002\" title=\"MATH&nbsp;2002\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2002');\">MATH&nbsp;2002</a> with a grade of <span class=\"keeptogether\">C-</span> or higher; or permission of the School.",
+        "precludes": [
+          "MATH 3007",
+          "PHYS 3807"
+        ]
+      },
+      {
+        "code": "MATH 3101",
+        "title": "Algebraic Structures with Computer Applications",
+        "credits": 0.5,
+        "description": "MATH 3101 [0.5 credit] Algebraic Structures with Computer Applications Introduction to algebraic structures: groups, rings, fields, lattices, and Boolean algebras; with applications of interest to students in Computer Science. This course may not be used to meet the 3000-level course requirements in any B.Math or B.Math Honours program in Mathematics and Statistics.",
+        "prereq": null,
+        "prereqRaw": " i) <a href=\"/search/?P=MATH%202107\" title=\"MATH&nbsp;2107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2107');\">MATH&nbsp;2107</a> or <a href=\"/search/?P=MATH%202152\" title=\"MATH&nbsp;2152\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2152');\">MATH&nbsp;2152</a>; and ii) either <a href=\"/search/?P=COMP%201805\" title=\"COMP&nbsp;1805\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1805');\">COMP&nbsp;1805</a> or <a href=\"/search/?P=MATH%201800\" title=\"MATH&nbsp;1800\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1800');\">MATH&nbsp;1800</a> (<a href=\"/search/?P=MATH%201800\" title=\"MATH&nbsp;1800\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1800');\">MATH&nbsp;1800</a> may be taken concurrently, with permission of the School); or permission of the School.",
+        "precludes": [
+          "MATH 2108",
+          "MATH 2100"
+        ]
+      },
+      {
+        "code": "MATH 3106",
+        "title": "Introduction to Group Theory (Honours)",
+        "credits": 0.5,
+        "description": "MATH 3106 [0.5 credit] Introduction to Group Theory (Honours) Homomorphism theorems; groups acting on sets; permutation groups and groups of matrices; Sylow theory for finite groups; finitely generated abelian groups; generators and relations; applications.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202100\" title=\"MATH&nbsp;2100\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2100');\">MATH&nbsp;2100</a> with a grade of <span class=\"keeptogether\">C-</span> or higher; or (<a href=\"/search/?P=MATH%202108\" title=\"MATH&nbsp;2108\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2108');\">MATH&nbsp;2108</a> or <a href=\"/search/?P=MATH%203101\" title=\"MATH&nbsp;3101\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3101');\">MATH&nbsp;3101</a> with a grade of B or higher; and <a href=\"/search/?P=MATH%201800\" title=\"MATH&nbsp;1800\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1800');\">MATH&nbsp;1800</a> with a grade of B or higher; and permission of the instructor); or permission of the School.",
+        "precludes": [
+          "MATH 3108"
+        ]
+      },
+      {
+        "code": "MATH 3107",
+        "title": "Linear Algebra III",
+        "credits": 0.5,
+        "description": "MATH 3107 [0.5 credit] Linear Algebra III Similarity and unitary triangularization of matrices. Direct methods of solving a system of linear equations. Iterative techniques. Bounds for eigenvalues. Power method and deflation techniques of approximation. Emphasis is primarily on computational aspects.",
+        "prereq": null,
+        "prereqRaw": " i) a grade of <span class=\"keeptogether\">C-</span> or higher in <a href=\"/search/?P=MATH%202152\" title=\"MATH&nbsp;2152\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2152');\">MATH&nbsp;2152</a> or <a href=\"/search/?P=MATH%202107\" title=\"MATH&nbsp;2107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2107');\">MATH&nbsp;2107</a>; and ii) credit in <a href=\"/search/?P=MATH%202052\" title=\"MATH&nbsp;2052\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2052');\">MATH&nbsp;2052</a> or <a href=\"/search/?P=MATH%202007\" title=\"MATH&nbsp;2007\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2007');\">MATH&nbsp;2007</a>; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3108",
+        "title": "Abstract Algebra II",
+        "credits": 0.5,
+        "description": "MATH 3108 [0.5 credit] Abstract Algebra II Groups and rings. Permutations. Finite symmetry groups. Polynomials, unique factorization domains. Quotient rings, ideals. Field extensions, finite fields. Polynomial equations. Geometric constructions - three famous problems: duplication of the cube, trisection of an arbitrary angle, quadrature of the circle.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202108\" title=\"MATH&nbsp;2108\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2108');\">MATH&nbsp;2108</a>, or permission of the School.",
+        "precludes": [
+          "MATH 3106",
+          "MATH 3158"
+        ]
+      },
+      {
+        "code": "MATH 3158",
+        "title": "Rings and Fields (Honours)",
+        "credits": 0.5,
+        "description": "MATH 3158 [0.5 credit] Rings and Fields (Honours) Rings, integral domains, Euclidean and principal ideal domains, fields, polynomial rings over a field, algebraic extensions of fields, the fundamental theorem of Galois theory, finite fields, applications.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202100\" title=\"MATH&nbsp;2100\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2100');\">MATH&nbsp;2100</a> with a grade of <span class=\"keeptogether\">C-</span> or higher, or (<a href=\"/search/?P=MATH%202108\" title=\"MATH&nbsp;2108\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2108');\">MATH&nbsp;2108</a> or <a href=\"/search/?P=MATH%203101\" title=\"MATH&nbsp;3101\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3101');\">MATH&nbsp;3101</a> with a grade of B or higher and <a href=\"/search/?P=MATH%201800\" title=\"MATH&nbsp;1800\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1800');\">MATH&nbsp;1800</a> with a grade of B or higher and permission of the instructor), or permission of the School.",
+        "precludes": [
+          "MATH 3108"
+        ]
+      },
+      {
+        "code": "MATH 3206",
+        "title": "Plane Projective Geometry",
+        "credits": 0.5,
+        "description": "MATH 3206 [0.5 credit] Plane Projective Geometry Axioms of Desarguesian geometry, principle of duality; projectivities, perspectivities, and the fundamental theorem; collineations (homologies and elations); correlations (polarities and conics); algebraic model; projective curves; introduction to finite projective planes.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202100\" title=\"MATH&nbsp;2100\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2100');\">MATH&nbsp;2100</a> or <a href=\"/search/?P=MATH%202108\" title=\"MATH&nbsp;2108\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2108');\">MATH&nbsp;2108</a> or MATH  3101.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3210",
+        "title": "Euclidean and Non-Euclidean Geometry",
+        "credits": 0.5,
+        "description": "MATH 3210 [0.5 credit] Euclidean and Non-Euclidean Geometry Euclidean isometry and similarity groups; geometry of circles; inversion; hyperbolic geometry: Poincare disk model of the hyperbolic plane.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202100\" title=\"MATH&nbsp;2100\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2100');\">MATH&nbsp;2100</a> or <a href=\"/search/?P=MATH%202108\" title=\"MATH&nbsp;2108\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2108');\">MATH&nbsp;2108</a> or MATH  3101.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3306",
+        "title": "Elements of Set Theory (Honours)",
+        "credits": 0.5,
+        "description": "MATH 3306 [0.5 credit] Elements of Set Theory (Honours) Axioms of set theory. Development of the systems of natural numbers and the real numbers. Axiom of choice, Zorn's lemma, well-ordering. The Schröder-Bernstein theorem, cardinal numbers, ordinal numbers, transfinite induction, cardinal and ordinal arithmetics.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202100\" title=\"MATH&nbsp;2100\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2100');\">MATH&nbsp;2100</a> with a grade of <span class=\"keeptogether\">C-</span> or higher; or (<a href=\"/search/?P=MATH%202108\" title=\"MATH&nbsp;2108\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2108');\">MATH&nbsp;2108</a> or <a href=\"/search/?P=MATH%203101\" title=\"MATH&nbsp;3101\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3101');\">MATH&nbsp;3101</a> with a grade of B or higher; and <a href=\"/search/?P=MATH%201800\" title=\"MATH&nbsp;1800\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1800');\">MATH&nbsp;1800</a> with a grade of B or higher; and permission of the instructor); or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3355",
+        "title": "Number Theory and Applications (Honours)",
+        "credits": 0.5,
+        "description": "MATH 3355 [0.5 credit] Number Theory and Applications (Honours) Congruences, distribution of primes, arithmetic functions, primitive roots, quadratic residues, quadratic reciprocity law, continued fractions, Diophantine equations, and applications: public key cryptography, primality testing and factoring in relation to cryptography.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202100\" title=\"MATH&nbsp;2100\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2100');\">MATH&nbsp;2100</a> with a grade of <span class=\"keeptogether\">C-</span> or higher; or (<a href=\"/search/?P=MATH%202108\" title=\"MATH&nbsp;2108\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2108');\">MATH&nbsp;2108</a> or <a href=\"/search/?P=MATH%203101\" title=\"MATH&nbsp;3101\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3101');\">MATH&nbsp;3101</a> with a grade of <span class=\"keeptogether\">B-</span> or higher;  and permission of the instructor); or permission of the School.",
+        "precludes": [
+          "MATH 3809"
+        ]
+      },
+      {
+        "code": "MATH 3404",
+        "title": "Ordinary Differential Equations II",
+        "credits": 0.5,
+        "description": "MATH 3404 [0.5 credit] Ordinary Differential Equations II Series solutions of ordinary differential equations of second order about regular singular points; asymptotic solutions. Systems of ordinary differential equations of first order; matrix methods. Existence and uniqueness theorems. Nonlinear autonomous systems of order 2; qualitative theory. Numerical solutions of ordinary differential equations.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202404\" title=\"MATH&nbsp;2404\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2404');\">MATH&nbsp;2404</a>, <a href=\"/search/?P=MATH%202008\" title=\"MATH&nbsp;2008\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2008');\">MATH&nbsp;2008</a>; and <a href=\"/search/?P=MATH%202152\" title=\"MATH&nbsp;2152\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2152');\">MATH&nbsp;2152</a> or <a href=\"/search/?P=MATH%202107\" title=\"MATH&nbsp;2107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2107');\">MATH&nbsp;2107</a>.",
+        "precludes": [
+          "MATH 3008"
+        ]
+      },
+      {
+        "code": "MATH 3702",
+        "title": "Mathematical Modelling (Honours)",
+        "credits": 0.5,
+        "description": "MATH 3702 [0.5 credit] Mathematical Modelling (Honours) Introduction to techniques for construction, interpretation and validation of mathematical models. Continuous and discrete, deterministic and probabilistic models arising in a range of physical, natural and other practical application settings. Analytic techniques including variational principles, dimensional analysis, scaling, self-similarity, and model reduction.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202404\" title=\"MATH&nbsp;2404\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2404');\">MATH&nbsp;2404</a> or <a href=\"/search/?P=MATH%202454\" title=\"MATH&nbsp;2454\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2454');\">MATH&nbsp;2454</a>, MATH 2000 or <a href=\"/search/?P=MATH%202004\" title=\"MATH&nbsp;2004\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2004');\">MATH&nbsp;2004</a> or <a href=\"/search/?P=MATH%202008\" title=\"MATH&nbsp;2008\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2008');\">MATH&nbsp;2008</a>.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3705",
+        "title": "Mathematical Methods I",
+        "credits": 0.5,
+        "description": "MATH 3705 [0.5 credit] Mathematical Methods I Laplace transforms, series solutions of ordinary differential equations, the Frobenius method. Fourier series and Fourier transforms, solutions of partial differential equations of mathematical physics, boundary value problems, applications.",
+        "prereq": null,
+        "prereqRaw": " i) <a href=\"/search/?P=MATH%201005\" title=\"MATH&nbsp;1005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1005');\">MATH&nbsp;1005</a> or <a href=\"/search/?P=MATH%202404\" title=\"MATH&nbsp;2404\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2404');\">MATH&nbsp;2404</a>, and ii) <a href=\"/search/?P=MATH%202002\" title=\"MATH&nbsp;2002\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2002');\">MATH&nbsp;2002</a> or <a href=\"/search/?P=MATH%202004\" title=\"MATH&nbsp;2004\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2004');\">MATH&nbsp;2004</a> or <a href=\"/search/?P=MATH%202008\" title=\"MATH&nbsp;2008\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2008');\">MATH&nbsp;2008</a> or <a href=\"/search/?P=MATH%203009\" title=\"MATH&nbsp;3009\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3009');\">MATH&nbsp;3009</a>; or permission of the School.",
+        "precludes": [
+          "PHYS 3808"
+        ]
+      },
+      {
+        "code": "MATH 3800",
+        "title": "Mathematical Modeling and Computational Methods",
+        "credits": 0.5,
+        "description": "MATH 3800 [0.5 credit] Mathematical Modeling and Computational Methods Design and analysis of mathematical models for problems in science. Computational methods, including function evaluation, interpolation, solution of linear equations, root finding, integration, solution of differential equations, Fourier series and Monte Carlo methods.",
+        "prereq": null,
+        "prereqRaw": " i) <a href=\"/search/?P=MATH%201107\" title=\"MATH&nbsp;1107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1107');\">MATH&nbsp;1107</a> or <a href=\"/search/?P=MATH%201104\" title=\"MATH&nbsp;1104\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1104');\">MATH&nbsp;1104</a>; ii) <a href=\"/search/?P=MATH%201005\" title=\"MATH&nbsp;1005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1005');\">MATH&nbsp;1005</a> or <a href=\"/search/?P=MATH%202007\" title=\"MATH&nbsp;2007\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2007');\">MATH&nbsp;2007</a>; and iii) knowledge of a computer language.",
+        "precludes": [
+          "MATH 3806"
+        ]
+      },
+      {
+        "code": "MATH 3801",
+        "title": "Linear Programming",
+        "credits": 0.5,
+        "description": "MATH 3801 [0.5 credit] Linear Programming Systems of linear inequalities, formulation of linear programming problems, geometric method, the simplex method, duality theory, complementary slackness, sensitivity analysis, branch-and-bound method and cutting plane method for integer linear programming, applications and extensions.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202152\" title=\"MATH&nbsp;2152\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2152');\">MATH&nbsp;2152</a> or <a href=\"/search/?P=MATH%202107\" title=\"MATH&nbsp;2107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2107');\">MATH&nbsp;2107</a>, or permission of the School.",
+        "precludes": [
+          "ECON 4004",
+          "SYSC 3200"
+        ]
+      },
+      {
+        "code": "MATH 3802",
+        "title": "Combinatorial Optimization",
+        "credits": 0.5,
+        "description": "MATH 3802 [0.5 credit] Combinatorial Optimization Network flow problems, network simplex method, max-flow min-cut problem, integral polyhedra, minimum-weight spanning tree problem, maximum matching problem, maximum stable set problem, introduction to approximation algorithms.",
+        "prereq": null,
+        "prereqRaw": " MATH  3801 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3804",
+        "title": "Design and Analysis of Algorithms I",
+        "credits": 0.5,
+        "description": "MATH 3804 [0.5 credit] Design and Analysis of Algorithms I An introduction to the design and analysis of algorithms. Topics include: recurrence relations, sorting and searching, divide-and-conquer, dynamic programming, greedy algorithms, NP-completeness.",
+        "prereq": null,
+        "prereqRaw": " i) one of <a href=\"/search/?P=COMP%202402\" title=\"COMP&nbsp;2402\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2402');\">COMP&nbsp;2402</a> or <a href=\"/search/?P=SYSC%202100\" title=\"SYSC&nbsp;2100\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'SYSC 2100');\">SYSC&nbsp;2100</a>; and ii) one of <a href=\"/search/?P=COMP%202804\" title=\"COMP&nbsp;2804\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 2804');\">COMP&nbsp;2804</a> or <a href=\"/search/?P=MATH%203855\" title=\"MATH&nbsp;3855\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3855');\">MATH&nbsp;3855</a> or <a href=\"/search/?P=MATH%203825\" title=\"MATH&nbsp;3825\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3825');\">MATH&nbsp;3825</a> or <a href=\"/search/?P=COMP%203805\" title=\"COMP&nbsp;3805\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 3805');\">COMP&nbsp;3805</a>.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3806",
+        "title": "Scientific Computing I (Honours)",
+        "credits": 0.5,
+        "description": "MATH 3806 [0.5 credit] Scientific Computing I (Honours) Introduction to computer arithmetic. Computational methods for polynomial interpolation, integration, nonlinear equations, ordinary and partial differential equations, and linear system solvers. Focus on implementation in an efficient complied language and standard numerical libraries.",
+        "prereq": null,
+        "prereqRaw": " i) (<a href=\"/search/?P=MATH%202001\" title=\"MATH&nbsp;2001\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2001');\">MATH&nbsp;2001</a> and <a href=\"/search/?P=MATH%202002\" title=\"MATH&nbsp;2002\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2002');\">MATH&nbsp;2002</a>) or <a href=\"/search/?P=MATH%202004\" title=\"MATH&nbsp;2004\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2004');\">MATH&nbsp;2004</a> or <a href=\"/search/?P=MATH%202008\" title=\"MATH&nbsp;2008\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2008');\">MATH&nbsp;2008</a>; and ii) <a href=\"/search/?P=MATH%201152\" title=\"MATH&nbsp;1152\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1152');\">MATH&nbsp;1152</a> with a grade of <span class=\"keeptogether\">C-</span> or higher, or (<a href=\"/search/?P=MATH%201107\" title=\"MATH&nbsp;1107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1107');\">MATH&nbsp;1107</a> or <a href=\"/search/?P=MATH%201104\" title=\"MATH&nbsp;1104\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1104');\">MATH&nbsp;1104</a> with a grade of B or higher and permission of the instructor); and iii) <a href=\"/search/?P=MATH%202454\" title=\"MATH&nbsp;2454\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2454');\">MATH&nbsp;2454</a> or <a href=\"/search/?P=MATH%202404\" title=\"MATH&nbsp;2404\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2404');\">MATH&nbsp;2404</a> or <a href=\"/search/?P=MATH%201005\" title=\"MATH&nbsp;1005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1005');\">MATH&nbsp;1005</a>; and iv) <a href=\"/search/?P=COMP%201405\" title=\"COMP&nbsp;1405\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1405');\">COMP&nbsp;1405</a> or <a href=\"/search/?P=COMP%201005\" title=\"COMP&nbsp;1005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1005');\">COMP&nbsp;1005</a> or <a href=\"/search/?P=STAT%201500\" title=\"STAT&nbsp;1500\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 1500');\">STAT&nbsp;1500</a>; or permission of the school.",
+        "precludes": [
+          "MATH 3800"
+        ]
+      },
+      {
+        "code": "MATH 3807",
+        "title": "Mathematical Software (Honours)",
+        "credits": 0.5,
+        "description": "MATH 3807 [0.5 credit] Mathematical Software (Honours) Implementation of numerical methods using numerical software packages. Development of scientific and/or operations research applications using application programming interfaces of numerical or optimization libraries. Functional programming for data analysis and machine learning. Experience working with Python, C++, or Java is essential.",
+        "prereq": null,
+        "prereqRaw": " A grade of <span class=\"keeptogether\">C-</span> or higher in <a href=\"/search/?P=MATH%203806\" title=\"MATH&nbsp;3806\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3806');\">MATH&nbsp;3806</a>.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3808",
+        "title": "Mathematical Analyses of Games of Chance",
+        "credits": 0.5,
+        "description": "MATH 3808 [0.5 credit] Mathematical Analyses of Games of Chance This course covers mathematics used in the modern casino gaming industry. The topics include probabilities, odds, house advantages, variance and risks, optimal strategies, random walks and gambler's ruin, and gaming revenue estimation. Examples are taken from various games such as Roulette, Blackjack, and Poker.",
+        "prereq": null,
+        "prereqRaw": " one of <a href=\"/search/?P=STAT%202655\" title=\"STAT&nbsp;2655\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2655');\">STAT&nbsp;2655</a>, <a href=\"/search/?P=STAT%202605\" title=\"STAT&nbsp;2605\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2605');\">STAT&nbsp;2605</a>, <a href=\"/search/?P=STAT%202507\" title=\"STAT&nbsp;2507\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2507');\">STAT&nbsp;2507</a>, STAT 2606, <a href=\"/search/?P=STAT%203502\" title=\"STAT&nbsp;3502\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3502');\">STAT&nbsp;3502</a>, or <a href=\"/search/?P=MATH%203825\" title=\"MATH&nbsp;3825\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3825');\">MATH&nbsp;3825</a> or <a href=\"/search/?P=MATH%203855\" title=\"MATH&nbsp;3855\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3855');\">MATH&nbsp;3855</a>.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3809",
+        "title": "Introduction to Number Theory and Cryptography",
+        "credits": 0.5,
+        "description": "MATH 3809 [0.5 credit] Introduction to Number Theory and Cryptography Congruences, distribution of primes, general cryptographic systems, public key cryptographic systems and authentification using number theory, primality testing and factoring in relation to cryptography, continued fractions and Diophantine equations.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202108\" title=\"MATH&nbsp;2108\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2108');\">MATH&nbsp;2108</a> or <a href=\"/search/?P=MATH%203101\" title=\"MATH&nbsp;3101\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3101');\">MATH&nbsp;3101</a> or <a href=\"/search/?P=MATH%202100\" title=\"MATH&nbsp;2100\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2100');\">MATH&nbsp;2100</a>; knowledge of a computer language.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3819",
+        "title": "Modern Computer Algebra",
+        "credits": 0.5,
+        "description": "MATH 3819 [0.5 credit] Modern Computer Algebra Algorithms for multiplication, division, greatest common divisors and factorization over the integers, finite fields and polynomial rings. Basic tools include modular arithmetic, discrete Fourier transform, Chinese remainder theorem, Newton iteration, and Hensel techniques. Some properties of finite fields and applications to cryptography.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202108\" title=\"MATH&nbsp;2108\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2108');\">MATH&nbsp;2108</a> or <a href=\"/search/?P=MATH%203101\" title=\"MATH&nbsp;3101\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3101');\">MATH&nbsp;3101</a> or <a href=\"/search/?P=MATH%202100\" title=\"MATH&nbsp;2100\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2100');\">MATH&nbsp;2100</a>, <a href=\"/search/?P=COMP%201005\" title=\"COMP&nbsp;1005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'COMP 1005');\">COMP&nbsp;1005</a> or equivalent; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3825",
+        "title": "Discrete Structures and Applications",
+        "credits": 0.5,
+        "description": "MATH 3825 [0.5 credit] Discrete Structures and Applications Enumeration: elementary methods, inclusion and exclusion, recurrence relations, generating functions and applications. Graph theory and algorithms: connectivity, planarity, Hamilton paths and Euler trails. Error-correcting codes.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202108\" title=\"MATH&nbsp;2108\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2108');\">MATH&nbsp;2108</a> or <a href=\"/search/?P=MATH%203101\" title=\"MATH&nbsp;3101\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3101');\">MATH&nbsp;3101</a>.",
+        "precludes": [
+          "MATH 3855",
+          "COMP 3805"
+        ]
+      },
+      {
+        "code": "MATH 3855",
+        "title": "Discrete Structures and Applications (Honours)",
+        "credits": 0.5,
+        "description": "MATH 3855 [0.5 credit] Discrete Structures and Applications (Honours) Enumeration: inclusion and exclusion, recurrence relations, generating functions and applications. Graph theory: connectivity, planarity, Hamilton paths and Euler trails. Error-correcting codes. Designs and finite geometries. Symmetry and counting.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202100\" title=\"MATH&nbsp;2100\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2100');\">MATH&nbsp;2100</a> with a grade of <span class=\"keeptogether\">C-</span> or higher; or (<a href=\"/search/?P=MATH%202108\" title=\"MATH&nbsp;2108\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2108');\">MATH&nbsp;2108</a> or <a href=\"/search/?P=MATH%203101\" title=\"MATH&nbsp;3101\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3101');\">MATH&nbsp;3101</a>) with a grade of B or higher.",
+        "precludes": [
+          "COMP 3805",
+          "MATH 3825"
+        ]
+      },
+      {
+        "code": "MATH 3907",
+        "title": "Directed Studies",
+        "credits": 0.5,
+        "description": "MATH 3907 [0.5 credit] Directed Studies Available only to students whose program requires a 0.5 credit not offered by the School of Mathematics and Statistics.",
+        "prereq": null,
+        "prereqRaw": null,
+        "precludes": []
+      },
+      {
+        "code": "MATH 3999",
+        "title": "Co-operative Work Term Report (Honours)",
+        "credits": 0,
+        "description": "MATH 3999 [0.0 credit] Co-operative Work Term Report (Honours) On completion of each work term, the student must submit to the School of Mathematics and Statistics a written report on the work performed. Graded Sat or Uns.",
+        "prereq": null,
+        "prereqRaw": " registration in the Co-operative Education Option of an Honours program offered by the School of Mathematics and Statistics, and permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4002",
+        "title": "Fourier Analysis (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4002 [0.5 credit] Fourier Analysis (Honours) Fourier series, Fourier integrals; introduction to harmonic analysis on locally compact abelian groups, Plancherel Theorem, Pontryagin duality; selected applications.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%203001\" title=\"MATH&nbsp;3001\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3001');\">MATH&nbsp;3001</a> or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4003",
+        "title": "Functional Analysis (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4003 [0.5 credit] Functional Analysis (Honours) Banach spaces and bounded linear operators, Hahn-Banach extension and separation, dual spaces, bounded inverse theorems, uniform boundedness principle, applications. Compact operators.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%204007\" title=\"MATH&nbsp;4007\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 4007');\">MATH&nbsp;4007</a> or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4007",
+        "title": "Measure and Integration Theory (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4007 [0.5 credit] Measure and Integration Theory (Honours) Lebesgue measure and integration on the real line; sigma algebras and measures; integration theory; Lp spaces; Fubini's theorem; decomposition theorems and Radon-Nikodym derivatives.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%203001\" title=\"MATH&nbsp;3001\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3001');\">MATH&nbsp;3001</a> or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4102",
+        "title": "Group Representations and Applications (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4102 [0.5 credit] Group Representations and Applications (Honours) An introduction to the group representations and character theory, with selected applications.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%203106\" title=\"MATH&nbsp;3106\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3106');\">MATH&nbsp;3106</a>, or a grade of B or higher in <a href=\"/search/?P=MATH%203108\" title=\"MATH&nbsp;3108\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3108');\">MATH&nbsp;3108</a>.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4105",
+        "title": "Rings and Modules (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4105 [0.5 credit] Rings and Modules (Honours) Fundamental concepts in rings and modules, structure theorems, applications.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%203158\" title=\"MATH&nbsp;3158\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3158');\">MATH&nbsp;3158</a> or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4106",
+        "title": "Group Theory (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4106 [0.5 credit] Group Theory (Honours) Fundamental principles as applied to abelian, nilpotent, solvable, free and finite groups; representations.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%203106\" title=\"MATH&nbsp;3106\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3106');\">MATH&nbsp;3106</a> or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4107",
+        "title": "Commutative Algebra (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4107 [0.5 credit] Commutative Algebra (Honours) Fields, including algebraic and transcendental extensions, Galois theory, valuation theory; Noetherian commutative rings, including Noether decomposition theorem and localization.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%203158\" title=\"MATH&nbsp;3158\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3158');\">MATH&nbsp;3158</a> or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4108",
+        "title": "Homological Algebra and Category Theory (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4108 [0.5 credit] Homological Algebra and Category Theory (Honours) Axioms of set theory; categories, functors, natural transformations; free, projective, injective and flat modules; tensor products and homology functors, derived functors; dimension theory.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%203158\" title=\"MATH&nbsp;3158\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3158');\">MATH&nbsp;3158</a> or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4109",
+        "title": "Fields and Coding Theory (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4109 [0.5 credit] Fields and Coding Theory (Honours) Introduction to field theory, emphasizing the structure of finite fields, primitive elements and irreducible polynomials. The influence of computational problems will be considered. Theory and applications of error-correcting codes: algebraic codes, convolution codes, decoding algorithms, and analysis of code performance.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202100\" title=\"MATH&nbsp;2100\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2100');\">MATH&nbsp;2100</a>, or <a href=\"/search/?P=MATH%203101\" title=\"MATH&nbsp;3101\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3101');\">MATH&nbsp;3101</a> or <a href=\"/search/?P=MATH%202108\" title=\"MATH&nbsp;2108\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2108');\">MATH&nbsp;2108</a> or equivalent; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4205",
+        "title": "Introduction to General Topology (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4205 [0.5 credit] Introduction to General Topology (Honours) Topological spaces, maps, subspaces, product and identification topologies, separation axioms, compactness, connectedness.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%203001\" title=\"MATH&nbsp;3001\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3001');\">MATH&nbsp;3001</a> or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4206",
+        "title": "Introduction to Algebraic Topology (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4206 [0.5 credit] Introduction to Algebraic Topology (Honours) An introduction to homotopy theory. Topics include the fundamental group, covering spaces and the classification of two-dimensional manifolds.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%203106\" title=\"MATH&nbsp;3106\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3106');\">MATH&nbsp;3106</a> and <a href=\"/search/?P=MATH%204205\" title=\"MATH&nbsp;4205\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 4205');\">MATH&nbsp;4205</a>; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4207",
+        "title": "Foundations of Geometry (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4207 [0.5 credit] Foundations of Geometry (Honours) A study of at least one modern axiom system of Euclidean and non-Euclidean geometry, embedding of hyperbolic and Euclidean geometries in the projective plane, groups of motions, models of non-Euclidean geometry.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%203106\" title=\"MATH&nbsp;3106\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3106');\">MATH&nbsp;3106</a> (may be taken concurrently) or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4208",
+        "title": "Introduction to Differentiable Manifolds (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4208 [0.5 credit] Introduction to Differentiable Manifolds (Honours) Introduction to differentiable manifolds; Riemannian manifolds; vector fields and parallel transport; geodesics; differential forms on a manifold; covariant derivative; Betti numbers.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%203002\" title=\"MATH&nbsp;3002\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3002');\">MATH&nbsp;3002</a> or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4305",
+        "title": "Analytic Number Theory (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4305 [0.5 credit] Analytic Number Theory (Honours) Dirichlet series, characters, Zeta-functions, prime number theorem, Dirichlet's theorem on primes in arithmetic progressions, binary quadratic forms.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%203057\" title=\"MATH&nbsp;3057\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3057');\">MATH&nbsp;3057</a> or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4306",
+        "title": "Algebraic Number Theory (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4306 [0.5 credit] Algebraic Number Theory (Honours) Algebraic number fields, bases, algebraic integers, integral bases, arithmetic in algebraic number fields, ideal theory, class number.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%203158\" title=\"MATH&nbsp;3158\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3158');\">MATH&nbsp;3158</a> (may be taken concurrently) or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4600",
+        "title": "Case Studies in Operations Research (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4600 [0.5 credit] Case Studies in Operations Research (Honours) Applications of the principles of Operations Research to practical problems in business, management, and science. Students present at least one case and analyze cases in the published literature. Cases may also be presented by visiting practitioners.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=STAT%202509\" title=\"STAT&nbsp;2509\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2509');\">STAT&nbsp;2509</a> (or <a href=\"/search/?P=STAT%202559\" title=\"STAT&nbsp;2559\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2559');\">STAT&nbsp;2559</a>) and <a href=\"/search/?P=MATH%203801\" title=\"MATH&nbsp;3801\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3801');\">MATH&nbsp;3801</a>; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4700",
+        "title": "Partial Differential Equations (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4700 [0.5 credit] Partial Differential Equations (Honours) Initial/boundary value problems for first-order and linear second-order partial differential equations. Solution methods including characteristics, separation of variables, Fourier and Laplace transforms, Green’s functions. Applications such as wave dynamics, reaction-diffusion systems.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%203057\" title=\"MATH&nbsp;3057\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3057');\">MATH&nbsp;3057</a> and one of <a href=\"/search/?P=MATH%202454\" title=\"MATH&nbsp;2454\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2454');\">MATH&nbsp;2454</a> or <a href=\"/search/?P=MATH%203705\" title=\"MATH&nbsp;3705\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3705');\">MATH&nbsp;3705</a>, or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4701",
+        "title": "Topics in Differential Equations (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4701 [0.5 credit] Topics in Differential Equations (Honours) Topics in the theory and application of differential equations; for example, hyperbolic systems, fluid dynamics, nonlinear wave equations, optimal mass transport, control theory, calculus of variations.",
+        "prereq": null,
+        "prereqRaw": " i) <a href=\"/search/?P=MATH%202454\" title=\"MATH&nbsp;2454\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2454');\">MATH&nbsp;2454</a>; and ii) one of <a href=\"/search/?P=MATH%203001\" title=\"MATH&nbsp;3001\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3001');\">MATH&nbsp;3001</a> or <a href=\"/search/?P=MATH%203057\" title=\"MATH&nbsp;3057\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3057');\">MATH&nbsp;3057</a>; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4702",
+        "title": "Industrial Mathematics (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4702 [0.5 credit] Industrial Mathematics (Honours) Project based and application driven course involving in-depth study of mathematical models. Fields of application will vary, drawn from areas such as ecology, epidemiology, mechanics, finance, transportation, communication and manufacturing. Focus will be on the development, analysis and validity of models.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%203702\" title=\"MATH&nbsp;3702\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3702');\">MATH&nbsp;3702</a>, or permission of the school.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4703",
+        "title": "Dynamical Systems (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4703 [0.5 credit] Dynamical Systems (Honours) Basic concepts of dynamical systems. Vector formulation for systems. Theory of autonomous systems in one, two and higher dimensions. Limit sets, stability. Phase plane, qualitative interpretation, limit cycles and attractors. Parametric dependence, bifurcations and chaos. Applications.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%203001\" title=\"MATH&nbsp;3001\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3001');\">MATH&nbsp;3001</a> and <a href=\"/search/?P=MATH%203008\" title=\"MATH&nbsp;3008\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3008');\">MATH&nbsp;3008</a> or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4708",
+        "title": "Asymptotic Methods of Applied Mathematics (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4708 [0.5 credit] Asymptotic Methods of Applied Mathematics (Honours) Asymptotic series: properties, matching, application to differential equations. Asymptotic expansion of integrals: elementary methods, methods of Laplace, stationary phase and steepest descent, Watson’s lemma, Riemann-Lebesgue lemma. Perturbation methods: regular and singular perturbation for differential equations, multiple scale analysis, boundary layer theory, WKB theory.",
+        "prereq": null,
+        "prereqRaw": " (<a href=\"/search/?P=MATH%203057\" title=\"MATH&nbsp;3057\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3057');\">MATH&nbsp;3057</a> or <a href=\"/search/?P=MATH%203007\" title=\"MATH&nbsp;3007\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3007');\">MATH&nbsp;3007</a>) and (<a href=\"/search/?P=MATH%202454\" title=\"MATH&nbsp;2454\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2454');\">MATH&nbsp;2454</a> or <a href=\"/search/?P=MATH%203705\" title=\"MATH&nbsp;3705\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3705');\">MATH&nbsp;3705</a>), or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4801",
+        "title": "Topics in Combinatorics (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4801 [0.5 credit] Topics in Combinatorics (Honours) An in-depth study of one or more topics from: generating functions, Polya's theory of counting, block designs, coding theory, partially ordered sets and Ramsey theory.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202100\" title=\"MATH&nbsp;2100\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2100');\">MATH&nbsp;2100</a> and <a href=\"/search/?P=MATH%203855\" title=\"MATH&nbsp;3855\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3855');\">MATH&nbsp;3855</a> or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4802",
+        "title": "Introduction to Mathematical Logic (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4802 [0.5 credit] Introduction to Mathematical Logic (Honours) Symbolic logic, propositional and predicate calculi, set theory and model theory, completeness.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202100\" title=\"MATH&nbsp;2100\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2100');\">MATH&nbsp;2100</a> or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4803",
+        "title": "Computable Functions (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4803 [0.5 credit] Computable Functions (Honours) Recursive functions and computability, algorithms, Church's thesis, Turing machines, computational logic, NP-completeness.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202100\" title=\"MATH&nbsp;2100\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2100');\">MATH&nbsp;2100</a> or <a href=\"/search/?P=MATH%203855\" title=\"MATH&nbsp;3855\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3855');\">MATH&nbsp;3855</a> or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4805",
+        "title": "Theory of Automata (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4805 [0.5 credit] Theory of Automata (Honours) Finite automata and regular expressions, properties of regular sets, context-free grammars, pushdown automata, deterministic context-free languages. Turing machines, the Chomsky hierarchy. Undecidability, intractable problems.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%203106\" title=\"MATH&nbsp;3106\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3106');\">MATH&nbsp;3106</a> or <a href=\"/search/?P=MATH%203158\" title=\"MATH&nbsp;3158\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3158');\">MATH&nbsp;3158</a> or <a href=\"/search/?P=MATH%203855\" title=\"MATH&nbsp;3855\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3855');\">MATH&nbsp;3855</a> or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4806",
+        "title": "Scientific Computing II (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4806 [0.5 credit] Scientific Computing II (Honours) Computational methods in numerical linear algebra including solvers for large linear systems, numerical optimization and eigenvalue problems. Application to topics such as scientific machine learning or parallel computing. Focus on implementation in an efficient compiled language and standard numerical libraries.",
+        "prereq": null,
+        "prereqRaw": " i) <a href=\"/search/?P=MATH%203806\" title=\"MATH&nbsp;3806\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3806');\">MATH&nbsp;3806</a>; and ii) <a href=\"/search/?P=MATH%202152\" title=\"MATH&nbsp;2152\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2152');\">MATH&nbsp;2152</a> or <a href=\"/search/?P=MATH%202107\" title=\"MATH&nbsp;2107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2107');\">MATH&nbsp;2107</a> with a grade of <span class=\"keeptogether\">C-</span> or higher, or permission of the school.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4807",
+        "title": "Game Theory (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4807 [0.5 credit] Game Theory (Honours) One-player games, two-player zero-sum games, multi-player games, games in normal form, games in extensive form, utility theory, Nash equilibrium and Nash arbitration scheme, games in characteristic function form, cooperative solutions, dominations, stable sets, core, Shapley value, applications of game theory.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%203801\" title=\"MATH&nbsp;3801\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3801');\">MATH&nbsp;3801</a> or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4808",
+        "title": "Graph Theory and Algorithms (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4808 [0.5 credit] Graph Theory and Algorithms (Honours) Paths, circuits, Eulerian and Hamiltonian graphs, connectivity, colouring problems, matching, Ramsey theory, network flows.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%203106\" title=\"MATH&nbsp;3106\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3106');\">MATH&nbsp;3106</a> or <a href=\"/search/?P=MATH%203158\" title=\"MATH&nbsp;3158\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3158');\">MATH&nbsp;3158</a> or <a href=\"/search/?P=MATH%203855\" title=\"MATH&nbsp;3855\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3855');\">MATH&nbsp;3855</a> or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4809",
+        "title": "Mathematical Cryptography (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4809 [0.5 credit] Mathematical Cryptography (Honours) Topics covered include: a general survey of public key cryptography; classical applications of finite fields and number theory; relevant background in geometry and algebraic curves; computational issues concerning elliptic curves; elliptic curve cryptosystems; security issues.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%203158\" title=\"MATH&nbsp;3158\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3158');\">MATH&nbsp;3158</a>, or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4811",
+        "title": "Combinatorial Design Theory (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4811 [0.5 credit] Combinatorial Design Theory (Honours) Existence and construction of combinatorial designs: finite geometries, pairwise balanced designs, balanced incomplete block designs, Steiner triple systems, symmetric designs, PBD closure, latin squares, transversal designs, and applications to information theory.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%203855\" title=\"MATH&nbsp;3855\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3855');\">MATH&nbsp;3855</a>, or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4816",
+        "title": "Numerical Analysis for Differential Equations (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4816 [0.5 credit] Numerical Analysis for Differential Equations (Honours) Floating point arithmetic; numerical solution of ODEs; finite difference methods for PDEs; stability, accuracy and convergence: von Neumann analysis, CFL condition, Lax Theorem. Finite element methods: boundary value problems and elliptic PDEs. Spectral and pseudo-spectral methods.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202454\" title=\"MATH&nbsp;2454\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2454');\">MATH&nbsp;2454</a> and <a href=\"/search/?P=MATH%203806\" title=\"MATH&nbsp;3806\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3806');\">MATH&nbsp;3806</a>, or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4821",
+        "title": "Quantum Computing (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4821 [0.5 credit] Quantum Computing (Honours) Space of quantum bits; entanglement. Observables in quantum mechanics. Density matrix and Schmidt decomposition. Quantum cryptography. Classical and quantum logic gates. Quantum Fourier transform. Shor's quantum algorithm for factorization of integers.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202152\" title=\"MATH&nbsp;2152\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2152');\">MATH&nbsp;2152</a> (or <a href=\"/search/?P=MATH%202107\" title=\"MATH&nbsp;2107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2107');\">MATH&nbsp;2107</a>) with a grade of <span class=\"keeptogether\">C+</span> or better, and permission of the School.",
+        "precludes": [
+          "COMP 4114"
+        ]
+      },
+      {
+        "code": "MATH 4822",
+        "title": "Wavelets and Digital Signal Processing (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4822 [0.5 credit] Wavelets and Digital Signal Processing (Honours) Lossless compression methods. Discrete Fourier transform and Fourier-based compression methods. JPEG and MPEG. Wavelet analysis. Digital filters and discrete wavelet transform. Daubechies wavelets. Wavelet compression.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202152\" title=\"MATH&nbsp;2152\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2152');\">MATH&nbsp;2152</a> (or <a href=\"/search/?P=MATH%202107\" title=\"MATH&nbsp;2107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2107');\">MATH&nbsp;2107</a>) with a grade of <span class=\"keeptogether\">C+</span> or better, and permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4905",
+        "title": "Honours Project (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4905 [0.5 credit] Honours Project (Honours) Consists of a written report on some approved topic or topics in the field of mathematics, together with a short lecture on the report.",
+        "prereq": null,
+        "prereqRaw": " B.Math.(Honours) students only.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4907",
+        "title": "Directed Studies (Honours)",
+        "credits": 0.5,
+        "description": "MATH 4907 [0.5 credit] Directed Studies (Honours)",
+        "prereq": null,
+        "prereqRaw": " B.Math.(Honours) students only.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 1500",
+        "title": "Introduction to Statistical Computing",
+        "credits": 0.5,
+        "description": "STAT 1500 [0.5 credit] Introduction to Statistical Computing Basics of programming in R and introduction to statistical software; generating statistical plots; computing descriptive statistics; performing basic statistical procedures; fundamentals of numerical analysis; optimization; generating random numbers, performing simple simulations and simulation-based inference.",
+        "prereq": null,
+        "prereqRaw": " Ontario Grade 12 Mathematics: Advanced Functions, or <a href=\"/search/?P=MATH%200005\" title=\"MATH&nbsp;0005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 0005');\">MATH&nbsp;0005</a>, or equivalent.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 2210",
+        "title": "Inferential Data Science Foundations I",
+        "credits": 0.5,
+        "description": "STAT 2210 [0.5 credit] Inferential Data Science Foundations I Theoretical foundations to data science using open source software. Empirical distribution functions, point estimation, interval estimation, tests of hypotheses, maximum likelihood and method of moments. Formal tools are developed, and concepts are demonstrated using simulation. Abstract concepts are made concrete through visualization and numerical computation.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202007\" title=\"MATH&nbsp;2007\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2007');\">MATH&nbsp;2007</a> (or <a href=\"/search/?P=MATH%201005\" title=\"MATH&nbsp;1005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1005');\">MATH&nbsp;1005</a> or <a href=\"/search/?P=MATH%202052\" title=\"MATH&nbsp;2052\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2052');\">MATH&nbsp;2052</a>); and <a href=\"/search/?P=DATA%202500\" title=\"DATA&nbsp;2500\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'DATA 2500');\">DATA&nbsp;2500</a>; and <a href=\"/search/?P=DATA%201519\" title=\"DATA&nbsp;1519\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'DATA 1519');\">DATA&nbsp;1519</a> (or <a href=\"/search/?P=STAT%202509\" title=\"STAT&nbsp;2509\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2509');\">STAT&nbsp;2509</a> or <a href=\"/search/?P=STAT%202559\" title=\"STAT&nbsp;2559\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2559');\">STAT&nbsp;2559</a>).",
+        "precludes": [
+          "STAT 3508",
+          "STAT 3558"
+        ]
+      },
+      {
+        "code": "STAT 2507",
+        "title": "Introduction to Statistical Modeling I",
+        "credits": 0.5,
+        "description": "STAT 2507 [0.5 credit] Introduction to Statistical Modeling I A data-driven introduction to statistics. Basic descriptive statistics, introduction to probability theory, random variables, discrete and continuous distributions, contingency tables, sampling distributions, distribution of sample mean, Central Limit Theorem, interval estimation and hypothesis testing. A statistical software package will be used.",
+        "prereq": null,
+        "prereqRaw": " an Ontario Grade 12 university-preparation Mathematics or equivalent, or permission of the School of Mathematics and Statistics.",
+        "precludes": [
+          "BIT 2000",
+          "BIT 2009",
+          "DATA 1517",
+          "ECON 2210",
+          "ENST 2006",
+          "GEOG 2006",
+          "STAT 2601",
+          "STAT 3502",
+          "STAT 2559"
+        ]
+      },
+      {
+        "code": "STAT 2509",
+        "title": "Introduction to Statistical Modeling II",
+        "credits": 0.5,
+        "description": "STAT 2509 [0.5 credit] Introduction to Statistical Modeling II A data-driven approach to statistical modeling. Basics of experimental design, analysis of variance, simple linear regression and correlation, nonparametric procedures. A statistical software package will be used.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=STAT%202507\" title=\"STAT&nbsp;2507\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2507');\">STAT&nbsp;2507</a> or <a href=\"/search/?P=STAT%202601\" title=\"STAT&nbsp;2601\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2601');\">STAT&nbsp;2601</a> or STAT 2606 or <a href=\"/search/?P=STAT%203502\" title=\"STAT&nbsp;3502\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3502');\">STAT&nbsp;3502</a>; or permission of the School.",
+        "precludes": [
+          "DATA 1519",
+          "ECON 3210",
+          "STAT 2602"
+        ]
+      },
+      {
+        "code": "STAT 2559",
+        "title": "Basics of Statistical Modeling (Honours)",
+        "credits": 0.5,
+        "description": "STAT 2559 [0.5 credit] Basics of Statistical Modeling (Honours) Estimation and hypothesis testing for one and two samples, analysis of categorical data, basics of experimental design, analysis of variance, simple linear regression and correlation. Nonparametric procedures. A statistical software package will be used.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=STAT%202655\" title=\"STAT&nbsp;2655\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2655');\">STAT&nbsp;2655</a> or permission of the School.",
+        "precludes": [
+          "DATA 1519"
+        ]
+      },
+      {
+        "code": "STAT 2601",
+        "title": "Business Statistics",
+        "credits": 0.5,
+        "description": "STAT 2601 [0.5 credit] Business Statistics Introduction to statistical computing, descriptive statistics, probability concepts, interval estimation and hypothesis testing, categorical data analysis. Introduction to simple regression, multiple regression, and time series. Emphasis on the development of an ability to interpret results of statistical analyses with applications from business.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%201009\" title=\"MATH&nbsp;1009\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1009');\">MATH&nbsp;1009</a>. Restricted to B.Com. and B.I.B students.",
+        "precludes": [
+          "BIT 2000",
+          "BIT 2009",
+          "DATA 1517",
+          "ECON 2210",
+          "ENST 2006",
+          "GEOG 2006",
+          "STAT 2507",
+          "STAT 3502"
+        ]
+      },
+      {
+        "code": "STAT 2602",
+        "title": "Statistical Models for Business Analytics and Finance",
+        "credits": 0.5,
+        "description": "STAT 2602 [0.5 credit] Statistical Models for Business Analytics and Finance Analysis of variance, multiple regression (including polynomial regression), logistic and Poisson regression, probit models, time series (including decomposition into components, exponential smoothing, model diagnostics and ARIMA models), Monte Carlo simulation.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=STAT%202601\" title=\"STAT&nbsp;2601\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2601');\">STAT&nbsp;2601</a>.",
+        "precludes": [
+          "DATA 1519"
+        ]
+      },
+      {
+        "code": "STAT 2605",
+        "title": "Probability Models",
+        "credits": 0.5,
+        "description": "STAT 2605 [0.5 credit] Probability Models Basic probability; discrete random variables with focus on binomial and Poisson random variables; continuous random variables, transformation theorem, simulating continuous random variables; exponential random variable, normal random variable, sums of random variables, central limit theorem. Elements of Markov chains, and introduction to Poisson processes.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%201007\" title=\"MATH&nbsp;1007\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1007');\">MATH&nbsp;1007</a> or <a href=\"/search/?P=MATH%201004\" title=\"MATH&nbsp;1004\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1004');\">MATH&nbsp;1004</a> or MATH 1002 (no longer offered) or <a href=\"/search/?P=MATH%201052\" title=\"MATH&nbsp;1052\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1052');\">MATH&nbsp;1052</a>, and <a href=\"/search/?P=MATH%201104\" title=\"MATH&nbsp;1104\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1104');\">MATH&nbsp;1104</a> or <a href=\"/search/?P=MATH%201107\" title=\"MATH&nbsp;1107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1107');\">MATH&nbsp;1107</a> or MATH 1102 (no longer offered) or <a href=\"/search/?P=MATH%201152\" title=\"MATH&nbsp;1152\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1152');\">MATH&nbsp;1152</a>. Restricted to students in Bachelor of Computer Science and Bachelor of Mathematics in Computer Mathematics.",
+        "precludes": [
+          "STAT 2655",
+          "STAT 3502"
+        ]
+      },
+      {
+        "code": "STAT 2655",
+        "title": "Introduction to Probability with Applications (Honours)",
+        "credits": 0.5,
+        "description": "STAT 2655 [0.5 credit] Introduction to Probability with Applications (Honours) Probability axioms, basic combinatorial analysis, conditional probability and independence, discrete and continuous random variables, joint and conditional distributions, expectation and moments, probability and moment generating functions, Chebyshev's inequality and weak law of large numbers, central limit theorem, sampling distributions, simulation and applications to descriptive statistics.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202052\" title=\"MATH&nbsp;2052\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2052');\">MATH&nbsp;2052</a> with a grade of <span class=\"keeptogether\">C+</span> or higher or <a href=\"/search/?P=MATH%202007\" title=\"MATH&nbsp;2007\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2007');\">MATH&nbsp;2007</a> or <a href=\"/search/?P=MATH%201005\" title=\"MATH&nbsp;1005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1005');\">MATH&nbsp;1005</a> with a grade of <span class=\"keeptogether\">B+</span> or higher; and <a href=\"/search/?P=MATH%202152\" title=\"MATH&nbsp;2152\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2152');\">MATH&nbsp;2152</a> with a grade of <span class=\"keeptogether\">C+</span> or higher or <a href=\"/search/?P=MATH%202107\" title=\"MATH&nbsp;2107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2107');\">MATH&nbsp;2107</a> with a grade of <span class=\"keeptogether\">B+</span> or higher; or permission of the School.",
+        "precludes": [
+          "STAT 2605"
+        ]
+      },
+      {
+        "code": "STAT 2660",
+        "title": "Mathematics for Finance (Honours)",
+        "credits": 0.5,
+        "description": "STAT 2660 [0.5 credit] Mathematics for Finance (Honours) Interest rates, growth of money, discount functions, yield rates, time value of money, annuities, cash flows and portfolios, loans, mortgages, bonds, immunization, swaps, hedging and investment strategies, stocks and financial markets, arbitrage.",
+        "prereq": null,
+        "prereqRaw": " i) one of <a href=\"/search/?P=MATH%202052\" title=\"MATH&nbsp;2052\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2052');\">MATH&nbsp;2052</a> or <a href=\"/search/?P=MATH%202007\" title=\"MATH&nbsp;2007\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2007');\">MATH&nbsp;2007</a> or <a href=\"/search/?P=MATH%201005\" title=\"MATH&nbsp;1005\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1005');\">MATH&nbsp;1005</a>, grade of <span class=\"keeptogether\">C+</span> or higher; and ii) one of <a href=\"/search/?P=MATH%201152\" title=\"MATH&nbsp;1152\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1152');\">MATH&nbsp;1152</a> or <a href=\"/search/?P=MATH%201107\" title=\"MATH&nbsp;1107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1107');\">MATH&nbsp;1107</a> or <a href=\"/search/?P=MATH%201104\" title=\"MATH&nbsp;1104\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1104');\">MATH&nbsp;1104</a>, grade of <span class=\"keeptogether\">C+</span> or higher; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 2907",
+        "title": "Directed Studies (Honours)",
+        "credits": 0.5,
+        "description": "STAT 2907 [0.5 credit] Directed Studies (Honours) Available only to Honours students whose program requires a 0.5 credit not offered by the School of Mathematics and Statistics.",
+        "prereq": null,
+        "prereqRaw": null,
+        "precludes": []
+      },
+      {
+        "code": "STAT 3502",
+        "title": "Probability and Statistics",
+        "credits": 0.5,
+        "description": "STAT 3502 [0.5 credit] Probability and Statistics Axioms of probability; conditional probability and independence; random variables; distributions: binomial, Poisson, hypergeometric, normal, gamma; central limit theorem; sampling distributions; point estimation: maximum likelihood, method of moments; confidence intervals; testing of hypotheses: one and two populations; engineering applications: acceptance sampling, control charts, reliability.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=MATH%202004\" title=\"MATH&nbsp;2004\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2004');\">MATH&nbsp;2004</a> and enrolment in the Faculty of Engineering or B.Sc. programs of the Department of Physics [except Double Honours Mathematics and Physics].",
+        "precludes": [
+          "BIT 2000",
+          "BIT 2009",
+          "DATA 1517",
+          "ECON 2210",
+          "STAT 2507",
+          "STAT 2605",
+          "STAT 2601"
+        ]
+      },
+      {
+        "code": "STAT 3503",
+        "title": "Regression Analysis",
+        "credits": 0.5,
+        "description": "STAT 3503 [0.5 credit] Regression Analysis Review of simple and multiple regression with matrices, Gauss-Markov theorem, polynomial regression, indicator variables, residual analysis, weighted least squares, variable selection techniques, nonlinear regression, correlation analysis and autocorrelation. Computer packages are used for statistical analyses.",
+        "prereq": null,
+        "prereqRaw": " i) <a href=\"/search/?P=DATA%201519\" title=\"DATA&nbsp;1519\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'DATA 1519');\">DATA&nbsp;1519</a> or <a href=\"/search/?P=STAT%202509\" title=\"STAT&nbsp;2509\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2509');\">STAT&nbsp;2509</a> or <a href=\"/search/?P=STAT%202602\" title=\"STAT&nbsp;2602\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2602');\">STAT&nbsp;2602</a> or STAT 2607 or ECON 2202 or ECON 2220 or equivalent; and ii) <a href=\"/search/?P=MATH%201152\" title=\"MATH&nbsp;1152\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1152');\">MATH&nbsp;1152</a> or <a href=\"/search/?P=MATH%201107\" title=\"MATH&nbsp;1107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1107');\">MATH&nbsp;1107</a> or <a href=\"/search/?P=MATH%201119\" title=\"MATH&nbsp;1119\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1119');\">MATH&nbsp;1119</a> or equivalent; or permission of the School.",
+        "precludes": [
+          "STAT 3553"
+        ]
+      },
+      {
+        "code": "STAT 3504",
+        "title": "Analysis of Variance and Experimental Design",
+        "credits": 0.5,
+        "description": "STAT 3504 [0.5 credit] Analysis of Variance and Experimental Design Single and multifactor analysis of variance, orthogonal contrasts and multiple comparisons, analysis of covariance; nested, crossed and repeated measures designs; completely randomized, randomized block, Latin squares, factorial experiments, related topics. Computer packages are used for statistical analyses.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=STAT%203503\" title=\"STAT&nbsp;3503\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3503');\">STAT&nbsp;3503</a> or permission of the School.",
+        "precludes": [
+          "STAT 4504"
+        ]
+      },
+      {
+        "code": "STAT 3506",
+        "title": "Stochastic Processes and Applications (Honours)",
+        "credits": 0.5,
+        "description": "STAT 3506 [0.5 credit] Stochastic Processes and Applications (Honours) Conditional probability and conditional expectation; Stochastic modeling; discrete time Markov chains including classification of states, stationary and limiting distributions; exponential distribution and the Poisson processes; queueing models; applications to computer systems, operations research and social sciences.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=STAT%202655\" title=\"STAT&nbsp;2655\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2655');\">STAT&nbsp;2655</a> with a grade of <span class=\"keeptogether\">C-</span> or higher; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 3507",
+        "title": "Sampling Methodology",
+        "credits": 0.5,
+        "description": "STAT 3507 [0.5 credit] Sampling Methodology The sample survey as a vehicle for information collection in government, business, scientific and social agencies. Topics include: planning a survey, questionnaire design, simple random, stratified, systematic and cluster sampling designs, estimation methods, problem of non-response, related topics.",
+        "prereq": null,
+        "prereqRaw": " one of: <a href=\"/search/?P=STAT%202507\" title=\"STAT&nbsp;2507\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2507');\">STAT&nbsp;2507</a>, <a href=\"/search/?P=STAT%202509\" title=\"STAT&nbsp;2509\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2509');\">STAT&nbsp;2509</a>, <a href=\"/search/?P=STAT%202601\" title=\"STAT&nbsp;2601\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2601');\">STAT&nbsp;2601</a>, <a href=\"/search/?P=STAT%202602\" title=\"STAT&nbsp;2602\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2602');\">STAT&nbsp;2602</a>, STAT 2606, STAT 2607, ECON 2201, ECON 2202, <a href=\"/search/?P=ECON%202210\" title=\"ECON&nbsp;2210\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'ECON 2210');\">ECON&nbsp;2210</a>, or equivalent; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 3508",
+        "title": "Elements of Probability Theory",
+        "credits": 0.5,
+        "description": "STAT 3508 [0.5 credit] Elements of Probability Theory Discrete and continuous distributions, moment-generating functions, marginal and conditional distributions, transformation theory, limiting distributions.",
+        "prereq": null,
+        "prereqRaw": " i) <a href=\"/search/?P=MATH%202008\" title=\"MATH&nbsp;2008\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2008');\">MATH&nbsp;2008</a> (or <a href=\"/search/?P=MATH%202004\" title=\"MATH&nbsp;2004\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2004');\">MATH&nbsp;2004</a> or MATH 2009); and ii) one of <a href=\"/search/?P=STAT%202507\" title=\"STAT&nbsp;2507\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2507');\">STAT&nbsp;2507</a>, STAT2601, STAT 2606, ECON 2200, or ECON 2201 or permission of the School.",
+        "precludes": [
+          "ECON 4002",
+          "STAT 2210",
+          "STAT 3558"
+        ]
+      },
+      {
+        "code": "STAT 3509",
+        "title": "Mathematical Statistics",
+        "credits": 0.5,
+        "description": "STAT 3509 [0.5 credit] Mathematical Statistics Point and interval estimation, sufficient statistics, hypothesis testing, chi-square tests with enumeration data.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=STAT%203508\" title=\"STAT&nbsp;3508\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3508');\">STAT&nbsp;3508</a> or permission of the School.",
+        "precludes": [
+          "STAT 3559",
+          "STAT 4321"
+        ]
+      },
+      {
+        "code": "STAT 3553",
+        "title": "Regression Modeling (Honours)",
+        "credits": 0.5,
+        "description": "STAT 3553 [0.5 credit] Regression Modeling (Honours) Linear regression - theory, methods and application(s). Normal distribution theory. Hypothesis tests and confidence intervals. Model selection. Model diagnostics. Introduction to weighted least squares and generalized linear models.",
+        "prereq": null,
+        "prereqRaw": " i) <a href=\"/search/?P=STAT%202559\" title=\"STAT&nbsp;2559\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2559');\">STAT&nbsp;2559</a> with a grade of <span class=\"keeptogether\">C-</span> or higher, or <a href=\"/search/?P=STAT%202210\" title=\"STAT&nbsp;2210\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2210');\">STAT&nbsp;2210</a> with a grade of C or higher; and ii) a grade of <span class=\"keeptogether\">C-</span> or higher in <a href=\"/search/?P=MATH%201152\" title=\"MATH&nbsp;1152\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1152');\">MATH&nbsp;1152</a> or <a href=\"/search/?P=MATH%201107\" title=\"MATH&nbsp;1107\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1107');\">MATH&nbsp;1107</a> or <a href=\"/search/?P=MATH%201104\" title=\"MATH&nbsp;1104\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 1104');\">MATH&nbsp;1104</a>; or permission from the School of Mathematics and Statistics.",
+        "precludes": [
+          "STAT 3503"
+        ]
+      },
+      {
+        "code": "STAT 3558",
+        "title": "Elements of Probability Theory (Honours)",
+        "credits": 0.5,
+        "description": "STAT 3558 [0.5 credit] Elements of Probability Theory (Honours) Random variables and moment-generating functions, concepts of conditioning and correlation; laws of large numbers, central limit theorem; multivariate normal distribution; distributions of functions of random variables, sampling distributions, order statistics.",
+        "prereq": null,
+        "prereqRaw": " i) <a href=\"/search/?P=STAT%202655\" title=\"STAT&nbsp;2655\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2655');\">STAT&nbsp;2655</a> with a grade of <span class=\"keeptogether\">C-</span> or higher; and ii) (<a href=\"/search/?P=MATH%202001\" title=\"MATH&nbsp;2001\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2001');\">MATH&nbsp;2001</a> and <a href=\"/search/?P=MATH%202002\" title=\"MATH&nbsp;2002\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2002');\">MATH&nbsp;2002</a> with a grade of <span class=\"keeptogether\">C-</span> or higher), or (a grade of <span class=\"keeptogether\">C+</span> or higher in <a href=\"/search/?P=MATH%202008\" title=\"MATH&nbsp;2008\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2008');\">MATH&nbsp;2008</a> or <a href=\"/search/?P=MATH%202004\" title=\"MATH&nbsp;2004\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2004');\">MATH&nbsp;2004</a>, and permission of the instructor); or permission of the School.",
+        "precludes": [
+          "ECON 4002",
+          "STAT 2210",
+          "STAT 3508"
+        ]
+      },
+      {
+        "code": "STAT 3559",
+        "title": "Mathematical Statistics (Honours)",
+        "credits": 0.5,
+        "description": "STAT 3559 [0.5 credit] Mathematical Statistics (Honours) Empirical distribution functions, Monte Carlo methods, elements of decision theory, point estimation, interval estimation, tests of hypotheses, robustness, nonparametric methods.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=STAT%203558\" title=\"STAT&nbsp;3558\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3558');\">STAT&nbsp;3558</a> with a grade of <span class=\"keeptogether\">C-</span> or higher; or (<a href=\"/search/?P=STAT%203508\" title=\"STAT&nbsp;3508\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3508');\">STAT&nbsp;3508</a> with a grade of B or higher, and permission of the instructor); or permission of the School.",
+        "precludes": [
+          "STAT 3509",
+          "STAT 4321"
+        ]
+      },
+      {
+        "code": "STAT 3660",
+        "title": "Actuarial Mathematics I",
+        "credits": 0.5,
+        "description": "STAT 3660 [0.5 credit] Actuarial Mathematics I Severity, frequency models, loss models, risk measures, value at risk, stochastic processes, Poisson process, characteristics of actuarial models, creating new univariate distributions, heavy-tailed distributions, mixed distributions, coverage modifications.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=STAT%202655\" title=\"STAT&nbsp;2655\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2655');\">STAT&nbsp;2655</a>, or permission from the school.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 3661",
+        "title": "Life Contingent Risk Modelling I",
+        "credits": 0.5,
+        "description": "STAT 3661 [0.5 credit] Life Contingent Risk Modelling I Introduction to life insurance; traditional and modern insurance contracts; underwriting; premiums; present value random variable; force of mortality; life tables; insurance benefits; annuities; premium calculation, reserves.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=STAT%202660\" title=\"STAT&nbsp;2660\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2660');\">STAT&nbsp;2660</a> and <a href=\"/search/?P=STAT%203660\" title=\"STAT&nbsp;3660\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3660');\">STAT&nbsp;3660</a>, or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 3907",
+        "title": "Directed Studies",
+        "credits": 0.5,
+        "description": "STAT 3907 [0.5 credit] Directed Studies Available only to students whose program requires a 0.5 credit not offered by the School of Mathematics and Statistics.",
+        "prereq": null,
+        "prereqRaw": null,
+        "precludes": []
+      },
+      {
+        "code": "STAT 3999",
+        "title": "Co-operative Work Term",
+        "credits": 0,
+        "description": "STAT 3999 [0.0 credit] Co-operative Work Term",
+        "prereq": null,
+        "prereqRaw": null,
+        "precludes": []
+      },
+      {
+        "code": "STAT 4321",
+        "title": "Inferential Data Science Foundations II",
+        "credits": 0.5,
+        "description": "STAT 4321 [0.5 credit] Inferential Data Science Foundations II Inferential data science tools extending to big data using open-source software. Asymptotic properties of likelihoods, parametric and non-parametric approaches, bootstrap, jackknife estimation, frequentist and Bayesian perspectives. Formal tools are developed. Concepts are demonstrated using simulation. Abstract concepts are made concrete through visualization and numerical computation.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=STAT%202210\" title=\"STAT&nbsp;2210\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2210');\">STAT&nbsp;2210</a>.",
+        "precludes": [
+          "STAT 3509",
+          "STAT 3559"
+        ]
+      },
+      {
+        "code": "STAT 4322",
+        "title": "Learning from Big Data",
+        "credits": 0.5,
+        "description": "STAT 4322 [0.5 credit] Learning from Big Data A data-first tour of advanced statistical models. Focus will be on a series of large real world forecasting and prediction competitions. Tools and workflows for statistical modelling are explored.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=DATA%203500\" title=\"DATA&nbsp;3500\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'DATA 3500');\">DATA&nbsp;3500</a> and <a href=\"/search/?P=STAT%202210\" title=\"STAT&nbsp;2210\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2210');\">STAT&nbsp;2210</a>.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4500",
+        "title": "Parametric Estimation (Honours)",
+        "credits": 0.5,
+        "description": "STAT 4500 [0.5 credit] Parametric Estimation (Honours) Preliminaries on probability theory; exact and asymptotic sampling distributions; unbiasedness, consistency, efficiency, sufficiency and completeness; properties of maximum likelihood estimators; least squares estimation of location and scale parameters based on order statistics and sample quantiles; Best Asymptotically Normal (BAN) estimators.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=STAT%203559\" title=\"STAT&nbsp;3559\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3559');\">STAT&nbsp;3559</a> or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4501",
+        "title": "Probability Theory (Honours)",
+        "credits": 0.5,
+        "description": "STAT 4501 [0.5 credit] Probability Theory (Honours) Introduction to probability, characteristic functions, probability distributions, limit theorems.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=STAT%203506\" title=\"STAT&nbsp;3506\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3506');\">STAT&nbsp;3506</a> and <a href=\"/search/?P=STAT%203558\" title=\"STAT&nbsp;3558\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3558');\">STAT&nbsp;3558</a> or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4502",
+        "title": "Survey Sampling (Honours)",
+        "credits": 0.5,
+        "description": "STAT 4502 [0.5 credit] Survey Sampling (Honours) Basic concepts in sampling from finite populations; simple random sampling; stratified sampling; choice of sampling unit; cluster and systematic sampling; introduction to multistage sampling; ratio estimation; sampling with unequal probabilities and with replacement; replicated sampling; related topics.",
+        "prereq": null,
+        "prereqRaw": " i) <a href=\"/search/?P=STAT%202559\" title=\"STAT&nbsp;2559\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2559');\">STAT&nbsp;2559</a> or <a href=\"/search/?P=STAT%202509\" title=\"STAT&nbsp;2509\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2509');\">STAT&nbsp;2509</a> or <a href=\"/search/?P=DATA%201519\" title=\"DATA&nbsp;1519\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'DATA 1519');\">DATA&nbsp;1519</a>; and ii) either <a href=\"/search/?P=STAT%203559\" title=\"STAT&nbsp;3559\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3559');\">STAT&nbsp;3559</a>, or a grade of C +  or better in <a href=\"/search/?P=STAT%203509\" title=\"STAT&nbsp;3509\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3509');\">STAT&nbsp;3509</a> or <a href=\"/search/?P=STAT%202210\" title=\"STAT&nbsp;2210\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2210');\">STAT&nbsp;2210</a>; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4503",
+        "title": "Applied Multivariate Analysis (Honours)",
+        "credits": 0.5,
+        "description": "STAT 4503 [0.5 credit] Applied Multivariate Analysis (Honours) Selected topics in regression and correlation non-linear models. Multivariate statistical methods, principal components, factor analysis, multivariate analysis of variance, discriminant analysis, canonical correlation, analysis of categorical data.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=STAT%203553\" title=\"STAT&nbsp;3553\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3553');\">STAT&nbsp;3553</a> or (<a href=\"/search/?P=STAT%203509\" title=\"STAT&nbsp;3509\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3509');\">STAT&nbsp;3509</a> and <a href=\"/search/?P=STAT%203503\" title=\"STAT&nbsp;3503\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3503');\">STAT&nbsp;3503</a>) or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4504",
+        "title": "Statistical Design and Analysis of Experiments (Honours)",
+        "credits": 0.5,
+        "description": "STAT 4504 [0.5 credit] Statistical Design and Analysis of Experiments (Honours) An extension of the designs discussed in STAT 2559 to include analysis of the completely randomized design, designs with more than one blocking variable, incomplete block designs, fractional factorial designs, multiple comparisons; and response surface methods.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=STAT%203553\" title=\"STAT&nbsp;3553\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3553');\">STAT&nbsp;3553</a> or <a href=\"/search/?P=STAT%203503\" title=\"STAT&nbsp;3503\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3503');\">STAT&nbsp;3503</a>; or permission of the School of Mathematics and Statistics.",
+        "precludes": [
+          "STAT 2559",
+          "STAT 3504",
+          "ECON 4706",
+          "PSYC 3000"
+        ]
+      },
+      {
+        "code": "STAT 4506",
+        "title": "Nonparametric Statistics (Honours)",
+        "credits": 0.5,
+        "description": "STAT 4506 [0.5 credit] Nonparametric Statistics (Honours) Classical nonparametric techniques; nonparametric density estimation; nonparametric regression analysis: kernel estimators, orthogonal series estimators, smoothing splines; estimation of statistical functionals; nonparametric bootstrap; jackknife; elements of high dimensional statistical inference; multiple testing and false discovery. Statistical software will be used.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=STAT%203559\" title=\"STAT&nbsp;3559\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3559');\">STAT&nbsp;3559</a> or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4507",
+        "title": "Statistical Inference (Honours)",
+        "credits": 0.5,
+        "description": "STAT 4507 [0.5 credit] Statistical Inference (Honours) Sufficient statistics, simple and composite hypotheses, most powerful and similar region test, distribution-free tests, confidence intervals, goodness-of-fit and likelihood ratio tests, large sample theory, Bayesian and likelihood methods, sequential tests.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=STAT%204500\" title=\"STAT&nbsp;4500\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 4500');\">STAT&nbsp;4500</a> or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4508",
+        "title": "Stochastic Models (Honours)",
+        "credits": 0.5,
+        "description": "STAT 4508 [0.5 credit] Stochastic Models (Honours) Review of discrete Markov chains and Poisson processes; continuous time Markov chains; pure jump Markov processes, and birth and death processes including the Q-matrix approach; the Kolmogorov equations; renewal theory; introduction to Brownian motion; queueing theory.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=STAT%203506\" title=\"STAT&nbsp;3506\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3506');\">STAT&nbsp;3506</a> or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4509",
+        "title": "Advanced Mathematical Modeling (Honours)",
+        "credits": 0.5,
+        "description": "STAT 4509 [0.5 credit] Advanced Mathematical Modeling (Honours) Real-life situations in the physical, social, and life sciences are often modeled using mathematical tools. This course will examine various models and techniques used in their analysis, e.g., matrix procedures in connection with population models. Students will use a computer package to obtain numerical results.",
+        "prereq": null,
+        "prereqRaw": " i) <a href=\"/search/?P=MATH%202454\" title=\"MATH&nbsp;2454\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2454');\">MATH&nbsp;2454</a> and <a href=\"/search/?P=STAT%202655\" title=\"STAT&nbsp;2655\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2655');\">STAT&nbsp;2655</a> (or <a href=\"/search/?P=MATH%202404\" title=\"MATH&nbsp;2404\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 2404');\">MATH&nbsp;2404</a> and <a href=\"/search/?P=STAT%202605\" title=\"STAT&nbsp;2605\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 2605');\">STAT&nbsp;2605</a>) and ii) <a href=\"/search/?P=STAT%203506\" title=\"STAT&nbsp;3506\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3506');\">STAT&nbsp;3506</a>; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4555",
+        "title": "Monte Carlo Simulation (Honours)",
+        "credits": 0.5,
+        "description": "STAT 4555 [0.5 credit] Monte Carlo Simulation (Honours) Basic ideas and algorithms of Monte Carlo; simulation of basic stochastic processes. Brownian motion and the Poisson process, applications to financial modelling, queueing theory. Output analysis; variance reduction. Markov chain Monte Carlo methods; Gibbs sampling, simulated annealing and Metropolis-Hastings samplers with applications.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=STAT%203558\" title=\"STAT&nbsp;3558\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3558');\">STAT&nbsp;3558</a>, or a grade of B or higher in <a href=\"/search/?P=STAT%203508\" title=\"STAT&nbsp;3508\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3508');\">STAT&nbsp;3508</a>, or  permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4601",
+        "title": "Data Mining I (Honours)",
+        "credits": 0.5,
+        "description": "STAT 4601 [0.5 credit] Data Mining I (Honours) Data visualization; knowledge discovery in datasets; unsupervised learning: clustering algorithms; dimension reduction; supervised learning: pattern recognition, smoothing techniques, classification. Computer software will be used.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=STAT%203553\" title=\"STAT&nbsp;3553\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3553');\">STAT&nbsp;3553</a> or <a href=\"/search/?P=STAT%203503\" title=\"STAT&nbsp;3503\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3503');\">STAT&nbsp;3503</a> or <a href=\"/search/?P=MATH%203806\" title=\"MATH&nbsp;3806\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'MATH 3806');\">MATH&nbsp;3806</a>, or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4603",
+        "title": "Time Series and Forecasting (Honours)",
+        "credits": 0.5,
+        "description": "STAT 4603 [0.5 credit] Time Series and Forecasting (Honours) Time series regression. Nonstationary and stationary time series models. Nonseasonal and seasonal time series models. ARIMA (Box-Jenkins) models. Smoothing methods. Parameter estimation, model identification, diagnostic checking. Forecasting techniques. A statistical software package will be used.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=STAT%203553\" title=\"STAT&nbsp;3553\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3553');\">STAT&nbsp;3553</a> or <a href=\"/search/?P=STAT%203503\" title=\"STAT&nbsp;3503\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3503');\">STAT&nbsp;3503</a>, or permission of the School.",
+        "precludes": [
+          "ECON 4713"
+        ]
+      },
+      {
+        "code": "STAT 4604",
+        "title": "Statistical Computing (Honours)",
+        "credits": 0.5,
+        "description": "STAT 4604 [0.5 credit] Statistical Computing (Honours) Statistical computing techniques, pseudo-random number generation, tests for randomness, numerical algorithms in statistics; optimization techniques; environments for data analysis, efficient programming techniques; statistics with mainstream software.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=STAT%203553\" title=\"STAT&nbsp;3553\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3553');\">STAT&nbsp;3553</a> or <a href=\"/search/?P=STAT%203503\" title=\"STAT&nbsp;3503\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3503');\">STAT&nbsp;3503</a> or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4607",
+        "title": "Bayesian Statistical Analysis (Honours)",
+        "credits": 0.5,
+        "description": "STAT 4607 [0.5 credit] Bayesian Statistical Analysis (Honours) Probability basics for Bayesian statistics. Bayesian inference for simple exponential families. Markov Chain Monte Carlo for posterior inference. Empirical Bayes. Hierarchical Bayes. Bayesian inference for the multivariate normal model. Bayesian linear regression. More advanced topics may be included. Computer software will be used.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=STAT%203553\" title=\"STAT&nbsp;3553\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3553');\">STAT&nbsp;3553</a> or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4660",
+        "title": "Actuarial Mathematics II",
+        "credits": 0.5,
+        "description": "STAT 4660 [0.5 credit] Actuarial Mathematics II Empirical models, complete data, grouped data, credibility theory, failure time, accuracy, kernel estimation, goodness of fit tests, Bayesian analysis, inference for loss models, frequentist estimation, model selection.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=STAT%203660\" title=\"STAT&nbsp;3660\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3660');\">STAT&nbsp;3660</a> with <span class=\"keeptogether\">C+</span> or higher, or permission of the school.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4661",
+        "title": "Life Contingent Risk Modelling II",
+        "credits": 0.5,
+        "description": "STAT 4661 [0.5 credit] Life Contingent Risk Modelling II Policy values; multiple state models; formulae for probability; Markov multiple state models; pension mathematics; yield curves; interest rate risk; emerging costs for life insurance; equity linked insurance; deterministic and stochastic pricing; reserving, participating, and universal life insurance.",
+        "prereq": null,
+        "prereqRaw": " <a href=\"/search/?P=STAT%203661\" title=\"STAT&nbsp;3661\" class=\"bubblelink code\" onclick=\"return showCourse(this, 'STAT 3661');\">STAT&nbsp;3661</a> with a grade of <span class=\"keeptogether\">C+</span> or higher; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4905",
+        "title": "Honours Project (Honours)",
+        "credits": 0.5,
+        "description": "STAT 4905 [0.5 credit] Honours Project (Honours) Consists of a written report on some approved topic or topics in the field of statistics, together with a short lecture on the report.",
+        "prereq": null,
+        "prereqRaw": " B.Math.(Honours) or B.Data Science (Honours) students only.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4907",
+        "title": "Directed Studies (Honours)",
+        "credits": 0.5,
+        "description": "STAT 4907 [0.5 credit] Directed Studies (Honours)",
+        "prereq": null,
+        "prereqRaw": " B.Math.(Honours) students only.",
         "precludes": []
       }
     ]

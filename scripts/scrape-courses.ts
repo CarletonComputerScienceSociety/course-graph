@@ -15,7 +15,7 @@ const clean = (s: string) =>
 
 let programsToScan: string[] = [
     "Computer Science",
-    "Italian (Minor)"
+    "Mathematics and Statistics"
     //"name" as it appears on https://calendar.carleton.ca/undergrad/undergradprograms/
 ]
 

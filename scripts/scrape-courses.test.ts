@@ -1,15 +1,16 @@
 import * as scraper from "./scrape-courses"
 import fs from "fs"
 import * as cheerio from "cheerio"
-
 import type {Program} from "./scrape-courses"
 
-const htmlContent = fs.readFileSync("scripts/fixtures/programsPage.html", "utf-8")
-const programsHtml = cheerio.load(htmlContent)
-
+// The following 2 lines are an example of fetching programs from the undergraduate programs webpage, uses a downloaded version of that page
 //let programs: Record<string, Program> = await scraper.getPrograms(programsHtml);
 //console.log(programs);
 
+/*
+    ProgramsForTest is an example result of programs fetched from the undergraduate programs webpage. Since we're testing against fixtures, these are hard coded. 
+    This would be the result of the above test but the URLs would be actual links:
+*/
 let programsForTest = {
     "Computer Science" : {
         url: "scripts/fixtures/cs_courses.html",
@@ -21,34 +22,30 @@ let programsForTest = {
     }
 }
 
-import type {Course} from "../src/types/course"
-const clean = (s: string) =>
-    s
-    .replace(/[\u00a0\u200b]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim()
-
-for (const program of Object.values(programsForTest) as any[]) {
+// coursesScrapeTest is a test of reading courses for the programs fetched previously. It uses downloaded versions of programs' pages from the calendar website.
+function coursesScrapeTest() {
+    for (const program of Object.values(programsForTest) as any[]) {
         
-    const htmlContent = fs.readFileSync("scripts/fixtures/cs_courses.html", "utf-8")
-    const programHtml = cheerio.load(htmlContent)
+        const htmlContent = fs.readFileSync("scripts/fixtures/cs_courses.html", "utf-8")
+        const programHtml = cheerio.load(htmlContent)
 
-    const courses = programHtml("div.courseblock");
-    courses.each((_, ele) => {
-        const course = programHtml(ele);
+        const courses = programHtml("div.courseblock");
+        courses.each((_, ele) => {
+            const course = programHtml(ele);
 
-        try {
-            const courseData = scraper.buildCourseData(course); 
-            program.courses.push(courseData)
-        } catch {
-            console.log("Could not parse course data with html: "+course.html())
-        }
+            try {
+                const courseData = scraper.buildCourseData(course); 
+                program.courses.push(courseData)
+            } catch {
+                console.log("Could not parse course data with html: "+course.html())
+            }
 
-    })
+        })
+    }
+
+    fs.writeFileSync(
+        "scripts/output/courses-scraped.json",
+        JSON.stringify(programsForTest, null, 2),
+        "utf-8"
+    )
 }
-
-fs.writeFileSync(
-    "scripts/output/courses-scraped.json",
-    JSON.stringify(programsForTest, null, 2),
-    "utf-8"
-)
