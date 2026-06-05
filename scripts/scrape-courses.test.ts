@@ -3,15 +3,14 @@ import fs from "fs"
 import * as cheerio from "cheerio"
 import type {Program} from "./scrape-courses"
 
-// The following 2 lines are an example of fetching programs from the undergraduate programs webpage, uses a downloaded version of that page
-//let programs: Record<string, Program> = scraper.getPrograms(programsHtml);
-//console.log(programs);
-
 /**
-    ProgramsForTest is an example result of programs fetched from the undergraduate programs webpage. Since we're testing against fixtures, these are hard coded. 
-    This would be the result of the above test but the URLs would be actual links:
-*/
-let programsForTest = {
+ * In production, programs are fetched dynamically:
+ *   const programsHtml = await cheerio.fromURL("https://calendar.carleton.ca/undergrad/undergradprograms/");
+ *   const programs = scraper.getPrograms(programsHtml);
+ *
+ * For testing, we use local fixtures with hardcoded URLs instead:
+ */
+let programsForTest: Record<string, Program> = {
     "Computer Science" : {
         url: "scripts/fixtures/cs_courses.html",
         courses: []
@@ -28,7 +27,7 @@ let programsForTest = {
 function coursesScrapeTest() {
     for (const program of Object.values(programsForTest) as Program[]) {
         
-        const htmlContent = fs.readFileSync("scripts/fixtures/cs_courses.html", "utf-8")
+        const htmlContent = fs.readFileSync(program.url, "utf-8")
         const programHtml = cheerio.load(htmlContent)
 
         const courses = programHtml("div.courseblock");
@@ -38,8 +37,8 @@ function coursesScrapeTest() {
             try {
                 const courseData = scraper.buildCourseData(course); 
                 program.courses.push(courseData)
-            } catch {
-                console.log("Could not parse course data with html: "+course.html())
+            } catch (err) {
+                console.error("Could not parse course data:", err, "\nHTML:", course.html())
             }
 
         })
@@ -52,3 +51,12 @@ function coursesScrapeTest() {
     )
 }
 coursesScrapeTest();
+
+function programsScrapeTest() {
+    const htmlContent = fs.readFileSync("scripts/fixtures/programsPage.html", "utf-8")
+    const programsHtml = cheerio.load(htmlContent)
+    const programs = scraper.getPrograms(programsHtml)
+    console.log("Programs scraped & saved: ") // only saves programs in the programsToScan scan within scrape-courses.ts as it uses the script in scrape-courses.ts
+    console.log(programs)
+}
+programsScrapeTest();
