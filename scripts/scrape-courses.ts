@@ -29,7 +29,7 @@ const clean = (s: string) =>
  * The set of program names to scrape, as they appear on the Carleton undergraduate programs page.
  * @see {@link https://calendar.carleton.ca/undergrad/undergradprograms/}
  */
-const programsToScan: Set<String> = new Set([
+const programsToScan: Set<string> = new Set([
     "Computer Science",
     "Mathematics and Statistics"
 ])

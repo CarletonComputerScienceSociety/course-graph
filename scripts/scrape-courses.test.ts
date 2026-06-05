@@ -7,7 +7,7 @@ import type {Program} from "./scrape-courses"
 //let programs: Record<string, Program> = scraper.getPrograms(programsHtml);
 //console.log(programs);
 
-/*
+/**
     ProgramsForTest is an example result of programs fetched from the undergraduate programs webpage. Since we're testing against fixtures, these are hard coded. 
     This would be the result of the above test but the URLs would be actual links:
 */
@@ -22,7 +22,9 @@ let programsForTest = {
     }
 }
 
-// coursesScrapeTest is a test of reading courses for the programs fetched previously. It uses downloaded versions of programs' pages from the calendar website.
+/** 
+ coursesScrapeTest is a test of reading courses for the programs fetched previously. It uses downloaded versions of programs' pages from the calendar website.
+ */ 
 function coursesScrapeTest() {
     for (const program of Object.values(programsForTest) as Program[]) {
         
