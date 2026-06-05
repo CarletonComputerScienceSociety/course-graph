@@ -4,7 +4,7 @@ import * as cheerio from "cheerio"
 import type {Program} from "./scrape-courses"
 
 // The following 2 lines are an example of fetching programs from the undergraduate programs webpage, uses a downloaded version of that page
-//let programs: Record<string, Program> = await scraper.getPrograms(programsHtml);
+//let programs: Record<string, Program> = scraper.getPrograms(programsHtml);
 //console.log(programs);
 
 /*
@@ -24,7 +24,7 @@ let programsForTest = {
 
 // coursesScrapeTest is a test of reading courses for the programs fetched previously. It uses downloaded versions of programs' pages from the calendar website.
 function coursesScrapeTest() {
-    for (const program of Object.values(programsForTest) as any[]) {
+    for (const program of Object.values(programsForTest) as Program[]) {
         
         const htmlContent = fs.readFileSync("scripts/fixtures/cs_courses.html", "utf-8")
         const programHtml = cheerio.load(htmlContent)
@@ -49,3 +49,4 @@ function coursesScrapeTest() {
         "utf-8"
     )
 }
+coursesScrapeTest();
