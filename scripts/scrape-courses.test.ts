@@ -10,7 +10,7 @@ import type {Program} from "./scrape-courses"
  *
  * For testing, we use local fixtures with hardcoded URLs instead:
  */
-let programsForTest: Record<string, Program> = {
+const programsForTest: Record<string, Program> = {
     "Computer Science" : {
         url: "scripts/fixtures/cs_courses.html",
         courses: []

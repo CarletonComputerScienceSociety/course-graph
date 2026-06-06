@@ -47,7 +47,7 @@ const programsToScan: Set<string> = new Set([
  * // programs["Computer Science"] => { url: "https://...", courses: [] }
  */
 export function getPrograms(programsHtml: cheerio.CheerioAPI) : Record<string, Program> {
-    let programs: Record<string, Program> = {};
+    const programs: Record<string, Program> = {};
     const programsList = programsHtml("div.page_content a")
     programsList.each((_, ele) => {
         const programLinkEle = programsHtml(ele);
@@ -75,8 +75,8 @@ export function getPrograms(programsHtml: cheerio.CheerioAPI) : Record<string, P
  * @example
  * const courseData = buildCourseData(programHtml(".courseblock").first());
  */
-export function buildCourseData(course: cheerio.Cheerio<any>): Course {
-    let precludes: string[] = [];
+export function buildCourseData(course: ReturnType<cheerio.CheerioAPI>): Course {
+    const precludes: string[] = [];
     let prereqRaw = null;
 
     if (course.text().includes("Precludes additional credit for")){
@@ -92,8 +92,8 @@ export function buildCourseData(course: cheerio.Cheerio<any>): Course {
 
             const precHtml = cheerio.load(precludeString);
             precHtml("a").each( (_,ele) => {
-                const title: any = precHtml(ele).attr("title");
-                precludes.push(clean(title))
+                const title = precHtml(ele).attr("title");
+                if (title) precludes.push(clean(title));
             })
         }
 
@@ -117,10 +117,7 @@ export function buildCourseData(course: cheerio.Cheerio<any>): Course {
                 .replace(/\[.*?credit\]/, "")
         ),
         credits: Number(
-            course
-                .find(".courseblocktitle")
-                .text()
-                .match(/\[(\d+(\.\d+)?)\s*credit\]/i)?.[1] ?? 0
+            course.find(".courseblocktitle").text().split("[")[1].split("credit]")[0]
         ),
         description: clean(
             course
@@ -179,7 +176,7 @@ export async function getProgramCourses(programs: Record<string,Program>): Promi
 async function scrape(): Promise<void> {
     const programsHtml = await cheerio.fromURL("https://calendar.carleton.ca/undergrad/undergradprograms/")
     
-    let programs: Record<string,Program> = getPrograms(programsHtml);
+    const programs: Record<string,Program> = getPrograms(programsHtml);
     await getProgramCourses(programs);
 
     fs.writeFileSync(
