@@ -44,11 +44,6 @@ function coursesScrapeTest() {
         })
     }
 
-    fs.writeFileSync(
-        "scripts/output/courses-scraped.json",
-        JSON.stringify(programsForTest, null, 2),
-        "utf-8"
-    )
 }
 coursesScrapeTest();
 
@@ -56,7 +51,5 @@ function programsScrapeTest() {
     const htmlContent = fs.readFileSync("scripts/fixtures/programsPage.html", "utf-8")
     const programsHtml = cheerio.load(htmlContent)
     const programs = scraper.getPrograms(programsHtml)
-    console.log("Programs scraped & saved: ") // only saves programs in the programsToScan scan within scrape-courses.ts as it uses the script in scrape-courses.ts
-    console.log(programs)
 }
 programsScrapeTest();
