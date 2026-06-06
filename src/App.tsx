@@ -3,7 +3,7 @@ import '@xyflow/react/dist/style.css';
 import Header from '@/components/Header';
 import Explorer from '@/pages/Explorer';
 import Planner from '@/pages/Planner';
-import Footer from '@/components/Footer'
+import Footer from '@/components/Footer';
 
 export default function App() {
   return (

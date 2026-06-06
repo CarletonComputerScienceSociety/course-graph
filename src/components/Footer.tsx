@@ -1,4 +1,3 @@
-
 export default function Footer() {
   return (
     <footer className="bg-black border-t-red-600 border-t-2 p-1">
@@ -9,14 +8,24 @@ export default function Footer() {
           </a>
         </p>
         <p>
-          Not affiliated with or endorsed by Carleton University.{' '}
-          Always verify course requirements in the{' '}
-          <a className="underline" href="https://calendar.carleton.ca/undergrad/undergradprograms/computerscience/">
+          Not affiliated with or endorsed by Carleton University. Always verify
+          course requirements in the{' '}
+          <a
+            className="underline"
+            href="https://calendar.carleton.ca/undergrad/undergradprograms/computerscience/"
+          >
             official undergraduate calendar
-          </a>.
+          </a>
+          .
         </p>
         <p className="text-sm">
-          © {new Date().getFullYear()} Carleton Computer Science Society - <a className="underline" href="https://github.com/CarletonComputerScienceSociety/course-graph">GitHub</a>
+          © {new Date().getFullYear()} Carleton Computer Science Society -{' '}
+          <a
+            className="underline"
+            href="https://github.com/CarletonComputerScienceSociety/course-graph"
+          >
+            GitHub
+          </a>
         </p>
       </div>
     </footer>
