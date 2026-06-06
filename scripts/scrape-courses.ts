@@ -87,7 +87,7 @@ export function buildCourseData(course: cheerio.Cheerio<any>): Course {
             if (precludeString.includes("Prerequisite(s):")){
                 const splitString = precludeString.split("Prerequisite(s):")
                 precludeString = splitString[0];
-                prereqRaw = splitString[1].split("<br")[0]
+                prereqRaw = clean(cheerio.load(splitString[1].split("<br")[0]).text())
             }
 
             const precHtml = cheerio.load(precludeString);
@@ -100,9 +100,9 @@ export function buildCourseData(course: cheerio.Cheerio<any>): Course {
     } else if (course.text().includes("Prerequisite(s):")){
         const infoHtml = course.html()
         if (infoHtml) {
-            prereqRaw = infoHtml.split("Prerequisite(s):")[1].split("<br")[0]
+            prereqRaw = clean(cheerio.load(infoHtml.split("Prerequisite(s):")[1].split("<br")[0]).text())
         }
-    }    
+    }
 
     const courseData: Course = {
         code: clean(course.find(".courseblockcode").text()),

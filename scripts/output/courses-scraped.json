@@ -1,0 +1,2426 @@
+{
+  "Computer Science": {
+    "url": "https://calendar.carleton.ca/undergrad/undergradprograms/computerscience/",
+    "courses": [
+      {
+        "code": "COMP 1001",
+        "title": "Introduction to Computational Thinking for Arts and Social Science Students",
+        "credits": 0.5,
+        "description": "An introduction to computational thinking and its applications to the arts and social sciences. Students will gain computational thinking skills by exploring data representation, basic programming concepts, a selection of algorithms, and advanced usage of software packages for the arts and social sciences.",
+        "prereq": null,
+        "prereqRaw": null,
+        "precludes": []
+      },
+      {
+        "code": "COMP 1005",
+        "title": "Introduction to Computer Science I",
+        "credits": 0.5,
+        "description": "Introduction to computer science and programming. Topics include: algorithm design; control structures; variables and types; linear collections; functions; debugging and testing. Special attention is given to procedural programming in a modern language, computational thinking skills, and problem decomposition.",
+        "prereq": null,
+        "prereqRaw": null,
+        "precludes": [
+          "BIT 1400",
+          "CGSC 1005",
+          "ECOR 1031",
+          "ITEC 1400",
+          "ITEC 1401"
+        ]
+      },
+      {
+        "code": "COMP 1006",
+        "title": "Introduction to Computer Science II",
+        "credits": 0.5,
+        "description": "A second course in programming emphasizing problem solving and computational thinking in an object-oriented language. Topics include abstraction, mutable data structures, methods, inheritance, polymorphism, recursion, program efficiency, testing and debugging.",
+        "prereq": null,
+        "prereqRaw": "COMP 1005 or COMP 1405.",
+        "precludes": [
+          "BIT 2400",
+          "BUSI 2402",
+          "ITEC 2400",
+          "ITEC 2401",
+          "SYSC 2004"
+        ]
+      },
+      {
+        "code": "COMP 1008",
+        "title": "Math for Game Programmers",
+        "credits": 0.5,
+        "description": "Math for building 3D games. Points, vectors, normals. Dot and cross products. Transformations and inverses in left- and right-handed systems. Uses for controlling objects, cameras, and texture manipulation. Bounding boxes, planes, frustums for collision detection and visibility, fast billboarding techniques, point and sphere sweeping. Quaternions.",
+        "prereq": null,
+        "prereqRaw": "one Grade 12 university preparation mathematics course.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 1405",
+        "title": "Introduction to Computer Science I",
+        "credits": 0.5,
+        "description": "Introduction to computer science and programming, for computer science students. Topics include: algorithm design; control structures; variables and types; linear collections; functions; debugging and testing. Special attention is given to procedural programming in a modern language, computational thinking skills, and problem decomposition.",
+        "prereq": null,
+        "prereqRaw": "restricted to students registered in the B.C.S. program, B.Cyber. program, B.D.S. program, combined Honours in Computer Science and Mathematics, Honours Computer Mathematics, and Honours Computer Statistics.",
+        "precludes": [
+          "BIT 1400",
+          "CGSC 1005",
+          "ECOR 1031",
+          "ITEC 1400",
+          "ITEC 1401"
+        ]
+      },
+      {
+        "code": "COMP 1406",
+        "title": "Introduction to Computer Science II",
+        "credits": 0.5,
+        "description": "A second course in programming for BCS students, emphasizing problem solving and computational thinking in an object-oriented language. Topics include abstraction, mutable data structures, methods, inheritance, polymorphism, recursion, program efficiency, testing and debugging.",
+        "prereq": null,
+        "prereqRaw": "COMP 1005 or COMP 1405. Restricted to students registered in the B.C.S. program, B.Cyber. program, B.D.S. program, combined Honours in Computer Science and Mathematics, Honours Computer Mathematics, and Honours Computer Statistics.",
+        "precludes": [
+          "BIT 2400",
+          "BUSI 2402",
+          "ITEC 2400",
+          "ITEC 2401",
+          "SYSC 2004"
+        ]
+      },
+      {
+        "code": "COMP 1501",
+        "title": "Introduction to Computer Game Design",
+        "credits": 0.5,
+        "description": "Introduction to game design and prototyping. Topics include: formal theories of fun; the mechanics-dynamics-aesthetics framework; game economies; game balance; statistical tools for analyzing game mechanics; game settings; and storytelling. Special attention is given to the attributes of games and what makes a game fun.",
+        "prereq": null,
+        "prereqRaw": "COMP 1005 or COMP 1405.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 1601",
+        "title": "Introduction to Mobile Application Development",
+        "credits": 0.5,
+        "description": "Introduction to developing mobile applications using the Mac OS X platform. Topics include: the Objective-C programming language; development tools; framework API's; and the Quartz graphic system. Extensive practical experience with development for Apple mobile devices such as the iPhone.",
+        "prereq": null,
+        "prereqRaw": "COMP 1005 or COMP 1405.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 1805",
+        "title": "Discrete Structures I",
+        "credits": 0.5,
+        "description": "Introduction to discrete mathematics and discrete structures. Topics include: propositional logic, predicate calculus, set theory, complexity of algorithms, mathematical reasoning and proof techniques, recurrences, induction, finite automata and graph theory. Material is illustrated through examples from computing.",
+        "prereq": null,
+        "prereqRaw": "one Grade 12 university preparation mathematics course.",
+        "precludes": [
+          "MATH 1800"
+        ]
+      },
+      {
+        "code": "COMP 1910",
+        "title": "Internship",
+        "credits": 0.5,
+        "description": "The internship exposes students to industrial software development via placement in a local enterprise. This course may only be taken by students participating in one of the School's industrial partnerships and can only be used as a free elective in the B.C.S. program.",
+        "prereq": null,
+        "prereqRaw": "Permission of the School and registration in internship option.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 1911",
+        "title": "Internship",
+        "credits": 0.5,
+        "description": "The internship exposes students to industrial software development via placement in a local enterprise. The course may only be taken by students participating in one of the School's industrial partnerships and can only be used as a free elective in the B.C.S. program.",
+        "prereq": null,
+        "prereqRaw": "COMP 1910 and registration in internship option.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 2008",
+        "title": "User Interaction Design and Prototyping",
+        "credits": 0.5,
+        "description": "Introduction to the principles of interaction design, including the human-centred design process, creative ideation, requirements gathering, prototyping, ethical considerations in design, rapid usability evaluation, and iterative design in a variety of user interaction paradigms.",
+        "prereq": null,
+        "prereqRaw": "(COMP 1006 or COMP 1406) with a minimum grade of C-.",
+        "precludes": [
+          "IMD 3004"
+        ]
+      },
+      {
+        "code": "COMP 2108",
+        "title": "Applied Cryptography and Authentication",
+        "credits": 0.5,
+        "description": "Practical aspects of cryptography. Topics include: stream and block ciphers; modes of operation; hash functions; message and user authentication; authenticated key establishment protocols; random number generation; entropy; proof of knowledge; secret sharing; key distribution; pitfalls deploying public-key encryption and digital signatures.",
+        "prereq": null,
+        "prereqRaw": "(COMP 1006 or COMP 1406) with a minimum grade of C-, and COMP 2804.",
+        "precludes": [
+          "CSEC 2108"
+        ]
+      },
+      {
+        "code": "COMP 2109",
+        "title": "Introduction to Security and Privacy",
+        "credits": 0.5,
+        "description": "A tour of Internet security and privacy. Societal impacts and case studies. Topics from: protection goals of stakeholders; history of public key cryptography; programming languages and security; security engineering and testing; cybercrime and malware; Internet privacy and anonymity; government surveillance; regulation; ethics; blockchain applications.",
+        "prereq": null,
+        "prereqRaw": "(COMP 1006 or COMP 1406) with a minimum grade of C-, and COMP 2401 with a minimum grade of C-.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 2401",
+        "title": "Introduction to Systems Programming",
+        "credits": 0.5,
+        "description": "Introduction to system-level programming with fundamental OS concepts, procedures, primitive data types, user-defined types. Topics may include process management, memory management, process coordination and synchronization, inter-process communication, file systems, networking, pointers, heap and stack memory management, and system/library calls.",
+        "prereq": null,
+        "prereqRaw": "(COMP 1006 or COMP 1406) with a minimum grade of C-.",
+        "precludes": [
+          "SYSC 1006",
+          "SYSC 2006"
+        ]
+      },
+      {
+        "code": "COMP 2402",
+        "title": "Abstract Data Types and Algorithms",
+        "credits": 0.5,
+        "description": "Introduction to the design and implementation of abstract data types and to complexity analysis of data structures. Topics include: stacks, queues, lists, trees and graphs. Special attention is given to abstraction, interface specification and hierarchical design using an object-oriented programming language.",
+        "prereq": null,
+        "prereqRaw": "(COMP 1006 or COMP 1406) with a minimum grade of C-.",
+        "precludes": [
+          "SYSC 2100"
+        ]
+      },
+      {
+        "code": "COMP 2404",
+        "title": "Introduction to Software Engineering",
+        "credits": 0.5,
+        "description": "Introduction to object-oriented software development, with emphasis on the design and implementation of maintainable, reusable software. Topics include abstraction, modularity, encapsulation, and an introduction to design patterns.",
+        "prereq": null,
+        "prereqRaw": "COMP 2401 with a minimum grade of C-.",
+        "precludes": [
+          "SYSC 3010",
+          "SYSC 3110"
+        ]
+      },
+      {
+        "code": "COMP 2406",
+        "title": "Fundamentals of Web Applications",
+        "credits": 0.5,
+        "description": "Introduction to Internet application development; emphasis on computer science fundamentals of technologies underlying web applications. Topics include: scripting and functional languages, language-based virtual machines, database query languages, remote procedure calls over the Internet, and performance and security concerns in modern distributed applications.",
+        "prereq": null,
+        "prereqRaw": "(COMP 1006 or COMP 1406) with a minimum grade of C-.",
+        "precludes": [
+          "SYSC 4504"
+        ]
+      },
+      {
+        "code": "COMP 2501",
+        "title": "Computer Game Design and Development",
+        "credits": 0.5,
+        "description": "Introduction to the practical development of computer games and engine architecture. Topics include: vector and matrix operations; coordinate systems and transformations; physical simulation; collision detection; AI; path planning; hardware-accelerated real-time rendering. Special attention is given to implementation of real-time rendering in a low-level language.",
+        "prereq": null,
+        "prereqRaw": "COMP 2401 with a minimum grade of C-, and (MATH 1104 or MATH 1107).",
+        "precludes": []
+      },
+      {
+        "code": "COMP 2601",
+        "title": "Mobile Applications",
+        "credits": 0.5,
+        "description": "Development of applications for mobile environments taking advantage of gesture-based input and using location and presence services. Topics include introduction to low-level network services and mobile platforms, description of architectural patterns, principles of mobile development and interaction styles for network service usage.",
+        "prereq": null,
+        "prereqRaw": "COMP 1601.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 2801",
+        "title": "Introduction to Robotics",
+        "credits": 0.5,
+        "description": "A course on programming simulated mobile robots with various sensors such as wheel encoders, distance sensors, cameras, compasses, accelerometers, and laser range finders. Topics include: programming robot behaviour; performing position estimation; implementing algorithms related to navigation, mapping, path planning, area coverage, and localization.",
+        "prereq": null,
+        "prereqRaw": "(COMP 1006 or COMP 1406) with a minimum grade of C-.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 2804",
+        "title": "Discrete Structures II",
+        "credits": 0.5,
+        "description": "A second course in discrete mathematics and discrete structures. Topics include: counting, sequences and sums, discrete probability, basic statistics, recurrence relations, randomized algorithms. Material is illustrated through examples from computing.",
+        "prereq": null,
+        "prereqRaw": "COMP 1805 with a minimum grade of C-, or permission of the School of Computer Science for those in Combined Honours in Computer Science and Mathematics.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 2910",
+        "title": "Internship",
+        "credits": 0.5,
+        "description": "The internship exposes students to industrial software development via placement in a local enterprise. The course may only be taken by students participating in one of the School's industrial partnerships and can only be used as a free elective in the B.C.S. program.",
+        "prereq": null,
+        "prereqRaw": "COMP 1911 and registration in internship option.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 2911",
+        "title": "Internship",
+        "credits": 0.5,
+        "description": "The internship exposes students to industrial software development via placement in a local enterprise. The course may only be taken by students participating in one of the School's industrial partnerships and can only be used as a free elective in the B.C.S. program.",
+        "prereq": null,
+        "prereqRaw": "COMP 2910 and registration in internship option.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 3000",
+        "title": "Operating Systems",
+        "credits": 0.5,
+        "description": "Operating system implementation course stressing fundamental issues in design and how they relate to modern computer architectures. Assignments involve the modification and extension of a multitasking operating system.",
+        "prereq": null,
+        "prereqRaw": "COMP 2401 with a minimum grade of C- and COMP 2402.",
+        "precludes": [
+          "SYSC 4001"
+        ]
+      },
+      {
+        "code": "COMP 3002",
+        "title": "Compiler Construction",
+        "credits": 0.5,
+        "description": "The structure, organization and design of the phases of a compiler are considered: lexical translators, syntactical translators, scope handlers, type checkers, code generators and optimizers. Components of a compiler will be implemented.",
+        "prereq": null,
+        "prereqRaw": "COMP 2402.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 3004",
+        "title": "Object-Oriented Software Engineering",
+        "credits": 0.5,
+        "description": "Development of object-oriented software systems: theory and practice. Topics include: Computer ethics, software development processes, requirement specification, class and scenario modeling, state modeling, UML, design patterns, traceability. Students are to complete a team project.",
+        "prereq": null,
+        "prereqRaw": "COMP 2401 with a minimum grade of C-, (COMP 2404 or SYSC 3010 or SYSC 3110) with a minimum grade of C-, and (COMP 2406 or SYSC 4504).",
+        "precludes": [
+          "SYSC 3020",
+          "SYSC 3120",
+          "SYSC 4120"
+        ]
+      },
+      {
+        "code": "COMP 3005",
+        "title": "Database Management Systems",
+        "credits": 0.5,
+        "description": "Introduction to the concepts of database management systems and database design. Topics may include: entity-relationship modelling, normalization, reduction to relational schemas, SQL, file and data organization, indexing, hash tables, join algorithms, query processing, query optimization, and concurrency control.",
+        "prereq": null,
+        "prereqRaw": "COMP 1805 with a minimum grade of C-, and either COMP 2402 or (SYSC 2004 and SYSC 2100).",
+        "precludes": [
+          "BUSI 3400"
+        ]
+      },
+      {
+        "code": "COMP 3007",
+        "title": "Programming Paradigms",
+        "credits": 0.5,
+        "description": "An introduction to alternative programming paradigms such as functional, constraint-based, concurrent, and logic programming.",
+        "prereq": null,
+        "prereqRaw": "COMP 1805 with a minimum grade of C-, COMP 2401 with a minimum grade of C-, COMP 2402, (COMP 2404 or SYSC 3010 or SYSC 3110) and (COMP 2406 or SYSC 4504).",
+        "precludes": [
+          "SYSC 3101"
+        ]
+      },
+      {
+        "code": "COMP 3008",
+        "title": "Software Structures for User Interfaces",
+        "credits": 0.5,
+        "description": "Concepts and principles related to building user interfaces, and applications in implementing interfaces in “front-end” programming contexts. Topics may include: reactive programming, input and output factors, application interfaces and infrastructure, typical patterns used to implement them, and organization and management of these aspects within software.",
+        "prereq": null,
+        "prereqRaw": "(COMP 2404 or SYSC 3010 or SYSC 3110) and (COMP 2406 or SYSC 4504).",
+        "precludes": [
+          "SYSC 4130"
+        ]
+      },
+      {
+        "code": "COMP 3105",
+        "title": "Introduction to Machine Learning",
+        "credits": 0.5,
+        "description": "An introduction to methods for automated learning of relationships on the basis of empirical data. Includes topics in supervised and unsupervised machine learning and deeper knowledge of specific algorithms and their applications. Evaluation and quantification of performance of ML systems. Discussion of data ethics.",
+        "prereq": null,
+        "prereqRaw": "COMP 2402 and (COMP 2404 or SYSC 3010 or SYSC 3110) and COMP 2804 and (MATH 1104 or MATH 1107).",
+        "precludes": [
+          "SYSC 4415"
+        ]
+      },
+      {
+        "code": "COMP 3106",
+        "title": "Introduction to Artificial Intelligence",
+        "credits": 0.5,
+        "description": "Principles and tools used in Artificial Intelligence. Fundamentals of Knowledge Representation and Reinforcement Learning and Nature-Based computing. Methods for non-adversarial problem solving including non-exhaustive and heuristic-based strategies for searching the state space. Methods for adversarial problem solving, modeled as two-person and multi-person games.",
+        "prereq": null,
+        "prereqRaw": "COMP 2402 and (COMP 2404 or SYSC 3010 or SYSC 3110) and COMP 2804.",
+        "precludes": [
+          "SYSC 4416"
+        ]
+      },
+      {
+        "code": "COMP 3203",
+        "title": "Principles of Computer Networks",
+        "credits": 0.5,
+        "description": "This is an introductory course to the field of Network Computing. Topics include: Protocol Architectures and Internetworking, Types of Networks, Communication Protocols, End-System and Network Traffic Management, Structure of Routing and Congestion Control.",
+        "prereq": null,
+        "prereqRaw": "COMP 2401 with a minimum grade of C-, and COMP 2402.",
+        "precludes": [
+          "SYSC 3512",
+          "SYSC 4602"
+        ]
+      },
+      {
+        "code": "COMP 3301",
+        "title": "Technical Writing for Computer Science",
+        "credits": 0.5,
+        "description": "Technical communication for computer science majors, concentrating on writing scientific papers and technical reports. Principles of clarity and precision in writing and communication. Practical exercises and readings from recent technical publications will be used.",
+        "prereq": null,
+        "prereqRaw": "COMP 2402 and (COMP 2404 or SYSC 3010 or SYSC 3110).",
+        "precludes": []
+      },
+      {
+        "code": "COMP 3400",
+        "title": "Computational Logic and Automated Reasoning",
+        "credits": 0.5,
+        "description": "Applications of formal logic in computer science. Symbolic logics such as classical predicate calculus are used to represent domain knowledge, to model computational problems and to solve them by means of automated reasoners. Applications include artificial intelligence, software engineering, data management and hardware verification.",
+        "prereq": null,
+        "prereqRaw": "COMP 2804.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 3501",
+        "title": "Foundations of Game Programming and Computer Graphics",
+        "credits": 0.5,
+        "description": "The theory and practice of 3D graphics for computer games. Topics include: vectors and quaternions; hierarchical transformations; camera and perspective; hardware-accelerated real-time rendering; texture and texture mapping; illumination; and particle systems. Additional topics may include rigid-body motion, character animation, shadows, and screen-space special effects.",
+        "prereq": null,
+        "prereqRaw": "COMP 2402 and (COMP 2404 or SYSC 3010 or SYSC 3110).",
+        "precludes": []
+      },
+      {
+        "code": "COMP 3803",
+        "title": "Introduction to Theory of Computation",
+        "credits": 0.5,
+        "description": "Theoretical aspects of computer science. Topics include: formal languages and automata theory, computability theory.",
+        "prereq": null,
+        "prereqRaw": "COMP 2804.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 3804",
+        "title": "Design and Analysis of Algorithms I",
+        "credits": 0.5,
+        "description": "An introduction to the design and analysis of algorithms. Topics include: divide-and-conquer, dynamic programming, linear programming, greedy algorithms, graph algorithms, NP-completeness.",
+        "prereq": null,
+        "prereqRaw": "COMP 2402 and one of (COMP 2804 or COMP 3805 or MATH 3825 or MATH 3855).",
+        "precludes": []
+      },
+      {
+        "code": "COMP 3805",
+        "title": "Discrete Structures and Applications (Honours)",
+        "credits": 0.5,
+        "description": "Enumeration: inclusion and exclusion, recurrence relations, generating functions and applications. Graph theory: connectivity, planarity, Hamilton paths and Euler trails. Error-correcting codes. Designs and finite geometries. Symmetry and counting.",
+        "prereq": null,
+        "prereqRaw": "MATH 2100 or a grade of B or higher in MATH 2108 or MATH 3101.",
+        "precludes": [
+          "MATH 3825"
+        ]
+      },
+      {
+        "code": "COMP 3807",
+        "title": "Mathematical Software",
+        "credits": 0.5,
+        "description": "Implementation of numerical methods using numerical software packages. Development of scientific and/or operations research applications using application programming interfaces of numerical or optimization libraries. Functional programming for data analysis and machine learning. Experience working with Python, C++, or Java is essential.",
+        "prereq": null,
+        "prereqRaw": "A grade of C- or higher in MATH 3806.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 3910",
+        "title": "Internship",
+        "credits": 0.5,
+        "description": "The internship exposes students to industrial software development via placement in a local enterprise. The course may only be taken by students participating in one of the School's industrial partnerships and can only be used as a free elective in the B.C.S. program.",
+        "prereq": null,
+        "prereqRaw": "COMP 2911 and registration in internship option.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 3911",
+        "title": "Internship",
+        "credits": 0.5,
+        "description": "The internship exposes students to industrial software development via placement in a local enterprise. The course may only be taken by students participating in one of the School's industrial partnerships and can only be used as a free elective in the B.C.S. program.",
+        "prereq": null,
+        "prereqRaw": "COMP 3910 and registration in internship option.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 3999",
+        "title": "Co-operative Work Term",
+        "credits": 0,
+        "description": "",
+        "prereq": null,
+        "prereqRaw": null,
+        "precludes": []
+      },
+      {
+        "code": "COMP 4000",
+        "title": "Distributed Operating Systems",
+        "credits": 0.5,
+        "description": "An advanced course on the software infrastructure supporting large-scale cloud computing applications. Topics may include: distributed file systems, distributed databases, overlay networks, container orchestration, coordination services, security and privacy services, and large-scale AI pipelines.",
+        "prereq": null,
+        "prereqRaw": "(COMP 3000 or SYSC 4001) and (COMP 3203 or SYSC 4602).",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4001",
+        "title": "Distributed Computing",
+        "credits": 0.5,
+        "description": "Overview of distributed computing. Topics include: computational models, communication complexity, design and analysis of distributed algorithms and protocols, fault-tolerant protocols, synchronous computations. Applications may include: communication in data networks, control in distributed system (e.g., election, distributed mutual exclusion), manipulation of distributed data (e.g., ranking).",
+        "prereq": null,
+        "prereqRaw": "COMP 1805 with a minimum grade of C-, COMP 2401 with a minimum grade of C-, and (COMP 2406 or SYSC 4504).",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4002",
+        "title": "Real-Time 3D Game Engines",
+        "credits": 0.5,
+        "description": "The design and implementation of game engines for real-time 3D games including topics such as camera control, environmental effects, articulated models, terrain, vegetation, collision detection, particles, emitters, triggers, portals, waypoints, mirrors, and shadows.",
+        "prereq": null,
+        "prereqRaw": "COMP 2404 or SYSC 3010 or SYSC 3110.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4003",
+        "title": "Transaction Processing Systems",
+        "credits": 0.5,
+        "description": "Concepts and architectures of transaction processing systems and on-line transaction processing, with emphasis on data integration systems. Transaction properties and models, embedded-SQL, active rules, consistency maintenance, serializability, concurrency control, recovery, data integration systems and federated databases, introduction to transactions in web services and workflow systems.",
+        "prereq": null,
+        "prereqRaw": "(COMP 2404 or SYSC 3010 or SYSC 3110) and COMP 3005.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4004",
+        "title": "Software Quality Assurance",
+        "credits": 0.5,
+        "description": "Introduction to the theory and practice of Software Quality Assurance. Topics include: equivalence partitioning, test-driven testing, unit testing patterns, refactoring, software metrics, requirements engineering, scenario modeling and acceptance testing, model-based testing, state machine testing, software testing theory and tools.",
+        "prereq": null,
+        "prereqRaw": "COMP 3004.",
+        "precludes": [
+          "SYSC 4101"
+        ]
+      },
+      {
+        "code": "COMP 4008",
+        "title": "Evaluation and Research Methods for Human-Computer Interaction",
+        "credits": 0.5,
+        "description": "Fundamental Human-Computer Interaction (HCI) research and evaluation methods. Topics may include: HCI research methodologies, research ethics, expert evaluation, user studies, qualitative and quantitative data collection, statistical data analysis, information visualization, and specifying practical implications of findings.",
+        "prereq": null,
+        "prereqRaw": "COMP 2008, COMP 3008, and STAT 2509 with a minimum grade of C- in each.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4009",
+        "title": "Programming for Clusters and Multi-Core Processors",
+        "credits": 0.5,
+        "description": "Introduction to parallel architectures, programming languages and algorithms for processor clusters and multi-core processors. Distributed memory architectures, cluster computing, message passing parallel programming, multi-core processors, shared memory parallel programming, use of thread libraries, parallel performance analysis.",
+        "prereq": null,
+        "prereqRaw": "COMP 2402 and (COMP 2404 or SYSC 3010 or SYSC 3110) and COMP 2804.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4010",
+        "title": "Introduction to Reinforcement Learning",
+        "credits": 0.5,
+        "description": "Learn about designing and programming reinforcement learning agents to perform complex tasks in interactive environments. Topics include Markov decision processes, dynamic programming methods, Monte Carlo methods, temporal difference learning, prediction/control with function approximation, policy gradient, and deep reinforcement learning algorithms.",
+        "prereq": null,
+        "prereqRaw": "COMP 2402, (COMP 2404 or SYSC 3010 or SYSC 3110), (MATH 1004 or MATH 1007), (MATH 1104 or MATH 1107), and (DATA 1517 or STAT 2507).",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4102",
+        "title": "Computer Vision",
+        "credits": 0.5,
+        "description": "The basic ideas and techniques of computer vision. The central theme is reconstructing 3D models from 2D images. Topics include: image formation, image feature extraction, camera models, camera calibration, structure from motion, stereo, recognition, augmented reality, image searching.",
+        "prereq": null,
+        "prereqRaw": "(COMP 2404 or SYSC 3010 or SYSC 3110) and (MATH 1104 or MATH 1107).",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4107",
+        "title": "Neural Networks",
+        "credits": 0.5,
+        "description": "An introduction to neural networks and deep learning. Theory and application of Neural Networks to problems in machine learning. Various network architectures will be discussed. Methods for improving optimization and generalization of neural networks. Neural networks for unsupervised learning.",
+        "prereq": null,
+        "prereqRaw": "(COMP 3105 or SYSC 4415) and (MATH 1104 or MATH 1107).",
+        "precludes": [
+          "COMP 5206"
+        ]
+      },
+      {
+        "code": "COMP 4108",
+        "title": "Computer Systems Security",
+        "credits": 0.5,
+        "description": "Information security in computer and communications systems. Topics include: design principles; operating system security and access control; web and software security; malicious software, security infrastructure; secure email; network authentication; firewalls; intrusion detection; IP security; network attacks; wireless security.",
+        "prereq": null,
+        "prereqRaw": "COMP 2108 and (COMP 3000 or SYSC 4001).",
+        "precludes": [
+          "CSEC 3108",
+          "SYSC 4810"
+        ]
+      },
+      {
+        "code": "COMP 4111",
+        "title": "Data Management for Business Intelligence",
+        "credits": 0.5,
+        "description": "Application of computational techniques to support business activities, such as decision making, business understanding, data analysis, business process automation, learning from data, producing and using data-centric business models, ontology-based data access and integration, data quality assessment and cleaning and use of contextual data.",
+        "prereq": null,
+        "prereqRaw": "COMP 3005.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4114",
+        "title": "Quantum Computing and Information",
+        "credits": 0.5,
+        "description": "Introduction to the ideas and principles of quantum computing and information. Review of mathematical foundations. Discussion of quantum theory, architecture, and quantum gates. Basic algorithms in quantum computing. Theoretical computer science and computation. Applications of quantum computing to cryptography. Quantum information and error correction.",
+        "prereq": null,
+        "prereqRaw": "COMP 2804.",
+        "precludes": [
+          "MATH 4821",
+          "MATH 5821"
+        ]
+      },
+      {
+        "code": "COMP 4115",
+        "title": "Introduction to Natural Language Processing",
+        "credits": 0.5,
+        "description": "Introduction to the fundamental techniques and models of modern natural language processing. Topics include: word embedding, language models, machine translation, self-attention and transformer, question answering, and pre-trained models.",
+        "prereq": null,
+        "prereqRaw": "(COMP 3105 or SYSC 4415) and (MATH 1104 or MATH 1107).",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4116",
+        "title": "Multiagent Systems",
+        "credits": 0.5,
+        "description": "Multiagent systems is a branch of artificial intelligence that explores the interactions between multiple rational entities, where each may have access to different information and possibly conflicting priorities. This course takes an approach founded on economic game theory.",
+        "prereq": null,
+        "prereqRaw": "COMP 3106.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4202",
+        "title": "Computational Aspects of Geographic Information Systems",
+        "credits": 0.5,
+        "description": "Through recent advances in navigation systems, mobile devices, and new software such as Mapquest and Google Earth, GIS is becoming increasingly important and exciting from a CS perspective. This course lays the algorithmic foundations to understand, use and further this technology.",
+        "prereq": null,
+        "prereqRaw": "COMP 3804 or MATH 3804.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4203",
+        "title": "Wireless Networks and Security",
+        "credits": 0.5,
+        "description": "An introduction to wireless networks covering both networking issues and security aspects of modern wireless environments. Fundamentals of mobile LANs, ad hoc, sensor networks, secure routing, searching, clustering, multicasting, localization, mobile IP/TCP, confidentiality, key establishment, authentication, broadcasting, RFIDs, and rogue attacks.",
+        "prereq": null,
+        "prereqRaw": "COMP 3203 or SYSC 4602.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4206",
+        "title": "Evolving Information Networks",
+        "credits": 0.5,
+        "description": "Convergence of social and technological networks. Interplay between information content, entities creating it and technologies supporting it. Structure and analysis of such networks, models abstracting their properties, techniques link analysis, search, mechanism design, power laws, cascading, clustering and connections with work in social sciences.",
+        "prereq": null,
+        "prereqRaw": "COMP 1805, (COMP 2401 with a minimum grade of C-) and (COMP 2406 or SYSC 4504).",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4501",
+        "title": "Advanced Facilities for Real-Time Games",
+        "credits": 0.5,
+        "description": "A practical course on the design and implementation of modern game engines and advanced facilities provided by these engines. Such facilities include systems for rendering 3D scenes; simulating physics; playing animations; game AI; and enabling multi-player games. Students will undertake a significant game development project.",
+        "prereq": null,
+        "prereqRaw": "COMP 3501.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4509",
+        "title": "Computer Graphics",
+        "credits": 0.5,
+        "description": "An overview of computer graphics, with an emphasis on rendering. Topics include the following: visibility; ray tracing; graphics hardware; object and scene modeling; lighting, shading, and texture; animation.",
+        "prereq": null,
+        "prereqRaw": "COMP 2401 with a minimum grade of C-, COMP 2402, (MATH 1004 or MATH 1007), and (MATH 1104 or MATH 1107).",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4601",
+        "title": "Intelligent Web-based Information Systems",
+        "credits": 0.5,
+        "description": "Introduction to the principles and practice of creation, delivery and analysis of multimedia content in web-based systems. Topics include analysis of webs of documents, social network analysis, recommender systems and problems of trust, reputation and influence in e-commerce systems.",
+        "prereq": null,
+        "prereqRaw": "(COMP 2404 or SYSC 3010 or SYSC 3110) and (COMP 2406 or COMP 2601 or SYSC 4504).",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4602",
+        "title": "Social Networking",
+        "credits": 0.5,
+        "description": "Introduction to virtual communities, overlay networks and social networking. Topics include architectural principles for heterogeneous social networking platforms, trust and reputation as social concepts, agent-based computing, and extraction of trends and patterns from information exchanged between community members.",
+        "prereq": null,
+        "prereqRaw": "((COMP 2404 or SYSC 3010 or SYSC 3110) and (COMP 2406 or SYSC 4504)) or COMP 2601.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4701",
+        "title": "Computing, Society, and Ethics",
+        "credits": 0.5,
+        "description": "This course examines ethical questions raised by computing technologies - both motivated by recent developments and through the lens of fiction. Students will identify possible ethical issues in future technologies and use formal ethics frameworks to evaluate the merits and pitfalls of different solutions.",
+        "prereq": null,
+        "prereqRaw": "Any two of COMP 2108, COMP 3004, COMP 3005, COMP 3008, (COMP 3105 or SYSC 4415), COMP 3106, COMP 3804.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4801",
+        "title": "Algorithms for Data Mining, Web, and Social Networks",
+        "credits": 0.5,
+        "description": "Algorithm design techniques for modern data sets arising in, for example, data mining, web analytics, search engines and social networks. Topics may include locality-sensitive hashing, data streaming, clustering, recommendation systems, link analysis, dimensionality reduction, online algorithms, social network analysis, graph partitioning, and randomized algorithms.",
+        "prereq": null,
+        "prereqRaw": "COMP 2804 with a minimum grade of B+.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4803",
+        "title": "Computable Functions",
+        "credits": 0.5,
+        "description": "Recursive functions and computability, algorithms, Church's thesis, Turing machines, computational logic, NP-completeness.",
+        "prereq": null,
+        "prereqRaw": "MATH 2100 or COMP 3805 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4804",
+        "title": "Design and Analysis of Algorithms II",
+        "credits": 0.5,
+        "description": "A second course on the design and analysis of algorithms. Topics include: advanced recurrence relations, algebraic complexity, advanced graph algorithms, amortized analysis, algorithms for NP-complete problems, randomized algorithms.",
+        "prereq": null,
+        "prereqRaw": "COMP 3804 or MATH 3804.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4805",
+        "title": "Theory of Automata",
+        "credits": 0.5,
+        "description": "Finite automata and regular expressions, properties of regular sets, context-free grammars, pushdown automata, deterministic context-free languages. Turing machines, the Chomsky hierarchy. Undecidability, intractable problems.",
+        "prereq": null,
+        "prereqRaw": "COMP 3805 or MATH 3106 or MATH 3158 (or MATH 3100) or permission of the School.",
+        "precludes": [
+          "MATH 5605"
+        ]
+      },
+      {
+        "code": "COMP 4806",
+        "title": "Scientific Computing II (Honours)",
+        "credits": 0.5,
+        "description": "Computational methods in numerical linear algebra including solvers for large linear systems, numerical optimization and eigenvalue problems. Application to topics such as scientific machine learning or parallel computing. Focus on implementation in an efficient compiled language and standard numerical libraries.",
+        "prereq": null,
+        "prereqRaw": "i) MATH 3806; and ii) MATH 2152 or MATH 2107 with a grade of C- or higher, or permission of the school.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4900",
+        "title": "Special Topics in Computer Science",
+        "credits": 0.5,
+        "description": "Advanced topics in Computer Science offered by members of the School of Computer Science.",
+        "prereq": null,
+        "prereqRaw": "permission of the School of Computer Science.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4901",
+        "title": "Directed Studies",
+        "credits": 0.5,
+        "description": "Independent study under the supervision of a member of the School of Computer Science. Students are required to obtain their supervisor's written approval prior to registration and are limited to two such courses in their program.",
+        "prereq": null,
+        "prereqRaw": "permission of the School of Computer Science.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4905",
+        "title": "Honours Project",
+        "credits": 0.5,
+        "description": "Under the supervision of a faculty member, Honours students complete a major Computer Science project in fourth year. Permission to register is granted once an approved project proposal is submitted to the Department. See deadlines and details on the School website.",
+        "prereq": null,
+        "prereqRaw": "fourth-year standing in an Honours program and permission of the School of Computer Science.",
+        "precludes": [
+          "COMP 4906"
+        ]
+      },
+      {
+        "code": "COMP 4906",
+        "title": "Honours Thesis",
+        "credits": 1,
+        "description": "Independent research under the direct supervision of a faculty advisor. Permission to register is granted once an approved thesis proposal is submitted to the School of Computer Science. Evaluation is based on a written thesis and a poster presentation.",
+        "prereq": null,
+        "prereqRaw": "fourth-year standing in an Honours program with a minimum CGPA of 9.0 in the major and permission of the School of Computer Science.",
+        "precludes": [
+          "COMP 4905"
+        ]
+      },
+      {
+        "code": "COMP 4910",
+        "title": "Internship",
+        "credits": 0.5,
+        "description": "The internship exposes students to industrial software development via placement in a local enterprise. The course may only be taken by students participating in one of the School's industrial partnerships and can only be used as a free elective in the B.C.S. program.",
+        "prereq": null,
+        "prereqRaw": "COMP 3911 and registration in internship option.",
+        "precludes": []
+      },
+      {
+        "code": "COMP 4911",
+        "title": "Internship",
+        "credits": 0.5,
+        "description": "The internship exposes students to industrial software development via placement in a local enterprise. The course may only be taken by students participating in one of the School's industrial partnerships and can only be used as a free elective in the B.C.S. program.",
+        "prereq": null,
+        "prereqRaw": "COMP 4910 and registration in internship option.",
+        "precludes": []
+      },
+      {
+        "code": "CSEC 2108",
+        "title": "Cryptographic Algorithms and Protocols",
+        "credits": 0.5,
+        "description": "Block ciphers and modes of operation; public-key encryption; cryptographic hash functions; digital signatures; password-based cryptography; randomness and guesswork; authentication and authenticated key establishment protocols; challenge-response protocols; elliptic curve cryptography; post-quantum algorithms.",
+        "prereq": null,
+        "prereqRaw": "(COMP 1006 or COMP 1406) with a minimum grade of C-, (COMP 2804 or STAT 2507), and MATH 1104.",
+        "precludes": [
+          "COMP 2108"
+        ]
+      },
+      {
+        "code": "CSEC 3108",
+        "title": "Systems Security",
+        "credits": 0.5,
+        "description": "Securing networked computer systems. Threat modelling. Operating system security and design principles. Access control. Software-based exploits, memory safety, non-functional testing in software development. Social engineering. Browser-server and transport-layer security. Middleperson attacks, end-to-end security. Public-key certificates. Case study: Bluetooth or Wi-Fi security.",
+        "prereq": null,
+        "prereqRaw": "CSEC 2108, (COMP 3000 or SYSC 4001), and (COMP 3203 or SYSC 4602).",
+        "precludes": [
+          "COMP 4108",
+          "SYSC 4810"
+        ]
+      },
+      {
+        "code": "CSEC 3999",
+        "title": "Co-operative Work Term",
+        "credits": 0,
+        "description": "",
+        "prereq": null,
+        "prereqRaw": null,
+        "precludes": []
+      },
+      {
+        "code": "CSEC 4000",
+        "title": "Operating Systems Security",
+        "credits": 0.5,
+        "description": "The course examines past, present, and emerging approaches for securing operating systems. The focus is to provide a foundation for understanding requirements to secure hosts at the operating system level and survey the landscape of available tools and techniques for implementing operating system security controls.",
+        "prereq": null,
+        "prereqRaw": "(COMP 3000 or SYSC 4001) and CSEC 3108.",
+        "precludes": []
+      },
+      {
+        "code": "CSEC 4100",
+        "title": "Human Factors in Security",
+        "credits": 0.5,
+        "description": "Designing security mechanisms with human factors in mind. Evaluating software-based systems with focus on how interaction design affects security/privacy. Current approaches to usable security; user studies; methodologies for empirical analysis; design principles for usable security/privacy; case studies including authentication, anonymity systems.",
+        "prereq": null,
+        "prereqRaw": "COMP 3008 and CSEC 3108.",
+        "precludes": []
+      },
+      {
+        "code": "CSEC 4200",
+        "title": "Network Security",
+        "credits": 0.5,
+        "description": "Security throughout network stack layers. Internet core security. VPNs and tunnelling protocols. Firewalls and Intrusion Detection Systems. Internet measurements. IoT security. Botnets. Securing network protocols, including email and web. Network monitoring. Traffic sniffers and vulnerability scanners.",
+        "prereq": null,
+        "prereqRaw": "(COMP 3000 or SYSC 4001), (COMP 3203 or SYSC 4602), and CSEC 3108.",
+        "precludes": []
+      },
+      {
+        "code": "CSEC 4300",
+        "title": "Software Security",
+        "credits": 0.5,
+        "description": "Resilience of everyday software to vulnerabilities. Security engineering and the security development lifecycle. Static analysis and vulnerability analysis. Model checkers. Security testing, non-functional testing, fuzz-testing. Programming languages and security. Cryptographic APIs and use of security toolkits.",
+        "prereq": null,
+        "prereqRaw": "(COMP 3000 or SYSC 4001), COMP 3004 and CSEC 3108.",
+        "precludes": []
+      },
+      {
+        "code": "CSEC 4900",
+        "title": "Selected Topics in Security I",
+        "credits": 0.5,
+        "description": "An in-depth study of selected topics, with an emphasis on areas of strong current interest in research or practice.",
+        "prereq": null,
+        "prereqRaw": "CSEC 3108, and permission of the School of Computer Science.",
+        "precludes": []
+      },
+      {
+        "code": "CSEC 4901",
+        "title": "Selected Topics in Security II",
+        "credits": 0.5,
+        "description": "An in-depth study of selected topics, with an emphasis on areas of strong current interest in research or practice.",
+        "prereq": null,
+        "prereqRaw": "CSEC 3108, and permission of the School of Computer Science.",
+        "precludes": []
+      }
+    ]
+  },
+  "Mathematics and Statistics": {
+    "url": "https://calendar.carleton.ca/undergrad/undergradprograms/mathematicsandstatistics/",
+    "courses": [
+      {
+        "code": "MATH 0005",
+        "title": "Precalculus: Functions and Graphs",
+        "credits": 0.5,
+        "description": "Review of algebraic manipulations. Polynomials: the remainder theorem, and the factor theorem; graphing. Real and Complex roots. Absolute values. Inequalities. Functions, including composition of functions, and Inverse functions. Logarithmic and exponential functions.",
+        "prereq": null,
+        "prereqRaw": "Grade 11 Functions (University/College Preparation), or equivalent.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 0006",
+        "title": "Precalculus: Trigonometric Functions and Complex Numbers",
+        "credits": 0.5,
+        "description": "Angles and the unit circle, radian measure. Definitions of trigonometric functions. Fundamental relations, Law of Sines and Cosines. Analytic trigonometry, graphs, inverse functions. Trigonometric identities and equations. Applications in science and engineering. Complex numbers in polar form, de Moivre's Theorem, n-th roots of complex numbers.",
+        "prereq": null,
+        "prereqRaw": "Grade 11 Functions (University/College Preparation), or MATH 0005, or equivalent.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 0009",
+        "title": "Calculus and Vectors",
+        "credits": 0.5,
+        "description": "Limits and continuity. Differentiation rules. Trigonometric, logarithmic, and exponential functions, and their derivatives. Curve sketching. Optimization problems. Introduction to vectors. Dot and cross products. Projections. Equations of lines and planes. Intersection points and distances between points, lines, and planes.",
+        "prereq": null,
+        "prereqRaw": "Grade 12 Mathematics (Advanced Functions); or both MATH 0005 and MATH 0006; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 0107",
+        "title": "Algebra and Geometry",
+        "credits": 0.5,
+        "description": "Vectors in the plane and in 3-space. Linear combinations and linear independence. Equations of lines and planes in space. Solution of systems of linear equations. Proofs by induction. Binomial Theorem. Logic.",
+        "prereq": null,
+        "prereqRaw": "Grade 11 Functions (University/College Preparation) or equivalent.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 1004",
+        "title": "Calculus for Engineering or Physics",
+        "credits": 0.5,
+        "description": "Limits. Differentiation of the elementary functions. Rules of differentiation. Inverse trigonometric functions. Applications of differentiation: max-min problems, curve sketching, approximations. Definite and indefinite integrals, techniques of integration. Applications to areas and volumes.",
+        "prereq": null,
+        "prereqRaw": "Ontario Grade 12 Mathematics: Advanced Functions, or MATH 0005 and MATH 0006, or equivalent. Restricted to students in the Faculty of Engineering, or in certain B.Sc. and B.A.S. programs where specified.",
+        "precludes": [
+          "BIT 1000",
+          "BIT 1100",
+          "BIT 1200",
+          "MATH 1007",
+          "MATH 1052"
+        ]
+      },
+      {
+        "code": "MATH 1005",
+        "title": "Differential Equations and Infinite Series for Engineering or Physics",
+        "credits": 0.5,
+        "description": "First-order differential equations. Second-order linear equations with constant coefficients, undetermined coefficients, variation of parameters. Sequences and series, convergence tests, estimation of sums. Power series, Taylor series, remainders. Fourier series.",
+        "prereq": null,
+        "prereqRaw": "i) MATH 1004; and ii) MATH 1104 (or MATH 1107), either previously or concurrently; or equivalents; or permission of the School. Restricted to students in the Faculty of Engineering, or in certain B.Sc. programs where specified.",
+        "precludes": [
+          "MATH 2007",
+          "MATH 2052",
+          "MATH 2404"
+        ]
+      },
+      {
+        "code": "MATH 1007",
+        "title": "Elementary Calculus I",
+        "credits": 0.5,
+        "description": "Limits. Differentiation of the elementary functions, including trigonometric functions. Rules of differentiation. Applications of differentiation: max-min problems, curve sketching, approximations. Introduction to integration: definite and indefinite integrals, areas under curves, fundamental theorem of calculus.",
+        "prereq": null,
+        "prereqRaw": "Ontario Grade 12 Mathematics: Advanced Functions; or MATH 0005 and MATH 0006; or equivalent.",
+        "precludes": [
+          "BIT 1000",
+          "BIT 1100",
+          "BIT 1200",
+          "MATH 1004",
+          "MATH 1401",
+          "ECON 1401",
+          "MATH 1402",
+          "ECON 1402",
+          "MATH 1052"
+        ]
+      },
+      {
+        "code": "MATH 1009",
+        "title": "Mathematics for Business",
+        "credits": 0.5,
+        "description": "An introductory course of mathematics for business. Thorough review of basic arithmetic and algebra. Elementary functions, their graphs, properties and applications in business models. Limits. Derivatives of elementary functions. Systems of linear equations/inequalities. Geometric series.",
+        "prereq": null,
+        "prereqRaw": "Restricted to B.Com. and B.I.B students.",
+        "precludes": [
+          "BIT 1000",
+          "BIT 1100",
+          "BIT 1200",
+          "MATH 1401",
+          "ECON 1401",
+          "MATH 1052"
+        ]
+      },
+      {
+        "code": "MATH 1052",
+        "title": "Calculus and Introductory Analysis I",
+        "credits": 0.5,
+        "description": "Properties of the real numbers. Limits. Sequences and series. Elementary functions. Continuity. Derivatives. Extreme values. Mean Value Theorem. L’Hospital’s rules. Antiderivatives. An emphasis is placed on proofs and theory.",
+        "prereq": null,
+        "prereqRaw": "i) Grade 12 Mathematics: Advanced Functions, and Grade 12 Mathematics: Calculus and Vectors, with grades of at least 75% in each; or MATH 0005 and MATH 0006 with grades of at least B in each; or equivalents; and ii) MATH 1800 (may be taken concurrently); or permission of the School of Mathematics and Statistics.",
+        "precludes": [
+          "BIT 1000",
+          "BIT 1100",
+          "BIT 1200",
+          "MATH 1004",
+          "MATH 1007",
+          "MATH 1009",
+          "MATH 1401",
+          "ECON 1401",
+          "MATH 1402",
+          "ECON 1402"
+        ]
+      },
+      {
+        "code": "MATH 1104",
+        "title": "Linear Algebra for Engineering or Science",
+        "credits": 0.5,
+        "description": "Systems of linear equations. Matrix algebra. Determinants. Invertible matrix theorem. Cramer’s rule. Vector space R^n; subspaces, bases. Eigenvalues, diagonalization. Linear transformations, kernel, range. Complex numbers (including De Moivre’s theorem). Inner product spaces and orthogonality. Applications.",
+        "prereq": null,
+        "prereqRaw": "Ontario Grade 12 Mathematics: Advanced Functions, or MATH 0005, or equivalent, or permission of the School. Restricted to students in the Faculty of Engineering, the School of Computer Science, or in certain B.Sc. and B.A.S. programs where specified.",
+        "precludes": [
+          "BIT 1001",
+          "BIT 1101",
+          "BIT 1201",
+          "MATH 1107",
+          "MATH 1119",
+          "MATH 1401",
+          "ECON 1401",
+          "MATH 1402",
+          "ECON 1402",
+          "MATH 1152",
+          "MATH 1119",
+          "MATH 1104"
+        ]
+      },
+      {
+        "code": "MATH 1107",
+        "title": "Linear Algebra I",
+        "credits": 0.5,
+        "description": "Systems of linear equations; vector space of n-tuples, subspaces, bases; matrix transformations, kernel, range; matrix algebra and determinants. Dot product. Complex numbers (including de Moivre's Theorem, and n-th roots). Eigenvalues, diagonalization and applications. Note: MATH 1119 is not an acceptable substitute for MATH 1107.",
+        "prereq": null,
+        "prereqRaw": "Ontario Grade 12 Mathematics: Advanced Functions, or MATH 0005, or equivalent, or permission of the School.",
+        "precludes": [
+          "BIT 1001",
+          "BIT 1101",
+          "BIT 1201",
+          "MATH 1104",
+          "MATH 1119",
+          "MATH 1401",
+          "ECON 1401",
+          "MATH 1402",
+          "ECON 1402",
+          "MATH 1152"
+        ]
+      },
+      {
+        "code": "MATH 1119",
+        "title": "Linear Algebra: with Applications to Business",
+        "credits": 0.5,
+        "description": "Introduction to systems of linear equations, geometric interpretation in two and three dimensions, introduction to matrices, vector addition and scalar multiplication, linear dependence, matrix operations, rank, inversion, invertible matrix theorem, determinants. Use of illustrative examples related to business.",
+        "prereq": null,
+        "prereqRaw": "Ontario Grade 12 Mathematics of Data Management; or Ontario Grade 12 Mathematics: Advanced Functions, or MATH 0005, or equivalent, or permission of the School.",
+        "precludes": [
+          "BIT 1001",
+          "BIT 1101",
+          "BIT 1201",
+          "MATH 1104",
+          "MATH 1107",
+          "MATH 1401",
+          "ECON 1401",
+          "MATH 1402",
+          "ECON 1402",
+          "MATH 1152"
+        ]
+      },
+      {
+        "code": "MATH 1152",
+        "title": "Introductory Algebra I",
+        "credits": 0.5,
+        "description": "Properties of numbers. Modular arithmetic. Fields, including complex numbers and finite fields. Vector spaces. Matrix algebra. Solutions of linear systems. Linear dependence. Spanning sets. Bases. Subspaces. The rank-nullity theorem. Linear transformations. An emphasis is placed on proofs and theory.",
+        "prereq": null,
+        "prereqRaw": "i) Grade 12 Mathematics: Advanced Functions, and Grade 12 Mathematics: Calculus and Vectors, with grades of at least 75% in each; or MATH 0005, MATH 0006, and MATH 0107 with grades of at least B in each; or equivalents; and ii) MATH 1800 (may be taken concurrently); or permission of the School of Mathematics and Statistics.",
+        "precludes": [
+          "BIT 1001",
+          "BIT 1101",
+          "BIT 1201",
+          "MATH 1104",
+          "MATH 1107",
+          "MATH 1119",
+          "MATH 1401",
+          "ECON 1401",
+          "MATH 1402",
+          "ECON 1402"
+        ]
+      },
+      {
+        "code": "MATH 1401",
+        "title": "Elementary Mathematics for Economics I",
+        "credits": 0.5,
+        "description": "Functional relations: functional forms and error terms. Graphing economic magnitudes: scatter diagrams, time-series graphs, functional relationships. Applied calculus: mechanics of differentiation and integration, elasticity, consumer/producer surplus. Applied algebra: solving systems of linear equations and Keynesian national-income analysis. Problem solving approaches.",
+        "prereq": null,
+        "prereqRaw": "Ontario Grade 12 U Advanced Functions, or MATH 0005, or equivalent; and ECON 1000 or FYSM 1003, which may be taken concurrently with MATH 1401/ECON 1401.",
+        "precludes": [
+          "BIT 1000",
+          "BIT 1001",
+          "BIT 1100",
+          "BIT 1101",
+          "BIT 1200",
+          "BIT 1201",
+          "ECON 1401",
+          "MATH 1007",
+          "MATH 1009",
+          "MATH 1052",
+          "MATH 1104",
+          "MATH 1107",
+          "MATH 1119",
+          "MATH 1152"
+        ]
+      },
+      {
+        "code": "MATH 1402",
+        "title": "Elementary Mathematics for Economics II",
+        "credits": 0.5,
+        "description": "Calculus: including partial differentiation, definite and indefinite integrals, techniques of integration, and unconstrained optimization. Vectors and matrices: scalar multiplication, inner product, linear dependence, matrix operations, rank, invertible matrix theorem, and determinants. Economic applications such as profit maximization, comparative statics, and the Leontief input-output model.",
+        "prereq": null,
+        "prereqRaw": "ECON 1000 or FYSM 1003 with a grade of C- or higher, and ECON 1401/MATH 1401 with a grade of C- or higher.",
+        "precludes": [
+          "BIT 1000",
+          "BIT 1001",
+          "BIT 1100",
+          "BIT 1101",
+          "BIT 1200",
+          "BIT 1201",
+          "ECON 1402",
+          "MATH 1007",
+          "MATH 1009",
+          "MATH 1052",
+          "MATH 1104",
+          "MATH 1107",
+          "MATH 1119",
+          "MATH 1152"
+        ]
+      },
+      {
+        "code": "MATH 1800",
+        "title": "Introduction to Mathematical Reasoning",
+        "credits": 0.5,
+        "description": "Elementary logic, propositional and predicate calculus, quantifiers, sets and functions, bijections and elementary counting, the concept of infinity, relations, well ordering and induction. The practice of mathematical proof in elementary number theory and combinatorics.",
+        "prereq": null,
+        "prereqRaw": "Ontario Grade 12 Mathematics: Advanced Functions, or MATH 0005, or equivalent.",
+        "precludes": [
+          "COMP 1805"
+        ]
+      },
+      {
+        "code": "MATH 2001",
+        "title": "Multivariable Calculus and Fundamentals of Analysis I",
+        "credits": 0.5,
+        "description": "Functions of several variables, limits, continuity, partial derivatives and the derivative, higher order partial derivatives, maxima and minima, Lagrange multipliers. Inverse and implicit function theorems, Riemann integral in several variables, change of coordinates.",
+        "prereq": null,
+        "prereqRaw": "i) MATH 2052 with a grade of C+ or higher, or (MATH 2007 or MATH 1005 with a grade of B+ or higher and permission of the School); and ii) MATH 2152 with a grade of C+ or higher, or MATH 1107 or MATH 1104 with a grade of B+ or higher; and iii) MATH 1800 with a grade of C+ or higher; or permission of the School.",
+        "precludes": [
+          "MATH 2004",
+          "MATH 2008",
+          "MATH 3009"
+        ]
+      },
+      {
+        "code": "MATH 2002",
+        "title": "Multivariable Calculus and Fundamentals of Analysis II",
+        "credits": 0.5,
+        "description": "Vector fields, parametric curves and surfaces, line integrals and Green's theorem, surface integrals, Stokes' theorem and divergence theorem. Real number axioms, limit superior and inferior, completeness. Topology of n-dimensional Euclidean space. Sequences, subsequences, compactness.",
+        "prereq": null,
+        "prereqRaw": "MATH 2001 with a grade of C- or higher; or permission of the School.",
+        "precludes": [
+          "MATH 2004",
+          "MATH 2008",
+          "MATH 3009"
+        ]
+      },
+      {
+        "code": "MATH 2004",
+        "title": "Multivariable Calculus for Engineering or Physics",
+        "credits": 0.5,
+        "description": "Curves and surfaces. Polar, cylindrical and spherical coordinates. Partial derivatives, gradients, extrema and Lagrange multipliers. Exact differentials. Multiple integrals over rectangular and general regions. Integrals over surfaces. Line integrals. Vector differential operators. Green’s Theorem, Stokes’ theorem, Divergence Theorem. Applications.",
+        "prereq": null,
+        "prereqRaw": "i) MATH 1005 or MATH 2007; and ii) MATH 1104 or MATH 1107; or permission of the School. Restricted to students in the Faculty of Engineering, or in certain B.Sc. programs where specified.",
+        "precludes": [
+          "BIT 2010",
+          "MATH 2001",
+          "MATH 2002",
+          "MATH 2008"
+        ]
+      },
+      {
+        "code": "MATH 2007",
+        "title": "Elementary Calculus II",
+        "credits": 0.5,
+        "description": "Techniques of integration, improper integrals. Polar coordinates, parametric equations. Indeterminate forms, sequences and series, Taylor's formula and series.",
+        "prereq": null,
+        "prereqRaw": "i) MATH 1004, or a grade of C- or higher in MATH 1007; or MATH 1052 and permission of the School.",
+        "precludes": [
+          "MATH 1005",
+          "MATH 2052"
+        ]
+      },
+      {
+        "code": "MATH 2008",
+        "title": "Intermediate Calculus",
+        "credits": 0.5,
+        "description": "Partial differentiation, chain rule, gradient, line and multiple integrals with applications, transformations of multiple integrals.",
+        "prereq": null,
+        "prereqRaw": "one of MATH 1005, MATH 2052, or MATH 2007, and one of MATH 1104, MATH 1107, or MATH 1152.",
+        "precludes": [
+          "MATH 2001",
+          "MATH 2002",
+          "MATH 2004"
+        ]
+      },
+      {
+        "code": "MATH 2052",
+        "title": "Calculus and Introductory Analysis II",
+        "credits": 0.5,
+        "description": "Definite, indefinite integrals. Improper integrals. The fundamental theorem of calculus. An introduction to differential equations. Sequences and series of functions. Power series. Taylor’s formulae. Uniform convergence. An emphasis is placed on proofs and theory.",
+        "prereq": null,
+        "prereqRaw": "(i) MATH1052 with a grade of C- or higher or (MATH1007 or MATH1004 with a grade of B+ or higher and permission of the School), and (ii) MATH1800 with a grade of C+ or higher; or permission of the School.",
+        "precludes": [
+          "MATH 1005",
+          "MATH 2007"
+        ]
+      },
+      {
+        "code": "MATH 2100",
+        "title": "Algebra",
+        "credits": 1,
+        "description": "Introduction to group theory: permutation groups, Lagrange's theorem, normal subgroups, homomorphism theorems. Introduction to ring theory: ring of polynomials, integral domains, ideals, homomorphism theorems. Hermitian forms, spectral theorem for normal operators, bilinear and quadratic forms, classical groups.",
+        "prereq": null,
+        "prereqRaw": "i) MATH 2152 with a grade of C+ or higher, or (MATH 2107 with a grade of B+ or higher and permission of the School); and ii) MATH 1800 with a grade of C+ or higher; or permission of the School.",
+        "precludes": [
+          "MATH 2108",
+          "MATH 3101"
+        ]
+      },
+      {
+        "code": "MATH 2107",
+        "title": "Linear Algebra II",
+        "credits": 0.5,
+        "description": "Finite-dimensional vector spaces (over R and C), subspaces, linear independence and bases. Linear transformations and matrices. Inner product spaces (over R and C); Orthonormal bases. Eigenvalues and diagonalization. Bilinear and quadratic forms; principal axis theorem.",
+        "prereq": null,
+        "prereqRaw": "i) MATH 1104, or a grade of C- or higher in MATH 1107 or MATH 1109; and ii) a grade of C- or higher in MATH 1007 or equivalent; or MATH 1152 and permission of the School. Note: in item i), MATH 1119 is NOT acceptable as a substitute for MATH 1109.",
+        "precludes": [
+          "MATH 2152"
+        ]
+      },
+      {
+        "code": "MATH 2108",
+        "title": "Abstract Algebra I",
+        "credits": 0.5,
+        "description": "Sets and relations, number theory, group theory, ring theory, cardinal numbers.",
+        "prereq": null,
+        "prereqRaw": "i) MATH 2152 or MATH 2107; and ii) MATH 1800 (MATH 1800 may be taken concurrently, with permission of the School); or COMP 1805; or permission of the School.",
+        "precludes": [
+          "MATH 3101",
+          "MATH 2100"
+        ]
+      },
+      {
+        "code": "MATH 2152",
+        "title": "Introductory Algebra II",
+        "credits": 0.5,
+        "description": "Linear transformations. Determinants. Eigenvalues and eigenspaces. Diagonalization and other canonical forms. Inner products. An emphasis is placed on proofs and theory.",
+        "prereq": null,
+        "prereqRaw": "(i) MATH1152 with a grade of C- or higher or (MATH1107 or MATH1104 with a grade of B+ or higher and permission of the School), and (ii) MATH1800 with a grade of C+ or higher; or permission of the School.",
+        "precludes": [
+          "MATH 2107"
+        ]
+      },
+      {
+        "code": "MATH 2210",
+        "title": "Introduction to Geometry",
+        "credits": 0.5,
+        "description": "An introduction to classical geometry; Euclidean plane geometry; plane tiling; polytopes in three and four dimensions; curved surfaces; Euler characteristic. This course is intended for a general audience, and is available to B.Math. students for credit only as a free elective.",
+        "prereq": null,
+        "prereqRaw": "Grade 12 Mathematics and second-year standing.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 2404",
+        "title": "Ordinary Differential Equations I",
+        "credits": 0.5,
+        "description": "First-order equations, linear second- and higher-order equations, linear systems, stability of second-order systems.",
+        "prereq": null,
+        "prereqRaw": "MATH 2052 and MATH 1152 (or MATH 1107 and MATH 2007).",
+        "precludes": [
+          "MATH 1005",
+          "MATH 2454"
+        ]
+      },
+      {
+        "code": "MATH 2454",
+        "title": "Ordinary Differential Equations (Honours)",
+        "credits": 0.5,
+        "description": "Existence and uniqueness theorems. First-order equations, linear second- and higher-order equations, linear systems, stability of second-order systems.",
+        "prereq": null,
+        "prereqRaw": "MATH 2052 or MATH 2007 or MATH 1005 with a grade of C+ or higher, and MATH 2152 or MATH 2107 with a grade of C+ or higher.",
+        "precludes": [
+          "MATH 2404"
+        ]
+      },
+      {
+        "code": "MATH 2800",
+        "title": "Discrete Mathematics and Algorithms",
+        "credits": 0.5,
+        "description": "An introduction to discrete mathematics and algorithms in the context of the computational sciences. Basic number theory and counting methods, algorithms for strings, trees and sequences. Applications to DNA and protein sequencing problems. Analysis and complexity of algorithms.",
+        "prereq": null,
+        "prereqRaw": "COMP 1006 and at least one of MATH 1007, MATH 1107, or STAT 2507.",
+        "precludes": [
+          "COMP 1805",
+          "MATH 2800"
+        ]
+      },
+      {
+        "code": "MATH 2907",
+        "title": "Directed Studies (Honours)",
+        "credits": 0.5,
+        "description": "Available only to Honours students whose program requires a 0.5 credit not offered by the School of Mathematics and Statistics.",
+        "prereq": null,
+        "prereqRaw": null,
+        "precludes": []
+      },
+      {
+        "code": "MATH 3001",
+        "title": "Real Analysis I (Honours)",
+        "credits": 0.5,
+        "description": "Metric spaces and their topologies, continuous maps, completeness, compactness, connectedness, introduction to Banach spaces.",
+        "prereq": null,
+        "prereqRaw": "(MATH 2001 and MATH 2002) with a grade of C- or higher; or (MATH 3009 and MATH 1800) each with a grade of B or higher, and permission of the instructor; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3002",
+        "title": "Real Analysis II (Honours)",
+        "credits": 0.5,
+        "description": "Function spaces, pointwise and uniform convergence, Weierstrass approximation theorem, Lebesgue measure and Lebesgue integral on the real line, Hilbert space, Fourier series.",
+        "prereq": null,
+        "prereqRaw": "MATH 3001 with a grade of C- or higher, or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3003",
+        "title": "Advanced Differential Calculus (Honours)",
+        "credits": 0.5,
+        "description": "Review of multivariable differentiation and integration. Vector fields, differential forms and exterior algebra. Introduction to manifolds and tangent bundles. Stokes’ Theorem. Applications such as differential equations and the calculus of variations.",
+        "prereq": null,
+        "prereqRaw": "MATH 3001 with a grade of C- or higher, or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3007",
+        "title": "Functions of a Complex Variable",
+        "credits": 0.5,
+        "description": "Analytic functions, contour integration, residue calculus, conformal mapping. Intended for non-engineering students.",
+        "prereq": null,
+        "prereqRaw": "one of MATH 2004, MATH 2008 or MATH 2009, or permission of the School.",
+        "precludes": [
+          "MATH 3057",
+          "PHYS 3807"
+        ]
+      },
+      {
+        "code": "MATH 3008",
+        "title": "Ordinary Differential Equations (Honours)",
+        "credits": 0.5,
+        "description": "Analytic ordinary differential equations: series solutions of ordinary differential equations about ordinary and regular singular points. Asymptotic solutions. Sturm-Liouville theory. Bessel and Legendre functions. Fourier series.",
+        "prereq": null,
+        "prereqRaw": "i) (MATH 2001 and MATH 2002) with a grade of C- or higher, or (MATH 3009 with a grade of B or higher, and permission of the instructor); and ii) MATH 2454 with a grade of C- or higher, or (MATH 2404 with a grade of B or higher, and permission of the instructor).",
+        "precludes": [
+          "MATH 3404",
+          "PHYS 3808"
+        ]
+      },
+      {
+        "code": "MATH 3009",
+        "title": "Introductory Analysis",
+        "credits": 0.5,
+        "description": "The real number system, sequences and series, functions of a single real variable, derivatives, the definite integral, uniform convergence.",
+        "prereq": null,
+        "prereqRaw": "one of MATH 2004, MATH 2008, MATH 2009, or permission of the School.",
+        "precludes": [
+          "MATH 2001",
+          "MATH 2002"
+        ]
+      },
+      {
+        "code": "MATH 3057",
+        "title": "Functions of a Complex Variable (Honours)",
+        "credits": 0.5,
+        "description": "Analytic functions, contour integration, residue calculus, conformal mappings.",
+        "prereq": null,
+        "prereqRaw": "MATH 2001 and MATH 2002 with a grade of C- or higher; or permission of the School.",
+        "precludes": [
+          "MATH 3007",
+          "PHYS 3807"
+        ]
+      },
+      {
+        "code": "MATH 3101",
+        "title": "Algebraic Structures with Computer Applications",
+        "credits": 0.5,
+        "description": "Introduction to algebraic structures: groups, rings, fields, lattices, and Boolean algebras; with applications of interest to students in Computer Science. This course may not be used to meet the 3000-level course requirements in any B.Math or B.Math Honours program in Mathematics and Statistics.",
+        "prereq": null,
+        "prereqRaw": "i) MATH 2107 or MATH 2152; and ii) either COMP 1805 or MATH 1800 (MATH 1800 may be taken concurrently, with permission of the School); or permission of the School.",
+        "precludes": [
+          "MATH 2108",
+          "MATH 2100"
+        ]
+      },
+      {
+        "code": "MATH 3106",
+        "title": "Introduction to Group Theory (Honours)",
+        "credits": 0.5,
+        "description": "Homomorphism theorems; groups acting on sets; permutation groups and groups of matrices; Sylow theory for finite groups; finitely generated abelian groups; generators and relations; applications.",
+        "prereq": null,
+        "prereqRaw": "MATH 2100 with a grade of C- or higher; or (MATH 2108 or MATH 3101 with a grade of B or higher; and MATH 1800 with a grade of B or higher; and permission of the instructor); or permission of the School.",
+        "precludes": [
+          "MATH 3108"
+        ]
+      },
+      {
+        "code": "MATH 3107",
+        "title": "Linear Algebra III",
+        "credits": 0.5,
+        "description": "Similarity and unitary triangularization of matrices. Direct methods of solving a system of linear equations. Iterative techniques. Bounds for eigenvalues. Power method and deflation techniques of approximation. Emphasis is primarily on computational aspects.",
+        "prereq": null,
+        "prereqRaw": "i) a grade of C- or higher in MATH 2152 or MATH 2107; and ii) credit in MATH 2052 or MATH 2007; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3108",
+        "title": "Abstract Algebra II",
+        "credits": 0.5,
+        "description": "Groups and rings. Permutations. Finite symmetry groups. Polynomials, unique factorization domains. Quotient rings, ideals. Field extensions, finite fields. Polynomial equations. Geometric constructions - three famous problems: duplication of the cube, trisection of an arbitrary angle, quadrature of the circle.",
+        "prereq": null,
+        "prereqRaw": "MATH 2108, or permission of the School.",
+        "precludes": [
+          "MATH 3106",
+          "MATH 3158"
+        ]
+      },
+      {
+        "code": "MATH 3158",
+        "title": "Rings and Fields (Honours)",
+        "credits": 0.5,
+        "description": "Rings, integral domains, Euclidean and principal ideal domains, fields, polynomial rings over a field, algebraic extensions of fields, the fundamental theorem of Galois theory, finite fields, applications.",
+        "prereq": null,
+        "prereqRaw": "MATH 2100 with a grade of C- or higher, or (MATH 2108 or MATH 3101 with a grade of B or higher and MATH 1800 with a grade of B or higher and permission of the instructor), or permission of the School.",
+        "precludes": [
+          "MATH 3108"
+        ]
+      },
+      {
+        "code": "MATH 3206",
+        "title": "Plane Projective Geometry",
+        "credits": 0.5,
+        "description": "Axioms of Desarguesian geometry, principle of duality; projectivities, perspectivities, and the fundamental theorem; collineations (homologies and elations); correlations (polarities and conics); algebraic model; projective curves; introduction to finite projective planes.",
+        "prereq": null,
+        "prereqRaw": "MATH 2100 or MATH 2108 or MATH 3101.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3210",
+        "title": "Euclidean and Non-Euclidean Geometry",
+        "credits": 0.5,
+        "description": "Euclidean isometry and similarity groups; geometry of circles; inversion; hyperbolic geometry: Poincare disk model of the hyperbolic plane.",
+        "prereq": null,
+        "prereqRaw": "MATH 2100 or MATH 2108 or MATH 3101.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3306",
+        "title": "Elements of Set Theory (Honours)",
+        "credits": 0.5,
+        "description": "Axioms of set theory. Development of the systems of natural numbers and the real numbers. Axiom of choice, Zorn's lemma, well-ordering. The Schröder-Bernstein theorem, cardinal numbers, ordinal numbers, transfinite induction, cardinal and ordinal arithmetics.",
+        "prereq": null,
+        "prereqRaw": "MATH 2100 with a grade of C- or higher; or (MATH 2108 or MATH 3101 with a grade of B or higher; and MATH 1800 with a grade of B or higher; and permission of the instructor); or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3355",
+        "title": "Number Theory and Applications (Honours)",
+        "credits": 0.5,
+        "description": "Congruences, distribution of primes, arithmetic functions, primitive roots, quadratic residues, quadratic reciprocity law, continued fractions, Diophantine equations, and applications: public key cryptography, primality testing and factoring in relation to cryptography.",
+        "prereq": null,
+        "prereqRaw": "MATH 2100 with a grade of C- or higher; or (MATH 2108 or MATH 3101 with a grade of B- or higher; and permission of the instructor); or permission of the School.",
+        "precludes": [
+          "MATH 3809"
+        ]
+      },
+      {
+        "code": "MATH 3404",
+        "title": "Ordinary Differential Equations II",
+        "credits": 0.5,
+        "description": "Series solutions of ordinary differential equations of second order about regular singular points; asymptotic solutions. Systems of ordinary differential equations of first order; matrix methods. Existence and uniqueness theorems. Nonlinear autonomous systems of order 2; qualitative theory. Numerical solutions of ordinary differential equations.",
+        "prereq": null,
+        "prereqRaw": "MATH 2404, MATH 2008; and MATH 2152 or MATH 2107.",
+        "precludes": [
+          "MATH 3008"
+        ]
+      },
+      {
+        "code": "MATH 3702",
+        "title": "Mathematical Modelling (Honours)",
+        "credits": 0.5,
+        "description": "Introduction to techniques for construction, interpretation and validation of mathematical models. Continuous and discrete, deterministic and probabilistic models arising in a range of physical, natural and other practical application settings. Analytic techniques including variational principles, dimensional analysis, scaling, self-similarity, and model reduction.",
+        "prereq": null,
+        "prereqRaw": "MATH 2404 or MATH 2454, MATH 2000 or MATH 2004 or MATH 2008.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3705",
+        "title": "Mathematical Methods I",
+        "credits": 0.5,
+        "description": "Laplace transforms, series solutions of ordinary differential equations, the Frobenius method. Fourier series and Fourier transforms, solutions of partial differential equations of mathematical physics, boundary value problems, applications.",
+        "prereq": null,
+        "prereqRaw": "i) MATH 1005 or MATH 2404, and ii) MATH 2002 or MATH 2004 or MATH 2008 or MATH 3009; or permission of the School.",
+        "precludes": [
+          "PHYS 3808"
+        ]
+      },
+      {
+        "code": "MATH 3800",
+        "title": "Mathematical Modeling and Computational Methods",
+        "credits": 0.5,
+        "description": "Design and analysis of mathematical models for problems in science. Computational methods, including function evaluation, interpolation, solution of linear equations, root finding, integration, solution of differential equations, Fourier series and Monte Carlo methods.",
+        "prereq": null,
+        "prereqRaw": "i) MATH 1107 or MATH 1104; ii) MATH 1005 or MATH 2007; and iii) knowledge of a computer language.",
+        "precludes": [
+          "MATH 3806"
+        ]
+      },
+      {
+        "code": "MATH 3801",
+        "title": "Linear Programming",
+        "credits": 0.5,
+        "description": "Systems of linear inequalities, formulation of linear programming problems, geometric method, the simplex method, duality theory, complementary slackness, sensitivity analysis, branch-and-bound method and cutting plane method for integer linear programming, applications and extensions.",
+        "prereq": null,
+        "prereqRaw": "MATH 2152 or MATH 2107, or permission of the School.",
+        "precludes": [
+          "ECON 4004",
+          "SYSC 3200"
+        ]
+      },
+      {
+        "code": "MATH 3802",
+        "title": "Combinatorial Optimization",
+        "credits": 0.5,
+        "description": "Network flow problems, network simplex method, max-flow min-cut problem, integral polyhedra, minimum-weight spanning tree problem, maximum matching problem, maximum stable set problem, introduction to approximation algorithms.",
+        "prereq": null,
+        "prereqRaw": "MATH 3801 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3804",
+        "title": "Design and Analysis of Algorithms I",
+        "credits": 0.5,
+        "description": "An introduction to the design and analysis of algorithms. Topics include: recurrence relations, sorting and searching, divide-and-conquer, dynamic programming, greedy algorithms, NP-completeness.",
+        "prereq": null,
+        "prereqRaw": "i) one of COMP 2402 or SYSC 2100; and ii) one of COMP 2804 or MATH 3855 or MATH 3825 or COMP 3805.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3806",
+        "title": "Scientific Computing I (Honours)",
+        "credits": 0.5,
+        "description": "Introduction to computer arithmetic. Computational methods for polynomial interpolation, integration, nonlinear equations, ordinary and partial differential equations, and linear system solvers. Focus on implementation in an efficient complied language and standard numerical libraries.",
+        "prereq": null,
+        "prereqRaw": "i) (MATH 2001 and MATH 2002) or MATH 2004 or MATH 2008; and ii) MATH 1152 with a grade of C- or higher, or (MATH 1107 or MATH 1104 with a grade of B or higher and permission of the instructor); and iii) MATH 2454 or MATH 2404 or MATH 1005; and iv) COMP 1405 or COMP 1005 or STAT 1500; or permission of the school.",
+        "precludes": [
+          "MATH 3800"
+        ]
+      },
+      {
+        "code": "MATH 3807",
+        "title": "Mathematical Software (Honours)",
+        "credits": 0.5,
+        "description": "Implementation of numerical methods using numerical software packages. Development of scientific and/or operations research applications using application programming interfaces of numerical or optimization libraries. Functional programming for data analysis and machine learning. Experience working with Python, C++, or Java is essential.",
+        "prereq": null,
+        "prereqRaw": "A grade of C- or higher in MATH 3806.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3808",
+        "title": "Mathematical Analyses of Games of Chance",
+        "credits": 0.5,
+        "description": "This course covers mathematics used in the modern casino gaming industry. The topics include probabilities, odds, house advantages, variance and risks, optimal strategies, random walks and gambler's ruin, and gaming revenue estimation. Examples are taken from various games such as Roulette, Blackjack, and Poker.",
+        "prereq": null,
+        "prereqRaw": "one of STAT 2655, STAT 2605, STAT 2507, STAT 2606, STAT 3502, or MATH 3825 or MATH 3855.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3809",
+        "title": "Introduction to Number Theory and Cryptography",
+        "credits": 0.5,
+        "description": "Congruences, distribution of primes, general cryptographic systems, public key cryptographic systems and authentification using number theory, primality testing and factoring in relation to cryptography, continued fractions and Diophantine equations.",
+        "prereq": null,
+        "prereqRaw": "MATH 2108 or MATH 3101 or MATH 2100; knowledge of a computer language.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3819",
+        "title": "Modern Computer Algebra",
+        "credits": 0.5,
+        "description": "Algorithms for multiplication, division, greatest common divisors and factorization over the integers, finite fields and polynomial rings. Basic tools include modular arithmetic, discrete Fourier transform, Chinese remainder theorem, Newton iteration, and Hensel techniques. Some properties of finite fields and applications to cryptography.",
+        "prereq": null,
+        "prereqRaw": "MATH 2108 or MATH 3101 or MATH 2100, COMP 1005 or equivalent; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 3825",
+        "title": "Discrete Structures and Applications",
+        "credits": 0.5,
+        "description": "Enumeration: elementary methods, inclusion and exclusion, recurrence relations, generating functions and applications. Graph theory and algorithms: connectivity, planarity, Hamilton paths and Euler trails. Error-correcting codes.",
+        "prereq": null,
+        "prereqRaw": "MATH 2108 or MATH 3101.",
+        "precludes": [
+          "MATH 3855",
+          "COMP 3805"
+        ]
+      },
+      {
+        "code": "MATH 3855",
+        "title": "Discrete Structures and Applications (Honours)",
+        "credits": 0.5,
+        "description": "Enumeration: inclusion and exclusion, recurrence relations, generating functions and applications. Graph theory: connectivity, planarity, Hamilton paths and Euler trails. Error-correcting codes. Designs and finite geometries. Symmetry and counting.",
+        "prereq": null,
+        "prereqRaw": "MATH 2100 with a grade of C- or higher; or (MATH 2108 or MATH 3101) with a grade of B or higher.",
+        "precludes": [
+          "MATH 3825"
+        ]
+      },
+      {
+        "code": "MATH 3907",
+        "title": "Directed Studies",
+        "credits": 0.5,
+        "description": "Available only to students whose program requires a 0.5 credit not offered by the School of Mathematics and Statistics.",
+        "prereq": null,
+        "prereqRaw": null,
+        "precludes": []
+      },
+      {
+        "code": "MATH 3999",
+        "title": "Co-operative Work Term Report (Honours)",
+        "credits": 0,
+        "description": "On completion of each work term, the student must submit to the School of Mathematics and Statistics a written report on the work performed. Graded Sat or Uns.",
+        "prereq": null,
+        "prereqRaw": "registration in the Co-operative Education Option of an Honours program offered by the School of Mathematics and Statistics, and permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4002",
+        "title": "Fourier Analysis (Honours)",
+        "credits": 0.5,
+        "description": "Fourier series, Fourier integrals; introduction to harmonic analysis on locally compact abelian groups, Plancherel Theorem, Pontryagin duality; selected applications.",
+        "prereq": null,
+        "prereqRaw": "MATH 3001 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4003",
+        "title": "Functional Analysis (Honours)",
+        "credits": 0.5,
+        "description": "Banach spaces and bounded linear operators, Hahn-Banach extension and separation, dual spaces, bounded inverse theorems, uniform boundedness principle, applications. Compact operators.",
+        "prereq": null,
+        "prereqRaw": "MATH 4007 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4007",
+        "title": "Measure and Integration Theory (Honours)",
+        "credits": 0.5,
+        "description": "Lebesgue measure and integration on the real line; sigma algebras and measures; integration theory; Lp spaces; Fubini's theorem; decomposition theorems and Radon-Nikodym derivatives.",
+        "prereq": null,
+        "prereqRaw": "MATH 3001 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4102",
+        "title": "Group Representations and Applications (Honours)",
+        "credits": 0.5,
+        "description": "An introduction to the group representations and character theory, with selected applications.",
+        "prereq": null,
+        "prereqRaw": "MATH 3106, or a grade of B or higher in MATH 3108.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4105",
+        "title": "Rings and Modules (Honours)",
+        "credits": 0.5,
+        "description": "Fundamental concepts in rings and modules, structure theorems, applications.",
+        "prereq": null,
+        "prereqRaw": "MATH 3158 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4106",
+        "title": "Group Theory (Honours)",
+        "credits": 0.5,
+        "description": "Fundamental principles as applied to abelian, nilpotent, solvable, free and finite groups; representations.",
+        "prereq": null,
+        "prereqRaw": "MATH 3106 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4107",
+        "title": "Commutative Algebra (Honours)",
+        "credits": 0.5,
+        "description": "Fields, including algebraic and transcendental extensions, Galois theory, valuation theory; Noetherian commutative rings, including Noether decomposition theorem and localization.",
+        "prereq": null,
+        "prereqRaw": "MATH 3158 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4108",
+        "title": "Homological Algebra and Category Theory (Honours)",
+        "credits": 0.5,
+        "description": "Axioms of set theory; categories, functors, natural transformations; free, projective, injective and flat modules; tensor products and homology functors, derived functors; dimension theory.",
+        "prereq": null,
+        "prereqRaw": "MATH 3158 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4109",
+        "title": "Fields and Coding Theory (Honours)",
+        "credits": 0.5,
+        "description": "Introduction to field theory, emphasizing the structure of finite fields, primitive elements and irreducible polynomials. The influence of computational problems will be considered. Theory and applications of error-correcting codes: algebraic codes, convolution codes, decoding algorithms, and analysis of code performance.",
+        "prereq": null,
+        "prereqRaw": "MATH 2100, or MATH 3101 or MATH 2108 or equivalent; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4205",
+        "title": "Introduction to General Topology (Honours)",
+        "credits": 0.5,
+        "description": "Topological spaces, maps, subspaces, product and identification topologies, separation axioms, compactness, connectedness.",
+        "prereq": null,
+        "prereqRaw": "MATH 3001 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4206",
+        "title": "Introduction to Algebraic Topology (Honours)",
+        "credits": 0.5,
+        "description": "An introduction to homotopy theory. Topics include the fundamental group, covering spaces and the classification of two-dimensional manifolds.",
+        "prereq": null,
+        "prereqRaw": "MATH 3106 and MATH 4205; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4207",
+        "title": "Foundations of Geometry (Honours)",
+        "credits": 0.5,
+        "description": "A study of at least one modern axiom system of Euclidean and non-Euclidean geometry, embedding of hyperbolic and Euclidean geometries in the projective plane, groups of motions, models of non-Euclidean geometry.",
+        "prereq": null,
+        "prereqRaw": "MATH 3106 (may be taken concurrently) or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4208",
+        "title": "Introduction to Differentiable Manifolds (Honours)",
+        "credits": 0.5,
+        "description": "Introduction to differentiable manifolds; Riemannian manifolds; vector fields and parallel transport; geodesics; differential forms on a manifold; covariant derivative; Betti numbers.",
+        "prereq": null,
+        "prereqRaw": "MATH 3002 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4305",
+        "title": "Analytic Number Theory (Honours)",
+        "credits": 0.5,
+        "description": "Dirichlet series, characters, Zeta-functions, prime number theorem, Dirichlet's theorem on primes in arithmetic progressions, binary quadratic forms.",
+        "prereq": null,
+        "prereqRaw": "MATH 3057 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4306",
+        "title": "Algebraic Number Theory (Honours)",
+        "credits": 0.5,
+        "description": "Algebraic number fields, bases, algebraic integers, integral bases, arithmetic in algebraic number fields, ideal theory, class number.",
+        "prereq": null,
+        "prereqRaw": "MATH 3158 (may be taken concurrently) or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4600",
+        "title": "Case Studies in Operations Research (Honours)",
+        "credits": 0.5,
+        "description": "Applications of the principles of Operations Research to practical problems in business, management, and science. Students present at least one case and analyze cases in the published literature. Cases may also be presented by visiting practitioners.",
+        "prereq": null,
+        "prereqRaw": "STAT 2509 (or STAT 2559) and MATH 3801; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4700",
+        "title": "Partial Differential Equations (Honours)",
+        "credits": 0.5,
+        "description": "Initial/boundary value problems for first-order and linear second-order partial differential equations. Solution methods including characteristics, separation of variables, Fourier and Laplace transforms, Green’s functions. Applications such as wave dynamics, reaction-diffusion systems.",
+        "prereq": null,
+        "prereqRaw": "MATH 3057 and one of MATH 2454 or MATH 3705, or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4701",
+        "title": "Topics in Differential Equations (Honours)",
+        "credits": 0.5,
+        "description": "Topics in the theory and application of differential equations; for example, hyperbolic systems, fluid dynamics, nonlinear wave equations, optimal mass transport, control theory, calculus of variations.",
+        "prereq": null,
+        "prereqRaw": "i) MATH 2454; and ii) one of MATH 3001 or MATH 3057; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4702",
+        "title": "Industrial Mathematics (Honours)",
+        "credits": 0.5,
+        "description": "Project based and application driven course involving in-depth study of mathematical models. Fields of application will vary, drawn from areas such as ecology, epidemiology, mechanics, finance, transportation, communication and manufacturing. Focus will be on the development, analysis and validity of models.",
+        "prereq": null,
+        "prereqRaw": "MATH 3702, or permission of the school.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4703",
+        "title": "Dynamical Systems (Honours)",
+        "credits": 0.5,
+        "description": "Basic concepts of dynamical systems. Vector formulation for systems. Theory of autonomous systems in one, two and higher dimensions. Limit sets, stability. Phase plane, qualitative interpretation, limit cycles and attractors. Parametric dependence, bifurcations and chaos. Applications.",
+        "prereq": null,
+        "prereqRaw": "MATH 3001 and MATH 3008 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4708",
+        "title": "Asymptotic Methods of Applied Mathematics (Honours)",
+        "credits": 0.5,
+        "description": "Asymptotic series: properties, matching, application to differential equations. Asymptotic expansion of integrals: elementary methods, methods of Laplace, stationary phase and steepest descent, Watson’s lemma, Riemann-Lebesgue lemma. Perturbation methods: regular and singular perturbation for differential equations, multiple scale analysis, boundary layer theory, WKB theory.",
+        "prereq": null,
+        "prereqRaw": "(MATH 3057 or MATH 3007) and (MATH 2454 or MATH 3705), or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4801",
+        "title": "Topics in Combinatorics (Honours)",
+        "credits": 0.5,
+        "description": "An in-depth study of one or more topics from: generating functions, Polya's theory of counting, block designs, coding theory, partially ordered sets and Ramsey theory.",
+        "prereq": null,
+        "prereqRaw": "MATH 2100 and MATH 3855 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4802",
+        "title": "Introduction to Mathematical Logic (Honours)",
+        "credits": 0.5,
+        "description": "Symbolic logic, propositional and predicate calculi, set theory and model theory, completeness.",
+        "prereq": null,
+        "prereqRaw": "MATH 2100 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4803",
+        "title": "Computable Functions (Honours)",
+        "credits": 0.5,
+        "description": "Recursive functions and computability, algorithms, Church's thesis, Turing machines, computational logic, NP-completeness.",
+        "prereq": null,
+        "prereqRaw": "MATH 2100 or MATH 3855 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4805",
+        "title": "Theory of Automata (Honours)",
+        "credits": 0.5,
+        "description": "Finite automata and regular expressions, properties of regular sets, context-free grammars, pushdown automata, deterministic context-free languages. Turing machines, the Chomsky hierarchy. Undecidability, intractable problems.",
+        "prereq": null,
+        "prereqRaw": "MATH 3106 or MATH 3158 or MATH 3855 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4806",
+        "title": "Scientific Computing II (Honours)",
+        "credits": 0.5,
+        "description": "Computational methods in numerical linear algebra including solvers for large linear systems, numerical optimization and eigenvalue problems. Application to topics such as scientific machine learning or parallel computing. Focus on implementation in an efficient compiled language and standard numerical libraries.",
+        "prereq": null,
+        "prereqRaw": "i) MATH 3806; and ii) MATH 2152 or MATH 2107 with a grade of C- or higher, or permission of the school.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4807",
+        "title": "Game Theory (Honours)",
+        "credits": 0.5,
+        "description": "One-player games, two-player zero-sum games, multi-player games, games in normal form, games in extensive form, utility theory, Nash equilibrium and Nash arbitration scheme, games in characteristic function form, cooperative solutions, dominations, stable sets, core, Shapley value, applications of game theory.",
+        "prereq": null,
+        "prereqRaw": "MATH 3801 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4808",
+        "title": "Graph Theory and Algorithms (Honours)",
+        "credits": 0.5,
+        "description": "Paths, circuits, Eulerian and Hamiltonian graphs, connectivity, colouring problems, matching, Ramsey theory, network flows.",
+        "prereq": null,
+        "prereqRaw": "MATH 3106 or MATH 3158 or MATH 3855 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4809",
+        "title": "Mathematical Cryptography (Honours)",
+        "credits": 0.5,
+        "description": "Topics covered include: a general survey of public key cryptography; classical applications of finite fields and number theory; relevant background in geometry and algebraic curves; computational issues concerning elliptic curves; elliptic curve cryptosystems; security issues.",
+        "prereq": null,
+        "prereqRaw": "MATH 3158, or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4811",
+        "title": "Combinatorial Design Theory (Honours)",
+        "credits": 0.5,
+        "description": "Existence and construction of combinatorial designs: finite geometries, pairwise balanced designs, balanced incomplete block designs, Steiner triple systems, symmetric designs, PBD closure, latin squares, transversal designs, and applications to information theory.",
+        "prereq": null,
+        "prereqRaw": "MATH 3855, or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4816",
+        "title": "Numerical Analysis for Differential Equations (Honours)",
+        "credits": 0.5,
+        "description": "Floating point arithmetic; numerical solution of ODEs; finite difference methods for PDEs; stability, accuracy and convergence: von Neumann analysis, CFL condition, Lax Theorem. Finite element methods: boundary value problems and elliptic PDEs. Spectral and pseudo-spectral methods.",
+        "prereq": null,
+        "prereqRaw": "MATH 2454 and MATH 3806, or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4821",
+        "title": "Quantum Computing (Honours)",
+        "credits": 0.5,
+        "description": "Space of quantum bits; entanglement. Observables in quantum mechanics. Density matrix and Schmidt decomposition. Quantum cryptography. Classical and quantum logic gates. Quantum Fourier transform. Shor's quantum algorithm for factorization of integers.",
+        "prereq": null,
+        "prereqRaw": "MATH 2152 (or MATH 2107) with a grade of C+ or better, and permission of the School.",
+        "precludes": [
+          "COMP 4114"
+        ]
+      },
+      {
+        "code": "MATH 4822",
+        "title": "Wavelets and Digital Signal Processing (Honours)",
+        "credits": 0.5,
+        "description": "Lossless compression methods. Discrete Fourier transform and Fourier-based compression methods. JPEG and MPEG. Wavelet analysis. Digital filters and discrete wavelet transform. Daubechies wavelets. Wavelet compression.",
+        "prereq": null,
+        "prereqRaw": "MATH 2152 (or MATH 2107) with a grade of C+ or better, and permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4905",
+        "title": "Honours Project (Honours)",
+        "credits": 0.5,
+        "description": "Consists of a written report on some approved topic or topics in the field of mathematics, together with a short lecture on the report.",
+        "prereq": null,
+        "prereqRaw": "B.Math.(Honours) students only.",
+        "precludes": []
+      },
+      {
+        "code": "MATH 4907",
+        "title": "Directed Studies (Honours)",
+        "credits": 0.5,
+        "description": "",
+        "prereq": null,
+        "prereqRaw": "B.Math.(Honours) students only.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 1500",
+        "title": "Introduction to Statistical Computing",
+        "credits": 0.5,
+        "description": "Basics of programming in R and introduction to statistical software; generating statistical plots; computing descriptive statistics; performing basic statistical procedures; fundamentals of numerical analysis; optimization; generating random numbers, performing simple simulations and simulation-based inference.",
+        "prereq": null,
+        "prereqRaw": "Ontario Grade 12 Mathematics: Advanced Functions, or MATH 0005, or equivalent.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 2210",
+        "title": "Inferential Data Science Foundations I",
+        "credits": 0.5,
+        "description": "Theoretical foundations to data science using open source software. Empirical distribution functions, point estimation, interval estimation, tests of hypotheses, maximum likelihood and method of moments. Formal tools are developed, and concepts are demonstrated using simulation. Abstract concepts are made concrete through visualization and numerical computation.",
+        "prereq": null,
+        "prereqRaw": "MATH 2007 (or MATH 1005 or MATH 2052); and DATA 2500; and DATA 1519 (or STAT 2509 or STAT 2559).",
+        "precludes": [
+          "STAT 3508",
+          "STAT 3558"
+        ]
+      },
+      {
+        "code": "STAT 2507",
+        "title": "Introduction to Statistical Modeling I",
+        "credits": 0.5,
+        "description": "A data-driven introduction to statistics. Basic descriptive statistics, introduction to probability theory, random variables, discrete and continuous distributions, contingency tables, sampling distributions, distribution of sample mean, Central Limit Theorem, interval estimation and hypothesis testing. A statistical software package will be used.",
+        "prereq": null,
+        "prereqRaw": "an Ontario Grade 12 university-preparation Mathematics or equivalent, or permission of the School of Mathematics and Statistics.",
+        "precludes": [
+          "BIT 2000",
+          "BIT 2009",
+          "DATA 1517",
+          "ECON 2210",
+          "ENST 2006",
+          "GEOG 2006",
+          "STAT 2601",
+          "STAT 3502",
+          "STAT 2559"
+        ]
+      },
+      {
+        "code": "STAT 2509",
+        "title": "Introduction to Statistical Modeling II",
+        "credits": 0.5,
+        "description": "A data-driven approach to statistical modeling. Basics of experimental design, analysis of variance, simple linear regression and correlation, nonparametric procedures. A statistical software package will be used.",
+        "prereq": null,
+        "prereqRaw": "STAT 2507 or STAT 2601 or STAT 2606 or STAT 3502; or permission of the School.",
+        "precludes": [
+          "DATA 1519",
+          "ECON 3210",
+          "STAT 2602"
+        ]
+      },
+      {
+        "code": "STAT 2559",
+        "title": "Basics of Statistical Modeling (Honours)",
+        "credits": 0.5,
+        "description": "Estimation and hypothesis testing for one and two samples, analysis of categorical data, basics of experimental design, analysis of variance, simple linear regression and correlation. Nonparametric procedures. A statistical software package will be used.",
+        "prereq": null,
+        "prereqRaw": "STAT 2655 or permission of the School.",
+        "precludes": [
+          "DATA 1519"
+        ]
+      },
+      {
+        "code": "STAT 2601",
+        "title": "Business Statistics",
+        "credits": 0.5,
+        "description": "Introduction to statistical computing, descriptive statistics, probability concepts, interval estimation and hypothesis testing, categorical data analysis. Introduction to simple regression, multiple regression, and time series. Emphasis on the development of an ability to interpret results of statistical analyses with applications from business.",
+        "prereq": null,
+        "prereqRaw": "MATH 1009. Restricted to B.Com. and B.I.B students.",
+        "precludes": [
+          "BIT 2000",
+          "BIT 2009",
+          "DATA 1517",
+          "ECON 2210",
+          "ENST 2006",
+          "GEOG 2006",
+          "STAT 2507",
+          "STAT 3502"
+        ]
+      },
+      {
+        "code": "STAT 2602",
+        "title": "Statistical Models for Business Analytics and Finance",
+        "credits": 0.5,
+        "description": "Analysis of variance, multiple regression (including polynomial regression), logistic and Poisson regression, probit models, time series (including decomposition into components, exponential smoothing, model diagnostics and ARIMA models), Monte Carlo simulation.",
+        "prereq": null,
+        "prereqRaw": "STAT 2601.",
+        "precludes": [
+          "DATA 1519"
+        ]
+      },
+      {
+        "code": "STAT 2605",
+        "title": "Probability Models",
+        "credits": 0.5,
+        "description": "Basic probability; discrete random variables with focus on binomial and Poisson random variables; continuous random variables, transformation theorem, simulating continuous random variables; exponential random variable, normal random variable, sums of random variables, central limit theorem. Elements of Markov chains, and introduction to Poisson processes.",
+        "prereq": null,
+        "prereqRaw": "MATH 1007 or MATH 1004 or MATH 1002 (no longer offered) or MATH 1052, and MATH 1104 or MATH 1107 or MATH 1102 (no longer offered) or MATH 1152. Restricted to students in Bachelor of Computer Science and Bachelor of Mathematics in Computer Mathematics.",
+        "precludes": [
+          "STAT 2655",
+          "STAT 3502"
+        ]
+      },
+      {
+        "code": "STAT 2655",
+        "title": "Introduction to Probability with Applications (Honours)",
+        "credits": 0.5,
+        "description": "Probability axioms, basic combinatorial analysis, conditional probability and independence, discrete and continuous random variables, joint and conditional distributions, expectation and moments, probability and moment generating functions, Chebyshev's inequality and weak law of large numbers, central limit theorem, sampling distributions, simulation and applications to descriptive statistics.",
+        "prereq": null,
+        "prereqRaw": "MATH 2052 with a grade of C+ or higher or MATH 2007 or MATH 1005 with a grade of B+ or higher; and MATH 2152 with a grade of C+ or higher or MATH 2107 with a grade of B+ or higher; or permission of the School.",
+        "precludes": [
+          "STAT 2605"
+        ]
+      },
+      {
+        "code": "STAT 2660",
+        "title": "Mathematics for Finance (Honours)",
+        "credits": 0.5,
+        "description": "Interest rates, growth of money, discount functions, yield rates, time value of money, annuities, cash flows and portfolios, loans, mortgages, bonds, immunization, swaps, hedging and investment strategies, stocks and financial markets, arbitrage.",
+        "prereq": null,
+        "prereqRaw": "i) one of MATH 2052 or MATH 2007 or MATH 1005, grade of C+ or higher; and ii) one of MATH 1152 or MATH 1107 or MATH 1104, grade of C+ or higher; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 2907",
+        "title": "Directed Studies (Honours)",
+        "credits": 0.5,
+        "description": "Available only to Honours students whose program requires a 0.5 credit not offered by the School of Mathematics and Statistics.",
+        "prereq": null,
+        "prereqRaw": null,
+        "precludes": []
+      },
+      {
+        "code": "STAT 3502",
+        "title": "Probability and Statistics",
+        "credits": 0.5,
+        "description": "Axioms of probability; conditional probability and independence; random variables; distributions: binomial, Poisson, hypergeometric, normal, gamma; central limit theorem; sampling distributions; point estimation: maximum likelihood, method of moments; confidence intervals; testing of hypotheses: one and two populations; engineering applications: acceptance sampling, control charts, reliability.",
+        "prereq": null,
+        "prereqRaw": "MATH 2004 and enrolment in the Faculty of Engineering or B.Sc. programs of the Department of Physics [except Double Honours Mathematics and Physics].",
+        "precludes": [
+          "BIT 2000",
+          "BIT 2009",
+          "DATA 1517",
+          "ECON 2210",
+          "STAT 2507",
+          "STAT 2605",
+          "STAT 2601"
+        ]
+      },
+      {
+        "code": "STAT 3503",
+        "title": "Regression Analysis",
+        "credits": 0.5,
+        "description": "Review of simple and multiple regression with matrices, Gauss-Markov theorem, polynomial regression, indicator variables, residual analysis, weighted least squares, variable selection techniques, nonlinear regression, correlation analysis and autocorrelation. Computer packages are used for statistical analyses.",
+        "prereq": null,
+        "prereqRaw": "i) DATA 1519 or STAT 2509 or STAT 2602 or STAT 2607 or ECON 2202 or ECON 2220 or equivalent; and ii) MATH 1152 or MATH 1107 or MATH 1119 or equivalent; or permission of the School.",
+        "precludes": [
+          "STAT 3553"
+        ]
+      },
+      {
+        "code": "STAT 3504",
+        "title": "Analysis of Variance and Experimental Design",
+        "credits": 0.5,
+        "description": "Single and multifactor analysis of variance, orthogonal contrasts and multiple comparisons, analysis of covariance; nested, crossed and repeated measures designs; completely randomized, randomized block, Latin squares, factorial experiments, related topics. Computer packages are used for statistical analyses.",
+        "prereq": null,
+        "prereqRaw": "STAT 3503 or permission of the School.",
+        "precludes": [
+          "STAT 4504"
+        ]
+      },
+      {
+        "code": "STAT 3506",
+        "title": "Stochastic Processes and Applications (Honours)",
+        "credits": 0.5,
+        "description": "Conditional probability and conditional expectation; Stochastic modeling; discrete time Markov chains including classification of states, stationary and limiting distributions; exponential distribution and the Poisson processes; queueing models; applications to computer systems, operations research and social sciences.",
+        "prereq": null,
+        "prereqRaw": "STAT 2655 with a grade of C- or higher; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 3507",
+        "title": "Sampling Methodology",
+        "credits": 0.5,
+        "description": "The sample survey as a vehicle for information collection in government, business, scientific and social agencies. Topics include: planning a survey, questionnaire design, simple random, stratified, systematic and cluster sampling designs, estimation methods, problem of non-response, related topics.",
+        "prereq": null,
+        "prereqRaw": "one of: STAT 2507, STAT 2509, STAT 2601, STAT 2602, STAT 2606, STAT 2607, ECON 2201, ECON 2202, ECON 2210, or equivalent; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 3508",
+        "title": "Elements of Probability Theory",
+        "credits": 0.5,
+        "description": "Discrete and continuous distributions, moment-generating functions, marginal and conditional distributions, transformation theory, limiting distributions.",
+        "prereq": null,
+        "prereqRaw": "i) MATH 2008 (or MATH 2004 or MATH 2009); and ii) one of STAT 2507, STAT2601, STAT 2606, ECON 2200, or ECON 2201 or permission of the School.",
+        "precludes": [
+          "ECON 4002",
+          "STAT 2210",
+          "STAT 3558"
+        ]
+      },
+      {
+        "code": "STAT 3509",
+        "title": "Mathematical Statistics",
+        "credits": 0.5,
+        "description": "Point and interval estimation, sufficient statistics, hypothesis testing, chi-square tests with enumeration data.",
+        "prereq": null,
+        "prereqRaw": "STAT 3508 or permission of the School.",
+        "precludes": [
+          "STAT 3559",
+          "STAT 4321"
+        ]
+      },
+      {
+        "code": "STAT 3553",
+        "title": "Regression Modeling (Honours)",
+        "credits": 0.5,
+        "description": "Linear regression - theory, methods and application(s). Normal distribution theory. Hypothesis tests and confidence intervals. Model selection. Model diagnostics. Introduction to weighted least squares and generalized linear models.",
+        "prereq": null,
+        "prereqRaw": "i) STAT 2559 with a grade of C- or higher, or STAT 2210 with a grade of C or higher; and ii) a grade of C- or higher in MATH 1152 or MATH 1107 or MATH 1104; or permission from the School of Mathematics and Statistics.",
+        "precludes": [
+          "STAT 3503"
+        ]
+      },
+      {
+        "code": "STAT 3558",
+        "title": "Elements of Probability Theory (Honours)",
+        "credits": 0.5,
+        "description": "Random variables and moment-generating functions, concepts of conditioning and correlation; laws of large numbers, central limit theorem; multivariate normal distribution; distributions of functions of random variables, sampling distributions, order statistics.",
+        "prereq": null,
+        "prereqRaw": "i) STAT 2655 with a grade of C- or higher; and ii) (MATH 2001 and MATH 2002 with a grade of C- or higher), or (a grade of C+ or higher in MATH 2008 or MATH 2004, and permission of the instructor); or permission of the School.",
+        "precludes": [
+          "ECON 4002",
+          "STAT 2210",
+          "STAT 3508"
+        ]
+      },
+      {
+        "code": "STAT 3559",
+        "title": "Mathematical Statistics (Honours)",
+        "credits": 0.5,
+        "description": "Empirical distribution functions, Monte Carlo methods, elements of decision theory, point estimation, interval estimation, tests of hypotheses, robustness, nonparametric methods.",
+        "prereq": null,
+        "prereqRaw": "STAT 3558 with a grade of C- or higher; or (STAT 3508 with a grade of B or higher, and permission of the instructor); or permission of the School.",
+        "precludes": [
+          "STAT 3509",
+          "STAT 4321"
+        ]
+      },
+      {
+        "code": "STAT 3660",
+        "title": "Actuarial Mathematics I",
+        "credits": 0.5,
+        "description": "Severity, frequency models, loss models, risk measures, value at risk, stochastic processes, Poisson process, characteristics of actuarial models, creating new univariate distributions, heavy-tailed distributions, mixed distributions, coverage modifications.",
+        "prereq": null,
+        "prereqRaw": "STAT 2655, or permission from the school.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 3661",
+        "title": "Life Contingent Risk Modelling I",
+        "credits": 0.5,
+        "description": "Introduction to life insurance; traditional and modern insurance contracts; underwriting; premiums; present value random variable; force of mortality; life tables; insurance benefits; annuities; premium calculation, reserves.",
+        "prereq": null,
+        "prereqRaw": "STAT 2660 and STAT 3660, or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 3907",
+        "title": "Directed Studies",
+        "credits": 0.5,
+        "description": "Available only to students whose program requires a 0.5 credit not offered by the School of Mathematics and Statistics.",
+        "prereq": null,
+        "prereqRaw": null,
+        "precludes": []
+      },
+      {
+        "code": "STAT 3999",
+        "title": "Co-operative Work Term",
+        "credits": 0,
+        "description": "",
+        "prereq": null,
+        "prereqRaw": null,
+        "precludes": []
+      },
+      {
+        "code": "STAT 4321",
+        "title": "Inferential Data Science Foundations II",
+        "credits": 0.5,
+        "description": "Inferential data science tools extending to big data using open-source software. Asymptotic properties of likelihoods, parametric and non-parametric approaches, bootstrap, jackknife estimation, frequentist and Bayesian perspectives. Formal tools are developed. Concepts are demonstrated using simulation. Abstract concepts are made concrete through visualization and numerical computation.",
+        "prereq": null,
+        "prereqRaw": "STAT 2210.",
+        "precludes": [
+          "STAT 3509",
+          "STAT 3559"
+        ]
+      },
+      {
+        "code": "STAT 4322",
+        "title": "Learning from Big Data",
+        "credits": 0.5,
+        "description": "A data-first tour of advanced statistical models. Focus will be on a series of large real world forecasting and prediction competitions. Tools and workflows for statistical modelling are explored.",
+        "prereq": null,
+        "prereqRaw": "DATA 3500 and STAT 2210.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4500",
+        "title": "Parametric Estimation (Honours)",
+        "credits": 0.5,
+        "description": "Preliminaries on probability theory; exact and asymptotic sampling distributions; unbiasedness, consistency, efficiency, sufficiency and completeness; properties of maximum likelihood estimators; least squares estimation of location and scale parameters based on order statistics and sample quantiles; Best Asymptotically Normal (BAN) estimators.",
+        "prereq": null,
+        "prereqRaw": "STAT 3559 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4501",
+        "title": "Probability Theory (Honours)",
+        "credits": 0.5,
+        "description": "Introduction to probability, characteristic functions, probability distributions, limit theorems.",
+        "prereq": null,
+        "prereqRaw": "STAT 3506 and STAT 3558 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4502",
+        "title": "Survey Sampling (Honours)",
+        "credits": 0.5,
+        "description": "Basic concepts in sampling from finite populations; simple random sampling; stratified sampling; choice of sampling unit; cluster and systematic sampling; introduction to multistage sampling; ratio estimation; sampling with unequal probabilities and with replacement; replicated sampling; related topics.",
+        "prereq": null,
+        "prereqRaw": "i) STAT 2559 or STAT 2509 or DATA 1519; and ii) either STAT 3559, or a grade of C + or better in STAT 3509 or STAT 2210; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4503",
+        "title": "Applied Multivariate Analysis (Honours)",
+        "credits": 0.5,
+        "description": "Selected topics in regression and correlation non-linear models. Multivariate statistical methods, principal components, factor analysis, multivariate analysis of variance, discriminant analysis, canonical correlation, analysis of categorical data.",
+        "prereq": null,
+        "prereqRaw": "STAT 3553 or (STAT 3509 and STAT 3503) or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4504",
+        "title": "Statistical Design and Analysis of Experiments (Honours)",
+        "credits": 0.5,
+        "description": "An extension of the designs discussed in STAT 2559 to include analysis of the completely randomized design, designs with more than one blocking variable, incomplete block designs, fractional factorial designs, multiple comparisons; and response surface methods.",
+        "prereq": null,
+        "prereqRaw": "STAT 3553 or STAT 3503; or permission of the School of Mathematics and Statistics.",
+        "precludes": [
+          "STAT 3504",
+          "ECON 4706",
+          "PSYC 3000"
+        ]
+      },
+      {
+        "code": "STAT 4506",
+        "title": "Nonparametric Statistics (Honours)",
+        "credits": 0.5,
+        "description": "Classical nonparametric techniques; nonparametric density estimation; nonparametric regression analysis: kernel estimators, orthogonal series estimators, smoothing splines; estimation of statistical functionals; nonparametric bootstrap; jackknife; elements of high dimensional statistical inference; multiple testing and false discovery. Statistical software will be used.",
+        "prereq": null,
+        "prereqRaw": "STAT 3559 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4507",
+        "title": "Statistical Inference (Honours)",
+        "credits": 0.5,
+        "description": "Sufficient statistics, simple and composite hypotheses, most powerful and similar region test, distribution-free tests, confidence intervals, goodness-of-fit and likelihood ratio tests, large sample theory, Bayesian and likelihood methods, sequential tests.",
+        "prereq": null,
+        "prereqRaw": "STAT 4500 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4508",
+        "title": "Stochastic Models (Honours)",
+        "credits": 0.5,
+        "description": "Review of discrete Markov chains and Poisson processes; continuous time Markov chains; pure jump Markov processes, and birth and death processes including the Q-matrix approach; the Kolmogorov equations; renewal theory; introduction to Brownian motion; queueing theory.",
+        "prereq": null,
+        "prereqRaw": "STAT 3506 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4509",
+        "title": "Advanced Mathematical Modeling (Honours)",
+        "credits": 0.5,
+        "description": "Real-life situations in the physical, social, and life sciences are often modeled using mathematical tools. This course will examine various models and techniques used in their analysis, e.g., matrix procedures in connection with population models. Students will use a computer package to obtain numerical results.",
+        "prereq": null,
+        "prereqRaw": "i) MATH 2454 and STAT 2655 (or MATH 2404 and STAT 2605) and ii) STAT 3506; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4555",
+        "title": "Monte Carlo Simulation (Honours)",
+        "credits": 0.5,
+        "description": "Basic ideas and algorithms of Monte Carlo; simulation of basic stochastic processes. Brownian motion and the Poisson process, applications to financial modelling, queueing theory. Output analysis; variance reduction. Markov chain Monte Carlo methods; Gibbs sampling, simulated annealing and Metropolis-Hastings samplers with applications.",
+        "prereq": null,
+        "prereqRaw": "STAT 3558, or a grade of B or higher in STAT 3508, or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4601",
+        "title": "Data Mining I (Honours)",
+        "credits": 0.5,
+        "description": "Data visualization; knowledge discovery in datasets; unsupervised learning: clustering algorithms; dimension reduction; supervised learning: pattern recognition, smoothing techniques, classification. Computer software will be used.",
+        "prereq": null,
+        "prereqRaw": "STAT 3553 or STAT 3503 or MATH 3806, or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4603",
+        "title": "Time Series and Forecasting (Honours)",
+        "credits": 0.5,
+        "description": "Time series regression. Nonstationary and stationary time series models. Nonseasonal and seasonal time series models. ARIMA (Box-Jenkins) models. Smoothing methods. Parameter estimation, model identification, diagnostic checking. Forecasting techniques. A statistical software package will be used.",
+        "prereq": null,
+        "prereqRaw": "STAT 3553 or STAT 3503, or permission of the School.",
+        "precludes": [
+          "ECON 4713"
+        ]
+      },
+      {
+        "code": "STAT 4604",
+        "title": "Statistical Computing (Honours)",
+        "credits": 0.5,
+        "description": "Statistical computing techniques, pseudo-random number generation, tests for randomness, numerical algorithms in statistics; optimization techniques; environments for data analysis, efficient programming techniques; statistics with mainstream software.",
+        "prereq": null,
+        "prereqRaw": "STAT 3553 or STAT 3503 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4607",
+        "title": "Bayesian Statistical Analysis (Honours)",
+        "credits": 0.5,
+        "description": "Probability basics for Bayesian statistics. Bayesian inference for simple exponential families. Markov Chain Monte Carlo for posterior inference. Empirical Bayes. Hierarchical Bayes. Bayesian inference for the multivariate normal model. Bayesian linear regression. More advanced topics may be included. Computer software will be used.",
+        "prereq": null,
+        "prereqRaw": "STAT 3553 or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4660",
+        "title": "Actuarial Mathematics II",
+        "credits": 0.5,
+        "description": "Empirical models, complete data, grouped data, credibility theory, failure time, accuracy, kernel estimation, goodness of fit tests, Bayesian analysis, inference for loss models, frequentist estimation, model selection.",
+        "prereq": null,
+        "prereqRaw": "STAT 3660 with C+ or higher, or permission of the school.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4661",
+        "title": "Life Contingent Risk Modelling II",
+        "credits": 0.5,
+        "description": "Policy values; multiple state models; formulae for probability; Markov multiple state models; pension mathematics; yield curves; interest rate risk; emerging costs for life insurance; equity linked insurance; deterministic and stochastic pricing; reserving, participating, and universal life insurance.",
+        "prereq": null,
+        "prereqRaw": "STAT 3661 with a grade of C+ or higher; or permission of the School.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4905",
+        "title": "Honours Project (Honours)",
+        "credits": 0.5,
+        "description": "Consists of a written report on some approved topic or topics in the field of statistics, together with a short lecture on the report.",
+        "prereq": null,
+        "prereqRaw": "B.Math.(Honours) or B.Data Science (Honours) students only.",
+        "precludes": []
+      },
+      {
+        "code": "STAT 4907",
+        "title": "Directed Studies (Honours)",
+        "credits": 0.5,
+        "description": "",
+        "prereq": null,
+        "prereqRaw": "B.Math.(Honours) students only.",
+        "precludes": []
+      }
+    ]
+  }
+}
