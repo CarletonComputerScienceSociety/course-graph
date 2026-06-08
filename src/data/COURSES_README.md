@@ -5,16 +5,16 @@ The JSON schema is defined in `src/types/course.ts`.
 
 ## Verification status
 
-| Course | Title | Prereq source | Status |
-|---|---|---|---|
-| COMP 1405 | Intro to CS I | prereq: null | TODO: verify against current calendar |
-| COMP 1406 | Intro to CS II | requires COMP 1405 | TODO: verify against current calendar |
-| COMP 1805 | Discrete Structures I | prereq: null | TODO: verify against current calendar |
-| COMP 2401 | Systems Programming | requires COMP 1406 | TODO: verify against current calendar |
-| COMP 2402 | ADTs and Algorithms | requires COMP 2401 | TODO: verify against current calendar |
-| COMP 2404 | Software Engineering | requires COMP 2402 + COMP 2401 | TODO: verify against current calendar |
-| COMP 2406 | Web Applications | requires COMP 2402 + COMP 2401 | TODO: verify against current calendar |
-| COMP 3004 | OO Software Engineering | see below | Verified from Carleton calendar |
+| Course    | Title                   | Prereq source                  | Status                                |
+| --------- | ----------------------- | ------------------------------ | ------------------------------------- |
+| COMP 1405 | Intro to CS I           | prereq: null                   | TODO: verify against current calendar |
+| COMP 1406 | Intro to CS II          | requires COMP 1405             | TODO: verify against current calendar |
+| COMP 1805 | Discrete Structures I   | prereq: null                   | TODO: verify against current calendar |
+| COMP 2401 | Systems Programming     | requires COMP 1406             | TODO: verify against current calendar |
+| COMP 2402 | ADTs and Algorithms     | requires COMP 2401             | TODO: verify against current calendar |
+| COMP 2404 | Software Engineering    | requires COMP 2402 + COMP 2401 | TODO: verify against current calendar |
+| COMP 2406 | Web Applications        | requires COMP 2402 + COMP 2401 | TODO: verify against current calendar |
+| COMP 3004 | OO Software Engineering | see below                      | Verified from Carleton calendar       |
 
 ## COMP 3004 prereq (verified)
 
