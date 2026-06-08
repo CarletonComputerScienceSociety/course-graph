@@ -18,7 +18,7 @@
 // - In-planner prereq highlighting (click a course, highlight its prereqs in earlier terms and unlocks in later terms)
 
 import { useMemo } from 'react';
-import { usePlannerStore } from '@/store/plannerStore';
+import { usePlannerStore, termLabel } from '@/store/plannerStore';
 import { courses } from '@/data/loadCourses';
 import { validatePlan } from '@/lib/validatePlan';
 import TermCell from '@/components/TermCell';
@@ -30,7 +30,11 @@ export default function Planner() {
   const violations = useMemo(
     () =>
       validatePlan(
-        terms.map((t) => ({ termId: t.id, label: t.label, entries: t.entries })),
+        terms.map((t) => ({
+          termId: t.id,
+          label: termLabel(t),
+          entries: t.entries,
+        })),
         courses,
       ),
     [terms],
@@ -41,8 +45,9 @@ export default function Planner() {
       <ViolationList violations={violations} />
 
       <p className="rounded bg-yellow-100 px-3 py-2 text-sm text-yellow-800">
-        This tool validates prerequisite ordering only. It does not check whether
-        courses are offered in specific terms. Verify with the registrar.
+        This tool validates prerequisite ordering only. It does not check
+        whether courses are offered in specific terms. Verify with the
+        registrar.
       </p>
 
       <div className="grid grid-cols-2 gap-3">
@@ -50,7 +55,7 @@ export default function Planner() {
           <TermCell
             key={term.id}
             termId={term.id}
-            label={term.label}
+            label={termLabel(term)}
             entries={term.entries}
           />
         ))}

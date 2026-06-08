@@ -8,33 +8,38 @@ customize freely.
 
 ```jsonc
 {
-  "id": "bcs-general",           // kebab-case, unique across all templates
-  "name": "BCS General",         // display name shown in the dropdown
+  "id": "bcs-general", // kebab-case, unique across all templates
+  "name": "BCS General", // display name shown in the dropdown
   "description": "Four-year BCS General stream, no specialization.",
   "validFor": "2025–2026 academic calendar",
-  "lastReviewed": "2026-06",     // ISO year-month of the most recent review
-  "reviewer": "@github-handle",  // GitHub handle of the curator who reviewed it
-  "terms": [                     // exactly 8 elements, ordered Year 1 Fall → Year 4 Winter
+  "lastReviewed": "2026-06", // ISO year-month of the most recent review
+  "reviewer": "@github-handle", // GitHub handle of the curator who reviewed it
+  "terms": [
+    // exactly 8 elements, ordered Year 1 Fall → Year 4 Winter
     {
       "label": "Year 1 Fall",
       "entries": [
         { "kind": "course", "code": "COMP 1405" },
         { "kind": "elective", "category": "Breadth Elective" },
-        { "kind": "choose", "credits": 0.5, "description": "0.5 credit from MATH 1xxx" }
-      ]
-    }
+        {
+          "kind": "choose",
+          "credits": 0.5,
+          "description": "0.5 credit from MATH 1xxx",
+        },
+      ],
+    },
     // … 7 more terms
-  ]
+  ],
 }
 ```
 
 ### Entry kinds
 
-| kind | fields | meaning |
-|------|--------|---------|
-| `course` | `code` | A specific required course |
-| `elective` | `category` | A free or category-restricted elective slot |
-| `choose` | `credits`, `description` | "Take N credits matching this description" |
+| kind       | fields                   | meaning                                     |
+| ---------- | ------------------------ | ------------------------------------------- |
+| `course`   | `code`                   | A specific required course                  |
+| `elective` | `category`               | A free or category-restricted elective slot |
+| `choose`   | `credits`, `description` | "Take N credits matching this description"  |
 
 ## Curation expectations
 
