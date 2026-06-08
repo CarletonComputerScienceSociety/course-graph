@@ -60,7 +60,8 @@ export const usePlannerStore = create<PlannerState>()(
       addCourse: (termId, code) => {
         set({
           terms: get().terms.map((t) =>
-            t.id === termId && !t.entries.some((e) => e.kind === 'course' && e.code === code)
+            t.id === termId &&
+            !t.entries.some((e) => e.kind === 'course' && e.code === code)
               ? { ...t, entries: [...t.entries, { kind: 'course', code }] }
               : t,
           ),

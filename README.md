@@ -4,7 +4,7 @@ An interactive prerequisite explorer and degree plan builder for Carleton Univer
 
 ## Status
 
-This is the starting scaffold for this project. The Explorer and Planner routes are functional; actual planner UI, program templates, drag-and-drop plan builder, and scraping the full course catalogue are all todos. 
+This is the starting scaffold for this project. The Explorer and Planner routes are functional; actual planner UI, program templates, drag-and-drop plan builder, and scraping the full course catalogue are all todos.
 
 ## Tech stack
 
@@ -36,13 +36,13 @@ pnpm dev          # → http://localhost:5173/course-graph/
 
 ## Scripts
 
-| Script | What it does |
-|--------|-------------|
-| `pnpm dev` | Start local dev server with hot reload |
-| `pnpm build` | Production build into `dist/` |
-| `pnpm test` | Run Vitest test suite |
-| `pnpm typecheck` | `tsc --noEmit` (strict, no emit) |
-| `pnpm format` | Prettier write |
+| Script           | What it does                           |
+| ---------------- | -------------------------------------- |
+| `pnpm dev`       | Start local dev server with hot reload |
+| `pnpm build`     | Production build into `dist/`          |
+| `pnpm test`      | Run Vitest test suite                  |
+| `pnpm typecheck` | `tsc --noEmit` (strict, no emit)       |
+| `pnpm format`    | Prettier write                         |
 
 ## Architecture
 

@@ -24,10 +24,26 @@ describe('validatePlan', () => {
     // Full chain for COMP 3004:
     //   1405 → 1406 → 2401 → 2402 → 2404 (and 2406) → 3004
     const plan: Plan = [
-      { termId: 't1', label: 'Year 1 Fall', entries: [{ kind: 'course', code: 'COMP 1405' }] },
-      { termId: 't2', label: 'Year 1 Winter', entries: [{ kind: 'course', code: 'COMP 1406' }] },
-      { termId: 't3', label: 'Year 2 Fall', entries: [{ kind: 'course', code: 'COMP 2401' }] },
-      { termId: 't4', label: 'Year 2 Winter', entries: [{ kind: 'course', code: 'COMP 2402' }] },
+      {
+        termId: 't1',
+        label: 'Year 1 Fall',
+        entries: [{ kind: 'course', code: 'COMP 1405' }],
+      },
+      {
+        termId: 't2',
+        label: 'Year 1 Winter',
+        entries: [{ kind: 'course', code: 'COMP 1406' }],
+      },
+      {
+        termId: 't3',
+        label: 'Year 2 Fall',
+        entries: [{ kind: 'course', code: 'COMP 2401' }],
+      },
+      {
+        termId: 't4',
+        label: 'Year 2 Winter',
+        entries: [{ kind: 'course', code: 'COMP 2402' }],
+      },
       {
         termId: 't5',
         label: 'Year 3 Fall',
@@ -36,7 +52,11 @@ describe('validatePlan', () => {
           { kind: 'course', code: 'COMP 2406' },
         ],
       },
-      { termId: 't6', label: 'Year 3 Winter', entries: [{ kind: 'course', code: 'COMP 3004' }] },
+      {
+        termId: 't6',
+        label: 'Year 3 Winter',
+        entries: [{ kind: 'course', code: 'COMP 3004' }],
+      },
     ];
     expect(validatePlan(plan, courses)).toHaveLength(0);
   });

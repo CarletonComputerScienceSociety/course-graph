@@ -30,7 +30,11 @@ export default function Planner() {
   const violations = useMemo(
     () =>
       validatePlan(
-        terms.map((t) => ({ termId: t.id, label: termLabel(t), entries: t.entries })),
+        terms.map((t) => ({
+          termId: t.id,
+          label: termLabel(t),
+          entries: t.entries,
+        })),
         courses,
       ),
     [terms],
@@ -41,8 +45,9 @@ export default function Planner() {
       <ViolationList violations={violations} />
 
       <p className="rounded bg-yellow-100 px-3 py-2 text-sm text-yellow-800">
-        This tool validates prerequisite ordering only. It does not check whether
-        courses are offered in specific terms. Verify with the registrar.
+        This tool validates prerequisite ordering only. It does not check
+        whether courses are offered in specific terms. Verify with the
+        registrar.
       </p>
 
       <div className="grid grid-cols-2 gap-3">

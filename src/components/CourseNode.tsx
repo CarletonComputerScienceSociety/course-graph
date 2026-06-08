@@ -17,7 +17,9 @@ export default function CourseNode({ data }: NodeProps<CourseNodeType>) {
       <p className="truncate text-sm font-bold leading-tight text-gray-900">
         {data.code}
       </p>
-      <p className="truncate text-xs leading-tight text-gray-500">{data.title}</p>
+      <p className="truncate text-xs leading-tight text-gray-500">
+        {data.title}
+      </p>
       <Handle type="source" position={Position.Bottom} />
     </div>
   );
