@@ -1,5 +1,5 @@
 import { pathToFileURL } from 'node:url';
-import { scrape } from './scrape-courses';
+import { scrape } from './scrape-courses.ts';
 
 // Only run the scraper when this file is executed directly (e.g. via
 // `pnpm scrape:courses`), never when the library module is imported — keeps the
