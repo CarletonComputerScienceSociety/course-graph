@@ -8,7 +8,7 @@ export default function CourseNode({ data }: NodeProps<CourseNodeType>) {
   const { selectedCourse, highlightedSet } = useExplorerStore();
   const dimmed = selectedCourse !== null && !highlightedSet.has(data.code);
 
-  const year = data.code.charAt(5);
+  const year = data.code.match(/\d/)?.[0];
 
   const borderColour =
   year === "1" ? "border-green-500" :
