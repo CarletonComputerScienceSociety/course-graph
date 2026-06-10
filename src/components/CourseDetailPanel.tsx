@@ -20,7 +20,7 @@ export default function CourseDetailPanel({ course, onClose }: Props) {
 
   return (
     <aside
-      className="absolute inset-y-0 right-0 z-10 w-80 overflow-y-auto border-l border-gray-200 bg-white p-4 shadow-lg"
+      className="absolute inset-y-0 right-0 z-10 w-90 max-sm:w-5/6 overflow-y-auto border-l border-gray-200 bg-white p-4 shadow-lg"
       aria-label={`Details for ${course.code}`}
     >
       <div className="flex items-start justify-between gap-2">
