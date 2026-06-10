@@ -11,12 +11,15 @@ export default function CourseNode({ data }: NodeProps<CourseNodeType>) {
   const year = data.code.match(/\d/)?.[0];
 
   const borderColour =
-  year === "1" ? "border-green-500" :
-  year === "2" ? "border-blue-500" :
-  year === "3" ? "border-yellow-500" :
-  year === "4" ? "border-red-500" :
-  "border-gray-300";
-
+    year === '1'
+      ? 'border-green-500'
+      : year === '2'
+        ? 'border-blue-500'
+        : year === '3'
+          ? 'border-yellow-500'
+          : year === '4'
+            ? 'border-red-500'
+            : 'border-gray-300';
 
   return (
     <div
@@ -27,7 +30,9 @@ export default function CourseNode({ data }: NodeProps<CourseNodeType>) {
       <p className="truncate text-sm font-bold leading-tight text-gray-900">
         {data.code}
       </p>
-      <p className="truncate text-xs leading-tight text-gray-500">{data.title}</p>
+      <p className="truncate text-xs leading-tight text-gray-500">
+        {data.title}
+      </p>
       <Handle type="source" position={Position.Bottom} />
     </div>
   );
