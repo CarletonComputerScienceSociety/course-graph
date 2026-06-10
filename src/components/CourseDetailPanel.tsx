@@ -50,8 +50,10 @@ export default function CourseDetailPanel({ course, onClose }: Props) {
       ref={panelRef}
       tabIndex={-1}
     >
-      <div className="flex items-start justify-between gap-2">
-        <h2 className="text-lg font-bold text-gray-900">{course.code}</h2>
+      <div className="flex items-start justify-between gap-2 border-b border-gray-200 pb-1">
+        <h2 className="text-lg font-bold text-gray-900">
+          {course.code} [{course.credits} credit]
+        </h2>
         <button
           type="button"
           onClick={onClose}
@@ -62,14 +64,28 @@ export default function CourseDetailPanel({ course, onClose }: Props) {
         </button>
       </div>
 
-      {/*
-        TODO(volunteer) — flesh out the panel body. Fields available on `course`:
-          title, credits, description, prereqRaw, precludes.
-        Prereq: render `course.prereqRaw` as plain text for now (a richer view of
-          the parsed `course.prereq` AST is a later enhancement).
-        Also: visual design, Escape-to-close + focus management, mobile treatment
-        See the course-detail-panel ticket.
-      */}
+      <div className="space-y-3">
+        <div className="font-semibold">{course.title}</div>
+
+        <div>
+          <h3 className="font-semibold">Description</h3>
+          <p>{course.description}</p>
+        </div>
+
+        {course.precludes && course.precludes.length > 0 && (
+          <div>
+            <h3 className="text- font-semibold">Precludes</h3>
+            <p>{course.precludes.join(', ')}</p>
+          </div>
+        )}
+
+        {course.prereqRaw && (
+          <div>
+            <h3 className="text- font-semibold">Prerequisite(s)</h3>
+            <p>{course.prereqRaw}</p>
+          </div>
+        )}
+      </div>
     </aside>
   );
 }
