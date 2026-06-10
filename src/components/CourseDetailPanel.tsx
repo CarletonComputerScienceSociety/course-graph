@@ -1,4 +1,5 @@
 import type { Course } from '@/types/course';
+import { useEffect } from 'react';
 
 interface Props {
   course: Course | null;
@@ -17,6 +18,17 @@ interface Props {
 
 export default function CourseDetailPanel({ course, onClose }: Props) {
   if (course === null) return null;
+
+  useEffect(() => {
+    const handleKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        onClose();
+      }
+    };
+
+    document.addEventListener('keydown', handleKey);
+    return () => document.removeEventListener('keydown', handleKey);
+  }, [onClose]);
 
   return (
     <aside
