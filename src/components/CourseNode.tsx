@@ -23,7 +23,8 @@ export default function CourseNode({ data }: NodeProps<CourseNodeType>) {
 
   return (
     <div
-      className={`flex flex-col justify-center rounded border ${borderColour} bg-white px-3 py-2 shadow-sm transition-opacity duration-150`}
+      className={`title flex flex-col justify-center rounded border ${borderColour} bg-white px-3 py-2 shadow-sm transition-opacity duration-150`}
+      title={data.title}
       style={{ width: 180, height: 60, opacity: dimmed ? 0.25 : 1 }}
     >
       <Handle type="target" position={Position.Top} />
