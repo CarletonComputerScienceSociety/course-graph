@@ -1,9 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import {
-  courses,
-  courseList,
-  prereqEdges,
-} from '@/data/loadCourses';
+import { courses, courseList, prereqEdges } from '@/data/loadCourses';
 
 describe('loadCourses', () => {
   it('loads exactly 8 courses', () => {
