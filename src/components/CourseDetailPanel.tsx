@@ -67,10 +67,12 @@ export default function CourseDetailPanel({ course, onClose }: Props) {
       <div className="space-y-3">
         <div className="font-semibold">{course.title}</div>
 
-        <div>
-          <h3 className="font-semibold">Description</h3>
-          <p>{course.description}</p>
-        </div>
+        {course.description && (
+          <div>
+            <h3 className="font-semibold">Description</h3>
+            <p>{course.description}</p>
+          </div>
+        )}
 
         {course.precludes && course.precludes.length > 0 && (
           <div>
