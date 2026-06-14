@@ -43,7 +43,10 @@ export default function TermCell({ termId, label, entries }: Props) {
             return null;
           }
           return (
-            <li key={index} className="flex items-center justify-between text-sm">
+            <li
+              key={index}
+              className="flex items-center justify-between text-sm"
+            >
               <span>{entry.code}</span>
               <button
                 onClick={() => removeEntry(termId, index)}
@@ -76,9 +79,7 @@ export default function TermCell({ termId, label, entries }: Props) {
             Add
           </button>
         </div>
-        {error !== null && (
-          <p className="text-xs text-red-600">{error}</p>
-        )}
+        {error !== null && <p className="text-xs text-red-600">{error}</p>}
       </form>
     </div>
   );

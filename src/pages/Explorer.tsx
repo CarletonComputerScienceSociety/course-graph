@@ -19,10 +19,11 @@ import {
   type Edge,
 } from '@xyflow/react';
 import dagre from '@dagrejs/dagre';
-import { courseList, prereqEdges } from '@/data/loadCourses';
+import { courseList, courses, prereqEdges } from '@/data/loadCourses';
 import { useExplorerStore } from '@/store/explorerStore';
 import CourseNode from '@/components/CourseNode';
 import type { CourseNodeData } from '@/components/CourseNode';
+import CourseDetailPanel from '@/components/CourseDetailPanel';
 
 const NODE_W = 180;
 const NODE_H = 60;
@@ -81,7 +82,7 @@ export default function Explorer() {
     useExplorerStore();
 
   // Layout is derived entirely from static import-time data; deps array is empty.
-  const { nodes, edges: layoutEdges } = useMemo(computeLayout, []);
+  const { nodes, edges: layoutEdges } = useMemo(() => computeLayout(), []);
 
   // Re-derive edge styles when selection changes.
   const edges = useMemo(
@@ -100,8 +101,11 @@ export default function Explorer() {
     [layoutEdges, selectedCourse, highlightedSet],
   );
 
+  const selected =
+    selectedCourse === null ? null : (courses.get(selectedCourse) ?? null);
+
   return (
-    <div className="h-full w-full">
+    <div className="relative h-full w-full">
       <ReactFlow
         nodes={nodes}
         edges={edges}
@@ -114,6 +118,10 @@ export default function Explorer() {
         <Background />
         <Controls />
       </ReactFlow>
+      <CourseDetailPanel
+        course={selected}
+        onClose={() => setSelectedCourse(null)}
+      />
     </div>
   );
 }

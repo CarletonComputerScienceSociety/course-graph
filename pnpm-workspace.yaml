@@ -1,7 +1,7 @@
-minimumReleaseAge: 10080        # 7-day delay before any new version is resolvable
-blockExoticSubdeps: true         # transitive deps must come from the registry, not git/tarball
-trustPolicy: no-downgrade        # block versions with weaker publish provenance than earlier ones
-allowBuilds: {}                  # map of package-pattern → bool; empty = no install scripts allowed
+minimumReleaseAge: 10080 # 7-day delay before any new version is resolvable
+blockExoticSubdeps: true # transitive deps must come from the registry, not git/tarball
+trustPolicy: no-downgrade # block versions with weaker publish provenance than earlier ones
+allowBuilds: {} # map of package-pattern → bool; empty = no install scripts allowed
 
 # trustPolicyExclude: specific packages exempted from the trust-downgrade check.
 # These are benign cases — both packages are legitimate, well-known libs:
