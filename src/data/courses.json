@@ -3,81 +3,255 @@
     "code": "COMP 1405",
     "title": "Introduction to Computer Science I",
     "credits": 0.5,
-    "description": "Introduction to programming and problem solving. Fundamental concepts of object-oriented programming including objects, classes, variables, control flow, arrays, and recursion.",
+    "description": "Introduction to computer science and programming, for computer science students. Topics include: algorithm design; control structures; variables and types; linear collections; functions; debugging and testing. Special attention is given to procedural programming in a modern language, computational thinking skills, and problem decomposition.",
     "prereq": null,
-    "prereqRaw": null,
-    "precludes": []
+    "prereqRaw": "restricted to students registered in the B.C.S. program, B.Cyber. program, B.D.S. program, combined Honours in Computer Science and Mathematics, Honours Computer Mathematics, and Honours Computer Statistics.",
+    "precludes": [
+      "BIT 1400",
+      "CGSC 1005",
+      "ECOR 1031",
+      "ECOR 1041",
+      "ECOR 1042",
+      "ECOR 1051",
+      "ECOR 1606",
+      "ITEC 1400",
+      "ITEC 1401",
+      "SYSC 1005"
+    ]
   },
   {
     "code": "COMP 1406",
     "title": "Introduction to Computer Science II",
     "credits": 0.5,
-    "description": "Continuation of COMP 1405. Inheritance, polymorphism, interfaces, exceptions, generics, and an introduction to commonly used data structures.",
-    "prereq": { "kind": "course", "code": "COMP 1405" },
-    "prereqRaw": null,
+    "description": "A second course in programming for BCS students, emphasizing problem solving and computational thinking in an object-oriented language. Topics include abstraction, mutable data structures, methods, inheritance, polymorphism, recursion, program efficiency, testing and debugging.",
+    "prereq": {
+      "kind": "any",
+      "of": [
+        { "kind": "course", "code": "COMP 1005" },
+        { "kind": "course", "code": "COMP 1405" }
+      ]
+    },
+    "prereqRaw": "COMP 1005 or COMP 1405. Restricted to students registered in the B.C.S. program, B.Cyber. program, B.D.S. program, combined Honours in Computer Science and Mathematics, Honours Computer Mathematics, and Honours Computer Statistics.",
+    "precludes": [
+      "BIT 2400",
+      "BUSI 2402",
+      "ITEC 2400",
+      "ITEC 2401",
+      "SYSC 2004"
+    ]
+  },
+  {
+    "code": "COMP 1501",
+    "title": "Introduction to Computer Game Design",
+    "credits": 0.5,
+    "description": "Introduction to game design and prototyping. Topics include: formal theories of fun; the mechanics-dynamics-aesthetics framework; game economies; game balance; statistical tools for analyzing game mechanics; game settings; and storytelling. Special attention is given to the attributes of games and what makes a game fun.",
+    "prereq": {
+      "kind": "any",
+      "of": [
+        { "kind": "course", "code": "COMP 1005" },
+        { "kind": "course", "code": "COMP 1405" }
+      ]
+    },
+    "prereqRaw": "COMP 1005 or COMP 1405.",
     "precludes": []
   },
   {
     "code": "COMP 1805",
     "title": "Discrete Structures I",
     "credits": 0.5,
-    "description": "Propositional and predicate logic, sets, relations, functions, proof techniques including mathematical induction, and an introduction to combinatorics and graph theory.",
+    "description": "Introduction to discrete mathematics and discrete structures. Topics include: propositional logic, predicate calculus, set theory, complexity of algorithms, mathematical reasoning and proof techniques, recurrences, induction, finite automata and graph theory. Material is illustrated through examples from computing.",
     "prereq": null,
-    "prereqRaw": null,
+    "prereqRaw": "one Grade 12 university preparation mathematics course.",
+    "precludes": ["MATH 1800"]
+  },
+  {
+    "code": "COMP 2108",
+    "title": "Applied Cryptography and Authentication",
+    "credits": 0.5,
+    "description": "Practical aspects of cryptography. Topics include: stream and block ciphers; modes of operation; hash functions; message and user authentication; authenticated key establishment protocols; random number generation; entropy; proof of knowledge; secret sharing; key distribution; pitfalls deploying public-key encryption and digital signatures.",
+    "prereq": {
+      "kind": "all",
+      "of": [
+        {
+          "kind": "any",
+          "of": [
+            { "kind": "course", "code": "COMP 1006", "minGrade": "C-" },
+            { "kind": "course", "code": "COMP 1406", "minGrade": "C-" }
+          ]
+        },
+        { "kind": "course", "code": "COMP 2804" }
+      ]
+    },
+    "prereqRaw": "(COMP 1006 or COMP 1406) with a minimum grade of C-, and COMP 2804.",
+    "precludes": ["COMP 3109", "COMP 4109", "CSEC 2108"]
+  },
+  {
+    "code": "COMP 2109",
+    "title": "Introduction to Security and Privacy",
+    "credits": 0.5,
+    "description": "A tour of Internet security and privacy. Societal impacts and case studies. Topics from: protection goals of stakeholders; history of public key cryptography; programming languages and security; security engineering and testing; cybercrime and malware; Internet privacy and anonymity; government surveillance; regulation; ethics; blockchain applications.",
+    "prereq": {
+      "kind": "all",
+      "of": [
+        {
+          "kind": "any",
+          "of": [
+            { "kind": "course", "code": "COMP 1006", "minGrade": "C-" },
+            { "kind": "course", "code": "COMP 1406", "minGrade": "C-" }
+          ]
+        },
+        { "kind": "course", "code": "COMP 2401", "minGrade": "C-" }
+      ]
+    },
+    "prereqRaw": "(COMP 1006 or COMP 1406) with a minimum grade of C-, and COMP 2401 with a minimum grade of C-.",
     "precludes": []
   },
   {
     "code": "COMP 2401",
     "title": "Introduction to Systems Programming",
     "credits": 0.5,
-    "description": "Introduction to systems-level programming in C. Memory management, pointers, data representation, the compilation toolchain, and basic operating system interfaces.",
-    "prereq": { "kind": "course", "code": "COMP 1406" },
-    "prereqRaw": null,
-    "precludes": []
+    "description": "Introduction to system-level programming with fundamental OS concepts, procedures, primitive data types, user-defined types. Topics may include process management, memory management, process coordination and synchronization, inter-process communication, file systems, networking, pointers, heap and stack memory management, and system/library calls.",
+    "prereq": {
+      "kind": "any",
+      "of": [
+        { "kind": "course", "code": "COMP 1006", "minGrade": "C-" },
+        { "kind": "course", "code": "COMP 1406", "minGrade": "C-" }
+      ]
+    },
+    "prereqRaw": "(COMP 1006 or COMP 1406) with a minimum grade of C-.",
+    "precludes": ["SYSC 1006", "SYSC 2006"]
   },
   {
     "code": "COMP 2402",
     "title": "Abstract Data Types and Algorithms",
     "credits": 0.5,
-    "description": "Abstract data types: stacks, queues, deques, priority queues, lists, trees, and graphs. Sorting, searching, and algorithm analysis using asymptotic notation.",
-    "prereq": { "kind": "course", "code": "COMP 2401" },
-    "prereqRaw": null,
-    "precludes": []
+    "description": "Introduction to the design and implementation of abstract data types and to complexity analysis of data structures. Topics include: stacks, queues, lists, trees and graphs. Special attention is given to abstraction, interface specification and hierarchical design using an object-oriented programming language.",
+    "prereq": {
+      "kind": "any",
+      "of": [
+        { "kind": "course", "code": "COMP 1006", "minGrade": "C-" },
+        { "kind": "course", "code": "COMP 1406", "minGrade": "C-" }
+      ]
+    },
+    "prereqRaw": "(COMP 1006 or COMP 1406) with a minimum grade of C-.",
+    "precludes": ["SYSC 2100"]
   },
   {
     "code": "COMP 2404",
     "title": "Introduction to Software Engineering",
     "credits": 0.5,
-    "description": "Software development life cycle, requirements analysis, UML, object-oriented design patterns, testing strategies, and software maintenance principles.",
-    "prereq": {
-      "kind": "all",
-      "of": [
-        { "kind": "course", "code": "COMP 2402" },
-        { "kind": "course", "code": "COMP 2401" }
-      ]
-    },
-    "prereqRaw": null,
-    "precludes": []
+    "description": "Introduction to object-oriented software development, with emphasis on the design and implementation of maintainable, reusable software. Topics include abstraction, modularity, encapsulation, and an introduction to design patterns.",
+    "prereq": { "kind": "course", "code": "COMP 2401", "minGrade": "C-" },
+    "prereqRaw": "COMP 2401 with a minimum grade of C-.",
+    "precludes": ["SYSC 3010", "SYSC 3110"]
   },
   {
     "code": "COMP 2406",
     "title": "Fundamentals of Web Applications",
     "credits": 0.5,
-    "description": "Client/server architecture, HTTP, HTML, CSS, JavaScript, server-side scripting, relational databases, and an introduction to web application frameworks.",
+    "description": "Introduction to Internet application development; emphasis on computer science fundamentals of technologies underlying web applications. Topics include: scripting and functional languages, language-based virtual machines, database query languages, remote procedure calls over the Internet, and performance and security concerns in modern distributed applications.",
+    "prereq": {
+      "kind": "any",
+      "of": [
+        { "kind": "course", "code": "COMP 1006", "minGrade": "C-" },
+        { "kind": "course", "code": "COMP 1406", "minGrade": "C-" }
+      ]
+    },
+    "prereqRaw": "(COMP 1006 or COMP 1406) with a minimum grade of C-.",
+    "precludes": ["SYSC 4504"]
+  },
+  {
+    "code": "COMP 2501",
+    "title": "Computer Game Design and Development",
+    "credits": 0.5,
+    "description": "Introduction to the practical development of computer games and engine architecture. Topics include: vector and matrix operations; coordinate systems and transformations; physical simulation; collision detection; AI; path planning; hardware-accelerated real-time rendering. Special attention is given to implementation of real-time rendering in a low-level language.",
     "prereq": {
       "kind": "all",
       "of": [
-        { "kind": "course", "code": "COMP 2402" },
-        { "kind": "course", "code": "COMP 2401" }
+        { "kind": "course", "code": "COMP 2401", "minGrade": "C-" },
+        {
+          "kind": "any",
+          "of": [
+            { "kind": "course", "code": "MATH 1104" },
+            { "kind": "course", "code": "MATH 1107" }
+          ]
+        }
       ]
     },
+    "prereqRaw": "COMP 2401 with a minimum grade of C-, and (MATH 1104 or MATH 1107).",
+    "precludes": []
+  },
+  {
+    "code": "COMP 2601",
+    "title": "Mobile Applications",
+    "credits": 0.5,
+    "description": "Development of applications for mobile environments taking advantage of gesture-based input and using location and presence services. Topics include introduction to low-level network services and mobile platforms, description of architectural patterns, principles of mobile development and interaction styles for network service usage.",
+    "prereq": { "kind": "course", "code": "COMP 1601" },
+    "prereqRaw": "COMP 1601.",
+    "precludes": []
+  },
+  {
+    "code": "COMP 2801",
+    "title": "Introduction to Robotics",
+    "credits": 0.5,
+    "description": "A course on programming simulated mobile robots with various sensors such as wheel encoders, distance sensors, cameras, compasses, accelerometers, and laser range finders. Topics include: programming robot behaviour; performing position estimation; implementing algorithms related to navigation, mapping, path planning, area coverage, and localization.",
+    "prereq": {
+      "kind": "any",
+      "of": [
+        { "kind": "course", "code": "COMP 1006", "minGrade": "C-" },
+        { "kind": "course", "code": "COMP 1406", "minGrade": "C-" }
+      ]
+    },
+    "prereqRaw": "(COMP 1006 or COMP 1406) with a minimum grade of C-.",
+    "precludes": ["COMP 1807"]
+  },
+  {
+    "code": "COMP 2804",
+    "title": "Discrete Structures II",
+    "credits": 0.5,
+    "description": "A second course in discrete mathematics and discrete structures. Topics include: counting, sequences and sums, discrete probability, basic statistics, recurrence relations, randomized algorithms. Material is illustrated through examples from computing.",
+    "prereq": {
+      "kind": "any",
+      "of": [
+        { "kind": "course", "code": "COMP 1805", "minGrade": "C-" },
+        {
+          "kind": "raw",
+          "text": "permission of the School of Computer Science for those in Combined Honours in Computer Science and Mathematics"
+        }
+      ]
+    },
+    "prereqRaw": "COMP 1805 with a minimum grade of C-, or permission of the School of Computer Science for those in Combined Honours in Computer Science and Mathematics.",
+    "precludes": []
+  },
+  {
+    "code": "COMP 3000",
+    "title": "Operating Systems",
+    "credits": 0.5,
+    "description": "Operating system implementation course stressing fundamental issues in design and how they relate to modern computer architectures. Assignments involve the modification and extension of a multitasking operating system.",
+    "prereq": {
+      "kind": "all",
+      "of": [
+        { "kind": "course", "code": "COMP 2401", "minGrade": "C-" },
+        { "kind": "course", "code": "COMP 2402" }
+      ]
+    },
+    "prereqRaw": "COMP 2401 with a minimum grade of C- and COMP 2402.",
+    "precludes": ["SYSC 4001"]
+  },
+  {
+    "code": "COMP 3002",
+    "title": "Compiler Construction",
+    "credits": 0.5,
+    "description": "The structure, organization and design of the phases of a compiler are considered: lexical translators, syntactical translators, scope handlers, type checkers, code generators and optimizers. Components of a compiler will be implemented.",
+    "prereq": { "kind": "course", "code": "COMP 2402" },
+    "prereqRaw": "COMP 2402.",
     "precludes": []
   },
   {
     "code": "COMP 3004",
     "title": "Object-Oriented Software Engineering",
     "credits": 0.5,
-    "description": "Advanced object-oriented analysis and design. Design patterns, software architecture, UML, iterative development processes, and team project work.",
+    "description": "Development of object-oriented software systems: theory and practice. Topics include: Computer ethics, software development processes, requirement specification, class and scenario modeling, state modeling, UML, design patterns, traceability. Students are to complete a team project.",
     "prereq": {
       "kind": "all",
       "of": [
@@ -99,7 +273,257 @@
         }
       ]
     },
-    "prereqRaw": null,
+    "prereqRaw": "COMP 2401 with a minimum grade of C-, (COMP 2404 or SYSC 3010 or SYSC 3110) with a minimum grade of C-, and (COMP 2406 or SYSC 4504).",
+    "precludes": ["SYSC 3020", "SYSC 3120", "SYSC 4120"]
+  },
+  {
+    "code": "COMP 3005",
+    "title": "Database Management Systems",
+    "credits": 0.5,
+    "description": "Introduction to the concepts of database management systems and database design. Topics may include: entity-relationship modelling, normalization, reduction to relational schemas, SQL, file and data organization, indexing, hash tables, join algorithms, query processing, query optimization, and concurrency control.",
+    "prereq": {
+      "kind": "all",
+      "of": [
+        { "kind": "course", "code": "COMP 1805", "minGrade": "C-" },
+        {
+          "kind": "any",
+          "of": [
+            { "kind": "course", "code": "COMP 2402" },
+            {
+              "kind": "all",
+              "of": [
+                { "kind": "course", "code": "SYSC 2004" },
+                { "kind": "course", "code": "SYSC 2100" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "prereqRaw": "COMP 1805 with a minimum grade of C-, and either COMP 2402 or (SYSC 2004 and SYSC 2100).",
+    "precludes": ["BUSI 3400"]
+  },
+  {
+    "code": "COMP 3007",
+    "title": "Programming Paradigms",
+    "credits": 0.5,
+    "description": "An introduction to alternative programming paradigms such as functional, constraint-based, concurrent, and logic programming.",
+    "prereq": {
+      "kind": "all",
+      "of": [
+        { "kind": "course", "code": "COMP 1805", "minGrade": "C-" },
+        { "kind": "course", "code": "COMP 2401", "minGrade": "C-" },
+        { "kind": "course", "code": "COMP 2402" },
+        {
+          "kind": "any",
+          "of": [
+            { "kind": "course", "code": "COMP 2404" },
+            { "kind": "course", "code": "SYSC 3010" },
+            { "kind": "course", "code": "SYSC 3110" }
+          ]
+        },
+        {
+          "kind": "any",
+          "of": [
+            { "kind": "course", "code": "COMP 2406" },
+            { "kind": "course", "code": "SYSC 4504" }
+          ]
+        }
+      ]
+    },
+    "prereqRaw": "COMP 1805 with a minimum grade of C-, COMP 2401 with a minimum grade of C-, COMP 2402, (COMP 2404 or SYSC 3010 or SYSC 3110) and (COMP 2406 or SYSC 4504).",
+    "precludes": ["SYSC 3101"]
+  },
+  {
+    "code": "COMP 3008",
+    "title": "Software Structures for User Interfaces",
+    "credits": 0.5,
+    "description": "Concepts and principles related to building user interfaces, and applications in implementing interfaces in “front-end” programming contexts. Topics may include: reactive programming, input and output factors, application interfaces and infrastructure, typical patterns used to implement them, and organization and management of these aspects within software.",
+    "prereq": {
+      "kind": "all",
+      "of": [
+        {
+          "kind": "any",
+          "of": [
+            { "kind": "course", "code": "COMP 2404" },
+            { "kind": "course", "code": "SYSC 3010" },
+            { "kind": "course", "code": "SYSC 3110" }
+          ]
+        },
+        {
+          "kind": "any",
+          "of": [
+            { "kind": "course", "code": "COMP 2406" },
+            { "kind": "course", "code": "SYSC 4504" }
+          ]
+        }
+      ]
+    },
+    "prereqRaw": "(COMP 2404 or SYSC 3010 or SYSC 3110) and (COMP 2406 or SYSC 4504).",
+    "precludes": ["SYSC 4130"]
+  },
+  {
+    "code": "COMP 3105",
+    "title": "Introduction to Machine Learning",
+    "credits": 0.5,
+    "description": "An introduction to methods for automated learning of relationships on the basis of empirical data. Includes topics in supervised and unsupervised machine learning and deeper knowledge of specific algorithms and their applications. Evaluation and quantification of performance of ML systems. Discussion of data ethics.",
+    "prereq": {
+      "kind": "all",
+      "of": [
+        { "kind": "course", "code": "COMP 2402" },
+        {
+          "kind": "any",
+          "of": [
+            { "kind": "course", "code": "COMP 2404" },
+            { "kind": "course", "code": "SYSC 3010" },
+            { "kind": "course", "code": "SYSC 3110" }
+          ]
+        },
+        { "kind": "course", "code": "COMP 2804" },
+        {
+          "kind": "any",
+          "of": [
+            { "kind": "course", "code": "MATH 1104" },
+            { "kind": "course", "code": "MATH 1107" }
+          ]
+        }
+      ]
+    },
+    "prereqRaw": "COMP 2402 and (COMP 2404 or SYSC 3010 or SYSC 3110) and COMP 2804 and (MATH 1104 or MATH 1107).",
+    "precludes": ["COMP 4105", "SYSC 4415"]
+  },
+  {
+    "code": "COMP 3106",
+    "title": "Introduction to Artificial Intelligence",
+    "credits": 0.5,
+    "description": "Principles and tools used in Artificial Intelligence. Fundamentals of Knowledge Representation and Reinforcement Learning and Nature-Based computing. Methods for non-adversarial problem solving including non-exhaustive and heuristic-based strategies for searching the state space. Methods for adversarial problem solving, modeled as two-person and multi-person games.",
+    "prereq": {
+      "kind": "all",
+      "of": [
+        { "kind": "course", "code": "COMP 2402" },
+        {
+          "kind": "any",
+          "of": [
+            { "kind": "course", "code": "COMP 2404" },
+            { "kind": "course", "code": "SYSC 3010" },
+            { "kind": "course", "code": "SYSC 3110" }
+          ]
+        },
+        { "kind": "course", "code": "COMP 2804" }
+      ]
+    },
+    "prereqRaw": "COMP 2402 and (COMP 2404 or SYSC 3010 or SYSC 3110) and COMP 2804.",
+    "precludes": ["COMP 4106", "SYSC 4416"]
+  },
+  {
+    "code": "COMP 3203",
+    "title": "Principles of Computer Networks",
+    "credits": 0.5,
+    "description": "This is an introductory course to the field of Network Computing. Topics include: Protocol Architectures and Internetworking, Types of Networks, Communication Protocols, End-System and Network Traffic Management, Structure of Routing and Congestion Control.",
+    "prereq": {
+      "kind": "all",
+      "of": [
+        { "kind": "course", "code": "COMP 2401", "minGrade": "C-" },
+        { "kind": "course", "code": "COMP 2402" }
+      ]
+    },
+    "prereqRaw": "COMP 2401 with a minimum grade of C-, and COMP 2402.",
+    "precludes": ["SYSC 3512", "SYSC 4602"]
+  },
+  {
+    "code": "COMP 4102",
+    "title": "Computer Vision",
+    "credits": 0.5,
+    "description": "The basic ideas and techniques of computer vision. The central theme is reconstructing 3D models from 2D images. Topics include: image formation, image feature extraction, camera models, camera calibration, structure from motion, stereo, recognition, augmented reality, image searching.",
+    "prereq": {
+      "kind": "all",
+      "of": [
+        {
+          "kind": "any",
+          "of": [
+            { "kind": "course", "code": "COMP 2404" },
+            { "kind": "course", "code": "SYSC 3010" },
+            { "kind": "course", "code": "SYSC 3110" }
+          ]
+        },
+        {
+          "kind": "any",
+          "of": [
+            { "kind": "course", "code": "MATH 1104" },
+            { "kind": "course", "code": "MATH 1107" }
+          ]
+        }
+      ]
+    },
+    "prereqRaw": "(COMP 2404 or SYSC 3010 or SYSC 3110) and (MATH 1104 or MATH 1107).",
     "precludes": []
+  },
+  {
+    "code": "COMP 4107",
+    "title": "Neural Networks",
+    "credits": 0.5,
+    "description": "An introduction to neural networks and deep learning. Theory and application of Neural Networks to problems in machine learning. Various network architectures will be discussed. Methods for improving optimization and generalization of neural networks. Neural networks for unsupervised learning.",
+    "prereq": {
+      "kind": "all",
+      "of": [
+        {
+          "kind": "any",
+          "of": [
+            { "kind": "course", "code": "COMP 3105" },
+            { "kind": "course", "code": "SYSC 4415" }
+          ]
+        },
+        {
+          "kind": "any",
+          "of": [
+            { "kind": "course", "code": "MATH 1104" },
+            { "kind": "course", "code": "MATH 1107" }
+          ]
+        }
+      ]
+    },
+    "prereqRaw": "(COMP 3105 or SYSC 4415) and (MATH 1104 or MATH 1107).",
+    "precludes": ["COMP 5206"]
+  },
+  {
+    "code": "MATH 1007",
+    "title": "Elementary Calculus I",
+    "credits": 0.5,
+    "description": "Limits. Differentiation of the elementary functions, including trigonometric functions. Rules of differentiation. Applications of differentiation: max-min problems, curve sketching, approximations. Introduction to integration: definite and indefinite integrals, areas under curves, fundamental theorem of calculus.",
+    "prereq": null,
+    "prereqRaw": "Ontario Grade 12 Mathematics: Advanced Functions; or MATH 0005 and MATH 0006; or equivalent.",
+    "precludes": [
+      "BIT 1000",
+      "BIT 1100",
+      "BIT 1200",
+      "MATH 1002",
+      "MATH 1004",
+      "MATH 1401",
+      "ECON 1401",
+      "MATH 1402",
+      "ECON 1402",
+      "MATH 1052"
+    ]
+  },
+  {
+    "code": "MATH 1104",
+    "title": "Linear Algebra for Engineering or Science",
+    "credits": 0.5,
+    "description": "Systems of linear equations. Matrix algebra. Determinants. Invertible matrix theorem. Cramer’s rule. Vector space R^n; subspaces, bases. Eigenvalues, diagonalization. Linear transformations, kernel, range. Complex numbers (including De Moivre’s theorem). Inner product spaces and orthogonality. Applications.",
+    "prereq": null,
+    "prereqRaw": "Ontario Grade 12 Mathematics: Advanced Functions, or MATH 0005, or equivalent, or permission of the School. Restricted to students in the Faculty of Engineering, the School of Computer Science, or in certain B.Sc. and B.A.S. programs where specified.",
+    "precludes": [
+      "BIT 1001",
+      "BIT 1101",
+      "BIT 1201",
+      "MATH 1102",
+      "MATH 1107",
+      "MATH 1119",
+      "MATH 1401",
+      "ECON 1401",
+      "MATH 1402",
+      "ECON 1402",
+      "MATH 1152"
+    ]
   }
 ]
