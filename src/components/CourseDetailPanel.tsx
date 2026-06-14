@@ -51,8 +51,11 @@ export default function CourseDetailPanel({ course, onClose }: Props) {
       tabIndex={-1}
     >
       <div className="flex items-start justify-between gap-2 border-b border-gray-200 pb-1">
-        <h2 className="text-lg font-bold text-gray-900">
-          {course.code} [{course.credits} credit]
+        <h2 className="font-bold text-gray-900">
+          <span className="text-xl text-red-600">
+            {course.code} [{course.credits} credit]{' '}
+          </span>
+          <span className="text-base">{course.title}</span>
         </h2>
         <button
           type="button"
@@ -64,9 +67,7 @@ export default function CourseDetailPanel({ course, onClose }: Props) {
         </button>
       </div>
 
-      <div className="space-y-3">
-        <div className="font-semibold">{course.title}</div>
-
+      <div className="space-y-3 mt-4">
         {course.description && (
           <div>
             <h3 className="font-semibold">Description</h3>
