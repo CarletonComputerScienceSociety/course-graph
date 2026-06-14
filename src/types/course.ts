@@ -13,4 +13,5 @@ export interface Course {
   prereq: Prereq | null;
   prereqRaw: string | null; // raw string from calendar; null for hand-crafted entries
   precludes: string[]; // course codes
+  core?: boolean; // true for core/required CS-program courses; drives the Explorer default view
 }

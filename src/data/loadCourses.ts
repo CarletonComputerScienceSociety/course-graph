@@ -9,6 +9,9 @@ export const courses: Map<string, Course> = new Map(
   courseList.map((c) => [c.code, c]),
 );
 
+// Core/required CS-program courses — the Explorer's default (non-overwhelming) view.
+export const coreCourseList: Course[] = courseList.filter((c) => c.core);
+
 // prereqEdges: one edge per leaf `course` node in each prereq AST.
 // Convention: { from: requirer, to: required } — "from" depends on "to".
 // `credits` and `raw` nodes are skipped here (TODO: handle when those prereq

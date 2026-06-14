@@ -1,6 +1,7 @@
 [
   {
     "code": "COMP 1405",
+    "core": true,
     "title": "Introduction to Computer Science I",
     "credits": 0.5,
     "description": "Introduction to computer science and programming, for computer science students. Topics include: algorithm design; control structures; variables and types; linear collections; functions; debugging and testing. Special attention is given to procedural programming in a modern language, computational thinking skills, and problem decomposition.",
@@ -21,6 +22,7 @@
   },
   {
     "code": "COMP 1406",
+    "core": true,
     "title": "Introduction to Computer Science II",
     "credits": 0.5,
     "description": "A second course in programming for BCS students, emphasizing problem solving and computational thinking in an object-oriented language. Topics include abstraction, mutable data structures, methods, inheritance, polymorphism, recursion, program efficiency, testing and debugging.",
@@ -57,6 +59,7 @@
   },
   {
     "code": "COMP 1805",
+    "core": true,
     "title": "Discrete Structures I",
     "credits": 0.5,
     "description": "Introduction to discrete mathematics and discrete structures. Topics include: propositional logic, predicate calculus, set theory, complexity of algorithms, mathematical reasoning and proof techniques, recurrences, induction, finite automata and graph theory. Material is illustrated through examples from computing.",
@@ -108,6 +111,7 @@
   },
   {
     "code": "COMP 2401",
+    "core": true,
     "title": "Introduction to Systems Programming",
     "credits": 0.5,
     "description": "Introduction to system-level programming with fundamental OS concepts, procedures, primitive data types, user-defined types. Topics may include process management, memory management, process coordination and synchronization, inter-process communication, file systems, networking, pointers, heap and stack memory management, and system/library calls.",
@@ -123,6 +127,7 @@
   },
   {
     "code": "COMP 2402",
+    "core": true,
     "title": "Abstract Data Types and Algorithms",
     "credits": 0.5,
     "description": "Introduction to the design and implementation of abstract data types and to complexity analysis of data structures. Topics include: stacks, queues, lists, trees and graphs. Special attention is given to abstraction, interface specification and hierarchical design using an object-oriented programming language.",
@@ -138,6 +143,7 @@
   },
   {
     "code": "COMP 2404",
+    "core": true,
     "title": "Introduction to Software Engineering",
     "credits": 0.5,
     "description": "Introduction to object-oriented software development, with emphasis on the design and implementation of maintainable, reusable software. Topics include abstraction, modularity, encapsulation, and an introduction to design patterns.",
@@ -147,6 +153,7 @@
   },
   {
     "code": "COMP 2406",
+    "core": true,
     "title": "Fundamentals of Web Applications",
     "credits": 0.5,
     "description": "Introduction to Internet application development; emphasis on computer science fundamentals of technologies underlying web applications. Topics include: scripting and functional languages, language-based virtual machines, database query languages, remote procedure calls over the Internet, and performance and security concerns in modern distributed applications.",
@@ -207,6 +214,7 @@
   },
   {
     "code": "COMP 2804",
+    "core": true,
     "title": "Discrete Structures II",
     "credits": 0.5,
     "description": "A second course in discrete mathematics and discrete structures. Topics include: counting, sequences and sums, discrete probability, basic statistics, recurrence relations, randomized algorithms. Material is illustrated through examples from computing.",
@@ -225,6 +233,7 @@
   },
   {
     "code": "COMP 3000",
+    "core": true,
     "title": "Operating Systems",
     "credits": 0.5,
     "description": "Operating system implementation course stressing fundamental issues in design and how they relate to modern computer architectures. Assignments involve the modification and extension of a multitasking operating system.",
@@ -249,6 +258,7 @@
   },
   {
     "code": "COMP 3004",
+    "core": true,
     "title": "Object-Oriented Software Engineering",
     "credits": 0.5,
     "description": "Development of object-oriented software systems: theory and practice. Topics include: Computer ethics, software development processes, requirement specification, class and scenario modeling, state modeling, UML, design patterns, traceability. Students are to complete a team project.",
@@ -278,6 +288,7 @@
   },
   {
     "code": "COMP 3005",
+    "core": true,
     "title": "Database Management Systems",
     "credits": 0.5,
     "description": "Introduction to the concepts of database management systems and database design. Topics may include: entity-relationship modelling, normalization, reduction to relational schemas, SQL, file and data organization, indexing, hash tables, join algorithms, query processing, query optimization, and concurrency control.",
@@ -305,6 +316,7 @@
   },
   {
     "code": "COMP 3007",
+    "core": true,
     "title": "Programming Paradigms",
     "credits": 0.5,
     "description": "An introduction to alternative programming paradigms such as functional, constraint-based, concurrent, and logic programming.",
@@ -487,6 +499,7 @@
   },
   {
     "code": "MATH 1007",
+    "core": true,
     "title": "Elementary Calculus I",
     "credits": 0.5,
     "description": "Limits. Differentiation of the elementary functions, including trigonometric functions. Rules of differentiation. Applications of differentiation: max-min problems, curve sketching, approximations. Introduction to integration: definite and indefinite integrals, areas under curves, fundamental theorem of calculus.",
@@ -507,6 +520,7 @@
   },
   {
     "code": "MATH 1104",
+    "core": true,
     "title": "Linear Algebra for Engineering or Science",
     "credits": 0.5,
     "description": "Systems of linear equations. Matrix algebra. Determinants. Invertible matrix theorem. Cramer’s rule. Vector space R^n; subspaces, bases. Eigenvalues, diagonalization. Linear transformations, kernel, range. Complex numbers (including De Moivre’s theorem). Inner product spaces and orthogonality. Applications.",
