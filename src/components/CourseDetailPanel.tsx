@@ -74,14 +74,14 @@ export default function CourseDetailPanel({ course, onClose }: Props) {
 
         {course.precludes && course.precludes.length > 0 && (
           <div>
-            <h3 className="text- font-semibold">Precludes</h3>
+            <h3 className="font-semibold">Precludes</h3>
             <p>{course.precludes.join(', ')}</p>
           </div>
         )}
 
         {course.prereqRaw && (
           <div>
-            <h3 className="text- font-semibold">Prerequisite(s)</h3>
+            <h3 className="font-semibold">Prerequisite(s)</h3>
             <p>{course.prereqRaw}</p>
           </div>
         )}
