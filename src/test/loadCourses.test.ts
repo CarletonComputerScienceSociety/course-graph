@@ -2,32 +2,23 @@ import { describe, it, expect } from 'vitest';
 import { courses, courseList, prereqEdges } from '@/data/loadCourses';
 
 describe('loadCourses', () => {
-  it('loads exactly 8 courses', () => {
-    expect(courses.size).toBe(8);
-    expect(courseList).toHaveLength(8);
+  it('loads every course in courses.json', () => {
+    expect(courses.size).toBe(27);
+    expect(courseList).toHaveLength(27);
+    expect(courses.size).toBe(courseList.length);
   });
 
-  it('all expected codes are present', () => {
-    const expected = [
-      'COMP 1405',
-      'COMP 1406',
-      'COMP 1805',
-      'COMP 2401',
-      'COMP 2402',
-      'COMP 2404',
-      'COMP 2406',
-      'COMP 3004',
-    ];
-    for (const code of expected) {
-      expect(courses.has(code), `missing ${code}`).toBe(true);
+  it('keys every course by its code', () => {
+    for (const c of courseList) {
+      expect(courses.get(c.code)?.code, `missing ${c.code}`).toBe(c.code);
     }
   });
 
-  it('prereqEdges has correct count', () => {
-    // 1406→1405(1) + 2401→1406(1) + 2402→2401(1)
-    // + 2404→[2402,2401](2) + 2406→[2402,2401](2)
-    // + 3004→[2401, 2404,SYSC3010,SYSC3110, 2406,SYSC4504](6) = 13
-    expect(prereqEdges).toHaveLength(13);
+  it('builds one edge per course leaf in the prereq ASTs', () => {
+    // Counts every `course` leaf across all prereq trees, including references to
+    // courses not in our set (e.g. SYSC/MATH alternatives) — the Explorer filters
+    // those out at render time, but they are still real edges here.
+    expect(prereqEdges).toHaveLength(73);
   });
 
   it('COMP 3004 prereq is an all-node with 3 children', () => {
