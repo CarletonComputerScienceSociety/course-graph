@@ -50,13 +50,15 @@ export default function CourseDetailPanel({ course, onClose }: Props) {
       ref={panelRef}
       tabIndex={-1}
     >
-      <div className="flex items-start justify-between gap-2 border-b border-gray-200 pb-1">
-        <h2 className="font-bold text-gray-900">
-          <span className="text-xl text-red-600">
-            {course.code} [{course.credits} credit]{' '}
-          </span>
-          <span className="text-base">{course.title}</span>
-        </h2>
+      <div className="flex items-start justify-between gap-2 border-b border-gray-200 pb-3">
+        <div>
+          <h2 className="text-xl font-bold text-red-600">
+            {course.code} [{course.credits} credit]
+          </h2>
+          <p className="mt-1 text-base font-semibold text-gray-900">
+            {course.title}
+          </p>
+        </div>
         <button
           type="button"
           onClick={onClose}
