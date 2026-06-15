@@ -18,11 +18,40 @@
 // - In-planner prereq highlighting (click a course, highlight its prereqs in earlier terms and unlocks in later terms)
 
 import { useMemo } from 'react';
-import { usePlannerStore, termLabel } from '@/store/plannerStore';
+import { usePlannerStore, termLabel, type Term } from '@/store/plannerStore';
 import { courses } from '@/data/loadCourses';
 import { validatePlan } from '@/lib/validatePlan';
 import TermCell from '@/components/TermCell';
 import ViolationList from '@/components/ViolationList';
+import type { Season } from '@/types/planner';
+
+interface YearGrouping {
+  year: number;
+  seasons: { season: Season; term: Term }[];
+}
+
+function createYearGrouping(terms: Term[]): YearGrouping[] {
+  const years = new Map<number, Map<Season, Term>>();
+
+  for (const term of terms) {
+    let seasonMap = years.get(term.year);
+    if (!seasonMap) {
+      const map = new Map<Season, Term>();
+      years.set(term.year, map);
+      seasonMap = map;
+    }
+
+    seasonMap.set(term.season, term);
+  }
+
+  return [...years.entries()].map(([year, seasons]) => ({
+    year,
+    seasons: [...seasons.entries()].map(([season, term]) => ({
+      season,
+      term,
+    })),
+  }));
+}
 
 export default function Planner() {
   const terms = usePlannerStore((s) => s.terms);
@@ -40,6 +69,8 @@ export default function Planner() {
     [terms],
   );
 
+  const grouping = useMemo(() => createYearGrouping(terms), [terms]);
+
   return (
     <div className="flex h-full flex-col gap-4 overflow-y-auto p-4">
       <ViolationList violations={violations} />
@@ -50,14 +81,23 @@ export default function Planner() {
         registrar.
       </p>
 
-      <div className="grid grid-cols-2 gap-3">
-        {terms.map((term) => (
-          <TermCell
-            key={term.id}
-            termId={term.id}
-            label={termLabel(term)}
-            entries={term.entries}
-          />
+      <div className="flex w-full h-full gap-2 overflow-x-scroll">
+        {grouping.map((yearGrouping) => (
+          <div className="flex flex-col flex-1 min-w-96 rounded border border-gray-300">
+            <h3 className="font-bold text-xl text-center border-b border-gray-300 p-1">
+              YEAR {yearGrouping.year}
+            </h3>
+
+            <div className="flex h-full flex-1 p-1 gap-1">
+              {yearGrouping.seasons.map((seasonGrouping) => (
+                <div className="h-full flex-1 border border-gray-300">
+                  <h4 className="font-semibold text-lg text-center border-b border-gray-300">
+                    {seasonGrouping.season.toUpperCase()}
+                  </h4>
+                </div>
+              ))}
+            </div>
+          </div>
         ))}
       </div>
     </div>
