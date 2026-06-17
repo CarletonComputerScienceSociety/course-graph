@@ -1,4 +1,4 @@
-import {useState,useRef,useEffect,useCallback} from 'react';
+import {useState,useRef,useEffect,useCallback,useMemo} from 'react';
 import { courseList } from '@/data/loadCourses';
 import { useExplorerStore } from '@/store/explorerStore';
 
@@ -38,21 +38,15 @@ function search(query: string): Result[]{
 export default function ExplorerSearch() {
   const { setSelectedCourse } = useExplorerStore();
   const [query, setQuery] = useState('');
-  const [results, setResults] = useState<Result[]>([]);
+  const results = useMemo(() => search(query), [query]);
   const [activeIndex, setActiveIndex] = useState(-1);
   const inputRef = useRef<HTMLInputElement>(null);
   const listRef = useRef<HTMLUListElement>(null);
-
-  useEffect(() => {
-    setResults(search(query));
-    setActiveIndex(-1);
-  }, [query]);
 
   const selectResult = useCallback(
     (code: string) => {
       setSelectedCourse(code);
       setQuery('');
-      setResults([]);
       setActiveIndex(-1);
     },
     [setSelectedCourse],
@@ -73,7 +67,6 @@ export default function ExplorerSearch() {
       }
     } else if (e.key === 'Escape') {
       setQuery('');
-      setResults([]);
       inputRef.current?.blur();
     }
   }
@@ -93,7 +86,7 @@ export default function ExplorerSearch() {
         ref={inputRef}
         type="search"
         value={query}
-        onChange={(e) => setQuery(e.target.value)}
+        onChange={(e) => { setQuery(e.target.value); setActiveIndex(-1); }}
         onKeyDown={handleKeyDown}
         placeholder="Search courses…"
         aria-label="Search courses"
