@@ -84,12 +84,12 @@ function SeasonColumn({ term }: { term: Term }) {
   }
 
   return (
-    <div className="h-full flex-1 border border-gray-300">
-      <h4 className="font-semibold text-lg text-center border-b border-gray-300">
-        {term.season.toUpperCase()}
+    <div className="h-full flex-1 px-3">
+      <h4 className="uppercase font-bold text-lg text-center pb-2 mb-4">
+        <p className="border-b border-gray-300 pt-2">{term.season}</p>
       </h4>
 
-      <div className="flex flex-col gap-1">
+      <div className="flex flex-col gap-4">
         {courseRows.map((row, i) => (
           <CourseInput
             key={i}
@@ -157,7 +157,7 @@ function CourseInput({
   }
 
   return (
-    <div className="flex p-2">
+    <div className="flex">
       <input
         type="text"
         value={input}
@@ -192,6 +192,8 @@ export default function Planner() {
     [terms],
   );
 
+  const yearToWord = ['first', 'second', 'third', 'fourth'];
+
   const grouping = useMemo(() => createYearGrouping(terms), [terms]);
 
   return (
@@ -204,17 +206,16 @@ export default function Planner() {
         registrar.
       </p>
 
-      <div className="flex w-full h-full gap-2 overflow-x-scroll">
+      <div className="flex w-full h-full overflow-x-scroll divide-x-2 divide-gray-300">
         {grouping.map((yearGrouping, i) => (
-          <div
-            key={i}
-            className="flex flex-col flex-1 rounded border border-gray-300"
-          >
-            <h3 className="font-bold text-xl text-center border-b border-gray-300 p-1">
-              YEAR {yearGrouping.year}
+          <div key={i} className="flex flex-col flex-1">
+            <h3 className="font-bold text-xl text-center">
+              <p className="uppercase border-b-[1.5px] border-gray-300 text-red-600 pb-1">
+                {yearToWord[yearGrouping.year - 1]} YEAR
+              </p>
             </h3>
 
-            <div className="flex h-full flex-1 p-1 gap-1">
+            <div className="flex flex-1 h-full divide-x divide-gray-300">
               {yearGrouping.seasons.map((seasonGrouping, i) => (
                 <SeasonColumn key={i} term={seasonGrouping.term} />
               ))}
