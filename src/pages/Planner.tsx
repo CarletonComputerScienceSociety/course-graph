@@ -17,12 +17,164 @@
 // - In-planner course detail panel (shared component with Explorer)
 // - In-planner prereq highlighting (click a course, highlight its prereqs in earlier terms and unlocks in later terms)
 
-import { useMemo } from 'react';
-import { usePlannerStore, termLabel } from '@/store/plannerStore';
+import { useMemo, useState, type FormEvent } from 'react';
+import { usePlannerStore, termLabel, type Term } from '@/store/plannerStore';
 import { courses } from '@/data/loadCourses';
 import { validatePlan } from '@/lib/validatePlan';
-import TermCell from '@/components/TermCell';
 import ViolationList from '@/components/ViolationList';
+import type { PlannerEntry, Season } from '@/types/planner';
+
+interface YearGrouping {
+  year: number;
+  seasons: { season: Season; term: Term }[];
+}
+
+function createYearGrouping(terms: Term[]): YearGrouping[] {
+  const years = new Map<number, Map<Season, Term>>();
+
+  for (const term of terms) {
+    let seasonMap = years.get(term.year);
+    if (!seasonMap) {
+      const map = new Map<Season, Term>();
+      years.set(term.year, map);
+      seasonMap = map;
+    }
+
+    seasonMap.set(term.season, term);
+  }
+
+  return [...years.entries()].map(([year, seasons]) => ({
+    year,
+    seasons: [...seasons.entries()].map(([season, term]) => ({
+      season,
+      term,
+    })),
+  }));
+}
+
+interface CourseRow {
+  termId: string;
+  course: PlannerEntry | null;
+  index: number | null;
+}
+
+function createCourseRows(term: Term): CourseRow[] {
+  const entries = term.entries;
+  const rows = Array.from({ length: 5 }, (_, i) => {
+    const entry = entries[i];
+    return {
+      termId: term.id,
+      course: entry ?? null,
+      index: entry ? i : null,
+    };
+  });
+
+  return rows;
+}
+
+function SeasonColumn({ term }: { term: Term }) {
+  const [courseRows, setCourseRows] = useState<CourseRow[]>(
+    createCourseRows(term),
+  );
+
+  function updateRow(updatedRow: CourseRow, rowIndex: number) {
+    setCourseRows((currentRows) =>
+      currentRows.map((row, i) => (i === rowIndex ? updatedRow : row)),
+    );
+  }
+
+  return (
+    <div className="h-full flex-1 px-3">
+      <h4 className="uppercase font-bold text-lg text-center pb-2 mb-4">
+        <p className="border-b border-gray-300 pt-2">{term.season}</p>
+      </h4>
+
+      <div className="flex flex-col gap-4">
+        {courseRows.map((row, i) => (
+          <CourseInput
+            key={i}
+            index={i}
+            courseRow={row}
+            term={term}
+            onUpdate={updateRow}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function CourseInput({
+  index,
+  courseRow,
+  term,
+  onUpdate,
+}: {
+  index: number;
+  courseRow: CourseRow;
+  term: Term;
+  onUpdate: (row: CourseRow, index: number) => void;
+}) {
+  const { addCourse, removeEntry } = usePlannerStore();
+  const [input, setInput] = useState(
+    courseRow.course?.kind === 'course' ? courseRow.course.code : '',
+  );
+
+  function submit(e: FormEvent) {
+    e.preventDefault();
+    const code = input.trim().toUpperCase().replace(/\s+/g, ' ');
+
+    if (code === '' && courseRow.index !== null) {
+      removeEntry(courseRow.termId, courseRow.index);
+      onUpdate(
+        {
+          ...courseRow,
+          course: null,
+          index: null,
+        },
+        index,
+      );
+      return;
+    }
+
+    if (!courses.has(code)) {
+      return;
+    }
+
+    if (courseRow.index) {
+      removeEntry(courseRow.termId, courseRow.index);
+    }
+
+    addCourse(courseRow.termId, code);
+
+    const updatedRow = {
+      ...courseRow,
+      course: term.entries[term.entries.length],
+      index: term.entries.length,
+    };
+
+    onUpdate(updatedRow, index);
+  }
+
+  return (
+    <div className="flex">
+      <input
+        type="text"
+        value={input}
+        onChange={(e) => setInput(e.target.value)}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter') {
+            submit(e);
+            e.currentTarget.blur();
+          }
+        }}
+        onBlur={submit}
+        placeholder="e.g. COMP 1405"
+        className="flex-1 rounded border border-gray-300 px-2 py-1 text-base"
+      />
+    </div>
+  );
+}
 
 export default function Planner() {
   const terms = usePlannerStore((s) => s.terms);
@@ -40,6 +192,10 @@ export default function Planner() {
     [terms],
   );
 
+  const yearToWord = ['first', 'second', 'third', 'fourth'];
+
+  const grouping = useMemo(() => createYearGrouping(terms), [terms]);
+
   return (
     <div className="flex h-full flex-col gap-4 overflow-y-auto p-4">
       <ViolationList violations={violations} />
@@ -50,14 +206,21 @@ export default function Planner() {
         registrar.
       </p>
 
-      <div className="grid grid-cols-2 gap-3">
-        {terms.map((term) => (
-          <TermCell
-            key={term.id}
-            termId={term.id}
-            label={termLabel(term)}
-            entries={term.entries}
-          />
+      <div className="flex w-full h-full overflow-x-scroll divide-x-2 divide-gray-300">
+        {grouping.map((yearGrouping, i) => (
+          <div key={i} className="flex flex-col flex-1">
+            <h3 className="font-bold text-xl text-center">
+              <p className="uppercase border-b-[1.5px] border-gray-300 text-red-600 pb-1">
+                {yearToWord[yearGrouping.year - 1]} YEAR
+              </p>
+            </h3>
+
+            <div className="flex flex-1 h-full divide-x divide-gray-300">
+              {yearGrouping.seasons.map((seasonGrouping, i) => (
+                <SeasonColumn key={i} term={seasonGrouping.term} />
+              ))}
+            </div>
+          </div>
         ))}
       </div>
     </div>
