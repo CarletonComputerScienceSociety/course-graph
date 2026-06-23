@@ -24,6 +24,7 @@ import { useExplorerStore } from '@/store/explorerStore';
 import CourseNode from '@/components/CourseNode';
 import type { CourseNodeData } from '@/components/CourseNode';
 import CourseDetailPanel from '@/components/CourseDetailPanel';
+import ExplorerSearch from '@/components/ExplorerSearch';
 
 const NODE_W = 180;
 const NODE_H = 60;
@@ -106,6 +107,7 @@ export default function Explorer() {
 
   return (
     <div className="relative h-full w-full">
+      <ExplorerSearch />
       <ReactFlow
         nodes={nodes}
         edges={edges}
