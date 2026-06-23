@@ -1,38 +1,34 @@
-import {useState,useRef,useEffect,useCallback,useMemo} from 'react';
+import { useState, useRef, useEffect, useCallback, useMemo } from 'react';
 import { courseList } from '@/data/loadCourses';
 import { useExplorerStore } from '@/store/explorerStore';
 
 const MAX_RESULTS = 8;
 
-function normalize (s: string): string {
-    return s.toLowerCase().replace(/\s+/g,'');
+function normalize(s: string): string {
+  return s.toLowerCase().replace(/\s+/g, '');
 }
 
 interface Result {
-    code: string;
-    title: string;
-
+  code: string;
+  title: string;
 }
 
-function search(query: string): Result[]{
-    if(!query.trim()) return[];
-    const q = normalize(query);
-    const codePrefixMatches: Result[]=[];
-    const otherMatches: Result[]=[];
-    
-    for(const course of courseList){
-        const normCode=normalize(course.code);
-        const normTitle = normalize(course.title);
-        if(normCode.startsWith(q)){
-            codePrefixMatches.push({code: course.code,title: course.title});
-        }
-        else if (normCode.includes(q)||normTitle.includes(q)){
-            otherMatches.push({code: course.code,title:course.title});
-        }
+function search(query: string): Result[] {
+  if (!query.trim()) return [];
+  const q = normalize(query);
+  const codePrefixMatches: Result[] = [];
+  const otherMatches: Result[] = [];
+
+  for (const course of courseList) {
+    const normCode = normalize(course.code);
+    const normTitle = normalize(course.title);
+    if (normCode.startsWith(q)) {
+      codePrefixMatches.push({ code: course.code, title: course.title });
+    } else if (normCode.includes(q) || normTitle.includes(q)) {
+      otherMatches.push({ code: course.code, title: course.title });
     }
-    return [...codePrefixMatches,...otherMatches].slice(0,MAX_RESULTS)
-
-
+  }
+  return [...codePrefixMatches, ...otherMatches].slice(0, MAX_RESULTS);
 }
 
 export default function ExplorerSearch() {
@@ -86,7 +82,10 @@ export default function ExplorerSearch() {
         ref={inputRef}
         type="search"
         value={query}
-        onChange={(e) => { setQuery(e.target.value); setActiveIndex(-1); }}
+        onChange={(e) => {
+          setQuery(e.target.value);
+          setActiveIndex(-1);
+        }}
         onKeyDown={handleKeyDown}
         placeholder="Search courses…"
         aria-label="Search courses"
@@ -96,7 +95,7 @@ export default function ExplorerSearch() {
         aria-activedescendant={
           activeIndex >= 0 ? `explorer-result-${activeIndex}` : undefined
         }
-        className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm shadow-md outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
+        className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm shadow-md outline-none focus:border-red-500 focus:ring-2 focus:ring-red-200"
       />
       {open && (
         <ul
@@ -118,7 +117,7 @@ export default function ExplorerSearch() {
               onMouseEnter={() => setActiveIndex(i)}
               className={`cursor-pointer px-3 py-2 text-sm ${
                 i === activeIndex
-                  ? 'bg-blue-50 text-blue-700'
+                  ? 'bg-gray-50 text-red-700'
                   : 'text-gray-800 hover:bg-gray-50'
               }`}
             >
