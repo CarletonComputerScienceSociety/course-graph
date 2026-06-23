@@ -25,3 +25,4 @@ dist-ssr
 
 # Output
 scripts/output/*.json
+coverage/
