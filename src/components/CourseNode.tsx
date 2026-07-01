@@ -4,22 +4,20 @@ import { useExplorerStore } from '@/store/explorerStore';
 export type CourseNodeData = { code: string; title: string };
 export type CourseNodeType = Node<CourseNodeData>;
 
+export const YEAR_COLOUR_DEFAULT = 'border-gray-300';
+
+export const YEAR_COLOUR: Record<string, string> = {
+  '1': 'border-green-500',
+  '2': 'border-blue-500',
+  '3': 'border-yellow-500',
+  '4': 'border-red-500',
+};
+
 export default function CourseNode({ data }: NodeProps<CourseNodeType>) {
   const { selectedCourse, highlightedSet } = useExplorerStore();
   const dimmed = selectedCourse !== null && !highlightedSet.has(data.code);
-
-  const year = data.code.match(/\d/)?.[0];
-
-  const borderColour =
-    year === '1'
-      ? 'border-green-500'
-      : year === '2'
-        ? 'border-blue-500'
-        : year === '3'
-          ? 'border-yellow-500'
-          : year === '4'
-            ? 'border-red-500'
-            : 'border-gray-300';
+  const match = data.code.match(/\d/);
+  const borderColour = match ? YEAR_COLOUR[match[0]] : YEAR_COLOUR_DEFAULT;
 
   return (
     <div
