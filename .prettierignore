@@ -1,2 +1,5 @@
 # Scraper fixtures are captured HTML used as test inputs — keep them verbatim.
 scripts/fixtures/
+
+# Machine-generated lockfile — pnpm owns its format; don't let prettier fight it.
+pnpm-lock.yaml
