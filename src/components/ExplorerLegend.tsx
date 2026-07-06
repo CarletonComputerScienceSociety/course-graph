@@ -10,28 +10,26 @@ export default function ExplorerLegend() {
 
   return (
     <div className="text-sm absolute left-4 top-16 w-72 bg-white border border-gray-300 px-3 py-2 rounded-lg shadow-md z-1">
-      <div className="flex gap-2">
-        <button
-          type="button"
-          onClick={() => setOpen(!open)}
-          aria-expanded={open}
-          className="flex w-full items-center gap-2"
-        >
-          {open ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
-          <span className="flex-1 text-left font-semibold">Legend</span>
-        </button>
-      </div>
+      <button
+        type="button"
+        onClick={() => setOpen(!open)}
+        aria-expanded={open}
+        className="flex w-full items-center gap-2"
+      >
+        {open ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
+        <span className="flex-1 text-left font-semibold">Legend</span>
+      </button>
 
       {open && (
         <div className="flex flex-col gap-1 border-t border-gray-300 pt-1 mt-2">
           {Object.entries(YEAR_COLOUR).map(([key, colour]) => (
-            <div className={`${rowClass}`} key={key}>
+            <div className={rowClass} key={key}>
               <div className={`${boxClass} ${colour}`}></div>
               <p>{`Year ${key} (${key}000-level)`}</p>
             </div>
           ))}
 
-          <div className={`${rowClass}`}>
+          <div className={rowClass}>
             <div className={`${boxClass} ${YEAR_COLOUR_DEFAULT}`}></div>
             <p>Other</p>
           </div>
