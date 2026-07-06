@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import { YEAR_COLOUR, YEAR_COLOUR_DEFAULT } from '@/components/CourseNode';
+import { YEAR_COLOUR, YEAR_COLOUR_DEFAULT } from '@/lib/yearColour';
 
 export default function ExplorerLegend() {
   const [open, setOpen] = useState(true);

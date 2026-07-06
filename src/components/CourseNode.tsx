@@ -1,23 +1,14 @@
 import { Handle, Position, type Node, type NodeProps } from '@xyflow/react';
 import { useExplorerStore } from '@/store/explorerStore';
+import { yearColour } from '@/lib/yearColour';
 
 export type CourseNodeData = { code: string; title: string };
 export type CourseNodeType = Node<CourseNodeData>;
 
-export const YEAR_COLOUR_DEFAULT = 'border-gray-300';
-
-export const YEAR_COLOUR: Record<string, string> = {
-  '1': 'border-green-500',
-  '2': 'border-blue-500',
-  '3': 'border-yellow-500',
-  '4': 'border-red-500',
-};
-
 export default function CourseNode({ data }: NodeProps<CourseNodeType>) {
   const { selectedCourse, highlightedSet } = useExplorerStore();
   const dimmed = selectedCourse !== null && !highlightedSet.has(data.code);
-  const match = data.code.match(/\d/);
-  const borderColour = match ? YEAR_COLOUR[match[0]] : YEAR_COLOUR_DEFAULT;
+  const borderColour = yearColour(data.code);
 
   return (
     <div
