@@ -14,7 +14,8 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "scrape:courses": "node scripts/scrape-courses.bin.ts"
+    "scrape:courses": "node scripts/scrape-courses.bin.ts",
+    "scrape:programs": "node scripts/scrape-programs.ts"
   },
   "dependencies": {
     "@dagrejs/dagre": "^3.0.0",
