@@ -9,7 +9,7 @@ export default function ExplorerLegend() {
   const boxClass = 'w-9 h-4 border-2 self-center rounded';
 
   return (
-    <div className="text-sm absolute left-4 top-16 w-72 bg-white border border-gray-300 px-3 py-2 rounded-lg shadow-md z-1">
+    <div className="text-sm pointer-events-auto w-full bg-white border border-gray-300 px-3 py-2 rounded-lg shadow-md">
       <button
         type="button"
         onClick={() => setOpen(!open)}

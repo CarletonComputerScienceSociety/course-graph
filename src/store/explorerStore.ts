@@ -6,6 +6,8 @@ interface ExplorerState {
   selectedCourse: string | null;
   highlightedSet: Set<string>;
   setSelectedCourse: (code: string | null) => void;
+  showAllCourses: boolean;
+  toggleShowAllCourses: () => void;
 }
 
 export const useExplorerStore = create<ExplorerState>((set) => ({
@@ -23,4 +25,7 @@ export const useExplorerStore = create<ExplorerState>((set) => ({
               ...getDescendants(code, prereqEdges),
             ]),
     }),
+  showAllCourses: false,
+  toggleShowAllCourses: () =>
+    set((state) => ({ showAllCourses: !state.showAllCourses })),
 }));

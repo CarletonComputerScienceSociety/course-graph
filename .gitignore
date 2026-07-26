@@ -26,4 +26,5 @@ package-lock.json
 
 # Output
 scripts/output/*.json
+coverage
 coverage/

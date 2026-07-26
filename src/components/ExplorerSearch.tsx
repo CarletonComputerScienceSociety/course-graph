@@ -77,7 +77,7 @@ export default function ExplorerSearch() {
   const open = results.length > 0;
 
   return (
-    <div className="absolute left-4 top-4 z-10 w-72">
+    <div className="pointer-events-auto relative z-10 w-full">
       <input
         ref={inputRef}
         type="search"
@@ -102,7 +102,7 @@ export default function ExplorerSearch() {
           ref={listRef}
           id="explorer-search-results"
           role="listbox"
-          className="mt-1 max-h-64 overflow-y-auto rounded-lg border border-gray-200 bg-white shadow-lg"
+          className="absolute top-full left-0 mt-1 max-h-64 w-full overflow-y-auto rounded-lg border border-gray-200 bg-white shadow-lg"
         >
           {results.map((r, i) => (
             <li

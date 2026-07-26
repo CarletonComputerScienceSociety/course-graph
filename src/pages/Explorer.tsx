@@ -19,8 +19,14 @@ import {
   type Edge,
 } from '@xyflow/react';
 import dagre from '@dagrejs/dagre';
-import { courseList, courses, prereqEdges } from '@/data/loadCourses';
+import {
+  courseList,
+  coreCourseList,
+  courses,
+  prereqEdges,
+} from '@/data/loadCourses';
 import { useExplorerStore } from '@/store/explorerStore';
+import type { Course } from '@/types/course';
 import CourseNode from '@/components/CourseNode';
 import type { CourseNodeData } from '@/components/CourseNode';
 import CourseDetailPanel from '@/components/CourseDetailPanel';
@@ -30,14 +36,10 @@ import ExplorerLegend from '@/components/ExplorerLegend';
 const NODE_W = 180;
 const NODE_H = 60;
 
-// Only draw edges where both endpoints are in our course set; SYSC courses that
-// appear in COMP 3004's prereqs are not nodes yet (see TODO #3 above).
-const knownCodes = new Set(courseList.map((c) => c.code));
-const visibleEdges = prereqEdges.filter(
-  (e) => knownCodes.has(e.from) && knownCodes.has(e.to),
-);
-
-function computeLayout(): {
+function computeLayout(
+  visibleCourses: Course[],
+  visibleEdges: { from: string; to: string }[],
+): {
   nodes: Node<CourseNodeData>[];
   edges: Edge[];
 } {
@@ -45,7 +47,7 @@ function computeLayout(): {
   g.setDefaultEdgeLabel(() => ({}));
   g.setGraph({ rankdir: 'TB', ranksep: 80, nodesep: 40 });
 
-  for (const course of courseList) {
+  for (const course of visibleCourses) {
     g.setNode(course.code, { width: NODE_W, height: NODE_H });
   }
 
@@ -57,7 +59,7 @@ function computeLayout(): {
 
   dagre.layout(g);
 
-  const nodes: Node<CourseNodeData>[] = courseList.map((course) => {
+  const nodes: Node<CourseNodeData>[] = visibleCourses.map((course) => {
     const pos = g.node(course.code);
     return {
       id: course.code,
@@ -80,11 +82,35 @@ function computeLayout(): {
 const nodeTypes: NodeTypes = { courseNode: CourseNode };
 
 export default function Explorer() {
-  const { selectedCourse, highlightedSet, setSelectedCourse } =
-    useExplorerStore();
+  const {
+    selectedCourse,
+    highlightedSet,
+    setSelectedCourse,
+    showAllCourses,
+    toggleShowAllCourses,
+  } = useExplorerStore();
 
-  // Layout is derived entirely from static import-time data; deps array is empty.
-  const { nodes, edges: layoutEdges } = useMemo(() => computeLayout(), []);
+  // The single source of truth for "what's shown" — later filter modes
+  // (reachable-on-click, department/year, search) should derive their own
+  // visible set the same way, upstream of layout.
+  const visibleCourses = showAllCourses ? courseList : coreCourseList;
+  const visibleCodes = useMemo(
+    () => new Set(visibleCourses.map((c) => c.code)),
+    [visibleCourses],
+  );
+  const visibleEdges = useMemo(
+    () =>
+      prereqEdges.filter(
+        (e) => visibleCodes.has(e.from) && visibleCodes.has(e.to),
+      ),
+    [visibleCodes],
+  );
+
+  // Layout is recomputed whenever the visible course set changes.
+  const { nodes, edges: layoutEdges } = useMemo(
+    () => computeLayout(visibleCourses, visibleEdges),
+    [visibleCourses, visibleEdges],
+  );
 
   // Re-derive edge styles when selection changes.
   const edges = useMemo(
@@ -108,9 +134,9 @@ export default function Explorer() {
 
   return (
     <div className="relative h-full w-full">
-      <ExplorerSearch />
-      <ExplorerLegend />
       <ReactFlow
+        // Remounting on toggle lets React Flow's `fitView` re-fit to the new set.
+        key={showAllCourses ? 'all' : 'core'}
         nodes={nodes}
         edges={edges}
         nodeTypes={nodeTypes}
@@ -122,6 +148,20 @@ export default function Explorer() {
         <Background />
         <Controls />
       </ReactFlow>
+      {/* Graph controls stack here so they can't collide; the column ignores
+          pointer events so canvas panning works through the gaps. */}
+      <div className="pointer-events-none absolute top-4 left-4 z-10 flex w-72 max-w-[calc(100%-2rem)] flex-col gap-2">
+        <button
+          type="button"
+          onClick={toggleShowAllCourses}
+          aria-pressed={showAllCourses}
+          className="pointer-events-auto self-start rounded-md border border-gray-300 bg-white px-3 py-1.5 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50"
+        >
+          {showAllCourses ? 'Show core only' : 'Show all courses'}
+        </button>
+        <ExplorerSearch />
+        <ExplorerLegend />
+      </div>
       <CourseDetailPanel
         course={selected}
         onClose={() => setSelectedCourse(null)}
