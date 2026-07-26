@@ -1,6 +1,6 @@
 export type PlannerEntry =
   | { kind: 'course'; code: string }
-  | { kind: 'elective'; category: string } // e.g. "Breadth Elective", "CS Elective"
+  | { kind: 'elective'; category: string } // e.g. "Breadth Elective", "Free Elective"
   | { kind: 'choose'; credits: number; description: string }; // e.g. "0.5 credit from MATH 2000-level or above"
 
 export type Season = 'fall' | 'winter' | 'summer';

@@ -7,7 +7,7 @@ interface ExplorerState {
   highlightedSet: Set<string>;
   setSelectedCourse: (code: string | null) => void;
   showAllCourses: boolean;
-  toggleShowAllCourse: () => void;
+  toggleShowAllCourses: () => void;
 }
 
 export const useExplorerStore = create<ExplorerState>((set) => ({
@@ -26,6 +26,6 @@ export const useExplorerStore = create<ExplorerState>((set) => ({
             ]),
     }),
   showAllCourses: false,
-  toggleShowAllCourse: () =>
+  toggleShowAllCourses: () =>
     set((state) => ({ showAllCourses: !state.showAllCourses })),
 }));

@@ -1,65 +1,34 @@
 // TODO (volunteer tickets):
-// - Drag-and-drop courses between terms
-// - Course palette sidebar with draggable course cards
-// - Autocomplete on the course input
-// - Co-op term special rendering (when COOP courses are added)
-// - Configurable program length (not always 8 terms)
-// - Polished violation rendering (cards, line numbers, jump-to)
-// - Plan export/import as JSON
-// - Share plan via URL hash
-// - Reset plan button with confirm dialog
-// - Render elective placeholder entries (with category label, italic, distinct border color)
-// - Render choose-from-set entries (with credit count + description)
-// - "Start from template" dropdown at the top of the planner; loads a ProgramTemplate via the store's loadTemplate action
-// - Template freshness disclaimer banner shown when a template is loaded (uses validFor and lastReviewed fields)
-// - First curated template content: BCS General (separate PR, content not engineering)
-// - Subsequent templates: BCS Honours, BCS SE Stream, BCS AI Stream, BMath Data Science, Cybersecurity minor
-// - In-planner course detail panel (shared component with Explorer)
-// - In-planner prereq highlighting (click a course, highlight its prereqs in earlier terms and unlocks in later terms)
+// - Course palette panel + drag-and-drop course tiles onto slots (see CoursePalette)
+// - Prereq validation: re-add the violation banner (validatePlan + ViolationList
+//   still exist; map each term's slots → compact entries, dropping nulls)
+// - "Start from template" dropdown (store's loadTemplate) + freshness disclaimer
+// - Render elective / choose entry kinds as styled tiles
+// - "Add slot" / drag-overflow to grow a term up to MAX_SLOTS_PER_TERM
+// - Add / remove terms (summer, year 5+); co-op term rendering
+// - Prereq connector lines between slots; in-planner course detail panel
+// - Plan export/import as JSON; share via URL hash; reset-plan button
 
-import { useMemo } from 'react';
-import { usePlannerStore, termLabel } from '@/store/plannerStore';
-import { courses } from '@/data/loadCourses';
-import { validatePlan } from '@/lib/validatePlan';
-import TermCell from '@/components/TermCell';
-import ViolationList from '@/components/ViolationList';
+import { usePlannerStore } from '@/store/plannerStore';
+import CoursePalette from '@/components/CoursePalette';
+import TermGrid from '@/components/TermGrid';
 
 export default function Planner() {
   const terms = usePlannerStore((s) => s.terms);
 
-  const violations = useMemo(
-    () =>
-      validatePlan(
-        terms.map((t) => ({
-          termId: t.id,
-          label: termLabel(t),
-          entries: t.entries,
-        })),
-        courses,
-      ),
-    [terms],
-  );
-
   return (
-    <div className="flex h-full flex-col gap-4 overflow-y-auto p-4">
-      <ViolationList violations={violations} />
+    <div className="flex h-full overflow-hidden">
+      <CoursePalette />
 
-      <p className="rounded bg-yellow-100 px-3 py-2 text-sm text-yellow-800">
-        This tool validates prerequisite ordering only. It does not check
-        whether courses are offered in specific terms. Verify with the
-        registrar.
-      </p>
+      <main className="flex flex-1 flex-col gap-4 overflow-auto p-4">
+        <p className="rounded bg-yellow-100 px-3 py-2 text-sm text-yellow-800">
+          This tool validates prerequisite ordering only. It does not check
+          whether courses are offered in specific terms. Verify with the
+          registrar.
+        </p>
 
-      <div className="grid grid-cols-2 gap-3">
-        {terms.map((term) => (
-          <TermCell
-            key={term.id}
-            termId={term.id}
-            label={termLabel(term)}
-            entries={term.entries}
-          />
-        ))}
-      </div>
+        <TermGrid terms={terms} />
+      </main>
     </div>
   );
 }

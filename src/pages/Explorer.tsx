@@ -30,6 +30,8 @@ import type { Course } from '@/types/course';
 import CourseNode from '@/components/CourseNode';
 import type { CourseNodeData } from '@/components/CourseNode';
 import CourseDetailPanel from '@/components/CourseDetailPanel';
+import ExplorerSearch from '@/components/ExplorerSearch';
+import ExplorerLegend from '@/components/ExplorerLegend';
 
 const NODE_W = 180;
 const NODE_H = 60;
@@ -85,7 +87,7 @@ export default function Explorer() {
     highlightedSet,
     setSelectedCourse,
     showAllCourses,
-    toggleShowAllCourse,
+    toggleShowAllCourses,
   } = useExplorerStore();
 
   // The single source of truth for "what's shown" — later filter modes
@@ -146,13 +148,20 @@ export default function Explorer() {
         <Background />
         <Controls />
       </ReactFlow>
-      <button
-        type="button"
-        onClick={toggleShowAllCourse}
-        className="absolute top-4 left-4 z-10 rounded-md border border-gray-300 bg-white px-3 py-1.5 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50"
-      >
-        {showAllCourses ? 'Show core only' : 'Show all courses'}
-      </button>
+      {/* Graph controls stack here so they can't collide; the column ignores
+          pointer events so canvas panning works through the gaps. */}
+      <div className="pointer-events-none absolute top-4 left-4 z-10 flex w-72 max-w-[calc(100%-2rem)] flex-col gap-2">
+        <button
+          type="button"
+          onClick={toggleShowAllCourses}
+          aria-pressed={showAllCourses}
+          className="pointer-events-auto self-start rounded-md border border-gray-300 bg-white px-3 py-1.5 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50"
+        >
+          {showAllCourses ? 'Show core only' : 'Show all courses'}
+        </button>
+        <ExplorerSearch />
+        <ExplorerLegend />
+      </div>
       <CourseDetailPanel
         course={selected}
         onClose={() => setSelectedCourse(null)}
