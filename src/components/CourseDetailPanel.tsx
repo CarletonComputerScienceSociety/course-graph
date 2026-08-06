@@ -1,4 +1,4 @@
-import type { Course } from '@/types/course';
+import type { Course, Prereq } from '@/types/course';
 import { useEffect, useRef } from 'react';
 
 interface Props {
@@ -15,6 +15,82 @@ interface Props {
 // This is intentionally skeletal. What's locked: the props contract, the
 // open/close behaviour (renders nothing when `course` is null), and the drawer
 // shell. Rendering the actual course fields and styling is in scope for the ticket.
+
+function renderPrereq(node: Prereq, isRoot: boolean): React.ReactNode {
+  switch (node.kind) {
+    case 'course': {
+      if (node.minGrade !== undefined) {
+        return (
+          <span className="break-words">
+            {node.code} [Grade &ge; {node.minGrade}]
+          </span>
+        );
+      }
+
+      return <span className="break-words">{node.code}</span>;
+    }
+
+    case 'all': {
+      if (node.of.length === 1) {
+        return renderPrereq(node.of[0], false);
+      }
+
+      return (
+        <>
+          <p>{isRoot ? 'Complete all of the following: ' : 'All of: '}</p>
+          <ul className="list-disc pl-5 space-y-1">
+            {node.of.map((prereq: Prereq) => (
+              <li>{renderPrereq(prereq, false)}</li>
+            ))}
+          </ul>
+        </>
+      );
+    }
+
+    case 'any': {
+      if (node.of.length === 1) {
+        return renderPrereq(node.of[0], false);
+      }
+
+      return (
+        <>
+          <p>{isRoot ? 'Complete any of the following: ' : 'Any of: '}</p>
+          <ul className="list-disc pl-5 space-y-1">
+            {node.of.map((prereq: Prereq) => (
+              <li>{renderPrereq(prereq, false)}</li>
+            ))}
+          </ul>
+        </>
+      );
+    }
+
+    case 'credits': {
+      return (
+        <>
+          <p>
+            {isRoot
+              ? `Complete ${node.credits} credit(s) from:`
+              : `${node.credits} credit(s) from:`}
+          </p>
+          <ul className="list-disc pl-5 space-y-1">
+            {node.from.map((prereq: Prereq) => (
+              <li>{renderPrereq(prereq, false)}</li>
+            ))}
+          </ul>
+        </>
+      );
+    }
+
+    case 'raw': {
+      return <span className="italic text-gray-500">{node.text}</span>;
+    }
+
+    default: {
+      const _exhaustive: never = node;
+      return _exhaustive;
+    }
+  }
+}
 
 export default function CourseDetailPanel({ course, onClose }: Props) {
   const panelRef = useRef<HTMLElement>(null);
@@ -84,10 +160,32 @@ export default function CourseDetailPanel({ course, onClose }: Props) {
           </div>
         )}
 
+        {course.prereqRaw && course.prereq && (
+          <div>
+            <h3 className="font-semibold mb-2">Prerequisite(s)</h3>
+            <h4 className="font-semibold ml-3">Calendar text</h4>
+            <p className="ml-6 mb-2">{course.prereqRaw}</p>
+            {course.prereq.kind !== 'raw' && (
+              <>
+                <h4 className="font-semibold ml-3">Structured view</h4>
+                <div className="ml-6">{renderPrereq(course.prereq, true)}</div>
+              </>
+            )}
+          </div>
+        )}
+
         {course.prereqRaw && (
           <div>
+            <h3 className="font-semibold mb-2">Prerequisite(s)</h3>
+            <h4 className="font-semibold ml-3">Calendar text</h4>
+            <p className="ml-6 mb-2">{course.prereqRaw}</p>
+          </div>
+        )}
+
+        {course.prereqRaw === '' && course.prereq === null && (
+          <div>
             <h3 className="font-semibold">Prerequisite(s)</h3>
-            <p>{course.prereqRaw}</p>
+            <p className="ml-4">None</p>
           </div>
         )}
       </div>
